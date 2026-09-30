@@ -11,7 +11,7 @@ Use Blender for shape, UV and material work; use a reproducible export copy for 
 | Python with an isolated `bpy` package | An existing tested runtime already runs background Blender jobs without desktop setup. | Use that interpreter and its exact dependency directory. Record `bpy.app.version_string`; verify the actual import location. A successful ordinary Python launch does not prove that the intended Blender package loaded. |
 | An existing Blender MCP bridge | Interactive scene inspection or many small edits in an already connected artist session would benefit from it. | Verify the bridge can perform the needed operation; checkpoint the scene, target named objects and verify results. The bridge is transport, not a substitute for a modeling method. |
 
-Our completed work used background Python/`bpy` and project scripts. The audit found no custom Blender binary, significant modified Blender-Sith fork, or Blender MCP implementation to distribute as our own. The clean add-on and the adapters have separate provenance. See [the add-on audit](blender-sith-audit.md).
+The historical projects used background Python/`bpy` and project scripts; the initial audit found upstream add-on copies and external adapters. A subsequent [focused Blender-Sith fork](blender-sith-fork.md) adds normal-preservation and metadata fixes with synthetic regressions. Blender itself and an MCP server were not forked. See [the original add-on audit](blender-sith-audit.md) for the prior baseline.
 
 ## Choose your export method
 
@@ -19,7 +19,7 @@ Our completed work used background Python/`bpy` and project scripts. The audit f
 |---|---|---|
 | Prepared export duplicate + Blender-Sith | A mostly manual Blender workflow; deliberate final topology; all required operations can be made explicit. | Apply intended geometry operations to the duplicate, set Sith properties, then independently read back the 3DO. The audited exporter still merges coincident vertices without preserving their normal identity, so applying modifiers alone does not solve every shading case. |
 | Existing deterministic 3DO writer | Procedural assembly or a project already has a reviewed writer and format tests. | This route successfully carried our custom hierarchy, per-face modes, MAT contracts and all-LOD checks. Confirm the writer's exact revision and reparse with an independent implementation. Do not assume that an arbitrary writer preserves everything. |
-| A tested future Blender-Sith patch | You need repeated one-step export of evaluated modifiers, exact corner normals or shared mesh instances. | Implement the narrow exporter change, preserve face attributes and hierarchy, run synthetic regressions, then compare actual exports and game behavior. The identified patch is an option, not an already shipped fix. |
+| Focused Blender-Sith fork | You want direct export of existing sharp/custom corner normals or predictable scripted hex metadata. | The tested fork fixes these two issues. Prepare modifiers/transforms separately; shared meshes can still be duplicated. Further exporter changes need their own scoped regressions. |
 
 For the first method, a useful sequence is:
 

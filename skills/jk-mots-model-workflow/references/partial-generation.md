@@ -1,5 +1,7 @@
 # Partial generation and donor assembly
 
+For concrete Codex-to-runner/API execution, read [local-generation-automation.md](local-generation-automation.md). It covers verified node names, workflow export, exact input mapping, job IDs, recovery and retained mesh/latent output; this reference explains which parts to generate and how to judge them.
+
 Use image-to-3D for bounded source geometry: a head volume, shoulder mass, hand, boot, hair clump, garment or prop. Preserve a useful part and repair the specific failure. A convincing source render is not evidence of low-poly topology, KEY compatibility, successful 3DO export, or single-player/multiplayer behavior.
 
 This guide distills executed local studies. It distributes methods and provenance requirements, not their private reference images, character meshes, checkpoints or anatomical donors. Historical runtime numbers are observations on one machine, not performance promises or minimum requirements.

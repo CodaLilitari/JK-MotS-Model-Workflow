@@ -2,6 +2,8 @@
 
 The release unit is a reproducible model package with a stated game/renderer/animation target. A Blender render, parsed 3DO, or successful install is useful evidence, but each answers a different question from actual gameplay.
 
+For concrete Windows, WSL/Wine, virtual-display, source-port headless/capture, idle-camera and graphics-setting procedures, use [testing-methods.md](testing-methods.md). The [runtime test plan](../assets/runtime-test-plan.json) is a reusable starting record with every case initially marked `not_run`.
+
 ## Keep the evidence states explicit
 
 | State | What it establishes | What remains open |

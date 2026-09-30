@@ -1,8 +1,20 @@
-# Release validation — 1.0.0
+# Release validation — 1.1.0
 
 Checked 2026-09-30. This record concerns the workflow, its small tools and the sources used to write it. It is not a newly built character or a new game-compatibility certification.
 
-## Executed checks
+## Version 1.1.0 additions
+
+- The full Python suite ran **45 tests: 44 passed, 1 skipped**. The existing native Windows symlink privilege limitation remains; metadata-based file/ancestor reparse cases pass.
+- Twelve Comfy bridge cases use a local synthetic HTTP fixture: native-node preflight, exact image mapping, 3D/latent output records, path containment, explicit execution success, error/timeout capture, and no duplicate submission after an uncertain result. Current local Comfy sources and interpreter versions were inspected; no responsive live Comfy endpoint was found and no new inference was run.
+- Eleven research-updater cases cover read-only checks, valid updates, digest corruption, local edits/deletions, version requirements, URL/path boundaries, races and handled rollback. An independent adversarial review caught a rollback overwrite of a concurrent edit and Windows filename aliases; both were corrected and independently rechecked.
+- Three reporting-helper tests check exact message digest inputs, header injection refusal and decoded `.eml` readback without overwrite. The helper has no email sender/network implementation. No report was emailed; explicit user consent and an available email route remain necessary before a send.
+- A single-distribution test confirms the complete ZIP contains the skill's local baseline, notices and research hashes. Copying the nested skill folder supports later research updates.
+- The focused Blender-Sith fork's ten synthetic checks return **4 pass / 6 fail on unchanged upstream** and **10 pass / 0 fail on the fork**, using `bpy` 5.1.2. Root independently reviewed the patch, reran the suite, then extracted the exact installable extension ZIP and ran all ten checks again successfully. See [packaged fork evidence](skills/jk-mots-model-workflow/references/evidence/blender-sith-packaged-fork-2026-09-30.json).
+- The new testing guide is a source-verified procedure collection. Existing retail, wrapper, camera and source-port results retain their original scope; publishing this guide did not execute a new retail or connected-multiplayer test.
+
+The Blender-Sith fork changes corner-normal preservation and hexadecimal-property handling. It does not fix modifier evaluation, shared-mesh reuse, arbitrary transform semantics or every format version. There is no Blender-core or new MCP-server fork.
+
+## Retained version 1.0.0 checks
 
 - Skill-creator validation accepted the skill frontmatter and structure, using Python UTF-8 mode and PyYAML 6.0.3 in an isolated validation dependency directory. The skill itself has no PyYAML runtime dependency.
 - Python unit suite: **18 tests run, 17 passed, 1 skipped**. Tests cover hierarchy/KEY allocation failures, reserved domains, extra but valid KEY tracks, malformed negative tracks, allowlist boundaries, deterministic ZIP contents and readback, preservation of existing archives, and reparse metadata. The native Windows symlink-creation case was skipped because this process lacked that privilege; simulated file and ancestor reparse rejection passed.
@@ -17,7 +29,7 @@ An inherited recommendation to scale native UVs universally by the texture-size 
 
 The inspector originally ignored malformed negative `NODE` records and falsely rejected valid extra KEY tracks absent from a smaller stock model. Adversarial and original-file cases exposed both; targeted regressions now distinguish them correctly.
 
-The historical Blender-Sith copies are upstream, with external project tools. No custom Blender-Sith source fix or MCP fork is claimed. Historical source/renderer/runtime findings retain their dates and specific scope in the references.
+The historical Blender-Sith copies were upstream, with external project tools. The new focused fork was developed after that audit and is recorded separately above. Historical source/renderer/runtime findings retain their dates and specific scope in the references.
 
 ## Tool scope
 

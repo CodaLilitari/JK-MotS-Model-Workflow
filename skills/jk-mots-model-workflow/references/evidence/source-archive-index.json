@@ -1,0 +1,1584 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-30",
+  "scope": "External source links in public research Markdown and CREDITS, excluding the generated archive guide itself, portfolio selflinks, loopback examples and private chat routes.",
+  "inventory_count": 93,
+  "confirmed_wayback_snapshot_count": 25,
+  "status_meanings": {
+    "original_http_200": "Original link responded successfully to a bounded anonymous check; reachability can change.",
+    "original_http_403": "Request was denied; no access control was bypassed.",
+    "original_http_404": "Anonymous endpoint returned not found; this does not distinguish removal from restricted account visibility.",
+    "snapshot_confirmed": "Archive availability API listed a successful snapshot and its replay returned HTTP 200 with the expected page title.",
+    "snapshot_listed_replay_unavailable": "The archive listed a snapshot but this run did not confirm successful replay; archived_url is null.",
+    "no_snapshot_returned": "The archive availability response supplied no matching snapshot; this is not proof no snapshot exists anywhere.",
+    "lookup_unavailable": "An archive lookup did not succeed, including service rate limiting.",
+    "not_queried_code_host_or_asset": "No Wayback query for this code host/media asset. Use observed commit pins, separately licensed local snapshots or original offline analysis where supplied."
+  },
+  "preservation_note": "The package includes original analysis and a focused licensed source snapshot bundle. This index does not contain full forum pages, game archives, artwork, videos, model weights or private transcripts. Source hosts retain their rights; an archive link does not grant redistribution permission.",
+  "local_snapshot_manifest": "references/evidence/source-snapshots.json",
+  "sources": [
+    {
+      "original_url": "https://learn.chatgpt.com/docs/projects",
+      "title": "OpenAI: Projects and chats",
+      "relevance": "Subscription-based advisory, persistent project context and external research routes.",
+      "accessed_at": "2026-09-30T19:00:01.365250+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/advisory-and-delegation.md"
+      ],
+      "archive_status": "no_snapshot_returned",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 200
+    },
+    {
+      "original_url": "https://learn.chatgpt.com/docs/web",
+      "title": "ChatGPT on the web | ChatGPT Learn",
+      "relevance": "Subscription-based advisory, persistent project context and external research routes.",
+      "accessed_at": "2026-09-30T19:00:01.387826+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/advisory-and-delegation.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260928052335/https://learn.chatgpt.com/docs/web",
+      "archived_timestamp": "20260928052335",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://docs.blender.org/api/5.0/bpy.types.Depsgraph.html",
+      "title": "Depsgraph(bpy_struct) - Blender Python API",
+      "relevance": "Evaluated geometry, corner normals and deliberate diffuse/appearance baking.",
+      "accessed_at": "2026-09-30T19:00:01.651558+00:00",
+      "status": "original_http_403",
+      "original_http_status": 403,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-export-and-baking.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260302160941/https://docs.blender.org/api/5.0/bpy.types.Depsgraph.html",
+      "archived_timestamp": "20260302160941",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://docs.blender.org/UATEST/manual/en/4.5/render/cycles/baking.html",
+      "title": "Blender manual: Render Baking",
+      "relevance": "Evaluated geometry, corner normals and deliberate diffuse/appearance baking.",
+      "accessed_at": "2026-09-30T19:00:01.647830+00:00",
+      "status": "original_http_403",
+      "original_http_status": 403,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-export-and-baking.md"
+      ],
+      "archive_status": "no_snapshot_returned",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/T800-Hybrid-JK-MotS/blob/main/docs/INHERITED-ATTRIBUTION.md",
+      "title": "Published inherited attribution",
+      "relevance": "Evaluated geometry, corner normals and deliberate diffuse/appearance baking.",
+      "accessed_at": "2026-09-30T19:00:02.699668+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-export-and-baking.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/T800-Hybrid-JK-MotS/-/blob/15b16caf6920af69a929f89ca52e17a111477951/docs/INHERITED-ATTRIBUTION.md",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:55.235064+00:00"
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith.git",
+      "title": "smlu/blender-sith.git",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution.",
+      "accessed_at": "2026-09-30T19:00:03.605632+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/releases/tag/v1.0.0-rc4",
+      "title": "Blender-Sith rc4",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution.",
+      "accessed_at": "2026-09-30T19:00:04.319641+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/commit/ecc90131bcfdeabd400225e8a72ce94cbff1ec5c",
+      "title": "Upstream ecc90131",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution. Focused normal/metadata fixes and GPL source lineage.",
+      "accessed_at": "2026-09-30T19:00:05.203317+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md",
+        "skills/jk-mots-model-workflow/references/blender-sith-fork.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith",
+      "title": "Upstream source and license",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:04.779579+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/smlu/blender-sith/tree/ecc90131bcfdeabd400225e8a72ce94cbff1ec5c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.939082+00:00"
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/issues/13",
+      "title": "issue #13",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution. Focused normal/metadata fixes and GPL source lineage. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:05.199240+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md",
+        "skills/jk-mots-model-workflow/references/blender-sith-fork.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "lookup_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 429
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/issues/12",
+      "title": "issue #12",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:05.475587+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "lookup_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 429
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/blob/ecc90131bcfdeabd400225e8a72ce94cbff1ec5c/sith/model/model3doExporter.py",
+      "title": "Pinned exporter source",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution.",
+      "accessed_at": "2026-09-30T19:00:05.822431+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/smlu/blender-sith/blob/ecc90131bcfdeabd400225e8a72ce94cbff1ec5c/sith/model/model3doExporter.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.866075+00:00"
+    },
+    {
+      "original_url": "https://github.com/smlu/blender-sith/issues/6",
+      "title": "KEY issue #6",
+      "relevance": "Blender-Sith version, exporter behavior and prior issue attribution.",
+      "accessed_at": "2026-09-30T19:00:05.709925+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-audit.md"
+      ],
+      "archive_status": "lookup_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 429
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/blender-sith",
+      "title": "GitLab",
+      "relevance": "Focused normal/metadata fixes and GPL source lineage.",
+      "accessed_at": "2026-09-30T19:00:06.225656+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-fork.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/blender-sith/-/tree/0f401e672f9e28818bc7304407bf1cb781e65b70",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:55.464808+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/blender-sith",
+      "title": "GitHub repository",
+      "relevance": "Focused normal/metadata fixes and GPL source lineage.",
+      "accessed_at": "2026-09-30T19:00:06.034084+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-fork.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/blender-sith/-/tree/0f401e672f9e28818bc7304407bf1cb781e65b70",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:55.464808+00:00"
+    },
+    {
+      "original_url": "https://docs.blender.org/api/5.0/bpy.types.Mesh.html#bpy.types.Mesh.corner_normals",
+      "title": "Mesh(ID) - Blender Python API",
+      "relevance": "Focused normal/metadata fixes and GPL source lineage.",
+      "accessed_at": "2026-09-30T19:00:05.938105+00:00",
+      "status": "original_http_403",
+      "original_http_status": 403,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/blender-sith-fork.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260305051829/https://docs.blender.org/api/5.0/bpy.types.Mesh.html",
+      "archived_timestamp": "20260305051829",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/jkspecs/pup.htm",
+      "title": "Jedi Knight Unofficial Specs: PUP",
+      "relevance": "PUP animation classes and joint-role mapping.",
+      "accessed_at": "2026-09-30T19:00:06.788704+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260729000321/https://www.massassi.net/jkspecs/pup.htm",
+      "archived_timestamp": "20260729000321",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/tree/main/scripts/model-workarounds/key-domain-guard",
+      "title": "KEY-domain guard on GitHub",
+      "relevance": "Numbered hierarchy, KEY allocation, PUP roles and per-mesh format limits.",
+      "accessed_at": "2026-09-30T19:00:06.524406+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/74e4657c4f1751d09af9ad9e056acb8f41997acb/scripts/model-workarounds/key-domain-guard",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:54.942395+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/main/scripts/model-workarounds/key-domain-guard",
+      "title": "on GitLab",
+      "relevance": "Numbered hierarchy, KEY allocation, PUP roles and per-mesh format limits. Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:07.033170+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md",
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/74e4657c4f1751d09af9ad9e056acb8f41997acb/scripts/model-workarounds/key-domain-guard",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.942395+00:00"
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdKeyframe.c",
+      "title": "KEY reader",
+      "relevance": "Numbered hierarchy, KEY allocation, PUP roles and per-mesh format limits.",
+      "accessed_at": "2026-09-30T19:00:07.682862+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdKeyframe.c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "complete_source_file",
+        "local_path": "assets/research-sources/openjkdf2/rdKeyframe.c",
+        "sha256": "6120cca71c3a436d471d8a9ca5d6b942ad12316dc572202ac701bcf09e7e11f1",
+        "bytes": 12875,
+        "license_path": "assets/research-sources/openjkdf2/LICENSE.md",
+        "license_name": "Upstream OpenJKDF2 permissive license; see exact text"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.233064+00:00"
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdPuppet.c",
+      "title": "puppet implementation",
+      "relevance": "Numbered hierarchy, KEY allocation, PUP roles and per-mesh format limits.",
+      "accessed_at": "2026-09-30T19:00:07.652523+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdPuppet.c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.358527+00:00"
+    },
+    {
+      "original_url": "https://jksith.wikidot.com/limits",
+      "title": "Jedi Knight Sith Engine Specs: Limits",
+      "relevance": "Separate per-mesh position, UV and face limits; historical documentation to compare with the target implementation.",
+      "accessed_at": "2026-09-30T19:00:08.064929+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md",
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20240828100810/http://jksith.wikidot.com/limits",
+      "archived_timestamp": "20240828100810",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34814_page_1.html",
+      "title": "Shred18 on practical 3DO limits",
+      "relevance": "Numbered hierarchy, KEY allocation, PUP roles and per-mesh format limits. JKE/TDIR/Shred construction methods, historical advice and identified release inputs. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:08.078111+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md",
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260923112212/https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34814_page_1.html",
+      "archived_timestamp": "20260923112212",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/jkspecs/3do.htm",
+      "title": "Jedi Knight Unofficial Specs: 3DO",
+      "relevance": "Native model sections, hierarchy and independently indexed material/UV/geometry data.",
+      "accessed_at": "2026-09-30T19:00:09.163177+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/compatibility.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260729000321/https://www.massassi.net/jkspecs/3do.htm",
+      "archived_timestamp": "20260729000321",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/2727.shtml",
+      "title": "The Destruction Is Real — Massassi release",
+      "relevance": "TDiR Team release attribution; custom character sizes and original release identity.",
+      "accessed_at": "2026-09-30T19:00:09.815828+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "no_snapshot_returned",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/3087.shtml",
+      "title": "Jedi Knight Enhanced — Massassi release",
+      "relevance": "Shred18 release identity and supported original-game enhancement context.",
+      "accessed_at": "2026-09-30T19:00:09.893920+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260729022125/https://www.massassi.net/levels/files/3087.shtml",
+      "archived_timestamp": "20260729022125",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/3157.shtml",
+      "title": "MotS+ — Massassi release",
+      "relevance": "Shimstock distribution and separately credited model contributors.",
+      "accessed_at": "2026-09-30T19:00:11.108741+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260728212608/https://www.massassi.net/levels/files/3157.shtml",
+      "archived_timestamp": "20260728212608",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33977_page_1.html",
+      "title": "Community discussion of 3DO mesh limits",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:11.571636+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260209022116/https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33977_page_1.html",
+      "archived_timestamp": "20260209022116",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35901_page_1.html",
+      "title": "Ruthven on high-resolution weapon textures",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:12.712795+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260416135809/https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35901_page_1.html",
+      "archived_timestamp": "20260416135809",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35291_page_1.html",
+      "title": "Model extra-light and lighting discussion",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:13.293339+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260121085746/https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35291_page_1.html",
+      "archived_timestamp": "20260121085746",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_68242_page_3.html",
+      "title": "Quib Mask: Quadranscentennial features",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:13.323372+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20250125165345/https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_68242_page_3.html",
+      "archived_timestamp": "20250125165345",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.youtube.com/watch?v=DJnS-FQ8sko",
+      "title": "Shred Blender-to-Jedi-Knight tutorial",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:14.935075+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://www.massassi.net/media/levels/files/jkmod/TDiR.zip",
+      "title": "Massassi TDIR ZIP",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:14.864953+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://www.moddb.com/mods/the-destruction-is-real/downloads/the-destruction-is-real-111",
+      "title": "The Destruction is Real 1.1 file - ModDB",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:14.899080+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20240630145126/https://www.moddb.com/mods/the-destruction-is-real/downloads/the-destruction-is-real-111",
+      "archived_timestamp": "20240630145126",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://www.massassi.net/media/levels/files/jkmod/JK_Enhanced.zip",
+      "title": "Massassi JKE ZIP",
+      "relevance": "JKE/TDIR/Shred construction methods, historical advice and identified release inputs.",
+      "accessed_at": "2026-09-30T19:00:15.225347+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/comfy_extras/nodes_hunyuan3d.py",
+      "title": "Hunyuan implementation",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:15.462235+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/comfy_extras/nodes_hunyuan3d.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "complete_source_file",
+        "local_path": "assets/research-sources/comfyui/nodes_hunyuan3d.py",
+        "sha256": "2294d13e70e634e33be9fc91249260bc25a371df06e282bf00dedde4df7bb7d1",
+        "bytes": 16922,
+        "license_path": "assets/research-sources/comfyui/LICENSE",
+        "license_name": "GNU GPL version 3 (upstream text retained)"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:51.914450+00:00"
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/comfy_extras/nodes_save_3d.py",
+      "title": "3D saver",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:15.866101+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/comfy_extras/nodes_save_3d.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "complete_source_file",
+        "local_path": "assets/research-sources/comfyui/nodes_save_3d.py",
+        "sha256": "4ffdae416dd1616e6a1ec512528013ecc49d7bed0752ff3ca5d2d0c1ddd68325",
+        "bytes": 23335,
+        "license_path": "assets/research-sources/comfyui/LICENSE",
+        "license_name": "GNU GPL version 3 (upstream text retained)"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:51.914943+00:00"
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/server.py",
+      "title": "server implementation",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:15.924129+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/server.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "complete_source_file",
+        "local_path": "assets/research-sources/comfyui/server.py",
+        "sha256": "74573b10465505b88b618da86059878e3a56418f84c7dae4073c8824aee35a6c",
+        "bytes": 64758,
+        "license_path": "assets/research-sources/comfyui/LICENSE",
+        "license_name": "GNU GPL version 3 (upstream text retained)"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:52.504332+00:00"
+    },
+    {
+      "original_url": "https://docs.comfy.org/tutorials/3d/hunyuan3D-2",
+      "title": "ComfyUI Hunyuan3D-2 Examples - ComfyUI",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts. Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:15.800100+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md",
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260914164419/https://docs.comfy.org/tutorials/3d/hunyuan3D-2",
+      "archived_timestamp": "20260914164419",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI/blob/master/script_examples/websockets_api_example.py",
+      "title": "upstream API example",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:16.435501+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/script_examples/websockets_api_example.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:51.962284+00:00"
+    },
+    {
+      "original_url": "https://docs.comfy.org/development/comfyui-server/comms_routes",
+      "title": "ComfyUI Server Routes (HTTP and WebSocket API) - ComfyUI",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:16.112331+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260924113622/https://docs.comfy.org/development/comfyui-server/comms_routes",
+      "archived_timestamp": "20260924113622",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://docs.comfy.org/development/comfyui-server/comms_messages",
+      "title": "ComfyUI Server Messages (WebSocket API) - ComfyUI",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:16.608862+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260924113939/https://docs.comfy.org/development/comfyui-server/comms_messages",
+      "archived_timestamp": "20260924113939",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/nodes.py",
+      "title": "Pinned native latent implementation",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts.",
+      "accessed_at": "2026-09-30T19:00:18.346521+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/blob/dec5d9450a5290bcf63430409ea41018e67f41c3/nodes.py",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:51.915254+00:00"
+    },
+    {
+      "original_url": "https://github.com/pwilkin/trellis.cpp/blob/v0.6.0/README.md",
+      "title": "Pinned TRELLIS CLI reference",
+      "relevance": "Local ComfyUI HTTP/WebSocket orchestration and mesh-output contracts. Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:18.492838+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/local-generation-automation.md",
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/pwilkin/trellis.cpp/blob/06fc9000719c912ddc4929d21db075972c26ac3e/README.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:52.614937+00:00"
+    },
+    {
+      "original_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/examples/shape_gen_multiview.py",
+      "title": "official multiview example",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:19.148337+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/hy3dgen/shapegen/preprocessors.py",
+      "title": "Tencent preprocessor",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:19.296361+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/pwilkin/trellis.cpp/blob/v0.6.0/src/trellis_cli.cpp",
+      "title": "pinned CLI source",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:19.564691+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/pwilkin/trellis.cpp/blob/06fc9000719c912ddc4929d21db075972c26ac3e/src/trellis_cli.cpp",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "complete_source_file",
+        "local_path": "assets/research-sources/trellis-cpp/trellis_cli.cpp",
+        "sha256": "c29ccd54f1fa7c989689e04354b91f9b67e18a0d998a823e6a50be86484ce3bc",
+        "bytes": 29738,
+        "license_path": "assets/research-sources/trellis-cpp/LICENSE",
+        "license_name": "MIT"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:52.996429+00:00"
+    },
+    {
+      "original_url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "title": "利用許諾 - BodyParts3D | LSDB Archive",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:20.060353+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260905143812/https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "archived_timestamp": "20260905143812",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://huggingface.co/tencent/Hunyuan3D-2/blob/9cd649ba6913f7a852e3286bad86bfa9a2d83dcf/LICENSE",
+      "title": "community license",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:19.614698+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/LICENSE.md",
+      "title": "separate Meta terms",
+      "relevance": "Bounded local generation, preprocessing, partial donor construction and model licenses.",
+      "accessed_at": "2026-09-30T19:00:20.038336+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/partial-generation.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/LICENSE.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:52.582689+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/tree/main/scripts/model-workarounds/mpc-selection",
+      "title": "source-only MPC helper on GitHub",
+      "relevance": "Normal player selection, package resources and integration helpers.",
+      "accessed_at": "2026-09-30T19:00:19.954381+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/runtime-and-packaging.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/74e4657c4f1751d09af9ad9e056acb8f41997acb/scripts/model-workarounds/mpc-selection",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:55.052480+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/main/scripts/model-workarounds/mpc-selection",
+      "title": "on GitLab",
+      "relevance": "Normal player selection, package resources and integration helpers.",
+      "accessed_at": "2026-09-30T19:00:20.426753+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/runtime-and-packaging.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/74e4657c4f1751d09af9ad9e056acb8f41997acb/scripts/model-workarounds/mpc-selection",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:55.052480+00:00"
+    },
+    {
+      "original_url": "https://sketchfab.com/3d-models/t-800-low-poly-portp3d-ce8c971d7b4240229bbebed9b53198b6",
+      "title": "T 800 low poly (PORT/P3D)",
+      "relevance": "Declared T-800 source lineage and limits of inherited attribution. Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:20.809040+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/terminator-case-study.md",
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://sketchfab.com/Sketchfab_apk_gratis",
+      "title": "Jonn",
+      "relevance": "Declared T-800 source lineage and limits of inherited attribution.",
+      "accessed_at": "2026-09-30T19:00:21.730719+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/terminator-case-study.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/docs/RENDER_CAPTURE_INTEGRATION.md",
+      "title": "render/capture integration record",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:21.033300+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/RENDER_CAPTURE_INTEGRATION.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.498356+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/blob/main/docs/RENDER_CAPTURE_INTEGRATION.md",
+      "title": "GitHub copy",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:21.150166+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/RENDER_CAPTURE_INTEGRATION.md",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:54.498356+00:00"
+    },
+    {
+      "original_url": "https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps",
+      "title": "Run Linux GUI apps with WSL | Microsoft Learn",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:21.359765+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260825162410/https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps",
+      "archived_timestamp": "20260825162410",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://xorg.freedesktop.org/archive/X11R7.0/doc/html/Xvfb.1.html",
+      "title": "XVFB(1) manual page",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:21.637830+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20211027192109/https://xorg.freedesktop.org/archive/X11R7.0/doc/html/Xvfb.1.html",
+      "archived_timestamp": "20211027192109",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/wine-mirror/wine/blob/master/tools/wine/wine.man.in",
+      "title": "Wine environment reference",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:22.316675+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/Winetricks/winetricks/blob/master/src/winetricks",
+      "title": "Winetricks directplay recipe",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:22.869979+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://support.starwars.com/hc/en-us/articles/360000721246-How-do-I-install-Jedi-Knight-Mysteries-of-the-Sith",
+      "title": "How do I install Jedi Knight Mysteries of the Sith? – Star Wars Support",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:22.534898+00:00",
+      "status": "original_http_403",
+      "original_http_status": 403,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20240229042116/https://support.starwars.com/hc/en-us/articles/360000721246-How-do-I-install-Jedi-Knight-Mysteries-of-the-Sith",
+      "archived_timestamp": "20240229042116",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/src/Devices/sithControl.c",
+      "title": "Input idle logic",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:23.381703+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/src/Devices/sithControl.c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.618582+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/src/Engine/sithCamera.c",
+      "title": "orbit implementation",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:23.433767+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/src/Engine/sithCamera.c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.818729+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/docs/render-probe.md",
+      "title": "-renderprobe implementation",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:23.820699+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/render-probe.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.509854+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/blob/main/docs/render-probe.md",
+      "title": "GitHub alternative",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:23.728064+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/render-probe.md",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:54.509854+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/docs/HIDDEN_RENDERED_CAPTURE.md",
+      "title": "-capture request format",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.194630+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/HIDDEN_RENDERED_CAPTURE.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.173994+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/blob/main/docs/HIDDEN_RENDERED_CAPTURE.md",
+      "title": "GitHub alternative",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.176440+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/HIDDEN_RENDERED_CAPTURE.md",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:54.173994+00:00"
+    },
+    {
+      "original_url": "https://github.com/jdmclark/jkgfxmod/releases/tag/v1.0.0",
+      "title": "JkGfxMod 1.0.0",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.542939+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/jdmclark/jkgfxmod/blob/v1.0.0/doc/install.md",
+      "title": "installation guide",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.765120+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/jdmclark/jkgfxmod/blob/v1.0.0/doc/config.md",
+      "title": "configuration",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.719139+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/dege-diosg/dgVoodoo2/releases/tag/v2.87.5",
+      "title": "dgVoodoo2 2.87.5",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:24.972914+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://dege.freeweb.hu/dgVoodoo2/ReadmeGeneral/",
+      "title": "General - Dege's stuffs",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:25.397643+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260903232733/https://dege.freeweb.hu/dgVoodoo2/ReadmeGeneral/",
+      "archived_timestamp": "20260903232733",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://github.com/dege-diosg/dgVoodoo2",
+      "title": "project notes",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:25.199786+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/narzoul/DDrawCompat/releases/tag/v0.7.1",
+      "title": "DDrawCompat 0.7.1",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:25.628926+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/narzoul/DDrawCompat",
+      "title": "author README",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:25.710977+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/jdmclark/jkgfxmod/blob/v1.0.0/README.md",
+      "title": "author README",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:26.088389+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_33.html",
+      "title": "Jon`C: conflicting Windows compatibility database",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:26.075656+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20241010090110/https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_33.html",
+      "archived_timestamp": "20241010090110",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_34.html",
+      "title": "Windows color-error follow-up",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:26.489957+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20240909111131/https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_34.html",
+      "archived_timestamp": "20240909111131",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/installing-and-uninstalling-custom-compatibility-databases-in-compatibility-administrator",
+      "title": "Install/Uninstall Custom Databases (Windows 10) - Windows 10 | Microsoft Learn",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:28.024987+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_confirmed",
+      "archived_url": "https://web.archive.org/web/20260219140010/https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/installing-and-uninstalling-custom-compatibility-databases-in-compatibility-administrator",
+      "archived_timestamp": "20260219140010",
+      "archive_lookup_http_status": 200,
+      "archive_replay_http_status": 200
+    },
+    {
+      "original_url": "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/using-the-sdbinstexe-command-line-tool",
+      "title": "sdbinst documentation",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:29.828387+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "snapshot_listed_replay_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 200,
+      "unconfirmed_snapshot_url": "https://web.archive.org/web/20260514205600/https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/using-the-sdbinstexe-command-line-tool",
+      "archive_replay_http_status": null
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/T800-Hybrid-JK-MotS/-/blob/main/docs/VALIDATION.md",
+      "title": "T-800 release validation",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:30.231687+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/T800-Hybrid-JK-MotS/-/blob/15b16caf6920af69a929f89ca52e17a111477951/docs/VALIDATION.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:55.441613+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/T800-Hybrid-JK-MotS/blob/main/docs/VALIDATION.md",
+      "title": "GitHub alternative",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:30.956252+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/T800-Hybrid-JK-MotS/-/blob/15b16caf6920af69a929f89ca52e17a111477951/docs/VALIDATION.md",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:55.441613+00:00"
+    },
+    {
+      "original_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/main/docs/MODEL_WORKAROUNDS_VALIDATION.md",
+      "title": "model-workaround validation",
+      "relevance": "Renderer-specific testing, Wine/WSL, capture, wrappers and conditional Windows fixes.",
+      "accessed_at": "2026-09-30T19:00:31.817255+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/testing-methods.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/blob/74e4657c4f1751d09af9ad9e056acb8f41997acb/docs/MODEL_WORKAROUNDS_VALIDATION.md",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:54.335568+00:00"
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/master/src/Platform/GL/std3D.c",
+      "title": "the upstream OpenJKDF2 GL backend",
+      "relevance": "Texture generation, renderer UV calibration and replacement-image alignment.",
+      "accessed_at": "2026-09-30T19:00:32.833328+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/textures-and-imagegen.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Platform/GL/std3D.c",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "local_snapshot": {
+        "kind": "verbatim_complete_function_excerpt",
+        "local_path": "assets/research-sources/openjkdf2/std3D_GetValidDimension-excerpt.c",
+        "sha256": "420dfa3d58aede5305049a2719c6cf77c906555068e90ea77112dd0d7f4d1e02",
+        "bytes": 237,
+        "license_path": "assets/research-sources/openjkdf2/LICENSE.md",
+        "license_name": "Upstream OpenJKDF2 permissive license; see exact text"
+      },
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.464607+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/OpenJKDF2-MotS-Fixes/tree/main/scripts/model-workarounds/png-alignment",
+      "title": "maintained PNG alignment helper",
+      "relevance": "Texture generation, renderer UV calibration and replacement-image alignment.",
+      "accessed_at": "2026-09-30T19:00:33.178762+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/textures-and-imagegen.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "maintained_alternative_url": "https://gitlab.com/codalilitari/OpenJKDF2-MotS-Fixes/-/tree/74e4657c4f1751d09af9ad9e056acb8f41997acb/scripts/model-workarounds/png-alignment",
+      "maintained_alternative_http_status": 200,
+      "maintained_alternative_accessed_at": "2026-09-30T19:04:55.054459+00:00"
+    },
+    {
+      "original_url": "https://github.com/CodaLilitari/jkdf2-jkgm-png-alignment",
+      "title": "historical standalone repository",
+      "relevance": "Texture generation, renderer UV calibration and replacement-image alignment.",
+      "accessed_at": "2026-09-30T19:00:33.392924+00:00",
+      "status": "original_http_404",
+      "original_http_status": 404,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/textures-and-imagegen.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2",
+      "title": "OpenJKDF2",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:34.296670+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/shinyquagsire23/OpenJKDF2/tree/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.673052+00:00"
+    },
+    {
+      "original_url": "https://www.massassi.net/",
+      "title": "Massassi",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:34.118615+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "lookup_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 429
+    },
+    {
+      "original_url": "https://jksith.wikidot.com/",
+      "title": "Sith engine specs",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:34.046572+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "lookup_unavailable",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_lookup_http_status": 429
+    },
+    {
+      "original_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "title": "Hunyuan3D-2",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:34.724948+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/Comfy-Org/ComfyUI",
+      "title": "ComfyUI",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:35.011123+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/Comfy-Org/ComfyUI/tree/dec5d9450a5290bcf63430409ea41018e67f41c3",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:52.532858+00:00"
+    },
+    {
+      "original_url": "https://github.com/microsoft/TRELLIS",
+      "title": "TRELLIS",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:35.317535+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null
+    },
+    {
+      "original_url": "https://github.com/pwilkin/trellis.cpp",
+      "title": "trellis.cpp",
+      "relevance": "Original authorship and upstream/source lineage.",
+      "accessed_at": "2026-09-30T19:00:35.606464+00:00",
+      "status": "original_http_200",
+      "original_http_status": 200,
+      "cited_in": [
+        "CREDITS.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "pinned_url": "https://github.com/pwilkin/trellis.cpp/tree/06fc9000719c912ddc4929d21db075972c26ac3e",
+      "pin_note": "Observed repository revision retained for reproducibility; this alone is not a runtime test or a bundled copy.",
+      "pinned_http_status": 200,
+      "pinned_accessed_at": "2026-09-30T19:04:53.205017+00:00"
+    }
+  ],
+  "path_conventions": {
+    "cited_in": "Repository-relative source citations.",
+    "local_snapshot.local_path": "Installed-skill-relative local snapshot file.",
+    "local_snapshot_manifest": "Installed-skill-relative manifest."
+  }
+}

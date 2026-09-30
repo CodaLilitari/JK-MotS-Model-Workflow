@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "kind": "unexecuted_plan_template",
+  "model": {
+    "name": "replace-with-candidate-name",
+    "sha256": null,
+    "role": "selectable-mp-skin",
+    "animation_manifest": null,
+    "material_manifest": null
+  },
+  "runtime": {
+    "game": "mots",
+    "engine": "original-retail",
+    "version_or_commit": null,
+    "executable_sha256": null,
+    "os": null,
+    "wsl_distribution": null,
+    "wine_version": null,
+    "wine_prefix_architecture": null,
+    "wrappers": [],
+    "entry_route": "normal-game-menu"
+  },
+  "display": {
+    "capture_surface": "record-window-or-X-display",
+    "width": 640,
+    "height": 480,
+    "framebuffer_bit_depth": null,
+    "renderer_requested": null,
+    "renderer_observed": null,
+    "device_observed": null,
+    "settings_receipt": null,
+    "material_encoding": "indexed8",
+    "palette_identity": null,
+    "filtering": null,
+    "mip_policy": null,
+    "replacement_textures": false
+  },
+  "comparison": {
+    "stock_control_model": null,
+    "candidate": null,
+    "changed_variable": "model-only",
+    "same_camera_and_light": true,
+    "source_to_game_scale": null
+  },
+  "cases": [
+    {"id": "stock_control", "status": "not_run", "receipt": null},
+    {"id": "normal_selection_and_preview", "status": "not_run", "receipt": null},
+    {"id": "idle_orbit_or_external_camera", "status": "not_run", "receipt": null},
+    {"id": "locomotion_and_aim_transitions", "status": "not_run", "receipt": null},
+    {"id": "weapons_and_first_person_assets", "status": "not_run", "receipt": null},
+    {"id": "death_respawn_or_save_reload", "status": "not_run", "receipt": null},
+    {"id": "distance_lod_mips_and_scene_cost", "status": "not_run", "receipt": null},
+    {"id": "connected_second_client", "status": "not_run", "receipt": null}
+  ],
+  "captures": [],
+  "limitations": [
+    "This template has not executed any test.",
+    "Adapt cases to the requested role; record not_applicable with a reason.",
+    "8-bit indexed materials, framebuffer color depth and texture filtering are independent settings.",
+    "A virtual-display software-rendered run does not establish native Windows GPU behavior."
+  ]
+}

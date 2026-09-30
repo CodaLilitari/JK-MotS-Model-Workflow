@@ -6,7 +6,7 @@ Audit date: 2026-09-30. Scope: Blender/Sith model tooling for JKDF2 and MotS sin
 
 The inspected Blender-Sith copies are unmodified upstream sources. Three local Git checkouts are clean at `ecc90131bcfdeabd400225e8a72ce94cbff1ec5c`, with `https://github.com/smlu/blender-sith.git` as their origin. A fresh remote HEAD check on the audit date returned the same commit. A fourth copy of the rc4 extension matched all 26 original archive members. A separate editor research snapshot contains selected upstream files, not a custom implementation.
 
-No significant custom Blender/Blender-Sith fork or Blender MCP implementation was found in the audited project sources. Publishing the workflow and its external adapters is justified; labeling a clean upstream copy as our modified fork would misstate the work. A narrow exporter patch remains a reasonable future option.
+No significant custom Blender/Blender-Sith fork or Blender MCP implementation was found in the historical project sources audited for version 1.0.0. Those copies must not be relabeled as authored fixes. After this audit, version 1.1.0 added a new [focused fork](blender-sith-fork.md) for normal preservation and hexadecimal metadata. The evidence below describes the original upstream baseline; its broader patch criteria remain relevant to unresolved modifier/mesh-reuse work.
 
 | Component | Provenance and result |
 |---|---|

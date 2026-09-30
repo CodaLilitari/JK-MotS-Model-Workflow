@@ -5,6 +5,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import sys
 from pathlib import Path
 import tempfile
 from types import SimpleNamespace
@@ -138,6 +139,32 @@ class ReleaseBoundaryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Refusing to replace"):
             release.archive(existing, [("README.md", b"public")], "package")
         self.assertEqual(existing.read_bytes(), original)
+
+    def test_single_download_contains_installable_skill_and_research_baseline(self):
+        prefix = "skills/jk-mots-model-workflow/"
+        names = ["LICENSE", "CREDITS.md", prefix + "SKILL.md", prefix + "references/method.md"]
+        for name in names:
+            self.source(name, ("Example " + name + "\n").encode())
+        self.allow(names)
+        out = self.base / "distribution"
+        with mock.patch.object(release, "ROOT", self.root), mock.patch.object(sys, "argv", ["builder", "--output", str(out)]):
+            release.main()
+        archives = list(out.glob("*.zip"))
+        self.assertEqual(len(archives), 1)
+        with zipfile.ZipFile(archives[0]) as z:
+            root_name = "JK-MotS-Model-Workflow-" + release.VERSION + "/"
+            base = root_name + prefix
+            manifest = json.loads(z.read(base + "PACKAGE-MANIFEST.json"))
+            for entry in manifest["files"]:
+                body = z.read(base + entry["path"])
+                self.assertEqual(hashlib.sha256(body).hexdigest(), entry["sha256"])
+                self.assertEqual(len(body), entry["bytes"])
+            self.assertIn(base + "LICENSE", z.namelist())
+            self.assertIn(base + "CREDITS.md", z.namelist())
+            updates = json.loads((out / "research-updates.json").read_text())
+            self.assertEqual(len(updates["files"]), 1)
+            entry = updates["files"][0]
+            self.assertEqual(entry["sha256"], hashlib.sha256(z.read(base + entry["path"])).hexdigest())
 
 
 if __name__ == "__main__":

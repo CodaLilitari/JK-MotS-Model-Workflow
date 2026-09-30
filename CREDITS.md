@@ -24,3 +24,9 @@
 Original LucasArts game data and all associated third-party characters/trademarks remain with their respective rights holders. The source T-800 is described as a port: its declared license is recorded, while earlier mesh authorship and franchise permissions are not independently established. No model artwork, commercial game files, donor meshes or neural weights are bundled here.
 
 The package includes original analysis and synthetic tools. Citing an author does not grant redistribution rights to that author's assets. Keep the original notices and component-level permissions when using any linked material in a new model.
+
+## Retained implementation sources
+
+The [offline source snapshot guide](skills/jk-mots-model-workflow/assets/research-sources/README.md) and [source manifest](skills/jk-mots-model-workflow/references/evidence/source-snapshots.json) preserve selected ComfyUI, trellis.cpp and OpenJKDF2 implementation evidence at exact revisions. ComfyUI contributors retain their GNU GPL notices; Piotr Wilkin and trellis.cpp contributors retain the MIT notice; OpenJKDF2 retains its original permissive notice. Complete source files and a labeled function excerpt are identified individually, with their upstream licenses, byte counts and hashes. These are research inputs, not newly authored workflow code or standalone applications.
+
+The [source archive index](skills/jk-mots-model-workflow/references/source-archive.md) keeps original URLs, verified archive references and local research pointers. Archived community statements retain their original authorship.

@@ -1,0 +1,214 @@
+{
+  "schema": "blender-sith-agentic-regression-v1",
+  "blender": "5.1.2",
+  "harness_sha256": "45e607db12c9c680377ef4ce1904d4c82cd27e01f3a24e785b419c85c817be4c",
+  "addon_sha256": {
+    "__init__.py": "07f7b2abfe66bb4f2a6a3ca415aefc2c12fd969da12591fc47820d1eabc52167",
+    "blender_manifest.toml": "17913ea1a04fb8dcd21d8fc07cd18faa06ecf756c1b6dda2d80a20f13acb4e74",
+    "key/__init__.py": "49364c3ce5564351e28f76a7cd4167d478298f61e63ee13262b38cf60d5063f1",
+    "key/key.py": "779b8d7b725dfd14ed8dd834113d7560d1bfb76fed87b0c3102355696fadd357",
+    "key/keyExporter.py": "761ac49c80e1ad28c05365d02bb62d67d1423170c3a30f309cbb92c5f941fb8e",
+    "key/keyImporter.py": "e49cdbcad3738e688636f43cb84f13b3acc0477443c4bf8f0ad21ea975bb30cd",
+    "key/keyLoader.py": "d899d11d91718137a641ea75cda9117f1245dbb6d6760c1d0bbdabc50e061d32",
+    "key/keyWriter.py": "666f47f4bdca3a8142c6c5a1fe47701124eb30f3e94719ce98acdcbdb4f87b5c",
+    "material/__init__.py": "ff789bc92cb1fe718bc7f0a62ffc61ede047328691a110a8b7738a4c307ced7d",
+    "material/cmp.py": "7e9697ca8af5eda34ef313ff6d5a4a2cfbdac1885fccbd46318ac94bd93eb73c",
+    "material/mat.py": "7f3321954e12c83d6f5017172178890081ef70099e815186617f149dd8dd598b",
+    "model/__init__.py": "9c8f5cf28a3f4c6de633d2318e3a35f039e464ba989457e546865bfbb5695757",
+    "model/model3do.py": "73e4575717fb91b42dc7d8c4554d5dabf762f4c8b32c3effb6013e77c9d1c7cc",
+    "model/model3doExporter.py": "c22170184d434b00e2cb2164791b3e152b5842f65e403d7f71335bf04bf13193",
+    "model/model3doImporter.py": "201ee740588c7e886073be66c86d39f0b6617b8a8448180c5527cb3f6804bbb7",
+    "model/model3doLoader.py": "3bb6732d9c3c71272540458057f0530862895cd107dbe773dc4756d83ea7f437",
+    "model/model3doWriter.py": "741933be02c7d765254d6befdf649bdfdf88d16f800a489f70891fc5cae37748",
+    "model/utils.py": "1d993da78185da48d43d5d6bc46d2218947df3634ceff459df54fb2b3e95ebc7",
+    "text/serutils.py": "35b2395a246283f86fb1a4657d8b197ae8948d65d03a10169fe41ff27b247119",
+    "text/tokenizer.py": "a6f30e9dc61212965c5d9f86f42620d6c1e569807a0284a08517fd36adbaf531",
+    "types/__init__.py": "fc33684598f201e5effc3da9eabac1bc5134f68aae0f4cb55a66e9cf606f89f2",
+    "types/benchmark.py": "8de135f1986c2ab79620691061f5cc0bba922e464d218fd9722aa24fd5306cf6",
+    "types/enum.py": "7779a0f5dc903c471be0089517b828b91da217f66c35de1b44f8830419dd5b9c",
+    "types/props.py": "3454489d44c46600462e9f24b740f8078280982595d5c33bdd726ef200564b57",
+    "types/vector.py": "9ca5ff83aa18f777c4273a14cc65b5daffc2b50f7c93a42d85b1a7c40249312e",
+    "utils.py": "87c8f3665f3b41aefb7f484db1b419f59e400f5c6a3c0e1b4823e2270231ac99"
+  },
+  "tests": [
+    {
+      "name": "disconnected_split_normals",
+      "passed": true,
+      "details": {
+        "source_vertices": 6,
+        "exported_vertices": 6,
+        "checked_corners": 6,
+        "max_normal_error": 0.0,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "cube_flat",
+      "passed": true,
+      "details": {
+        "source_vertices": 8,
+        "exported_vertices": 24,
+        "checked_corners": 24,
+        "max_normal_error": 0.0,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "cube_smooth",
+      "passed": true,
+      "details": {
+        "source_vertices": 8,
+        "exported_vertices": 8,
+        "checked_corners": 24,
+        "max_normal_error": 4.1295309247228556e-07,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "cube_sharp",
+      "passed": true,
+      "details": {
+        "source_vertices": 8,
+        "exported_vertices": 24,
+        "checked_corners": 24,
+        "max_normal_error": 0.0,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "custom_corner_normals",
+      "passed": true,
+      "details": {
+        "source_vertices": 4,
+        "exported_vertices": 6,
+        "checked_corners": 6,
+        "max_normal_error": 4.7518964721243533e-07,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "mixed_ngon_disconnected_faces",
+      "passed": true,
+      "details": {
+        "source_vertices": 11,
+        "exported_vertices": 11,
+        "checked_corners": 11,
+        "max_normal_error": 7.560412186040268e-07,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "uv_material_color_face_channels",
+      "passed": true,
+      "details": {
+        "roundtrips": [
+          "channels_0_2.1",
+          "channels_1_2.1"
+        ],
+        "uv_seam_vertices": 4,
+        "source_unchanged": true
+      }
+    },
+    {
+      "name": "hierarchy_and_offset",
+      "passed": true,
+      "details": {
+        "nodes": 2,
+        "meshes": 2,
+        "offset_and_local_positions": "preserved"
+      }
+    },
+    {
+      "name": "hex_metadata",
+      "passed": true,
+      "details": {
+        "default": "FFFF",
+        "attempts": [
+          {
+            "input": "FFFF",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          },
+          {
+            "input": "0xFFFF",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          },
+          {
+            "input": "0X0001",
+            "expected": "01",
+            "actual": "01"
+          },
+          {
+            "input": "0000",
+            "expected": "00",
+            "actual": "00"
+          },
+          {
+            "input": "0x0",
+            "expected": "00",
+            "actual": "00"
+          },
+          {
+            "input": "",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          },
+          {
+            "input": "-1",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          },
+          {
+            "input": "10000",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          },
+          {
+            "input": "invalid",
+            "expected": "FFFF",
+            "actual": "FFFF"
+          }
+        ],
+        "3do_flags_and_type": "roundtripped"
+      }
+    },
+    {
+      "name": "animated_key_roundtrip",
+      "passed": true,
+      "details": {
+        "type": "FFFF",
+        "joints": 1,
+        "frames": [
+          0,
+          10
+        ],
+        "last_position": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "scope": "Synthetic serialized 3DO/KEY only; no game runtime claim",
+  "addon_source_unchanged": true,
+  "passed": 10,
+  "failed": 0,
+  "fixtures_sha256": {
+    "animation.key": "412c2315ea061acb66556b07e1f97ff224aae4f28d311bcecd43b983ccdf9fcd",
+    "channels_0_2.1.3do": "220b1776d28b0bef58414e864f1e3be2e0ea8b7a6d3435467c0d21d918064789",
+    "channels_1_2.1.3do": "431c5619361e4421ad433202585037fa1cb3b77a49aa248a92eec2d25a68a22f",
+    "cube_flat.3do": "ed9f855b24568f016e664b6fea384232362ca8d51a9907b10440dfeef3922bdf",
+    "cube_sharp.3do": "176b1d46d314806203ad720c3cf9046d24652698c9ae219ad345adcb114025c1",
+    "cube_smooth.3do": "f38a87f38e8d7887a764df59d3c7d83a7cd5b6676967b4c855c558ba17a0b33e",
+    "custom.3do": "083a9ffbd113992df72c6e0a9e9b763cda5b50873a64a012f98c71119bdd228a",
+    "hierarchy.3do": "3fe85ce99295aaedd9bd2aa628f5e4642a26e513d67eaa3e851852d9408529d9",
+    "metadata.3do": "1f8632f6a83b24917925fda6d732c60d1c8d1947c59fffd3174b2f48a91b19c8",
+    "mixed.3do": "356b447c94f59a00141f47a2d4c10bc317bd2ccff8b621ad6c48b8dbbf357fa7",
+    "split.3do": "c543c187d7508cc90a579a9d00191b737b88b366606b9a805fcf8e5175570575",
+    "uv_seam.3do": "a752885aad652c82edcd265f39615acbe778b2739167524dda13c05ea59e4e93"
+  },
+  "package_sha256": "a96477dfe0ee425c867d087ee53cf133efa3b07b2fc660a591aec7d94fc7c30c",
+  "source_commit": "0f401e672f9e28818bc7304407bf1cb781e65b70"
+}

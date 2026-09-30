@@ -26,3 +26,8 @@ model weights, reference photographs, community models, game assets,
 characters or trademarks. Those remain subject to their respective rights
 and licenses. No stock game files, third-party meshes or model weights are
 included. This is an independent fan workflow, not an official game product.
+
+The focused source snapshots under skills/jk-mots-model-workflow/assets/research-sources
+are separately licensed upstream material. Their original notices and license texts
+are retained beside the files; references/evidence/source-snapshots.json records
+provenance, hashes and scope. The MIT terms above do not relicense those snapshots.

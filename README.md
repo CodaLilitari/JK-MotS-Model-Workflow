@@ -14,20 +14,22 @@ Start with the [method and options guide](skills/jk-mots-model-workflow/referenc
 - Rigid hierarchy, KEY/PUP, material/UV interpretation, retail versus enhanced-engine options and reversible packaging.
 - ChatGPT Pro advisory and bounded delegation, with a reusable review packet.
 - Research references, source credits, small read-only tools and synthetic exporter probes.
+- Original-retail Windows and WSL/Wine test methods, hidden graphical and headless source-port tests, idle-camera captures, 8-bit material and renderer matrices, and conditional launch/wrapper repairs.
+- A local ComfyUI bridge, portfolio research-update checker, and optional findings-report drafts with explicit per-message sending consent.
 
 The package contains instructions, original analysis and tools. Supply your own game installation, model inputs and optional local model weights. Third-party game/mod assets and private conversations are not bundled.
 
 ## Install the skill
 
-Copy `skills/jk-mots-model-workflow` into the personal skills directory used by your Codex installation. In this project's tested desktop setup that directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
+Download and extract **JK-MotS-Model-Workflow-1.1.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
 
-PowerShell, from an extracted package:
+PowerShell, from an extracted complete release ZIP:
 
 ```powershell
 Copy-Item -LiteralPath '.\skills\jk-mots-model-workflow' -Destination "$HOME\.codex\skills\jk-mots-model-workflow" -Recurse
 ```
 
-If that destination already exists, compare versions before replacing it. You can also keep the repository anywhere and ask Codex to read its `SKILL.md` directly.
+If that destination already exists, compare versions before replacing it. You can also keep the source repository anywhere and ask Codex to read its `SKILL.md` directly; source checkouts can check research updates but should install a release ZIP to obtain the generated update baseline before applying them.
 
 Example:
 
@@ -47,12 +49,14 @@ python tools/build_release.py --output dist
 
 Read each tool's `--help` and the relevant reference before using it. A successful contract check does not certify game behavior.
 
-Release checks and their limits are recorded in [VALIDATION.md](VALIDATION.md). The full ZIP contains the research, skill, tests and package builder; the smaller skill ZIP installs as one folder and retains the same reference library and evidence records.
+Release checks and their limits are recorded in [VALIDATION.md](VALIDATION.md). One ZIP contains the research, skill, tests and package builder. The optional Blender-Sith extension is a separate add-on installed into Blender.
+
+**The ZIP includes the complete research corpus for local Codex use.** Readable portfolio pages and external source links supplement those files. The [update/reporting guide](skills/jk-mots-model-workflow/references/updates-and-reporting.md) explains automatic checks when the skill is used, optional research-only updates, and optional reports to the source. Nothing is emailed automatically.
 
 ## Research and compatibility
 
 The research preserves measurements, their source versions and the boundaries of the tests actually performed. TDIR custom rigs, JKE's historical patch requirement, Shred's art choices, OpenJKDF2 behavior and unmodified retail testing answer different questions. Use them to select and troubleshoot a route rather than assuming one universal polygon, node or texture rule.
 
-The Blender-Sith audit found upstream copies plus project-side wrappers and reproducible exporter problems. A source audit is not a bug fix; see [the audit](skills/jk-mots-model-workflow/references/blender-sith-audit.md) for the exact conclusion and future patch criteria.
+The original Blender-Sith audit found unchanged upstream copies plus project-side wrappers. Version 1.1.0 adds a focused [Blender-Sith fork](skills/jk-mots-model-workflow/references/blender-sith-fork.md) with actual normal-preservation and hexadecimal-metadata fixes, background regressions and retained upstream history. The [original audit](skills/jk-mots-model-workflow/references/blender-sith-audit.md) remains useful for understanding unresolved modifiers, mesh reuse and prior work. Blender itself is not forked.
 
 Direction and project work: Andrei Pemberton. Synthesis and engineering collaboration: Coda (Codex Lily). Source authors and upstream projects are credited in [CREDITS.md](CREDITS.md) and beside the relevant research. See [LICENSE](LICENSE) for this package's original material and the boundaries around cited third-party work.

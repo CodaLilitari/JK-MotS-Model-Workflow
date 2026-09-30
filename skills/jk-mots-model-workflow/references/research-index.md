@@ -13,9 +13,13 @@ This library is a portable synthesis of modeling projects, original-source analy
 | Where is local AI generation actually useful? | [Partial generation](partial-generation.md) | Hunyuan/TRELLIS/manual/donor choices, exact historical settings, conditioning failures and recovery |
 | Which texture method should I use? | [Textures and image generation](textures-and-imagegen.md) | Prompts, native-source handling, UV integration, diffuse versus painted lighting, local/GPT options |
 | How do I reduce/bake/export it? | [Blender export and baking](blender-export-and-baking.md) | CLI/UI alternatives, evaluated staging, color/geometry/analytic bake methods and serialization checks |
-| Do we have a fixed Blender-Sith fork? | [Source audit](blender-sith-audit.md) | Audited upstream identity, external wrappers, synthetic failures and criteria for a real patch |
+| Which Blender-Sith problems are fixed? | [Focused fork](blender-sith-fork.md), [original source audit](blender-sith-audit.md) | New normal/metadata fixes, exact regression results, prior external wrappers and unresolved exporter behavior |
 | How do I make the selected role playable? | [Runtime and packaging](runtime-and-packaging.md) | SP/MP/view-model distinctions, local resource derivation and practical checks |
+| How do I test the exact engine and graphics route? | [Testing methods](testing-methods.md) | Retail Windows, WSL/Wine/Xvfb, headless and hidden graphical source ports, idle camera, settings matrices and launch repairs |
+| How can Codex drive local 3D generation? | [Local generation automation](local-generation-automation.md) | ComfyUI API graphs, direct runners, node preflight, explicit submission, retained intermediates and artifact collection |
 | What should I delegate? | [Advisory and delegation](advisory-and-delegation.md) | Bounded Pro questions, local worker ownership, visual packets and independent checking |
+| How do references stay current, and how can I contribute? | [Updates and reporting](updates-and-reporting.md) | Portfolio research checks, local-edit preservation and optional per-report email permission |
+| What remains if an external source disappears? | [Source archive index](source-archive.md), [licensed snapshots](../assets/research-sources/README.md) | Original URLs, verified archived pages, local method notes, pinned source files, licenses and hashes |
 
 ## What changed decisions
 
@@ -25,7 +29,7 @@ This library is a portable synthesis of modeling projects, original-source analy
 | JKE's package patch requirement is broader than any one model | Historical package instructions and patch notes; measured individual assets | Separate an art-quality target from a whole-package engine dependency |
 | Original KEY domain and total hierarchy allocation are different obligations | KEY corpus and reader inspection; T800 integration | Reserve existing indices and size applicable allocations; do not equate NODES with JOINTS |
 | A larger atlas does not imply universally larger stored UVs | Renderer source plus identified Shred model mapping | Calibrate the selected renderer/export route; distinguish repacking from resolution |
-| Unapplied modifiers and sharp-normal splits can be lost | Fresh synthetic Blender-Sith probes | Use prepared export staging or a tested writer; a diagnosis is not an upstream fix |
+| Upstream loses sharp-normal splits; the focused fork preserves them | Matched upstream/fork synthetic export regressions | Choose the tested fork or a prepared/custom writer; unapplied modifiers remain a separate staging issue |
 | A generation mask can exist without reaching the encoder | Retained runner code and paired same-seed experiments | Inspect the prepared image; fix foreground/aspect preparation before another seed |
 | Another view or field extraction need not be another generation | Saved latent/field/extraction records | Reuse intermediates and preserve good anatomy |
 | A full textured generation path may contain geometry cleanup | Pinned TRELLIS code and compared outputs | Compare pipeline stages, not just a flag name; still inspect final topology |
