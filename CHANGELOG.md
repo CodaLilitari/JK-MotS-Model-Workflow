@@ -1,5 +1,13 @@
 # Changes
 
+## 1.3.0 — 2026-09-30
+
+- Add research from actual downloaded JK/MotS packages, native models/materials/animations, retained tool archives, manuals and pinned source. Inventory all 2,308 nonempty current Massassi packages with hashes, asset counts and explicit exceptions.
+- Add seven detailed MotS integration examples, three measured skin/material examples, native weapon/animation templates, and additional attributed community geometry, painting and diagnostic methods. Preserve Shred's and other original authors' specific contributions.
+- Record registry inconsistencies, resource dependencies, converter version differences, cells/mip loss checks and source-only defects as bounded test cases. No fresh runtime compatibility or recovered TDIR-beta/Sektor model is claimed.
+- Include every new chapter and compact evidence ledger in the one-download skill/research package and compatible research feed.
+
+
 ## 1.2.0 — 2026-09-30
 
 - Expanded the attributed community research on character hierarchy/pivots, stock and adapted motion, KEY/node types, gameplay markers, player selection, native POV and scripted alternatives, MAT conversion, palettes, UVs, mipmaps and model shading.

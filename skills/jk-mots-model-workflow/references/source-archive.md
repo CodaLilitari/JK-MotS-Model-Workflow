@@ -6,7 +6,7 @@ or the locally included analysis and licensed code. The workshop download retain
 the research. An archived page preserves a historical source; a newer engine or
 tool still needs its own compatibility check.
 
-The 30 September 2026 index covers **170 external source endpoints** from the research
+The 30 September 2026 index covers **222 external source endpoints** from the research
 library, recovery ledgers and credits, including pages and package downloads.
 **28 Wayback pages have confirmed working replays:** the 25
 previously checked pages plus three early TDIR project pages recovered through

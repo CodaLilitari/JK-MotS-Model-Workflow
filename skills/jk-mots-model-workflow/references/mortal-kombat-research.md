@@ -40,6 +40,10 @@ In a **June 7, 2022** Massassi Discord search result, **KnightCop** says a reque
 
 The accompanying member-visible, server-wide search returned zero results for `Sektor`, zero for `Cyrax`, and nine for the exact phrase `mortal kombat`; all nine phrase results were read. These bounded queries do not establish absence from older, unavailable or differently named material. The [source ledger](evidence/mortal-kombat-sources.json) preserves the query limits alongside the package evidence.
 
+## Wider downloaded-package check
+
+The later [all-package inventory](downloaded-corpus.md) found a `sektor.mat` filename in Calling the Corners — Sabers Version. Its inspected models and readme do not establish a Sektor player skin, and its 3DO material tables do not reference that MAT. The file-name hit is preserved as a bounded lead; it does not change the recovery conclusion above.
+
 ## Workflow lessons
 
 - Offer a reskin on a known working hierarchy when standard movement is sufficient; keep custom animation as a separately costed choice.

@@ -1,5 +1,15 @@
 # Release validation — 1.2.0
 
+## Version 1.3.0 research checks
+
+- The existing Python suite ran 46 tests: 45 passed and the Windows native symlink privilege case was skipped. No new converter, game or Blender runtime test was implied.
+
+- Rehashed all 2,308 current nonempty JK/MotS Massassi packages against acquisition records: zero mismatches. Passive indexing recorded 158,245 native member occurrences and 3,158 documents, with 76 explicitly listed errors/exclusions. Index counts include stock assets, duplicates and scenery; only identified character/weapon/material cases received detailed review.
+- Selected MotS package checks covered seven ZIPs, six GOO directories, 187 3DOs, nine KEYs and 1,931 MATs. Three additional skin packages supplied 110 MAT payloads, parsed to exact end of file. No appearance, animation playback or runtime certification follows from these structural checks.
+- Reviewed retained model/animation and converter ZIPs, selected source files, included manuals and prior original regression receipts. Historical binaries were not executed. New source-only concerns and earlier test results remain labeled separately.
+- Publication checks verify relative links, JSON parsing, privacy markers, package manifests and the unchanged updater's per-file/total size limits. Full release bytes and hosted readbacks are recorded separately from runtime evidence.
+
+
 Checked 2026-09-30. This record concerns the workflow, its small tools and the sources used to write it. It is not a newly built character or a new game-compatibility certification.
 
 ## Version 1.2.0 additions

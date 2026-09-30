@@ -2,7 +2,7 @@
   "schema_version": 1,
   "access_date": "2026-09-30",
   "scope": "External source links in public research Markdown and CREDITS, excluding the generated archive guide itself, portfolio selflinks, loopback examples and private chat routes.",
-  "inventory_count": 170,
+  "inventory_count": 222,
   "confirmed_wayback_snapshot_count": 28,
   "status_meanings": {
     "original_http_200": "Original link responded successfully to a bounded anonymous check; reachability can change.",
@@ -421,7 +421,8 @@
       "original_http_status": 200,
       "cited_in": [
         "skills/jk-mots-model-workflow/references/community-modeling-research.md",
-        "skills/jk-mots-model-workflow/references/compatibility.md"
+        "skills/jk-mots-model-workflow/references/compatibility.md",
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
       ],
       "archive_status": "not_queried_code_host_or_asset",
       "archived_url": null,
@@ -496,7 +497,8 @@
       "status": "original_http_200",
       "original_http_status": 200,
       "cited_in": [
-        "skills/jk-mots-model-workflow/references/compatibility.md"
+        "skills/jk-mots-model-workflow/references/compatibility.md",
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
       ],
       "archive_status": "snapshot_confirmed",
       "archived_url": "https://web.archive.org/web/20260729000321/https://www.massassi.net/jkspecs/3do.htm",
@@ -3570,7 +3572,8 @@
       "status": "original_http_200",
       "original_http_status": 200,
       "cited_in": [
-        "skills/jk-mots-model-workflow/references/community-modeling-research.md"
+        "skills/jk-mots-model-workflow/references/community-modeling-research.md",
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
       ],
       "archive_status": "lookup_deferred_rate_limit",
       "archived_url": null,
@@ -3636,6 +3639,7 @@
       "status": "original_http_200",
       "original_http_status": 200,
       "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md",
         "skills/jk-mots-model-workflow/references/community-modeling-research.md"
       ],
       "archive_status": "lookup_deferred_rate_limit",
@@ -4504,6 +4508,1001 @@
       "citation_urls": [
         "https://youtu.be/DJnS-FQ8sko"
       ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html",
+      "title": "PUP JOINTS discussion",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html",
+      "title": "Skin Pack Problem!",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11195_page_1.html",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11195_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11344_page_1.html",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11344_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11367_page_1.html",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11367_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html",
+      "title": "3do surface limit per mesh — mystery solved!",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html",
+      "title": "KeyEd =D",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "CREDITS.md",
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35097_page_1.html",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35097_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html",
+      "title": "3do Help",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html",
+      "title": "Making a new MP player model use a new pup",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_7709_page_1.html",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_7709_page_1.html"
+      ]
+    },
+    {
+      "original_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html",
+      "title": "Muzzle Flashes",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html",
+        "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html#post155391"
+      ]
+    },
+    {
+      "original_url": "https://github.com/Ecki81/jediknight2blender/blob/88aed6f7182dad72d5042d2f70d5eef0b7ed6b78/import_3do.py",
+      "title": "3DO importer source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "The citation identifies an exact commit. Any raw-source receipt is recorded with its actual capture URL; no new local licensed snapshot or archived replay is claimed.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "cited_commit": "88aed6f7182dad72d5042d2f70d5eef0b7ed6b78",
+      "citation_urls": [
+        "https://github.com/Ecki81/jediknight2blender/blob/88aed6f7182dad72d5042d2f70d5eef0b7ed6b78/import_3do.py"
+      ]
+    },
+    {
+      "original_url": "https://github.com/JKBoBoFett/MAT16/tree/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://github.com/JKBoBoFett/MAT16/tree/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7"
+      ]
+    },
+    {
+      "original_url": "https://github.com/bahstrike/Matt/tree/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://github.com/bahstrike/Matt/tree/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35"
+      ]
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdColormap.c",
+      "title": "active colormap reader",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "The citation identifies an exact commit. Any raw-source receipt is recorded with its actual capture URL; no new local licensed snapshot or archived replay is claimed.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "cited_commit": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "citation_urls": [
+        "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdColormap.c"
+      ]
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Primitives/rdModel3.c",
+      "title": "model loader",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "The citation identifies an exact commit. Any raw-source receipt is recorded with its actual capture URL; no new local licensed snapshot or archived replay is claimed.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "cited_commit": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "citation_urls": [
+        "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Primitives/rdModel3.c"
+      ]
+    },
+    {
+      "original_url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/sithThing.c",
+      "title": "thing-creation path",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "not_queried_code_host_or_asset",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "The citation identifies an exact commit. Any raw-source receipt is recorded with its actual capture URL; no new local licensed snapshot or archived replay is claimed.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "cited_commit": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "citation_urls": [
+        "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/sithThing.c"
+      ]
+    },
+    {
+      "original_url": "https://jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/tools/3DO/joke077.zip",
+      "title": "JOKE 0.77 ZIP",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/tools/3DO/joke077.zip"
+      ]
+    },
+    {
+      "original_url": "https://jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/tools/OTHER/JKPaint08.zip",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/tools/OTHER/JKPaint08.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/articles/df/make3do.htm",
+      "title": "Build Your Own Character",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/articles/df/make3do.htm"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/articles/df/tutorial.htm",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/articles/df/tutorial.htm"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1007.shtml",
+      "title": "BoaM Skin Pack v1.2",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1007.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1289.shtml",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1289.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1386.shtml",
+      "title": "Al's Skins for MotS S.E.",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1386.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1419.shtml",
+      "title": "DarkShroom's Kell Dragon Mutant",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1419.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1769.shtml",
+      "title": "Trade Federation",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1769.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/1903.shtml",
+      "title": "DBZ Saiyan 2.0",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/1903.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/240.shtml",
+      "title": "Sanctium, entry 240",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/240.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/2436.shtml",
+      "title": "DBZ Fighter v1.0 beta",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/2436.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/2552.shtml",
+      "title": "Atom's Hyperbolic Time Chamber",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/2552.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/540.shtml",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/540.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/545.shtml",
+      "title": "Source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-material-tools.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/545.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/617.shtml",
+      "title": "Milhouse's Imperial Enemy Pack",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/617.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/836.shtml",
+      "title": "Predator Patch Beta",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/836.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/837.shtml",
+      "title": "Phase 2 Darktrooper",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/837.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/861.shtml",
+      "title": "MotS children",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/861.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/867.shtml",
+      "title": "Calling the Corners — Sabers Version",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-corpus.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/867.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/levels/files/991.shtml",
+      "title": "Squashed Jabba",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-model-integration.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/levels/files/991.shtml"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/",
+      "title": "Massassi program catalog",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/3dokey/3doconverter.zip",
+      "title": "3DO Converter",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/3dokey/3doconverter.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/3dokey/pjedi_061.zip",
+      "title": "Puppet Jedi 0.61 ZIP",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/3dokey/pjedi_061.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/3dokey/trajjedi1_1.zip",
+      "title": "TrajJedi 1.1",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/3dokey/trajjedi1_1.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/3dokey/tsm.zip",
+      "title": "TSM 1.0.8",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/3dokey/tsm.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/programs/3dokey/zy3doview2.zip",
+      "title": "ZIP",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/programs/3dokey/zy3doview2.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/char_3do/",
+      "title": "Adding Sections/Sectors to 3dos",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/char_3do/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/enemy/",
+      "title": "Basic enemy modeling",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/enemy/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/mats_multicell/",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/mats_multicell/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/pivot_fix/",
+      "title": "Fixing Pivot Points on 3dos",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/pivot_fix/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/savguns/",
+      "title": "Creating New Weapons",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-geometry-animation.md",
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/savguns/"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/savguns/savguns.zip",
+      "title": "example archive",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/savguns/savguns.zip"
+      ]
+    },
+    {
+      "original_url": "https://www.massassi.net/tutorials/texturefaq/",
+      "title": "Original source",
+      "relevance": "Attributed source cited by the research chapter.",
+      "accessed_at": null,
+      "status": "provenance_link_not_separately_checked",
+      "original_http_status": null,
+      "cited_in": [
+        "skills/jk-mots-model-workflow/references/additional-surface-methods.md"
+      ],
+      "archive_status": "lookup_deferred_rate_limit",
+      "archived_url": null,
+      "archived_timestamp": null,
+      "archive_note": "An earlier bounded archive-service probe returned HTTP 429. No new availability lookup or archived replay is claimed for this source.",
+      "offline_preservation": "Original attributed synthesis is included in the cited research chapter; full source prose and attachments are not redistributed.",
+      "citation_urls": [
+        "https://www.massassi.net/tutorials/texturefaq/"
+      ]
     }
   ],
   "path_conventions": {
@@ -4516,7 +5515,7 @@
     "confirmed_wayback_snapshot_count": 25,
     "access_date": "2026-09-30"
   },
-  "unique_page_count": 170,
+  "unique_page_count": 222,
   "expansion_ledgers": [
     "skills/jk-mots-model-workflow/references/evidence/community-modeling-sources.json",
     "skills/jk-mots-model-workflow/references/evidence/community-surface-sources.json",

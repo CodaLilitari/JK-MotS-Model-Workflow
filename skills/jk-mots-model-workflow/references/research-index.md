@@ -2,10 +2,15 @@
 
 This library is a portable synthesis of modeling projects, original-source analysis, retained experiment receipts and focused community references. It is arranged around decisions another modeler or Codex instance needs to make. The dated observations are not a promise about every later tool release or game installation.
 
+The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool evidence: 2,308 hash-verified packages were indexed, then selected character, skin, animation, material and weapon cases received detailed review. Its portable ledgers identify what was inspected and what remains unexpanded or untested.
+
 ## Find the method
 
 | Question | Read | What you get |
 | --- | --- | --- |
+| What do our actual downloaded archives teach? | [Downloaded corpus](downloaded-corpus.md), [MotS integration](downloaded-model-integration.md) | Native file contracts, skin/personality alternatives, registry inconsistencies and a per-package hash inventory |
+| Which legacy authoring tools can I use? | [Tools and templates](downloaded-tools-geometry.md), [material tools](downloaded-material-tools.md) | Retained versions, real examples, automation limits and conversion loss checks |
+| What additional historical methods were checked? | [Geometry/animation](additional-geometry-animation.md), [surfaces](additional-surface-methods.md), [diagnostics](additional-discord-model-methods.md) | Attributed retargeting, rigid-boundary, painting, palette and exporter methods |
 | Which route should I offer the user? | [Methods and options](methods-and-options.md) | Five starting routes, relative effort, tool/surface alternatives and example recommendations |
 | What did TDIR, JKE and Shred do differently? | [Comparative research](jke-tdir-shred-research.md) | Source-linked author credits, measured rigs/meshes/materials/LODs, patch distinctions and transferable methods |
 | What is known about the earlier TDIR beta and extra skins? | [TDIR beta research](tdir-beta-research.md) | Recovered early roster pages, leak aliases, verified 1.1 counterexamples and an unresolved beta-binary search |

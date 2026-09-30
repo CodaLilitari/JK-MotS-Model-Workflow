@@ -63,6 +63,10 @@ The [current ModDB file listing](https://www.moddb.com/mods/the-destruction-is-r
 
 The early download references resolve against `http://www.jedinights.com/dbz/` as `dbz30.zip` and `video.zip`. Preserve those filenames as recovery leads, **not as verified working download links**. Historical project routes also include `tdir.hellraiser64.com` and `www.hellraiser64.com/tdir/`, identified by contemporary Massassi news. No additional mirror or guessed filename is asserted here.
 
+## Additional downloaded-corpus evidence
+
+The [broader package inspection](downloaded-corpus.md) confirms that DBZ Saiyan 2.0 is BeowulftheBard’s separately identified project and rechecks the different DBZ Fighter beta. A retained readme from Atom’s Hyperbolic Time Chamber uses TDIR and DBZ 4.0 together, adding contemporary alias evidence without recovering the missing beta. The broad inventory has explicit installer exclusions, so its filename search must not be presented as proof that no beta exists in any inaccessible or unexpanded material.
+
 ## How to authenticate a future candidate
 
 1. Preserve the source URL, acquisition date, byte count, SHA-256 and original filename. Record whether the provider claims to be an author, mirror or later collector.

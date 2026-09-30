@@ -54,6 +54,11 @@ For local 3D generation, choose the direct model runner or a verified ComfyUI AP
 
 ## Research to consult when needed
 
+- [Downloaded corpus](references/downloaded-corpus.md): actual mod/skin/weapon packages, tool archives and native file evidence; includes a portable inventory with package hashes and explicit exclusions.
+- [MotS native examples](references/downloaded-model-integration.md): cosmetic skins versus personality/weapon/body-state changes, registry checks, carried geometry and custom creature rigs.
+- [Native tools and templates](references/downloaded-tools-geometry.md) and [material converters](references/downloaded-material-tools.md): exact template contracts, versioned authoring tools, indexed/16-bit choices and cells/mip preservation.
+- [Additional animation](references/additional-geometry-animation.md), [surface methods](references/additional-surface-methods.md) and [model diagnostics](references/additional-discord-model-methods.md): attributed methods, controlled comparisons and unresolved hypotheses.
+
 - [jke-tdir-shred-research.md](references/jke-tdir-shred-research.md): historical alternatives, measurements, sources and credit.
 - [community-modeling-research.md](references/community-modeling-research.md): attributed character hierarchy, pivot, animation-event, skin and POV methods.
 - [community-surface-research.md](references/community-surface-research.md): community MAT, palette, UV, shading and exporter choices.

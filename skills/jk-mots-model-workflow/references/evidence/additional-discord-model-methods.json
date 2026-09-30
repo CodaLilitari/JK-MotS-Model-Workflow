@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "researched_utc": "2026-09-30",
+  "scope": "Twenty local FTS queries across the 28948-message downloaded index; 208 unique ranked results returned. Selected hits and relevant contextual messages inspected. 27 selected messages matched to original capture lines and full capture SHA-256 verified. Not an exhaustive reading. No attachment inspection or game execution.",
+  "sources": [
+    {
+      "message_id": "1470858245873860769",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1470858245873860769",
+      "channel": "editing",
+      "author": "Urgon",
+      "snowflake_created_utc": "2026-02-10T19:05:33.041000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "e5b3260bb81f9bc559e2efa128912a9a449f0f78f22d4b6bd31ce0a1ee0624c2",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1470858308146561237",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1470858308146561237",
+      "channel": "editing",
+      "author": "Urgon",
+      "snowflake_created_utc": "2026-02-10T19:05:47.888000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "79b00fade8a52b1d3b95240ea57941ae6d1a48582105f30251bb7de0e88f12ed",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1470861372387753995",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1470861372387753995",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2026-02-10T19:17:58.460000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "a5b1f40b25b6e824ed08840fa7e8b24221ca53e906ba3eabc3a8ebd5e2d3ab1b",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293785355371155558",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293785355371155558",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T04:01:06.090000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "3445d37f7cfbc390e0d34b355b0e18c7b15a26b0ec8505f76e5b4c1fcec693b4",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293796775093604434",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293796775093604434",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T04:46:28.764000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "53041d92a35ce8617e2975e504fcca07bbfeb01cce1ee824d81262fb1165058c",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293797397062877205",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293797397062877205",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T04:48:57.053000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "50edd46e06a3babb13e3160edc9ebbffdb86b810fae8d4a56ab3fd8f6e27dc8d",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293823449114087495",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293823449114087495",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T06:32:28.346000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "76a229fca88f7ead1ee1ba5139620a80c0eba124ca0e9323b20bfaf6bc0d5c31",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293728010683416628",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293728010683416628",
+      "channel": "editing",
+      "author": "Shred",
+      "snowflake_created_utc": "2024-10-10T00:13:14.051000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "6420b7affe4cf158510d2b242b58717df704789f6a76042e697b1e2eabd81670",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293728992477577349",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293728992477577349",
+      "channel": "editing",
+      "author": "Shred",
+      "snowflake_created_utc": "2024-10-10T00:17:08.129000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "ef63adf69ca3b614cbc4b5ace2999ca10cb29f6ec8aec328577d2f2b4f043540",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293729994945728532",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293729994945728532",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T00:21:07.136000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "87ad2eea11254bc33b8f4a099e2d98b878d7a4ac208de4e0c77856bae896d9e4",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1294079041841664046",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1294079041841664046",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-10T23:28:06.401000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "7d2d4b3cc526546f136af24263e80f15958d8faad3a9657c8122dca3c4700ed7",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1299590566337843252",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1299590566337843252",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-26T04:28:56.240000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "769aa24a2443ce4fe6fd2a0f9fcfaa879defe2a8225f08a551f8d2ec2e5686a6",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1305392288255709184",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1305392288255709184",
+      "channel": "editing",
+      "author": "Shred",
+      "snowflake_created_utc": "2024-11-11T04:42:54.536000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "9dc897d87eb28ec5d7bb2e0f28229f3880cd63fe9448034ef310dead7a09c2d2",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1477155244549865502",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1477155244549865502",
+      "channel": "editing",
+      "author": "shimstock",
+      "snowflake_created_utc": "2026-02-28T04:07:34.518000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "f57741f5a972e56f8f3ce3efc82f98eb393124611ff8d55d347b47761dc51085",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1477161955562356808",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1477161955562356808",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2026-02-28T04:34:14.548000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "4018ec2d5d670cb5d6f1e5f25a86f2d90dfc642c510de3a54c4b4eb29d83cbe8",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1477163035989770296",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1477163035989770296",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2026-02-28T04:38:32.142000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "ac840aad7af33edc38fd15a3020874b77d26ba49152820c7357886bcd5588267",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1477166900898435072",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1477166900898435072",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2026-02-28T04:53:53.608000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "5fa3bf31c0e51e6e1313882eca1f69036a959e511ca2365c571a829d925ffd8d",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1216325337537970277",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1216325337537970277",
+      "channel": "editing",
+      "author": "KnightCop [MTHN], Server Tag: MTHNMTHN",
+      "snowflake_created_utc": "2024-03-10T10:02:38.701000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "c97e3bfea350300a5cfac3c898e18c2f119bbcf2ee68ed78c7de274ef3bcb4dd",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1216327445041385492",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1216327445041385492",
+      "channel": "editing",
+      "author": "SMLiberator",
+      "snowflake_created_utc": "2024-03-10T10:11:01.169000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "2b423a9913183c786ae552c69dd8d7cdd6f8bf25d53d207745e4df4f36caee19",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1216335966713679973",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1216335966713679973",
+      "channel": "editing",
+      "author": "KnightCop [MTHN], Server Tag: MTHNMTHN",
+      "snowflake_created_utc": "2024-03-10T10:44:52.894000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "068ca98a804662cdf24db6acb55a38bb599ede56cb0eeb281db9473e4b6610c6",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1292895126850637955",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1292895126850637955",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-07T17:03:39.071000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "ed19d8596dd2468e0c7af1a4d011e64658f77c677ec82399371096fb15db69ed",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1292895775780634644",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1292895775780634644",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-07T17:06:13.788000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "29536c780b82019814f292188321fbb2b173a0184235e1f2eb535e388b7de65c",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1292896347925778614",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1292896347925778614",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-07T17:08:30.198000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "0a5f4fe9f66f01468570cebc8b3305ed8775498b4db15b4e198c11410aa1bc3c",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1292896802168635424",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1292896802168635424",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-07T17:10:18.498000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "148eb57ebd275727242adaea276ecb644b5bf9e3624defdca3da125e6780774d",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293036909685248031",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293036909685248031",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2024-10-08T02:27:02.733000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "caf9bbab928123dce73879581a9712cd292adce5886ad321121e8663f1454070",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1293734803824443432",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1293734803824443432",
+      "channel": "editing",
+      "author": "shimstock",
+      "snowflake_created_utc": "2024-10-10T00:40:13.662000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "6424e3197252cdbf3896fbb8b064581eb6fc700de551159c1a38d04dd64eee3d",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    },
+    {
+      "message_id": "1473225902954647602",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1473225902954647602",
+      "channel": "editing",
+      "author": "Stormtrooper",
+      "snowflake_created_utc": "2026-02-17T07:53:46.478000+00:00",
+      "captured_utc": "2026-09-25",
+      "capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "indexed_rendered_text_sha256": "287135e52e1573685720bab6c855c12dd5733c43b7ff99971b8df07a55c22888",
+      "attribution_confidence": "high: own rendered author/header/body checked; quoted reply excluded from attribution",
+      "evidence_class": "historical participant report; not newly reproduced"
+    }
+  ],
+  "findings": [
+    {
+      "id": "DISCORD-01",
+      "summary": "Check the indexed-MAT import path before changing a texture to cure a Blender transparency artifact.",
+      "source_message_ids": [
+        "1470858245873860769",
+        "1470858308146561237",
+        "1470861372387753995"
+      ]
+    },
+    {
+      "id": "DISCORD-02",
+      "summary": "A bake with no animation is a useful control for rig/rest-pose debugging.",
+      "source_message_ids": [
+        "1293785355371155558",
+        "1293796775093604434",
+        "1293797397062877205",
+        "1293823449114087495"
+      ]
+    },
+    {
+      "id": "DISCORD-03",
+      "summary": "Isolate scene state when KEY export says an existing node is missing.",
+      "source_message_ids": [
+        "1293728010683416628",
+        "1293728992477577349",
+        "1293729994945728532"
+      ]
+    },
+    {
+      "id": "DISCORD-04",
+      "summary": "Distinguish an animation editor's binding assumptions from a bad native animation.",
+      "source_message_ids": [
+        "1477155244549865502",
+        "1477161955562356808",
+        "1477163035989770296",
+        "1477166900898435072"
+      ]
+    },
+    {
+      "id": "DISCORD-05",
+      "summary": "For a second weapon attachment, distinguish the PUP role number from its mapped 3DO node.",
+      "source_message_ids": [
+        "1294079041841664046",
+        "1299590566337843252"
+      ]
+    },
+    {
+      "id": "DISCORD-06",
+      "summary": "Test attachment origins when evaluating pivot cleanup.",
+      "source_message_ids": [
+        "1305392288255709184"
+      ]
+    },
+    {
+      "id": "DISCORD-07",
+      "summary": "A hovering replacement actor with a much larger interaction envelope may be a template-size problem.",
+      "source_message_ids": [
+        "1216325337537970277",
+        "1216327445041385492",
+        "1216335966713679973"
+      ]
+    },
+    {
+      "id": "DISCORD-08",
+      "summary": "Using MP bodies as SP actors needs a spawn-count and weapon-state test matrix.",
+      "source_message_ids": [
+        "1292895126850637955",
+        "1292895775780634644",
+        "1292896347925778614",
+        "1292896802168635424",
+        "1293036909685248031"
+      ]
+    },
+    {
+      "id": "DISCORD-09",
+      "summary": "Correspondence-based native KEY editing is an alternative to a full modern rig pipeline.",
+      "source_message_ids": [
+        "1293734803824443432"
+      ]
+    },
+    {
+      "id": "DISCORD-10",
+      "summary": "Native animation can also be an input to a modern animation workflow.",
+      "source_message_ids": [
+        "1473225902954647602"
+      ]
+    }
+  ]
+}
