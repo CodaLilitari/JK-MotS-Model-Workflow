@@ -40,8 +40,12 @@ model files. A new executable tool requires installing a complete newer skill ZI
 New licensed source snapshots under `assets/research-sources/` also arrive through a
 complete release, so research prose cannot silently install an unreviewed code file.
 
-The release ZIP's copyable skill folder includes `PACKAGE-MANIFEST.json` as its original baseline;
-subsequent applied updates use `research-update-state.json`. A source-tree copy
+The release ZIP's copyable skill folder includes `PACKAGE-MANIFEST.json` as its original baseline.
+From 1.2.0 it also includes an initial `research-update-state.json`, which prevents a
+fresh install from accepting an older reference revision. Applied updates maintain
+that state. The 1.2 research remains compatible with the 1.1 updater; the research
+index links its new chapters without requiring changes to installed scripts or `SKILL.md`.
+A source-tree copy
 without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.

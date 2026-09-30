@@ -1,6 +1,19 @@
-# Release validation — 1.1.0
+# Release validation — 1.2.0
 
 Checked 2026-09-30. This record concerns the workflow, its small tools and the sources used to write it. It is not a newly built character or a new game-compatibility certification.
+
+## Version 1.2.0 additions
+
+- Skill-creator validation accepted the updated skill frontmatter and structure in UTF-8 mode.
+- The full Python suite ran **46 tests: 45 passed, 1 skipped**. The native Windows symlink test still requires a privilege unavailable to this process; simulated reparse-file and ancestor checks passed.
+- A new integration test builds and extracts the actual package builder's synthetic release, verifies that its initial research state refuses a stale revision before replacement downloads, and checks changed/new references on a historical 1.1 baseline while preserving installed scripts, `SKILL.md` and the package baseline.
+- Independent reviews checked source attribution and the distinction between author testimony, reported fixes, hypotheses and independent reproduction. Source ledgers retain retrieval sizes/hashes; exact coverage belongs in each chapter. The new forum pass did not execute historical converters, inspect linked artwork, or run a game.
+- Three recovered Mortal Kombat ZIPs were compared byte-for-byte across Massassi and JKDF2 mirrors. Independent archive reads checked their GOB contents and the fourteen MK2 model headers. These establish package contents, not a working Cyrax/Sektor skin or a new retail test.
+- TDIR source review checked the inspected GOB hashes, entry counts and selected members, corrected the distinction between the older embedded readme and later character-conversion credits, and verified the early DBZ 4.0 alias. The beta binary was not recovered.
+- The 1.2 reference feed retains a minimum compatible skill version of 1.1.0. The updater executable is unchanged. Full installs receive initial revision metadata as well as the original package baseline.
+- An independent audit applied the complete 33-file research feed to the exact published 1.1 ZIP: 19 references changed, including 12 new files. The upgraded library's 117 relative targets resolved; installed scripts, `SKILL.md` and the original package baseline stayed unchanged. Read-only checks wrote nothing, a repeated update was a no-op, local reference edits refused the entire batch without changing the tree, and a fresh 1.2 install rejected the older 1.1 feed before replacement downloads.
+- The final historical Discord review checked all 26 selected source claims against retained own-message evidence and independently recomputed 23 result pages, 472 message occurrences and 459 unique message IDs. This was evidence review, not a second live reading or runtime test.
+- Eight offline archive-index fixtures passed, including preservation of all 93 earlier records and merge idempotence. The expanded index contains 170 external endpoints and 28 confirmed Wayback replays; unverified recovery leads remain explicitly marked.
 
 ## Version 1.1.0 additions
 

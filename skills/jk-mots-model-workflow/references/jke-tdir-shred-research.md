@@ -2,6 +2,8 @@
 
 These projects show three useful choices: TDIR demonstrates purpose-built proportions and animation, JKE demonstrates detailed characters built around familiar numbered joints, and later Shred models demonstrate deliberate atlas use and compact geometry in an enhanced installation. Choose the approach that matches the character's silhouette and movement rather than treating polygon count or a patch name as a quality setting.
 
+The later [community model-methods research](community-discord-model-methods.md) adds Shred's own account of TDIR's three animation sets and replacement-resource strategy, plus practical rig/export decisions. For pre-release identity and the advertised additional characters, use the separate [TDIR / DBZ 4.0 investigation](tdir-beta-research.md); an advertised roster is not a recovered beta payload.
+
 ## Which precedent fits the requested model?
 
 | Desired result | Useful precedent | Apply it this way |

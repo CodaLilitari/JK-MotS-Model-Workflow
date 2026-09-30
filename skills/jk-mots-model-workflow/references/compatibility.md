@@ -2,6 +2,8 @@
 
 Use this reference for player, NPC, creature, and weapon models in Jedi Knight: Dark Forces II and Mysteries of the Sith. A supported target is a complete combination of game executable, patch or source-port build, renderer, model, materials, animation resources, and integration route. The name “JK compatible” alone is insufficient.
 
+For attributed community procedures and failure cases, read [character and animation methods](community-modeling-research.md): hierarchy and pivot placement, adapted keys, node-type blending, event markers, MP selection and separate POV hands.
+
 ## Choose a modeling method
 
 Start by asking what the character needs to do differently. Offer the user the plausible methods below with their visual gains and cost. More complex rigging is useful when the design requires it; it is not automatically the better result.

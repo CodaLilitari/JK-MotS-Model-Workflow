@@ -6,18 +6,45 @@ or the locally included analysis and licensed code. The workshop download retain
 the research. An archived page preserves a historical source; a newer engine or
 tool still needs its own compatibility check.
 
-The 30 September 2026 index covers **93 external links** from the research library
-and credits. **25 Wayback pages have confirmed working replays.** It records the
-original URL, title, purpose, access date, response status and confirmed archive URL
-for each source. Twenty-six entries have observed commit pins; all 28 distinct
-pin/maintained-alternative URLs checked successfully. Pins preserve a revision's
-identity while the host remains available; they are not automatically local copies.
+The 30 September 2026 index covers **170 external source endpoints** from the research
+library, recovery ledgers and credits, including pages and package downloads.
+**28 Wayback pages have confirmed working replays:** the 25
+previously checked pages plus three early TDIR project pages recovered through
+their exact dated replay URLs. Those three were fetched and their content inspected;
+they do not imply an availability-API check or a successful request to the original
+site today. All 93 earlier source records and their historical observations remain
+intact. Citation fragments share one page record while retaining each exact link.
+
+Each record retains its source identity, purpose and available access or archive
+evidence. An untested link stays marked untested. Thirty records carry a source pin;
+the earlier verification of 28 distinct pin/maintained-alternative URLs remains
+recorded separately. New raw-code receipts identify their actual retrieval endpoints
+and do not certify that the corresponding GitHub HTML page was reachable. Pins
+preserve a revision's identity while the host remains available; they are not
+automatically local copies.
+
+Discord message links have separate coverage and attribution ledgers and are
+excluded from this public-endpoint inventory. The [recent-message ledger](evidence/community-discord-sources.json)
+selects 18 sources from 300 saved messages in three channels, dated 26–30 September
+2026. The [historical-method ledger](evidence/community-discord-model-methods.json)
+selects 23 sources from a live server-wide reading of 472 message occurrences
+(459 unique IDs), with visible dates spanning 2021–2026, plus three separately
+reviewed TDIR messages. The [Mortal Kombat ledger](evidence/mortal-kombat-sources.json)
+records a further Reiko lead and bounded search results. These overlapping
+collections must not be added together as a deduplicated server-history total.
+Their concise technical synthesis is included offline; no public Discord replay
+or complete-server reading is claimed.
 
 ## What remains usable offline
 
 | Need | Included material |
 | --- | --- |
 | Choose a modeling method without reopening a forum | [Methods and options](methods-and-options.md), [compatibility](compatibility.md), and [JKE/TDIR/Shred research](jke-tdir-shred-research.md) preserve the practical synthesis, attributed historical advice, identified input hashes and measured model examples |
+| Recover detailed community methods and who taught them | [Community modeling](community-modeling-research.md) and [surface research](community-surface-research.md) retain attributed methods from 40 distinct forum discussions, eight tutorials and one news repost, with exact reading scope and source receipts |
+| Evaluate recent weapon-hand and tool advice | [Discord research](community-discord-research.md) retains a bounded synthesis, author attribution and counterexamples; saved-message context does not establish completed runtime testing |
+| Learn historical hierarchy, LOD, normals and animation methods | [Discord model methods](community-discord-model-methods.md) preserves Shred's practical methods and corrections, Stormtrooper's rigid-object animation workflow, Urgon's dated exporter status and SMLiberator's normal-format diagnosis |
+| Distinguish TDIR's early plans, leaked build and later release | [TDIR beta research](tdir-beta-research.md) preserves contemporary identities, early character leads and actual 1.1 comparison evidence; the beta binary remains unlocated and unauthenticated |
+| Recover historical Mortal Kombat model leads | [Mortal Kombat research](mortal-kombat-research.md) preserves three package identities, original/mirror hashes, measured model headers and the unresolved Cyrax/Sektor status; live mirrors are distinct from dated archival replays |
 | Reconstruct texture/bake decisions | [Blender export and baking](blender-export-and-baking.md), [textures](textures-and-imagegen.md), and the [Terminator case study](terminator-case-study.md) preserve the recipe and what was actually checked |
 | Understand local mesh generation and automation | [Partial generation](partial-generation.md) and [local generation automation](local-generation-automation.md), plus the selected source files below |
 | Repeat a meaningful model test | [Testing methods](testing-methods.md), [runtime and packaging](runtime-and-packaging.md), and the bundled runtime-test-plan template |
@@ -68,6 +95,19 @@ universal engine guarantee.
   character/animation system from detailed familiar-rig construction. TDIR's
   alternative body branches need matching tracks; JKE's rigid detail children do
   not become cloth simulation. Release identity and supported installation matter.
+- **Shred18's hierarchy and surface advice:** the additional discussions explain
+  parent/pivot placement and retaining a familiar animation hierarchy, while his
+  texture comments distinguish deliberate brush/bump work from an assumed noise
+  filter. Preserve the author, post context and uncertainty instead of reducing the
+  advice to an unattributed recipe.
+- **Early TDIR roster evidence:** the archived project page advertises SSJ4 Goku,
+  SSJ4 Vegeta, Super 13 and Super 17. Advertisement is not proof of inclusion in the
+  leak. King Kai, King Vegeta, Mr. Popo and Tapion are present in the inspected 1.1
+  assets and must not be mislabeled beta-only.
+- **External weapon hands:** Shred's shared-resource explanation and the reported
+  Repeater counterexample support offering separate options: retain the stock hand,
+  conceal it in one character, replace shared assets, or add character-aware weapon
+  integration. The saved discussion does not demonstrate a universal fix.
 - **Blender's geometry interfaces:** evaluated geometry and source-mesh geometry
   are different inputs. Per-corner normals carry sharp/custom shading distinctions
   that a single averaged vertex normal loses. Bake/export a prepared copy and inspect
@@ -121,6 +161,9 @@ its linked downloads were also archived.
 | Jon`C: conflicting Windows compatibility database | [Original](https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_33.html) | [Wayback](https://web.archive.org/web/20241010090110/https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_33.html) | 2024-10-10 |
 | Windows color-error follow-up | [Original](https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_34.html) | [Wayback](https://web.archive.org/web/20240909111131/https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_34.html) | 2024-09-09 |
 | Install/Uninstall Custom Databases (Windows 10) - Windows 10 / Microsoft Learn | [Original](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/installing-and-uninstalling-custom-compatibility-databases-in-compatibility-administrator) | [Wayback](https://web.archive.org/web/20260219140010/https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/compatibility/installing-and-uninstalling-custom-compatibility-databases-in-compatibility-administrator) | 2026-02-19 |
+| Early TDIR project FAQ | [Original](http://www.jedinights.com:80/dbz/FAQ.html) | [Wayback](https://web.archive.org/web/20010125035700id_/http://www.jedinights.com:80/dbz/FAQ.html) | 2001-01-25 |
+| Early TDIR project files page | [Original](http://www.jedinights.com:80/dbz/files.html) | [Wayback](https://web.archive.org/web/20010125093600id_/http://www.jedinights.com:80/dbz/files.html) | 2001-01-25 |
+| Early TDIR project character page | [Original](http://www.jedinights.com:80/dbz/char.html) | [Wayback](https://web.archive.org/web/20010224000716id_/http://www.jedinights.com:80/dbz/char.html) | 2001-02-24 |
 
 ## Sources without a confirmed replay
 
@@ -136,6 +179,10 @@ confirmed snapshot here. Several original endpoints denied the automated request
 and some GitHub project links returned anonymous 404 despite maintained GitLab
 alternatives. Those statuses do not prove that a project was deleted. Later archive
 lookups were rate-limited; no archive-submission queue was treated as a saved page.
+The expanded forum/tutorial sources retain attribution, original synthesis and
+retrieval receipts while new availability lookups remain deferred. The three known
+TDIR replays above are explicitly verified exceptions, not evidence that every new
+source or its linked download has been archived.
 
 For code, prefer a supplied commit pin, a verified maintained alternative, or the
 licensed local snapshot. The index retains live release/tag links when no exact

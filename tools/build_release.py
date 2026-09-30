@@ -9,8 +9,9 @@ import stat
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.1.0"
-RESEARCH_REVISION = 2026093001
+VERSION = "1.2.0"
+RESEARCH_REVISION = 2026093002
+RESEARCH_REQUIRES_SKILL_VERSION = "1.1.0"
 
 
 def selected_files(root):
@@ -71,16 +72,19 @@ def main():
     skill = [(name[len(skill_prefix):], data) for name, data in files if name.startswith(skill_prefix)]
     skill += [(name, data.replace(b"skills/jk-mots-model-workflow/", b"") if name == "CREDITS.md" else data)
               for name, data in files if name in ("LICENSE", "CREDITS.md")]
+    research = {"schema_version": 1, "scope": "research-only", "version": VERSION,
+                "requires_skill_version": RESEARCH_REQUIRES_SKILL_VERSION, "research_revision": RESEARCH_REVISION,
+                "files": [{"path": name, "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}
+                          for name, data in skill if name.startswith("references/") and name.endswith((".md", ".json"))]}
+    # A fresh full install must reject an older research feed before its first update.
+    initial_state = {key: research[key] for key in ("schema_version", "version", "research_revision", "files")}
+    skill.append(("research-update-state.json", (json.dumps(initial_state, indent=2) + "\n").encode()))
     # One complete download includes a copyable skill with its baseline/notices.
     skill_manifest = {"version": VERSION, "files": [{"path": name, "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}
                                                      for name, data in skill]}
-    full = list(files) + [(skill_prefix + name, data) for name, data in skill if name in ("LICENSE", "CREDITS.md")]
+    full = list(files) + [(skill_prefix + name, data) for name, data in skill if name in ("LICENSE", "CREDITS.md", "research-update-state.json")]
     full.append((skill_prefix + "PACKAGE-MANIFEST.json", (json.dumps(skill_manifest, indent=2) + "\n").encode()))
     receipts = [archive(args.output / f"JK-MotS-Model-Workflow-{VERSION}.zip", full, f"JK-MotS-Model-Workflow-{VERSION}")]
-    research = {"schema_version": 1, "scope": "research-only", "version": VERSION,
-                "requires_skill_version": VERSION, "research_revision": RESEARCH_REVISION,
-                "files": [{"path": name, "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}
-                          for name, data in skill if name.startswith("references/") and name.endswith((".md", ".json"))]}
     research_bytes = (json.dumps(research, indent=2) + "\n").encode()
     (args.output / "research-updates.json").write_bytes(research_bytes)
     research_receipt = {"name": "research-updates.json", "bytes": len(research_bytes), "sha256": hashlib.sha256(research_bytes).hexdigest()}

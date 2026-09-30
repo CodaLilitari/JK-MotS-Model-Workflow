@@ -8,7 +8,13 @@ This library is a portable synthesis of modeling projects, original-source analy
 | --- | --- | --- |
 | Which route should I offer the user? | [Methods and options](methods-and-options.md) | Five starting routes, relative effort, tool/surface alternatives and example recommendations |
 | What did TDIR, JKE and Shred do differently? | [Comparative research](jke-tdir-shred-research.md) | Source-linked author credits, measured rigs/meshes/materials/LODs, patch distinctions and transferable methods |
+| What is known about the earlier TDIR beta and extra skins? | [TDIR beta research](tdir-beta-research.md) | Recovered early roster pages, leak aliases, verified 1.1 counterexamples and an unresolved beta-binary search |
 | How do I keep stock animation or choose a custom rig? | [Compatibility](compatibility.md) | Numbered hierarchy, reserved animation domain, allocation, mesh budgets and integration recipes |
+| What can I learn from the community's modeling and animation work? | [Community character methods](community-modeling-research.md) | Shred's hierarchy/pivot procedure, stock versus adapted keys, blending types, event markers, player selection and separate POV choices |
+| Which community texture and export techniques are useful? | [Community surface methods](community-surface-research.md) | Attributed MAT, palette, UV, shading, mipmap and converter decisions, including unresolved diagnoses |
+| What recent Discord model advice has been checked? | [Community Discord research](community-discord-research.md) | Shared weapon hands, concealment and the Repeater exception; tool/generation advice with exact limited coverage |
+| What do older Discord modeling discussions add? | [Earlier community methods](community-discord-model-methods.md) | Credited hierarchy, export, shading and resource-budget advice, with serverwide search coverage recorded |
+| Which old Mortal Kombat skins were recovered? | [Historical skin research](mortal-kombat-research.md) | Three verified archives, actual MK2 models, advertised Cyrax and unresolved Sektor recovery |
 | How did the Terminator collaboration work? | [Terminator case study](terminator-case-study.md) | Red/Lily/Coda lineage, bounded proportion edits, analytic chrome, piston repair and hand alternatives |
 | Where is local AI generation actually useful? | [Partial generation](partial-generation.md) | Hunyuan/TRELLIS/manual/donor choices, exact historical settings, conditioning failures and recovery |
 | Which texture method should I use? | [Textures and image generation](textures-and-imagegen.md) | Prompts, native-source handling, UV integration, diffuse versus painted lighting, local/GPT options |
@@ -37,6 +43,13 @@ This library is a portable synthesis of modeling projects, original-source analy
 | A technically concealing hand can be visually unacceptable | Rejected/retained T800 variants and bounded game observations | Present shape/concealment options; do not make endless enlargement the default |
 
 ## Reading evidence correctly
+
+The 1.2 community character and surface chapters draw on **40 distinct forum
+discussions, eight tutorials and one public news announcement** after deduplicating
+their overlap. Three of those discussions revisit sources in the earlier library;
+37 are newly covered there. Their linked ledgers distinguish the pages and posts
+actually read, screened omissions and source-code corroboration. This is focused
+technical research, not a claim that every Massassi discussion has been reviewed.
 
 The references identify **measured artifact facts**, **historical author statements**, **source-derived behavior**, **observed runtime cases**, and **recommended methods**. A later agent should preserve those distinctions while using the knowledge. The purpose is to make good modeling decisions, not require every historical experiment for every request.
 

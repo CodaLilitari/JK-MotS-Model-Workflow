@@ -14,6 +14,8 @@ Start with the [method and options guide](skills/jk-mots-model-workflow/referenc
 - Rigid hierarchy, KEY/PUP, material/UV interpretation, retail versus enhanced-engine options and reversible packaging.
 - ChatGPT Pro advisory and bounded delegation, with a reusable review packet.
 - Research references, source credits, small read-only tools and synthetic exporter probes.
+- Attributed community methods for 3DO construction, hierarchy/pivots, animation events, POV hands, MAT/palette conversion, UVs, mipmaps and shading diagnosis.
+- Historical TDIR / DBZ 4.0 and Mortal Kombat skin investigations, with verified archive contents, exact recovery leads and unresolved findings kept distinct.
 - Original-retail Windows and WSL/Wine test methods, hidden graphical and headless source-port tests, idle-camera captures, 8-bit material and renderer matrices, and conditional launch/wrapper repairs.
 - A local ComfyUI bridge, portfolio research-update checker, and optional findings-report drafts with explicit per-message sending consent.
 
@@ -21,7 +23,7 @@ The package contains instructions, original analysis and tools. Supply your own 
 
 ## Install the skill
 
-Download and extract **JK-MotS-Model-Workflow-1.1.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
+Download and extract **JK-MotS-Model-Workflow-1.2.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
 
 PowerShell, from an extracted complete release ZIP:
 

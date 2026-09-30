@@ -4,6 +4,8 @@ Generate useful surface sources and then map them deliberately. A beautiful squa
 
 This document covers character and prop models. It does not prescribe level materials, map lighting or level design.
 
+The [community surface research](community-surface-research.md) adds original modelers' MAT, palette, mipmap, UV and shading advice, with historical converter differences and unresolved explanations identified.
+
 ## Choose a texture method
 
 | Method | Best use | Cost or limitation | Practical recommendation |

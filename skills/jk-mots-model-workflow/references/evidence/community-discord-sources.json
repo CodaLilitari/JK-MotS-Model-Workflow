@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-09-30",
+  "scope": "Saved Massassi Discord discussion relevant to JKDF2/MotS character and weapon models; excludes level design.",
+  "coverage": {
+    "unique_messages_screened": 300,
+    "unique_channels": 3,
+    "channel_message_counts": {
+      "editing": 210,
+      "showcase": 57,
+      "massassi": 33
+    },
+    "observed_page_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "saved_search_page_records": 25,
+    "nonempty_records": 15,
+    "empty_records": 10,
+    "message_occurrences": 375,
+    "duplicate_occurrences": 75,
+    "text_variants_for_same_message_id": 0,
+    "displayed_calendar_range": [
+      "2026-09-26",
+      "2026-09-30"
+    ],
+    "full_text_keyword_candidates_reviewed": 88,
+    "selected_messages": 18,
+    "complete_guild_or_month_review": false,
+    "new_discord_ui_or_network_actions": 0,
+    "attachments_or_images_inspected": 0,
+    "new_game_runtime_tests": 0
+  },
+  "query_bounds_present_in_saved_records": [
+    "after:2026-08-31 before:2026-10-01",
+    "before:2026-10-01"
+  ],
+  "coverage_note": "Date bounds describe saved searches, not a complete search result set. All captured channel texts were screened; relevant candidates and local surrounding replies were read. Empty and repeated captures do not enlarge coverage.",
+  "screening_terms_regex": "3do|\\bmat\\b|\\bcmp\\b|\\bkeys?\\b|\\bpup\\b|model|skin|mesh|vert|hierarch|pivot|animat|weapon|hand|fist|repeater|texture|normal|shader|gouraud|\\bLOD\\b|mip|Shred|TDIR|JKE|Blender|Hunyuan|Comfy|rig|export|bak|poly|triang|joint|cable|piston|\\bMP\\b|multiplayer|retail|chrome|palette|dflt|costume|face|arm|skeleton",
+  "extraction_corrections": [
+    {
+      "issue": "Quoted reply text can populate convenience body instead of the author's own reply.",
+      "examples": [
+        "1553970405952200725",
+        "1554079206810583071"
+      ],
+      "method": "Read the own author/header and following content in full text."
+    },
+    {
+      "issue": "A quoted edited-message timestamp can populate convenience time.",
+      "method": "Use the selected message's own complete header and retain its display timezone as unspecified."
+    }
+  ],
+  "source_strength_policy": "Participant testimony, proposals, acknowledgments, source-code mechanism and prior project measurements are distinguished; none is newly reproduced runtime evidence.",
+  "rights": "Concise original technical synthesis and attribution only; no full chats, signed attachment URLs, private paths, images or game assets are included.",
+  "captures": [
+    {
+      "sha256": "0ab54abb16f2d11ba082217693b3c2dcd2eb5d8bc9b2934c1b49cb185a6e82dd",
+      "bytes": 14727,
+      "observed_page": "Page 9",
+      "page": 9,
+      "observed_utc": "2026-09-30T19:31:04.464Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "102437476398d5c4f1e30ba5228a85ca0b2647ac1d56592e5da4f6ae0e8de8a6",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:51.581Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "158b05fdaa9ad4588cc867e771746ec5f46885a3340f134c5db242282ab5cddd",
+      "bytes": 238,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:57.967Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "20b9f027943007f00163856f5ee3c7724b0a09a66855950314b3774dd511e8f7",
+      "bytes": 27116,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:44.045Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "21f512c0bc01a60d8a031cd1a68cb66e669c4d1e28fc04247747c225936d3228",
+      "bytes": 16315,
+      "observed_page": "Page 3",
+      "page": 3,
+      "observed_utc": "2026-09-30T19:30:49.291Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "23d3cadd565962cc3965897cb6c9cfac1581a723888c8fd7266f39ff55389b2f",
+      "bytes": 16264,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:56.455Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "395771b2d5968d730e083497f5838d9c08069ebcc54e192af23eb6f4dd42baa2",
+      "bytes": 15755,
+      "observed_page": "Page 11",
+      "page": 11,
+      "observed_utc": "2026-09-30T19:31:08.289Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "3c1d338d499bdcc6a0dd65c321d076bcd9dfda7d9475daeffcee4e826435d16c",
+      "bytes": 16310,
+      "observed_page": "Page 10",
+      "page": 10,
+      "observed_utc": "2026-09-30T19:31:06.394Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "3f9caca5d4a7ad4349cd6383bd0f0f5cecdf68124924fb51b0af79658edb6ae5",
+      "bytes": 15714,
+      "observed_page": "Page 6",
+      "page": 6,
+      "observed_utc": "2026-09-30T19:30:56.544Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "4a94ca2b1f35abe2fbc2caccd7d776e7a3f1a705108353daf72361d2e743b530",
+      "bytes": 16788,
+      "observed_page": "Page 5",
+      "page": 5,
+      "observed_utc": "2026-09-30T19:30:53.968Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "4c175393ff488ae30cbd1fed7085d46be2cedac72e0e13ad00160ce919ea2022",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:49.397Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "507e500b81a5e4c6b50abd94c302dd6635c4037502115addb51e0c6ef32c1946",
+      "bytes": 235,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:45.811Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "69a9ac39c784cb6a40e2464c733d19879e2a4d8ee05cb840baac076a67e18693",
+      "bytes": 27160,
+      "observed_page": "Page 1",
+      "page": 1,
+      "observed_utc": "2026-09-30T19:30:45.674Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "6a6f089fd86d3eddee06e1aa3a2b4dee42b7946edf0d686984bc9048f017fb06",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:52.583Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8",
+      "bytes": 17597,
+      "observed_page": "Page 2",
+      "page": 2,
+      "observed_utc": "2026-09-30T19:30:48.031Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "9097e294bc1ac28fcda33503202882a3362be334a84b496464ef11f6332dbc77",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:50.405Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "91f07096eed99b3f022d722935192fd2343c32d485d2dbd5394a0102d066c135",
+      "bytes": 27205,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:09.973Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "9d34aadad170b7ecf2cb0ae2562dfafad9eb86f90eb8a1a359176def1d71add3",
+      "bytes": 14398,
+      "observed_page": "Page 8",
+      "page": 8,
+      "observed_utc": "2026-09-30T19:31:01.697Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "b1e03888c83e29ec7c6ad654fbc6d7b925b7d64a5487a96aaa60f04e8220a874",
+      "bytes": 238,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:54.982Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "c6fc8da1d215f3a22ec29a987d88f519ad5bc4c793a98d90fd8d7cf316b6aeb1",
+      "bytes": 235,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:46.809Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "cca6029a90823ed4b6e4fc4fb4725735d359ed843e0ea51e3450680cf08711f8",
+      "bytes": 17328,
+      "observed_page": "Page 4",
+      "page": 4,
+      "observed_utc": "2026-09-30T19:30:52.348Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "d44bde607f438ef520609bd437d64db193c8596ef66e351cdbd939548338a5eb",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:53.689Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "e471ca4917ab8bea467289274a0f63b6403fc5160d80c42beba25d3946bdddd9",
+      "bytes": 237,
+      "observed_page": null,
+      "page": 1,
+      "observed_utc": "2026-09-30T19:29:47.944Z",
+      "query": "before:2026-10-01",
+      "message_occurrences": 0
+    },
+    {
+      "sha256": "e9e3575831902791297735934f27b58092fc11729adf41d111bade70147f6f80",
+      "bytes": 21382,
+      "observed_page": "Page 12",
+      "page": 12,
+      "observed_utc": "2026-09-30T19:31:10.314Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    },
+    {
+      "sha256": "eb1f1572eb592d479e892ab5bac807d823c31bce0cf84ae631c6c48667b6e588",
+      "bytes": 17972,
+      "observed_page": "Page 7",
+      "page": 7,
+      "observed_utc": "2026-09-30T19:30:59.338Z",
+      "query": "after:2026-08-31 before:2026-10-01",
+      "message_occurrences": 25
+    }
+  ],
+  "sources": [
+    {
+      "id": "1553970405952200725",
+      "kind": "discord_message",
+      "author": "Shred",
+      "channel": "editing",
+      "date_displayed": "2026-09-27",
+      "own_header_display_time": "Sunday, September 27, 2026 at 11:23 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1553970405952200725",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "shared external fist",
+      "original_summary": "Shred explains that changing the shared external fist affects other player characters in the ordinary multiplayer setup.",
+      "practical_decision": "Choose between shared replacement and a character-specific solution.",
+      "evidence_strength": "Experienced participant explanation; inherited weapon-object architecture corroborates the distinction.",
+      "limitations": "No new multiplayer reproduction or exhaustive statement about all possible scripts.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "9d34aadad170b7ecf2cb0ae2562dfafad9eb86f90eb8a1a359176def1d71add3"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:31:01.697Z"
+      ]
+    },
+    {
+      "id": "1554028887749562409",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "editing",
+      "date_displayed": "2026-09-28",
+      "own_header_display_time": "Monday, September 28, 2026 at 3:15 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554028887749562409",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "concealment proposal",
+      "original_summary": "DarkahnKiralv proposes enlarging the character hand to conceal the separate flesh hand, while noting the risk of an exaggerated silhouette.",
+      "practical_decision": "Offer modest concealment as an experiment with an explicit aesthetic cost.",
+      "evidence_strength": "Author proposal.",
+      "limitations": "The parent reply is unavailable in this capture; this message is not a completed success report.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "eb1f1572eb592d479e892ab5bac807d823c31bce0cf84ae631c6c48667b6e588"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:59.338Z"
+      ]
+    },
+    {
+      "id": "1554079206810583071",
+      "kind": "discord_message",
+      "author": "Shred",
+      "channel": "editing",
+      "date_displayed": "2026-09-28",
+      "own_header_display_time": "Monday, September 28, 2026 at 6:35 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554079206810583071",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "response to concealment proposal",
+      "original_summary": "Shred encourages trying the proposed concealment approach.",
+      "practical_decision": "Preserve the distinction between advice to try an idea and a tested result.",
+      "evidence_strength": "Participant encouragement, not certification.",
+      "limitations": "Convenience body field incorrectly contains the quoted proposal; Shred's own response comes after his full-text header.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "eb1f1572eb592d479e892ab5bac807d823c31bce0cf84ae631c6c48667b6e588"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:59.338Z"
+      ]
+    },
+    {
+      "id": "1554765965454086236",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "editing",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 4:04 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554765965454086236",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "Repeater counterexample",
+      "original_summary": "DarkahnKiralv reports residual Repeater-hand exposure and an unattractive result when enlarging the cover further.",
+      "practical_decision": "Test every weapon placement rather than generalizing a successful fist or pistol view.",
+      "evidence_strength": "First-person participant report of a limitation.",
+      "limitations": "Parent reply unavailable; screenshots not inspected, no fresh runtime or connected-client test.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554766828335796235",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "editing",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 4:08 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554766828335796235",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "stock-derived hand construction",
+      "original_summary": "DarkahnKiralv describes a slightly enlarged silver hand derived from the regular fist and applied to the character.",
+      "practical_decision": "Use owned local resources and keep derived game geometry out of an original-asset redistribution claim.",
+      "evidence_strength": "Author construction description; inherited local recipe independently documents that approach.",
+      "limitations": "This statement does not prove texture completion or concealment of every weapon.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1553580220588752937",
+      "kind": "discord_message",
+      "author": "Stormtrooper",
+      "channel": "editing",
+      "date_displayed": "2026-09-26",
+      "own_header_display_time": "Saturday, September 26, 2026 at 9:33 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1553580220588752937",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "Blender-Sith tool choice",
+      "original_summary": "Stormtrooper recommends Blender-Sith for model design and animation.",
+      "practical_decision": "Use the model exporter for a model task and verify its current supported version.",
+      "evidence_strength": "Community recommendation.",
+      "limitations": "Adjacent level-design opinions are outside this reference; no add-on regression result is inferred.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "e9e3575831902791297735934f27b58092fc11729adf41d111bade70147f6f80"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:31:10.314Z"
+      ]
+    },
+    {
+      "id": "1553584207396208751",
+      "kind": "discord_message",
+      "author": "LadyEebs",
+      "channel": "editing",
+      "date_displayed": "2026-09-26",
+      "own_header_display_time": "Saturday, September 26, 2026 at 9:48 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1553584207396208751",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "Blender authorship testimony",
+      "original_summary": "LadyEebs states that Blender was used to make the Redux models.",
+      "practical_decision": "Treat Blender as a demonstrated authoring choice without assuming a particular automation interface.",
+      "evidence_strength": "Author testimony.",
+      "limitations": "No project files, exporter settings or current integration result were examined here.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "e9e3575831902791297735934f27b58092fc11729adf41d111bade70147f6f80"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:31:10.314Z"
+      ]
+    },
+    {
+      "id": "1554623377451389014",
+      "kind": "discord_message",
+      "author": "Cogking",
+      "channel": "editing",
+      "date_displayed": "2026-09-29",
+      "own_header_display_time": "Tuesday, September 29, 2026 at 6:38 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554623377451389014",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "diagnostic texture",
+      "original_summary": "Cogking describes a loader mode substituting a 128-square calibration image with an orientation letter and graduations.",
+      "practical_decision": "Use an asymmetric calibration image to inspect UV orientation and scale.",
+      "evidence_strength": "Tool-author description.",
+      "limitations": "Missing parent reply; no particular asset failure or successful fix inferred.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": true,
+      "capture_sha256s": [
+        "21f512c0bc01a60d8a031cd1a68cb66e669c4d1e28fc04247747c225936d3228"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:49.291Z"
+      ]
+    },
+    {
+      "id": "1554646539270361192",
+      "kind": "discord_message",
+      "author": "PrincessRuri",
+      "channel": "editing",
+      "date_displayed": "2026-09-29",
+      "own_header_display_time": "Tuesday, September 29, 2026 at 8:10 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554646539270361192",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "same-budget art option",
+      "original_summary": "PrincessRuri proposes improving Kyle while keeping its surface count.",
+      "practical_decision": "Offer constrained geometry with improved proportion and texture placement as an artistic route.",
+      "evidence_strength": "Design challenge, not a completed benchmark.",
+      "limitations": "No new model or rendered comparison is present in the captured text.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "21f512c0bc01a60d8a031cd1a68cb66e669c4d1e28fc04247747c225936d3228"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:49.291Z"
+      ]
+    },
+    {
+      "id": "1554662356477280319",
+      "kind": "discord_message",
+      "author": "PrincessRuri",
+      "channel": "editing",
+      "date_displayed": "2026-09-29",
+      "own_header_display_time": "Tuesday, September 29, 2026 at 9:13 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/1554662356477280319",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "claimed node limits",
+      "original_summary": "PrincessRuri asserts that Shred's models exceed per-node limits.",
+      "practical_decision": "Measure the specific asset; selected JKE measurements in the existing research do not establish a universal raised limit.",
+      "evidence_strength": "Unsubstantiated participant assertion, qualified by independently recorded asset measurements.",
+      "limitations": "The word node is ambiguous here; no model or numeric bound is supplied.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "21f512c0bc01a60d8a031cd1a68cb66e669c4d1e28fc04247747c225936d3228"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:49.291Z"
+      ]
+    },
+    {
+      "id": "1554664778192920577",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-29",
+      "own_header_display_time": "Tuesday, September 29, 2026 at 9:22 PM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554664778192920577",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "different-game showcase",
+      "original_summary": "DarkahnKiralv labels the nearby Terminator showcase as a JA/JO version.",
+      "practical_decision": "Exclude neighboring shader claims from native JKDF2/MotS capability evidence.",
+      "evidence_strength": "Explicit author context.",
+      "limitations": "Images not inspected; this is a scope exclusion, not a review of that model.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554840331500003339",
+      "kind": "discord_message",
+      "author": "GTTeancum (Tazz)",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 9:00 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554840331500003339",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "generation problem statement",
+      "original_summary": "GTTeancum (Tazz) reports difficulty getting useful model-generation results and asks about guidance for generic NPCs.",
+      "practical_decision": "Offer a staged workflow and small donor parts before a complete character.",
+      "evidence_strength": "Participant problem statement.",
+      "limitations": "No input prompts or output models were inspected.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554880562018385952",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:40 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554880562018385952",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "local generation workflow",
+      "original_summary": "DarkahnKiralv proposes coordinating ComfyUI and local Hunyuan generation through an advisory agent, including a background route.",
+      "practical_decision": "Select and verify a concrete local generation stack before giving it a bounded subtask.",
+      "evidence_strength": "Workflow recommendation.",
+      "limitations": "No new installation, backend identity check or successful generation follows from the message alone.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554880781707378689",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:41 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554880781707378689",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "parts and Blender assembly",
+      "original_summary": "DarkahnKiralv suggests feeding generated image sources to Hunyuan as parts or a whole, then assembling in Blender.",
+      "practical_decision": "Keep generation, assembly and native-game rig integration separate.",
+      "evidence_strength": "Workflow recommendation.",
+      "limitations": "No complete exported character or performance test is established.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554880914465620000",
+      "kind": "discord_message",
+      "author": "GTTeancum (Tazz)",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:41 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554880914465620000",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "intended trial",
+      "original_summary": "GTTeancum (Tazz) acknowledges the recommendation and says he intends to try it.",
+      "practical_decision": "Record interest and intended use separately from independent reproduction.",
+      "evidence_strength": "Acknowledgment and future intention.",
+      "limitations": "No completed reproduction is reported.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554881369060937769",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:43 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554881369060937769",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "unfinished work",
+      "original_summary": "DarkahnKiralv states the described project is unfinished after moving attention to a Terminator model.",
+      "practical_decision": "Retain the unfinished state when describing the workflow exchange.",
+      "evidence_strength": "Author status report.",
+      "limitations": "The capture supplies no finished native asset for that project.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "8e12a4679a62868ea1ce5c6351177633dbd2d537ee919885ed5a27f78896e3c8"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:30:48.031Z"
+      ]
+    },
+    {
+      "id": "1554882094940037131",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:46 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554882094940037131",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "Pro delegation option",
+      "original_summary": "DarkahnKiralv proposes delegating some bounded work through ChatGPT Pro.",
+      "practical_decision": "Choose a concrete advisory or file task and inspect returned artifacts.",
+      "evidence_strength": "Participant recommendation.",
+      "limitations": "No guaranteed tool availability, current plan entitlement or successful delegated output is inferred.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "20b9f027943007f00163856f5ee3c7724b0a09a66855950314b3774dd511e8f7",
+        "69a9ac39c784cb6a40e2464c733d19879e2a4d8ee05cb840baac076a67e18693",
+        "91f07096eed99b3f022d722935192fd2343c32d485d2dbd5394a0102d066c135"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:29:09.973Z",
+        "2026-09-30T19:29:44.045Z",
+        "2026-09-30T19:30:45.674Z"
+      ]
+    },
+    {
+      "id": "1554882244093542492",
+      "kind": "discord_message",
+      "author": "DarkahnKiralv",
+      "channel": "showcase",
+      "date_displayed": "2026-09-30",
+      "own_header_display_time": "Wednesday, September 30, 2026 at 11:46 AM",
+      "timezone": "Not retained; display time is not converted to UTC.",
+      "url": "https://discord.com/channels/881034839401328680/881749278811377695/1554882244093542492",
+      "link_status": "Constructed from captured guild, observed channel identity and message ID; not freshly opened.",
+      "topic": "assembly delegation example",
+      "original_summary": "DarkahnKiralv gives model assembly or mesh reduction as an example of work to delegate.",
+      "practical_decision": "Preserve source pieces, constrain the requested edit and independently validate the result.",
+      "evidence_strength": "Example request, not a completed handoff.",
+      "limitations": "No sandbox capability or native export is verified by this message.",
+      "attribution_basis": "Own author/header/body read in complete message text; convenience body/time not used as authority.",
+      "quoted_or_unavailable_reply_prefix": false,
+      "capture_sha256s": [
+        "20b9f027943007f00163856f5ee3c7724b0a09a66855950314b3774dd511e8f7",
+        "69a9ac39c784cb6a40e2464c733d19879e2a4d8ee05cb840baac076a67e18693",
+        "91f07096eed99b3f022d722935192fd2343c32d485d2dbd5394a0102d066c135"
+      ],
+      "capture_observed_utc": [
+        "2026-09-30T19:29:09.973Z",
+        "2026-09-30T19:29:44.045Z",
+        "2026-09-30T19:30:45.674Z"
+      ]
+    }
+  ],
+  "corroboration": [
+    {
+      "kind": "pinned_source_code",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/jkCog.c#L206",
+      "inspected_symbols": [
+        "jkCog_SetWeaponMesh",
+        "jkCog_SetPovModel",
+        "jkCog_PlayPovKey"
+      ],
+      "contribution": "Separate external weapon render object and first-person model/key operations.",
+      "limit": "Source-port revision; no new original-engine execution."
+    },
+    {
+      "kind": "pinned_source_code",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/jkPlayer.c#L984",
+      "inspected_symbols": [
+        "jkPlayer_renderSaberWeaponMesh"
+      ],
+      "contribution": "Draws the player weapon object at the puppet-selected weapon attachment matrix.",
+      "limit": "Mechanism corroboration, not a complete compatibility proof."
+    },
+    {
+      "kind": "inherited_project_analysis",
+      "reference": "terminator-case-study.md",
+      "contribution": "Owned-resource derivation and hand-placement analysis; static enclosure and rendered appearance remain separate.",
+      "limit": "Existing project findings were reread; geometry and runtime were not rerun during this Discord review."
+    },
+    {
+      "kind": "inherited_project_analysis",
+      "reference": "jke-tdir-shred-research.md",
+      "contribution": "Selected JKE mesh counts qualify the general claim that detailed Shred models imply raised per-node limits.",
+      "limit": "Selected audited assets, not every model ever made by Shred."
+    }
+  ],
+  "omissions": [
+    "No older history, uncaptured channel or complete search result set is claimed.",
+    "massassi-channel matches were general discussion, unrelated gameplay or download-preservation notes, not a retained character-modeling method.",
+    "JA/JO shader and rigging showcase excluded from JKDF2/MotS capability evidence.",
+    "Level-editor UI, cleaving, architectural lighting and level-material-use discussions excluded from model workflow scope.",
+    "An isolated 8-bit texture-check remark lacks enough context to establish a renderer validation.",
+    "Unavailable quoted parent messages, image-only comparisons and linked portable distributions were not reconstructed or treated as tested assets."
+  ]
+}

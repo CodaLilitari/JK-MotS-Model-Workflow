@@ -55,6 +55,8 @@ For local 3D generation, choose the direct model runner or a verified ComfyUI AP
 ## Research to consult when needed
 
 - [jke-tdir-shred-research.md](references/jke-tdir-shred-research.md): historical alternatives, measurements, sources and credit.
+- [community-modeling-research.md](references/community-modeling-research.md): attributed character hierarchy, pivot, animation-event, skin and POV methods.
+- [community-surface-research.md](references/community-surface-research.md): community MAT, palette, UV, shading and exporter choices.
 - [blender-sith-audit.md](references/blender-sith-audit.md): what was upstream, what was a project wrapper, and which exporter issues remain unfixed.
 - [blender-sith-fork.md](references/blender-sith-fork.md): the new focused corner-normal and metadata fixes, background usage and tested limits.
 - [research-index.md](references/research-index.md): reusable findings and their strength of evidence.

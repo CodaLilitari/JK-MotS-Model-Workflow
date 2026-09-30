@@ -162,9 +162,100 @@ class ReleaseBoundaryTests(unittest.TestCase):
             self.assertIn(base + "LICENSE", z.namelist())
             self.assertIn(base + "CREDITS.md", z.namelist())
             updates = json.loads((out / "research-updates.json").read_text())
+            self.assertEqual(updates["requires_skill_version"], "1.1.0")
+            state = json.loads(z.read(base + "research-update-state.json"))
+            self.assertEqual(state["research_revision"], release.RESEARCH_REVISION)
+            self.assertEqual(state["files"], updates["files"])
             self.assertEqual(len(updates["files"]), 1)
             entry = updates["files"][0]
             self.assertEqual(entry["sha256"], hashlib.sha256(z.read(base + entry["path"])).hexdigest())
+
+    def test_extracted_release_refuses_rollback_and_upgrades_11_research_only(self):
+        prefix = "skills/jk-mots-model-workflow/"
+        updater_bytes = (MODULE_PATH.parents[1] / prefix / "scripts/research_updates.py").read_bytes()
+        research = {"references/method.md": b"Current corrected method.\n",
+                    "references/unchanged.md": b"Stable method.\n",
+                    "references/evidence/new.json": b'{"new_evidence":true}\n'}
+        payloads = {"LICENSE": b"License\n", "CREDITS.md": b"Credits\n",
+                    prefix + "SKILL.md": b"Current complete skill instructions\n",
+                    prefix + "scripts/research_updates.py": updater_bytes,
+                    **{prefix + name: data for name, data in research.items()}}
+        for name, data in payloads.items():
+            self.source(name, data)
+        self.allow(payloads)
+        out = self.base / "distribution"
+        with mock.patch.object(release, "ROOT", self.root), mock.patch.object(sys, "argv", ["builder", "--output", str(out)]):
+            release.main()
+        feed = json.loads((out / "research-updates.json").read_text(encoding="utf-8"))
+        fresh = self.base / "fresh-skill"
+        with zipfile.ZipFile(next(out.glob("*.zip"))) as z:
+            source_prefix = "JK-MotS-Model-Workflow-" + release.VERSION + "/" + prefix
+            for name in z.namelist():
+                if name.startswith(source_prefix):
+                    target = fresh / name[len(source_prefix):]
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(z.read(name))
+        spec = importlib.util.spec_from_file_location("extracted_release_updater", fresh / "scripts/research_updates.py")
+        updater = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(updater)
+        old_body = b"Previous method.\n"
+        old_feed = json.loads(json.dumps(feed))
+        old_feed.update(version="1.1.0", research_revision=release.RESEARCH_REVISION - 1)
+        for entry in old_feed["files"]:
+            if entry["path"] == "references/method.md":
+                entry.update(bytes=len(old_body), sha256=updater.sha(old_body))
+        calls = []
+
+        def stale_fetch(url, limit):
+            calls.append(url)
+            self.assertEqual(url, updater.MANIFEST_URL, "A rollback must fail before downloading content")
+            return json.dumps(old_feed).encode()
+
+        before = {p.relative_to(fresh).as_posix(): p.read_bytes() for p in fresh.rglob("*") if p.is_file()}
+        with self.assertRaisesRegex(ValueError, "downgrade"):
+            updater.update(fresh, True, stale_fetch)
+        self.assertEqual(calls, [updater.MANIFEST_URL])
+        self.assertEqual(before, {p.relative_to(fresh).as_posix(): p.read_bytes() for p in fresh.rglob("*") if p.is_file()})
+
+        # Historical 1.1 packages have a package baseline but no initial update state.
+        previous = self.base / "previous-skill"
+        existing = {"references/method.md": old_body,
+                    "references/unchanged.md": research["references/unchanged.md"],
+                    "SKILL.md": b"Existing 1.1 instructions\n",
+                    "scripts/research_updates.py": updater_bytes}
+        for name, data in existing.items():
+            target = previous / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+        package = {"version": "1.1.0", "files": [{"path": name, "bytes": len(data), "sha256": updater.sha(data)}
+                                                for name, data in existing.items()]}
+        package_bytes = json.dumps(package).encode()
+        (previous / "PACKAGE-MANIFEST.json").write_bytes(package_bytes)
+        calls.clear()
+
+        def candidate_fetch(url, limit):
+            calls.append(url)
+            if url == updater.MANIFEST_URL:
+                return json.dumps(feed).encode()
+            content_prefix = updater.BASE + "releases/" + release.VERSION + "/"
+            self.assertTrue(url.startswith(content_prefix))
+            body = research[url[len(content_prefix):]]
+            self.assertEqual(limit, len(body))
+            return body
+
+        report = updater.update(previous, True, candidate_fetch)
+        self.assertTrue(report["compatible_skill"])
+        self.assertTrue(report["applied"])
+        self.assertEqual(set(report["changed_files"]), {"references/method.md", "references/evidence/new.json"})
+        self.assertEqual(len(calls), 3)  # manifest, changed reference, new reference
+        for name, data in research.items():
+            self.assertEqual((previous / name).read_bytes(), data)
+        for name in ("SKILL.md", "scripts/research_updates.py"):
+            self.assertEqual((previous / name).read_bytes(), existing[name])
+        self.assertEqual((previous / "PACKAGE-MANIFEST.json").read_bytes(), package_bytes)
+        state = json.loads((previous / updater.STATE_NAME).read_text(encoding="utf-8"))
+        self.assertEqual(state["research_revision"], release.RESEARCH_REVISION)
+        self.assertEqual(state["files"], feed["files"])
 
 
 if __name__ == "__main__":

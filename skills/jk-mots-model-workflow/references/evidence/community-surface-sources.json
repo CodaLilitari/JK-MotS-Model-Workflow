@@ -1,0 +1,1384 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-30",
+  "generated_at_utc": "2026-09-30T20:14:05.459649+00:00",
+  "scope": "JKDF2/MotS single-player and multiplayer character, creature, player-skin and weapon models; no level design or Discord access",
+  "evidence_policy": "Primary public sources read as historical testimony, advice or authored tutorials; no fresh game/tool behavior inferred from reading.",
+  "source_counts": {
+    "further_forum_threads": 20,
+    "additional_pages_of_previously_cited_forum_threads": 2,
+    "model_skin_tutorials": 4,
+    "public_news_reposts": 1,
+    "total_selected_source_pages": 27
+  },
+  "concurrent_research_overlap": "Threads 36447 and 41914 also appear in community-modeling-sources.json; deduplicate combined thread totals.",
+  "timezone_policy": "Forum dates/times are displayed values; timezone unspecified, no conversion to UTC.",
+  "method": {
+    "access": "Headless HTTP GET and web search only",
+    "images_attachments_assets_downloaded": false,
+    "full_thread_text_in_public_package": false,
+    "game_or_converter_execution": false,
+    "rate_limit_policy": "Stop on HTTP 429; no retry/bypass",
+    "http_429_observed": false
+  },
+  "query_coverage": {
+    "ledger_scope": "Exact retained supplemental web queries plus direct index discovery for this expanded pass; not a full archive crawl.",
+    "queries": [
+      {
+        "query": "site:forums.massassi.net Shred18 model textures JKE Milkshape",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:massassi.net/tutorials \"Weapons: Part 1\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"gouraud\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"model\" \"vertex\" \"lighting\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"mat\" \"mipmaps\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"skin\" \"baking\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/ \"lighting\" \"3do\" -\"JKL Help\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/ \"vertex normals\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"baking\" \"texture\" -Interactive_Story_Board -Jedi_Outcast",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/ \"mipmaps\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"normals\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"Gouraud\" -10770",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"vertices\" \"smooth\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"MAT\" \"mipmap\" -67886",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net Gouraud normals 3do lightingmode",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"mip maps\" MAT",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"mipmapping\" texture",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"bake\" \"Shred18\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"UV\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"skin\" \"palette\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"3do\" \"surface flags\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      },
+      {
+        "query": "site:forums.massassi.net \"MAT\" \"mipmap\" \"Mat16\"",
+        "method": "web_search",
+        "scope": "public Massassi sources",
+        "status": "executed"
+      }
+    ],
+    "direct_discovery": [
+      {
+        "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/index.html",
+        "method": "Headless index title scan",
+        "filter_regex": "mat|textur|skin|model|milkshape|blender|normal|\\buv\\b|light|mesh|weapon|3do"
+      },
+      {
+        "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/index.html",
+        "method": "Headless index row scan",
+        "filter_regex": "Shred18|JKE|Jedi Knight Enhanced|normal|baking|bake|textur"
+      },
+      {
+        "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/forum_12_page_2.html",
+        "method": "Headless index row scan",
+        "filter_regex": "Shred18|Jedi Knight Enhanced"
+      },
+      {
+        "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/forum_12_page_3.html",
+        "method": "Headless index row scan",
+        "filter_regex": "Shred18|Jedi Knight Enhanced"
+      },
+      {
+        "url": "https://www.massassi.net/tutorials.html",
+        "method": "Read index; follow exact model/skin tutorial links and use indexed dates"
+      },
+      {
+        "url": "https://www.massassi.net/news_archive_2022-5.html",
+        "method": "Direct headless read of source identified by another researcher"
+      }
+    ],
+    "topics": {
+      "palette_mat": "48077, 48053, 59981, 42110, 31176, checking_skins",
+      "uv_material_assignment": "67431, 39041, 36773, fixskin, gunmodels",
+      "vertices_normals_lighting_flags": "10609, 41914, 38476, 7715, 41968",
+      "mipmap_lod_renderer_profile": "31176, 34115, 36447, 68242 page 1",
+      "shred_model_methods": "38787, 42777, 55304",
+      "baking_surface_appearance": "42777 and 55304 inform appearance; no reproducible new high-to-low character recipe established",
+      "gouraud": "Queried explicitly; no new universal model-normal/Gouraud rule established",
+      "conversion_and_weapon_roles": "35250, 43094, weapon1, gunmodels, 67886 page 27"
+    },
+    "exclusions": "Unrelated Jedi Outcast/Jedi Academy results, level-only construction, empty requests, attachment-only claims and undocumented proposed pipelines are not model instructions."
+  },
+  "rights": "Original summaries and citation metadata only. Linked content retains its authors' rights. No asset reuse permission inferred from public availability.",
+  "sources": [
+    {
+      "id": "massassi-38787",
+      "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/thread_38787_page_1.html",
+      "title": "More JKR models",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Shred18",
+          "displayed_date": "2006-01-18",
+          "displayed_time": "7:37 PM"
+        },
+        {
+          "number": 32,
+          "author": "Ruthven",
+          "displayed_date": "2006-01-26",
+          "displayed_time": "3:02 AM"
+        },
+        {
+          "number": 33,
+          "author": "Shred18",
+          "displayed_date": "2006-01-26",
+          "displayed_time": "1:55 PM"
+        },
+        {
+          "number": 34,
+          "author": "darthslaw",
+          "displayed_date": "2006-01-26",
+          "displayed_time": "2:02 PM"
+        },
+        {
+          "number": 35,
+          "author": "Hell Raiser",
+          "displayed_date": "2006-01-26",
+          "displayed_time": "3:19 PM"
+        }
+      ],
+      "evidence_level": "firsthand_author_method",
+      "scope": "JKR/JKE replacement characters",
+      "source_finding": "Shred18 states that his models use the original hierarchy and regular animations.",
+      "workflow_inference": "Preserve the working rigid hierarchy for familiar motion; inspect proportion and attachment changes during animation.",
+      "unresolved": "No independent runtime replay, model inspection or KEY retargeting test in this research.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:51:47.439237+00:00",
+        "http_status": 200,
+        "bytes": 45928,
+        "sha256": "3350cce016d87880569a6bbcf4f8eee4cb84c6115e0fdb712a1774a26cec9f94"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-67431",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_67431_page_1.html",
+      "title": "MilkShape 3D problems with textures- its just using one .tga for every thing",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Dbug454",
+          "displayed_date": "2014-01-28",
+          "displayed_time": "8:14 AM"
+        }
+      ],
+      "evidence_level": "unresolved_report",
+      "scope": "3DO import into MilkShape",
+      "source_finding": "A combined group receives one TGA despite multiple material files being listed.",
+      "workflow_inference": "Inspect per-face material assignment independently from texture-file presence and UV values.",
+      "unresolved": "No demonstrated repair appears in the thread.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:24.711727+00:00",
+        "http_status": 200,
+        "bytes": 4539,
+        "sha256": "063e4744b13c5de54d6897b22e488472d55bbed6a5dd5bc68fddd940306ca5f7"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-48077",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_48077_page_1.html",
+      "title": "Extracting Textures without pink flood?",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "XDelusion",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "12:34 PM"
+        },
+        {
+          "number": 2,
+          "author": "Xzero",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "12:39 PM"
+        },
+        {
+          "number": 6,
+          "author": "Xzero",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "1:24 PM"
+        },
+        {
+          "number": 8,
+          "author": "XDelusion",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "2:17 PM"
+        },
+        {
+          "number": 9,
+          "author": "F-Body",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "3:43 PM"
+        },
+        {
+          "number": 10,
+          "author": "XDelusion",
+          "displayed_date": "2007-08-14",
+          "displayed_time": "6:11 PM"
+        }
+      ],
+      "evidence_level": "reported_resolution_with_conflicting_reply",
+      "scope": "Indexed MAT decoding and conversion tools",
+      "source_finding": "XDelusion reports corrected colors after palette-aware conversion; another reply downplays palette need.",
+      "workflow_inference": "Record the intended CMP and separate archive extraction from indexed-pixel decoding.",
+      "unresolved": "The converter binaries and exact source MAT were not rerun; the old no-batch claim is version-specific.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:38.369486+00:00",
+        "http_status": 200,
+        "bytes": 11603,
+        "sha256": "7c6e36850e406f20eb5873a85bea969a7e649a1375e8d64e1d8dca8429fdb816"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-48053",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_48053_page_1.html",
+      "title": "Mat16 1.2 (updated version)",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "BoBo_Fett",
+          "displayed_date": "2007-08-12",
+          "displayed_time": "8:28 AM"
+        },
+        {
+          "number": 3,
+          "author": "F-Body",
+          "displayed_date": "2007-08-13",
+          "displayed_time": "2:25 PM"
+        }
+      ],
+      "evidence_level": "firsthand_author_release_note",
+      "scope": "Mat16 1.2 beta and older preview behavior",
+      "source_finding": "BoBo_Fett recalls memory-leak fixes but explicitly describes limited testing and beta status.",
+      "workflow_inference": "Pin the converter version and run a small known input before relying on behavior.",
+      "unresolved": "No current binary availability, safety or successful execution was established.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:37.701066+00:00",
+        "http_status": 200,
+        "bytes": 5319,
+        "sha256": "75155b495c4a6d4c6afcabb564bef473fcd8f568a4f687fd6fcac18b53a4107c"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-59981",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_59981_page_1.html",
+      "title": "jkl export / import plug ins or software",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 9,
+          "author": "BoBo_Fett",
+          "displayed_date": "2012-02-02",
+          "displayed_time": "3:05 AM"
+        },
+        {
+          "number": 10,
+          "author": "Dbug454",
+          "displayed_date": "2012-02-04",
+          "displayed_time": "3:05 PM"
+        }
+      ],
+      "evidence_level": "author_capability_statement_and_unresolved_error",
+      "scope": "Only MAT batch-conversion posts; JKL conversion excluded",
+      "source_finding": "BoBo_Fett identifies batch conversion in Mat16 1.3.1; Dbug454 subsequently reports input errors.",
+      "workflow_inference": "Offer version-specific batch conversion after a successful sample instead of saying all Mat16 versions lack it.",
+      "unresolved": "The reported errors have no verified resolution here.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:46:10.221067+00:00",
+        "http_status": 200,
+        "bytes": 12701,
+        "sha256": "dfb47df8d21c4fdddbeca1198a0290243bbffc6407f6b942d43797f8795ea3f8"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-42110",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_42110_page_1.html",
+      "title": "16 bit Mat Transparency Trouble",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "jedi I",
+          "displayed_date": "2006-06-21",
+          "displayed_time": "5:54 PM"
+        },
+        {
+          "number": 3,
+          "author": "CaptBevvil",
+          "displayed_date": "2006-06-21",
+          "displayed_time": "7:26 PM"
+        },
+        {
+          "number": 4,
+          "author": "jedi I",
+          "displayed_date": "2006-06-21",
+          "displayed_time": "7:30 PM"
+        }
+      ],
+      "evidence_level": "diagnostic_advice_without_confirmed_result",
+      "scope": "16-bit MAT transparency conversion",
+      "source_finding": "CaptBevvil suggests near-black details may become the transparency key and proposes JKPaint comparison.",
+      "workflow_inference": "Decode a converted black/near-black swatch and compare runtime transparency with editor preview.",
+      "unresolved": "The original poster does not report a verified fix; no binary was executed.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:38.994027+00:00",
+        "http_status": 200,
+        "bytes": 6494,
+        "sha256": "3f41c56cd5651b511586ff60821f83ad930e4d63a5bc3e97a2446f90d689539f"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-31176",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_31176_page_1.html",
+      "title": "MAT files - Solving the Unknown",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Jon`C",
+          "displayed_date": "2005-04-04",
+          "displayed_time": "12:14 AM"
+        },
+        {
+          "number": 3,
+          "author": "Sige",
+          "displayed_date": "2005-04-04",
+          "displayed_time": "11:13 AM"
+        },
+        {
+          "number": 4,
+          "author": "Sige",
+          "displayed_date": "2005-04-04",
+          "displayed_time": "5:39 PM"
+        },
+        {
+          "number": 5,
+          "author": "Sige",
+          "displayed_date": "2005-04-04",
+          "displayed_time": "8:04 PM"
+        },
+        {
+          "number": 6,
+          "author": "BoBo_Fett",
+          "displayed_date": "2005-04-05",
+          "displayed_time": "4:38 AM"
+        }
+      ],
+      "evidence_level": "author_experiments_and_corrections",
+      "scope": "MAT header and pixel-format investigation",
+      "source_finding": "Header hypotheses are challenged by display-format experiments; BoBo_Fett describes MAT image/mipmap fields.",
+      "workflow_inference": "Use supported encodings and inspect decoded pixels; do not infer a new pixel format from a header edit.",
+      "unresolved": "Historical reverse-engineering discussion does not prove all current renderer behavior.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:55.506936+00:00",
+        "http_status": 200,
+        "bytes": 18364,
+        "sha256": "cd6e946cd1bb21f48c5078fe1f214a742b26f49dd2c40d8f9379efb1c4769c80"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-39041",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_39041_page_1.html",
+      "title": "Importing from milkshape to JOKE and JED",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "rob_whatman",
+          "displayed_date": "2006-01-30",
+          "displayed_time": "4:17 AM"
+        },
+        {
+          "number": 2,
+          "author": "JediKirby",
+          "displayed_date": "2006-01-30",
+          "displayed_time": "2:13 PM"
+        },
+        {
+          "number": 4,
+          "author": "darthslaw",
+          "displayed_date": "2006-01-31",
+          "displayed_time": "8:49 AM"
+        },
+        {
+          "number": 6,
+          "author": "darthslaw",
+          "displayed_date": "2006-02-01",
+          "displayed_time": "8:52 AM"
+        },
+        {
+          "number": 9,
+          "author": "Ruthven",
+          "displayed_date": "2006-02-11",
+          "displayed_time": "5:23 PM"
+        },
+        {
+          "number": 10,
+          "author": "rob_whatman",
+          "displayed_date": "2006-02-12",
+          "displayed_time": "2:09 AM"
+        }
+      ],
+      "evidence_level": "contested_workaround",
+      "scope": "MilkShape/Zy exporter, JOKE and JED conversion",
+      "source_finding": "darthslaw reports UV damage even at unit scaling; Ruthven proposes a 256-square exporter assumption.",
+      "workflow_inference": "Use an asymmetric checker and compare UVs after each conversion; avoid a universal texture-size rule.",
+      "unresolved": "The original poster acknowledges 64-square inputs but supplies no completed successful retest.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:39.644795+00:00",
+        "http_status": 200,
+        "bytes": 15044,
+        "sha256": "bc4c375050834555e40cfdf3a850af5f033ba7dc7f79ff82394e7435e0ffaa2d"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-36773",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36773_page_1.html",
+      "title": "Texturing small 3dos",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Valcien",
+          "displayed_date": "2005-10-24",
+          "displayed_time": "4:15 PM"
+        },
+        {
+          "number": 3,
+          "author": "Ruthven",
+          "displayed_date": "2005-10-24",
+          "displayed_time": "4:50 PM"
+        },
+        {
+          "number": 4,
+          "author": "darthslaw",
+          "displayed_date": "2005-10-24",
+          "displayed_time": "6:41 PM"
+        },
+        {
+          "number": 5,
+          "author": "CaptBevvil",
+          "displayed_date": "2005-10-25",
+          "displayed_time": "6:11 AM"
+        },
+        {
+          "number": 8,
+          "author": "eggtooth",
+          "displayed_date": "2005-10-28",
+          "displayed_time": "4:47 PM"
+        }
+      ],
+      "evidence_level": "contested_workaround",
+      "scope": "Small 3DO texturing and scaling",
+      "source_finding": "A scale-up/down suggestion is countered by a report of JED transform damage; JOKE preserved scaling in that case.",
+      "workflow_inference": "Prefer explicit UV editing and numeric comparison over an assumed safe round trip.",
+      "unresolved": "Tool versions and repeatability were not established.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:53.427202+00:00",
+        "http_status": 200,
+        "bytes": 9907,
+        "sha256": "975685a095f7bfc0b5765037b0c600723cc99d613863eae450a99818dea48dc8"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-34115",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34115_page_1.html",
+      "title": "NEED MAJOR TESTING 512x512 mats in JK",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "SG-fan",
+          "displayed_date": "2005-07-13",
+          "displayed_time": "1:39 AM"
+        },
+        {
+          "number": 4,
+          "author": "Quib Mask",
+          "displayed_date": "2005-07-14",
+          "displayed_time": "12:32 PM"
+        },
+        {
+          "number": 5,
+          "author": "Stormtrooper",
+          "displayed_date": "2005-07-14",
+          "displayed_time": "1:13 PM"
+        },
+        {
+          "number": 6,
+          "author": "ProdigyOddigy",
+          "displayed_date": "2005-07-14",
+          "displayed_time": "1:41 PM"
+        },
+        {
+          "number": 8,
+          "author": "Sige",
+          "displayed_date": "2005-07-14",
+          "displayed_time": "8:30 PM"
+        },
+        {
+          "number": 11,
+          "author": "Sige",
+          "displayed_date": "2005-07-15",
+          "displayed_time": "9:55 AM"
+        },
+        {
+          "number": 12,
+          "author": "SG-fan",
+          "displayed_date": "2005-07-15",
+          "displayed_time": "4:07 PM"
+        }
+      ],
+      "evidence_level": "mixed_historical_test_reports",
+      "scope": "Only renderer/3DO implications of a larger-texture experiment",
+      "source_finding": "Reports vary by hardware and distinguish world-surface from model alignment; wrapping/clipping failures are noted.",
+      "workflow_inference": "Calibrate UV period on the selected renderer, including distance and partially offscreen views.",
+      "unresolved": "No universal UV scaling or minimum-texture-size workaround follows from these reports.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:54.788121+00:00",
+        "http_status": 200,
+        "bytes": 17110,
+        "sha256": "d71d1db40e170c8e6d65038c154617423cfc0480df07f0e3466c1f2f6e6755a8"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-36447",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36447_page_1.html",
+      "title": "3do LOD",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "eggtooth",
+          "displayed_date": "2005-10-11",
+          "displayed_time": "6:27 PM"
+        },
+        {
+          "number": 4,
+          "author": "eggtooth",
+          "displayed_date": "2005-10-19",
+          "displayed_time": "10:24 PM"
+        },
+        {
+          "number": 5,
+          "author": "CaptBevvil",
+          "displayed_date": "2005-10-20",
+          "displayed_time": "6:23 AM"
+        }
+      ],
+      "evidence_level": "unresolved_report",
+      "scope": "Multiple geosets in a 3DO",
+      "source_finding": "eggtooth reports a low-detail mesh flashing at close range after adding geosets.",
+      "workflow_inference": "Inspect each geoset and its transitions separately from the material mip chain.",
+      "unresolved": "No proven cause or successful repair is recorded.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:54.062375+00:00",
+        "http_status": 200,
+        "bytes": 6231,
+        "sha256": "7f14110ce6466340374e30d18699d4bbc36f2d58f643cc0784fb9601cd05eb04"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-35250",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35250_page_1.html",
+      "title": "Is there any way of Converting from *.3DS to *.3DO?",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Daft_Vader",
+          "displayed_date": "2005-08-24",
+          "displayed_time": "6:37 PM"
+        },
+        {
+          "number": 2,
+          "author": "F-Body",
+          "displayed_date": "2005-08-24",
+          "displayed_time": "6:59 PM"
+        },
+        {
+          "number": 3,
+          "author": "Emon",
+          "displayed_date": "2005-08-24",
+          "displayed_time": "7:23 PM"
+        },
+        {
+          "number": 7,
+          "author": "ReT",
+          "displayed_date": "2005-08-25",
+          "displayed_time": "6:55 PM"
+        }
+      ],
+      "evidence_level": "historical_tool_routing_advice",
+      "scope": "3DS-to-Sith-3DO conversion",
+      "source_finding": "F-Body distinguishes Jedi Knight 3DO from the unrelated Total Annihilation format.",
+      "workflow_inference": "Verify the actual file structure and converted materials, not just the suffix.",
+      "unresolved": "Listed legacy converters were not downloaded or tested; donor redistribution rights remain separate.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:46:07.696826+00:00",
+        "http_status": 200,
+        "bytes": 9152,
+        "sha256": "924f3b9716c54468758bedad1f7532aa39f3f5b4f8292422eb44e5f7224928f7"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-43094",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_43094_page_1.html",
+      "title": "Q about Milkshape & plugins",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Fardreamer",
+          "displayed_date": "2006-08-11",
+          "displayed_time": "2:11 PM"
+        },
+        {
+          "number": 4,
+          "author": "Sige",
+          "displayed_date": "2006-08-13",
+          "displayed_time": "11:08 PM"
+        },
+        {
+          "number": 5,
+          "author": "Fardreamer",
+          "displayed_date": "2006-08-14",
+          "displayed_time": "9:37 AM"
+        }
+      ],
+      "evidence_level": "firsthand_plugin_experience_and_proposal",
+      "scope": "MilkShape animation versus rigid KEY motion",
+      "source_finding": "Sige describes a mismatch between bone assignments and per-mesh KEY representation.",
+      "workflow_inference": "Maintain a target hierarchy and explicit node mapping when using a modern animation proxy.",
+      "unresolved": "This discussion does not demonstrate a finished converter.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:46:08.320845+00:00",
+        "http_status": 200,
+        "bytes": 9201,
+        "sha256": "2368d49f961a4acc9843b80c0e61e3cd53154e31c7aa98c18b245aa999a8f402"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-38476",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_38476_page_1.html",
+      "title": "double sided mats",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "nerfherder",
+          "displayed_date": "2006-01-04",
+          "displayed_time": "12:39 PM"
+        },
+        {
+          "number": 2,
+          "author": "ZOOIkes",
+          "displayed_date": "2006-01-04",
+          "displayed_time": "1:45 PM"
+        },
+        {
+          "number": 3,
+          "author": "SavageX378",
+          "displayed_date": "2006-01-04",
+          "displayed_time": "1:53 PM"
+        },
+        {
+          "number": 4,
+          "author": "Ruthven",
+          "displayed_date": "2006-01-04",
+          "displayed_time": "4:20 PM"
+        }
+      ],
+      "evidence_level": "corrected_community_advice",
+      "scope": "Back-side visibility of model faces",
+      "source_finding": "SavageX378 and Ruthven correct early advice; Ruthven identifies the two-sided face flag and possible JED reset.",
+      "workflow_inference": "Inspect exported sidedness independently from MAT transparency and winding.",
+      "unresolved": "No current exporter or runtime round trip was executed for this source.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:46:09.589142+00:00",
+        "http_status": 200,
+        "bytes": 6754,
+        "sha256": "b152d002c0c90783385d136086ca4246d1e2dbbfa4cb660155021b99bcc34708"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-10609",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_10609_page_1.html",
+      "title": "Incorrect normal - surface must be invalid!",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Correction",
+          "displayed_date": "2002-07-31",
+          "displayed_time": "3:43 PM"
+        },
+        {
+          "number": 3,
+          "author": "Descent_pilot",
+          "displayed_date": "2002-07-31",
+          "displayed_time": "4:14 PM"
+        },
+        {
+          "number": 4,
+          "author": "Correction",
+          "displayed_date": "2002-07-31",
+          "displayed_time": "4:18 PM"
+        },
+        {
+          "number": 5,
+          "author": "Alco",
+          "displayed_date": "2014-08-24",
+          "displayed_time": "9:44 AM"
+        }
+      ],
+      "evidence_level": "geometry_diagnosis_and_later_qualification",
+      "scope": "Transfer from JED construction to model degeneracy diagnosis",
+      "source_finding": "A collapsed cone face is implicated; Alco warns that recalculating can hide the error without repairing geometry.",
+      "workflow_inference": "Check zero-area faces, duplicate vertices and winding before changing normals.",
+      "unresolved": "The original construction case is not an independent character-export normal test.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:46:08.960895+00:00",
+        "http_status": 200,
+        "bytes": 9225,
+        "sha256": "8c258160356240605a9d077f566b995aca57b4ce8cb27b3d445893cdfcda6949"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-41914",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41914_page_1.html",
+      "title": "Fully Lit 3do",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "jedi I",
+          "displayed_date": "2006-06-13",
+          "displayed_time": "10:28 PM"
+        },
+        {
+          "number": 3,
+          "author": "Ruthven",
+          "displayed_date": "2006-06-14",
+          "displayed_time": "1:38 AM"
+        },
+        {
+          "number": 5,
+          "author": "jedi I",
+          "displayed_date": "2006-06-14",
+          "displayed_time": "10:20 AM"
+        },
+        {
+          "number": 6,
+          "author": "darthslaw",
+          "displayed_date": "2006-06-14",
+          "displayed_time": "3:46 PM"
+        },
+        {
+          "number": 7,
+          "author": "jedi I",
+          "displayed_date": "2006-06-15",
+          "displayed_time": "11:26 PM"
+        },
+        {
+          "number": 8,
+          "author": "F-Body",
+          "displayed_date": "2006-06-17",
+          "displayed_time": "3:00 PM"
+        }
+      ],
+      "evidence_level": "mixed_diagnostics_with_explicit_hypothesis",
+      "scope": "JOKE exports and unexpected full lighting",
+      "source_finding": "Replies identify extra-light fields; a texture-vertex resource-limit explanation is explicitly untested.",
+      "workflow_inference": "Diff exported light fields and counts against a working file; isolate data changes.",
+      "unresolved": "Repeated saving and the resource-limit hypothesis are not demonstrated general fixes.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:52:58.226614+00:00",
+        "http_status": 200,
+        "bytes": 13648,
+        "sha256": "69e30cf03e10604b39991976156a682d90e62e7cc3ce56d025f63c8730736181"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-7715",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_7715_page_1.html",
+      "title": "How do you do it?",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Jim14",
+          "displayed_date": "2001-04-17",
+          "displayed_time": "9:04 AM"
+        },
+        {
+          "number": 2,
+          "author": "MikeC",
+          "displayed_date": "2001-04-17",
+          "displayed_time": "2:27 PM"
+        },
+        {
+          "number": 3,
+          "author": "Jim14",
+          "displayed_date": "2001-04-17",
+          "displayed_time": "3:58 PM"
+        },
+        {
+          "number": 4,
+          "author": "MikeC",
+          "displayed_date": "2001-04-17",
+          "displayed_time": "5:30 PM"
+        },
+        {
+          "number": 6,
+          "author": "Jim14",
+          "displayed_date": "2001-04-18",
+          "displayed_time": "5:34 AM"
+        }
+      ],
+      "evidence_level": "reporter_confirmed_resolution",
+      "scope": "Color-only MAT on a projectile 3DO",
+      "source_finding": "Jim14 reports that MikeC's mode-3 correction for the color-only material resolved a firing crash.",
+      "workflow_inference": "Distinguish color-only and image-textured material routes before editing geometry modes.",
+      "unresolved": "This does not apply mode 3 to ordinary textured faces or establish a modern rerun.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:53:45.956808+00:00",
+        "http_status": 200,
+        "bytes": 12011,
+        "sha256": "2258c34ee0352b16655342756cec3e4b1870e7a063a713302c5e5841faf4b2a9"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-41968",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41968_page_1.html",
+      "title": "artifact/hom 3do errors",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "SG-fan",
+          "displayed_date": "2006-06-15",
+          "displayed_time": "7:24 PM"
+        },
+        {
+          "number": 3,
+          "author": "ZOOIkes",
+          "displayed_date": "2006-06-16",
+          "displayed_time": "2:51 AM"
+        },
+        {
+          "number": 5,
+          "author": "ryham",
+          "displayed_date": "2006-06-16",
+          "displayed_time": "6:34 AM"
+        },
+        {
+          "number": 6,
+          "author": "LKOH_SniperWolf",
+          "displayed_date": "2006-06-16",
+          "displayed_time": "9:01 AM"
+        },
+        {
+          "number": 7,
+          "author": "SG-fan",
+          "displayed_date": "2006-06-16",
+          "displayed_time": "12:10 PM"
+        },
+        {
+          "number": 10,
+          "author": "SG-fan",
+          "displayed_date": "2006-06-17",
+          "displayed_time": "4:50 PM"
+        }
+      ],
+      "evidence_level": "reporter_confirmed_configuration_workaround",
+      "scope": "Artifacts affecting stock and custom models",
+      "source_finding": "SG-fan ties the issue to a graphics-card change and reports a viewport-size workaround.",
+      "workflow_inference": "Compare a stock control and renderer profile before destructive model repair.",
+      "unresolved": "Historical hardware behavior was not reproduced and is not a universal driver prescription.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:45:52.140006+00:00",
+        "http_status": 200,
+        "bytes": 15332,
+        "sha256": "4e5ff32bb3f46ecc8821dc5c80c8bd75e6c31e275a22dba3354f9bfe4bd1a1c6"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-42777",
+      "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/thread_42777_page_1.html",
+      "title": "Latest from JKE",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Shred18",
+          "displayed_date": "2006-07-24",
+          "displayed_time": "7:04 PM"
+        },
+        {
+          "number": 3,
+          "author": "JediKirby",
+          "displayed_date": "2006-07-24",
+          "displayed_time": "7:35 PM"
+        },
+        {
+          "number": 8,
+          "author": "JediKirby",
+          "displayed_date": "2006-07-24",
+          "displayed_time": "9:48 PM"
+        },
+        {
+          "number": 24,
+          "author": "Shred18",
+          "displayed_date": "2006-07-24",
+          "displayed_time": "11:33 PM"
+        },
+        {
+          "number": 27,
+          "author": "SG-fan",
+          "displayed_date": "2006-07-25",
+          "displayed_time": "1:13 AM"
+        },
+        {
+          "number": 34,
+          "author": "SG-fan",
+          "displayed_date": "2006-07-25",
+          "displayed_time": "11:46 AM"
+        }
+      ],
+      "evidence_level": "author_correction_and_art_critique",
+      "scope": "JKE model texture appearance",
+      "source_finding": "Shred18 rejects the noise-filter assumption and suggests bump-map/brush work as the likely referent.",
+      "workflow_inference": "Judge detail at delivered scale while distinguishing visible symptoms from guessed production techniques.",
+      "unresolved": "No image inspection occurred; this is not proof of runtime normal-map support.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:51:46.618308+00:00",
+        "http_status": 200,
+        "bytes": 55029,
+        "sha256": "517d2bfebf95d32c5be8d38be9c5a5622a804c8d00979278990e84f73d0eb421"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-55304",
+      "url": "https://forums.massassi.net/Main_Massassi_Forums/Showcase/thread_55304_page_1.html",
+      "title": "Texture Dump!",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1,
+          "author": "Shred18",
+          "displayed_date": "2009-09-04",
+          "displayed_time": "3:55 PM"
+        },
+        {
+          "number": 7,
+          "author": "Shred18",
+          "displayed_date": "2009-09-05",
+          "displayed_time": "11:35 AM"
+        },
+        {
+          "number": 12,
+          "author": "Roger Spruce",
+          "displayed_date": "2009-09-08",
+          "displayed_time": "5:19 AM"
+        },
+        {
+          "number": 18,
+          "author": "Shred18",
+          "displayed_date": "2009-09-08",
+          "displayed_time": "5:15 PM"
+        },
+        {
+          "number": 21,
+          "author": "Jon`C",
+          "displayed_date": "2009-09-08",
+          "displayed_time": "6:37 PM"
+        }
+      ],
+      "evidence_level": "artist_statement_and_art_critique",
+      "scope": "Transfer from surface artwork to model texture preparation",
+      "source_finding": "Shred18 mentions companion normal maps; critics discuss lighting already present in color maps.",
+      "workflow_inference": "Separate intrinsic color from intentional painted shading before mapping a moving model.",
+      "unresolved": "No character-bake recipe, visual review, or general redistribution permission is established.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:47:13.392421+00:00",
+        "http_status": 200,
+        "bytes": 35638,
+        "sha256": "1d0170bead817610524e96e956bfaebe05676930928caab2da2422a8f187e546"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-67886_page_27",
+      "url": "https://forums.massassi.net/Main_Massassi_Forums/Discussion_Forum/thread_67886_page_27.html",
+      "title": "Anything games",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 1047,
+          "author": "Jon`C",
+          "displayed_date": "2019-03-19",
+          "displayed_time": "1:12 PM"
+        },
+        {
+          "number": 1059,
+          "author": "Nikumubeki",
+          "displayed_date": "2019-03-20",
+          "displayed_time": "1:09 PM"
+        },
+        {
+          "number": 1060,
+          "author": "Nikumubeki",
+          "displayed_date": "2019-03-20",
+          "displayed_time": "1:11 PM"
+        },
+        {
+          "number": 1061,
+          "author": "Jon`C",
+          "displayed_date": "2019-03-20",
+          "displayed_time": "1:16 PM"
+        },
+        {
+          "number": 1062,
+          "author": "Nikumubeki",
+          "displayed_date": "2019-03-20",
+          "displayed_time": "1:20 PM"
+        },
+        {
+          "number": 1075,
+          "author": "Nikumubeki",
+          "displayed_date": "2019-03-21",
+          "displayed_time": "12:52 PM"
+        },
+        {
+          "number": 1077,
+          "author": "Jon`C",
+          "displayed_date": "2019-03-21",
+          "displayed_time": "1:01 PM"
+        },
+        {
+          "number": 1079,
+          "author": "SMLiberator",
+          "displayed_date": "2019-03-21",
+          "displayed_time": "1:52 PM"
+        },
+        {
+          "number": 1080,
+          "author": "Jon`C",
+          "displayed_date": "2019-03-21",
+          "displayed_time": "2:33 PM"
+        }
+      ],
+      "evidence_level": "developer_guidance_and_reported_fixes",
+      "scope": "jkgfxmod-era weapon emissive/alpha material work",
+      "source_finding": "The exchange distinguishes alpha and emissive output, resolves cell indexing, and corrects the compiler resource path.",
+      "workflow_inference": "Use a restrained emissive core, explicit cell mapping and the intended source MATs; test on light and dark backgrounds.",
+      "unresolved": "Advice is renderer-specific; emission does not imply nearby-world illumination or native retail support.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:51:10.693529+00:00",
+        "http_status": 200,
+        "bytes": 59814,
+        "sha256": "150c97a4a263d5780cc5c4700cb569eaccdef5f75b8f6083e449190856e2543a"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-68242",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_68242_page_1.html",
+      "title": "Jedi Knight Quadranscentennial Edition",
+      "source_type": "forum_page",
+      "posts": [
+        {
+          "number": 9,
+          "author": "SMLiberator",
+          "displayed_date": "2022-05-26",
+          "displayed_time": "9:07 PM"
+        },
+        {
+          "number": 10,
+          "author": "Quib Mask",
+          "displayed_date": "2022-06-01",
+          "displayed_time": "5:36 PM"
+        },
+        {
+          "number": 11,
+          "author": "Jon`C",
+          "displayed_date": "2022-06-01",
+          "displayed_time": "8:18 PM"
+        }
+      ],
+      "evidence_level": "developer_observation_and_explicit_hypothesis",
+      "scope": "JKE model atlas seams and historical enhanced material channels",
+      "source_finding": "Quib Mask observes mip seams and proposes unused-UV gap colors as the cause; normal maps are described as not consumed by JKGM then.",
+      "workflow_inference": "Compare padded atlases and lower mips; distinguish generated data from supported renderer channels.",
+      "unresolved": "No confirmed seam fix appears in the cited posts; future normal-map uses are proposals, not shipped features.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T20:12:53.672854+00:00",
+        "http_status": 200,
+        "bytes": 87699,
+        "sha256": "07ed51aeb4e6c8a6ab21b6d83c437028a48db931454e11addd3f1897fe93a3c1"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false
+    },
+    {
+      "id": "massassi-weapon1",
+      "url": "https://www.massassi.net/tutorials/weapon1/",
+      "title": "Weapons: Part 1",
+      "source_type": "tutorial",
+      "posts": [],
+      "evidence_level": "primary_authored_tutorial",
+      "scope": "External versus internal weapon geometry",
+      "source_finding": "The Bryar example uses distinct offsets and hierarchy arrangements for each view.",
+      "workflow_inference": "Start each role from a working model contract and validate its own placement.",
+      "unresolved": "Example numeric values are not universal offsets; no example assets were fetched.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:52:11.436462+00:00",
+        "http_status": 200,
+        "bytes": 7898,
+        "sha256": "0b92551f24c35099200c768f87804a616614af181ebbbbc19899866f18b52e68"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false,
+      "attribution": "EvanC",
+      "indexed_publication_date": "1998-08-07",
+      "date_basis": "https://www.massassi.net/tutorials.html"
+    },
+    {
+      "id": "massassi-gunmodels",
+      "url": "https://www.massassi.net/tutorials/gunmodels/",
+      "title": "Creating Internal Gun Models",
+      "source_type": "tutorial",
+      "posts": [],
+      "evidence_level": "primary_authored_tutorial",
+      "scope": "Internal weapon assembly with a hand template",
+      "source_finding": "The sample reserves material slots for hand geometry and leaves nine for the weapon.",
+      "workflow_inference": "Remap material indices deliberately when combining parts.",
+      "unresolved": "Nine textures is a sample-template allowance, not an engine-wide limit.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:52:12.071300+00:00",
+        "http_status": 200,
+        "bytes": 11039,
+        "sha256": "ebe460eb1e9a7beb9beeda093bae2ef56a3c757a3cb55987d37bf845150de6d4"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false,
+      "attribution": "Z@NARDI",
+      "indexed_publication_date": "2000-01-31",
+      "date_basis": "https://www.massassi.net/tutorials.html"
+    },
+    {
+      "id": "massassi-fixskin",
+      "url": "https://www.massassi.net/tutorials/fixskin/",
+      "title": "Fixing Skin Textures",
+      "source_type": "tutorial",
+      "posts": [],
+      "evidence_level": "primary_authored_tutorial",
+      "scope": "Material references after modifying a skin part",
+      "source_finding": "The tutorial repairs face material indices when a separately edited torso is assembled into a model.",
+      "workflow_inference": "Map source material names to final indices rather than compensating with UV edits.",
+      "unresolved": "No historical sample model was fetched or rerun.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:52:12.693938+00:00",
+        "http_status": 200,
+        "bytes": 5523,
+        "sha256": "988bb6e466411a2682d676a1188839c7b69ab8b802927ce78a5be1ef2b20f50c"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false,
+      "attribution": "GuNbOY",
+      "indexed_publication_date": "1999-11-17",
+      "date_basis": "https://www.massassi.net/tutorials.html"
+    },
+    {
+      "id": "massassi-checking_skins",
+      "url": "https://www.massassi.net/tutorials/checking_skins/",
+      "title": "Finding Skin Palette Problems With JED",
+      "source_type": "tutorial",
+      "posts": [],
+      "evidence_level": "primary_authored_tutorial",
+      "scope": "Indexed player-skin colors across colormaps",
+      "source_finding": "Red describes appearance changes caused by colormap-dependent palette entries.",
+      "workflow_inference": "Check representative palettes where indexed-skin portability is required.",
+      "unresolved": "No current runtime palette matrix was executed.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T19:52:13.314374+00:00",
+        "http_status": 200,
+        "bytes": 5321,
+        "sha256": "2417f195379a5a67e6495d72927eb36c76d1b31b7d77ab61754c1a5cb04fe1bf"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false,
+      "attribution": "Red",
+      "indexed_publication_date": "1998-07-06",
+      "date_basis": "https://www.massassi.net/tutorials.html"
+    },
+    {
+      "id": "massassi-news_archive_2022-5",
+      "url": "https://www.massassi.net/news_archive_2022-5.html",
+      "title": "Old News - May 2022",
+      "source_type": "news_repost",
+      "posts": [],
+      "evidence_level": "public_repost_of_author_statement",
+      "scope": "Historical Blender-Sith 2.79-era beta",
+      "source_finding": "Brian reposts Crt Vavros's announcement: JK/MotS imports were batch-checked, export less tested, with Shred helping in-game checks.",
+      "workflow_inference": "Keep import coverage separate from export/runtime proof and identify the actual add-on and Blender versions.",
+      "unresolved": "This public repost is not a direct Discord review or a current Blender-version guarantee.",
+      "capture": {
+        "retrieved_at_utc": "2026-09-30T20:09:19.728928+00:00",
+        "http_status": 200,
+        "bytes": 7295,
+        "sha256": "83af43b6b0a61c7777894254a676fae98d3a3249f5810d9d3650460ebb723ce2"
+      },
+      "reading": "Listed source posts or tutorial text read; linked images, videos and attachments not retrieved or visually reviewed",
+      "reproduced_by_this_research": false,
+      "attribution": {
+        "posted_by": "Brian",
+        "statement_attributed_to": "Crt Vavros",
+        "displayed_date": "2022-05-26"
+      }
+    }
+  ]
+}
