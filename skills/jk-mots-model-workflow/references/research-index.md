@@ -1,0 +1,55 @@
+# Reusable research library
+
+This library is a portable synthesis of modeling projects, original-source analysis, retained experiment receipts and focused community references. It is arranged around decisions another modeler or Codex instance needs to make. The dated observations are not a promise about every later tool release or game installation.
+
+## Find the method
+
+| Question | Read | What you get |
+| --- | --- | --- |
+| Which route should I offer the user? | [Methods and options](methods-and-options.md) | Five starting routes, relative effort, tool/surface alternatives and example recommendations |
+| What did TDIR, JKE and Shred do differently? | [Comparative research](jke-tdir-shred-research.md) | Source-linked author credits, measured rigs/meshes/materials/LODs, patch distinctions and transferable methods |
+| How do I keep stock animation or choose a custom rig? | [Compatibility](compatibility.md) | Numbered hierarchy, reserved animation domain, allocation, mesh budgets and integration recipes |
+| How did the Terminator collaboration work? | [Terminator case study](terminator-case-study.md) | Red/Lily/Coda lineage, bounded proportion edits, analytic chrome, piston repair and hand alternatives |
+| Where is local AI generation actually useful? | [Partial generation](partial-generation.md) | Hunyuan/TRELLIS/manual/donor choices, exact historical settings, conditioning failures and recovery |
+| Which texture method should I use? | [Textures and image generation](textures-and-imagegen.md) | Prompts, native-source handling, UV integration, diffuse versus painted lighting, local/GPT options |
+| How do I reduce/bake/export it? | [Blender export and baking](blender-export-and-baking.md) | CLI/UI alternatives, evaluated staging, color/geometry/analytic bake methods and serialization checks |
+| Do we have a fixed Blender-Sith fork? | [Source audit](blender-sith-audit.md) | Audited upstream identity, external wrappers, synthetic failures and criteria for a real patch |
+| How do I make the selected role playable? | [Runtime and packaging](runtime-and-packaging.md) | SP/MP/view-model distinctions, local resource derivation and practical checks |
+| What should I delegate? | [Advisory and delegation](advisory-and-delegation.md) | Bounded Pro questions, local worker ownership, visual packets and independent checking |
+
+## What changed decisions
+
+| Finding | Basis | Practical consequence |
+| --- | --- | --- |
+| TDIR large characters need matching animated branches | Identified archive/PUP/KEY analysis and bounded stock-key articulation experiment | Offer a custom rig route; do not promise stock animation from a profile rename |
+| JKE's package patch requirement is broader than any one model | Historical package instructions and patch notes; measured individual assets | Separate an art-quality target from a whole-package engine dependency |
+| Original KEY domain and total hierarchy allocation are different obligations | KEY corpus and reader inspection; T800 integration | Reserve existing indices and size applicable allocations; do not equate NODES with JOINTS |
+| A larger atlas does not imply universally larger stored UVs | Renderer source plus identified Shred model mapping | Calibrate the selected renderer/export route; distinguish repacking from resolution |
+| Unapplied modifiers and sharp-normal splits can be lost | Fresh synthetic Blender-Sith probes | Use prepared export staging or a tested writer; a diagnosis is not an upstream fix |
+| A generation mask can exist without reaching the encoder | Retained runner code and paired same-seed experiments | Inspect the prepared image; fix foreground/aspect preparation before another seed |
+| Another view or field extraction need not be another generation | Saved latent/field/extraction records | Reuse intermediates and preserve good anatomy |
+| A full textured generation path may contain geometry cleanup | Pinned TRELLIS code and compared outputs | Compare pipeline stages, not just a flag name; still inspect final topology |
+| Fixed chrome can be authored from real surface normals | Lily's retained analytic bake and decoded MAT comparisons | Offer a deliberate classic-engine finish without pretending it is runtime reflection |
+| A technically concealing hand can be visually unacceptable | Rejected/retained T800 variants and bounded game observations | Present shape/concealment options; do not make endless enlargement the default |
+
+## Reading evidence correctly
+
+The references identify **measured artifact facts**, **historical author statements**, **source-derived behavior**, **observed runtime cases**, and **recommended methods**. A later agent should preserve those distinctions while using the knowledge. The purpose is to make good modeling decisions, not require every historical experiment for every request.
+
+Machine-readable records live under [evidence/](evidence/): the fresh Blender-Sith probe report and a portable generation-study digest accompany the prose. These carry factual measurements and hashes, not copyrighted model payloads or private conversation dumps. The complete package manifest identifies the bytes in this release.
+
+Primary references are linked beside the claims they support. Community source credits include the original authors rather than attributing historical techniques to this workflow. A linked tutorial is identified as a further resource unless its contents were actually inspected; no unseen tutorial or Discord conversation is presented as reviewed evidence.
+
+The public research intentionally distinguishes tested source assemblies from game exports and separates earlier six-variant Starweird retail probes from later high-resolution source studies. It also separates the published T800 baseline from later local hand experiments. Those distinctions prevent a later Codex instance from promoting the wrong checkpoint.
+
+## New advisory and validation for this release
+
+A saved ChatGPT Pro advisory by Lilitari/Lily reviewed a bounded technical packet. It contributed useful checks for material-name collisions after export, the first-image-node UV dependency, PUP inheritance and semantic joints, and coverage of the full reachable animation family. The coordinator checked the material-name/UV helper and KEY loader against local source. The adviser did not inspect the private workspace or certify a game run.
+
+Independent scenario tests exercised two real choices: a stock-motion MotS creature with a good skull but fused teeth, and a TDIR-style alien with a possible stock-animation first edition. They also exposed an obsolete universal UV-scale recommendation and two narrow contract-inspector issues; the release corrections preserve renderer-specific mapping and distinguish absent model tracks from genuinely invalid KEY indices.
+
+The release's new tool checks use synthetic inputs or locally owned files without bundling game content. Current test details belong in the top-level validation record. No new generated character, gameplay session, or connected-multiplayer certification is implied by publishing the workflow.
+
+## Continuing the corpus
+
+For a new result, retain the exact source version, command/workflow, input/output hashes, measured observation and the decision it changes. Add a concise method note and credit the source. An experiment with a failed result can be useful: identify its failure mechanism and the cheaper recovery option. Keep current method guidance consistent across references when a correction supersedes an older rule.

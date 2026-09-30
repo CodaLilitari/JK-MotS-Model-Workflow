@@ -1,0 +1,4 @@
+interface:
+  display_name: "JK / MotS Model Workshop"
+  short_description: "Choose and build JKDF2 and MotS character models"
+  default_prompt: "Use $jk-mots-model-workflow to recommend practical modeling routes, explain the tradeoffs, and build the chosen JKDF2 or MotS model."

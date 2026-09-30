@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-09-30",
+  "scope": "Sanitized measurements from preserved local generation receipts; source models, reference images and checkpoints are not distributed.",
+  "verification": {
+    "receipts_and_runner_source_read": true,
+    "inference_rerun_for_this_release": false,
+    "new_visual_review_for_this_release": false,
+    "fresh_hash_matches": ["head-raw-glb", "trellis-complete-glb", "trellis-complete-decoded-buffer"],
+    "limitations": [
+      "Runtime measurements belong to the historical machine and are not hardware requirements or performance promises.",
+      "Visual findings summarize retained study reviews, not new rendering performed for this workflow release.",
+      "No study in this file establishes rigging, 3DO/MAT export, retail gameplay or connected multiplayer."
+    ]
+  },
+  "historical_pins": {
+    "hunyuan_shape": {
+      "repository": "tencent/Hunyuan3D-2",
+      "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+      "checkpoint": "hunyuan3d-dit-v2-0/model.fp16.safetensors",
+      "checkpoint_bytes": 4928151562,
+      "checkpoint_sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+      "comfy_revision_recorded_by_runner": "dec5d9450a5290bcf63430409ea41018e67f41c3",
+      "python": "3.13.12",
+      "torch": "2.10.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "execution": "Direct native Comfy nodes; no server started; installed source reported unchanged.",
+      "license_url": "https://huggingface.co/tencent/Hunyuan3D-2/blob/9cd649ba6913f7a852e3286bad86bfa9a2d83dcf/LICENSE"
+    },
+    "trellis": {
+      "runtime": "trellis.cpp v0.6.0 CUDA Windows x64",
+      "source_commit": "06fc9000719c912ddc4929d21db075972c26ac3e",
+      "release_archive_sha256": "4d08ab27e83094035fd8349aaf34d3460738df0466ef9c4991ddd958c0344bc2",
+      "executable_sha256": "e3d075612388a42fcb9bea73377feac4149e3a463cff2d2e11b24975e85d427d",
+      "weight_repository": "ilintar/trellis2-gguf",
+      "weight_revision": "a57397bd3d351599d9729fc144b3f87c3f87d65b",
+      "precision": "F16",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "license_note": "Runtime, shape model, converted checkpoints and DINOv3 encoder retain distinct terms.",
+      "release_url": "https://github.com/pwilkin/trellis.cpp/releases/tag/v0.6.0"
+    }
+  },
+  "studies": [
+    {
+      "id": "hunyuan-head-saved-field",
+      "input": {"description": "One accepted isolated stylized skull and neck image", "native_size": [1254, 1254], "conditioning_views": 1, "vision_size": [518, 518]},
+      "settings": {"seed": 2026091201, "sampler": "euler", "scheduler": "normal", "steps": 20, "cfg": 8.0, "denoise": 1.0, "aura_shift": 1.0, "latent_tokens": 3072, "batch_size": 1, "decode_resolution": 256, "chunks": 8000},
+      "sample_count": 1,
+      "vae_decode_count": 1,
+      "sample_and_export_seconds": 43.730,
+      "peak_cuda_allocated_bytes": 5492669952,
+      "raw_output": {"id": "head-raw-glb", "sha256": "39c2e57c39ab5ed8ce5c25d577c2988fc6e34c6578282d83b7e8b7a1b9467d57", "bytes": 5738372, "vertices": 158307, "triangles": 319786, "algorithm": "surface net", "threshold": 0.6, "textured": false, "rigged": false},
+      "extraction": {
+        "same_saved_field": true,
+        "new_generative_samples": 0,
+        "new_vae_decodes": 0,
+        "field_sha256": "49ffabe5a37588aaea59232499be58c3de92eec58e59c46b15e8026008c62710",
+        "field_shape": [257, 257, 257],
+        "field_axes": ["z", "y", "x"],
+        "field_semantics": "clip((raw decoder logits + 1) / 2, 0, 1); not raw signed distance",
+        "algorithm": "skimage.measure.marching_cubes / Lewiner",
+        "scikit_image": "0.26.0",
+        "threshold": 0.6,
+        "elapsed_seconds": 1.275,
+        "output_sha256": "73d76de97a7f8d7518ed9b540c5c394e801705063085170cfde91096e29456ae",
+        "output_bytes": 7600376,
+        "vertices": 158310,
+        "triangles": 316624,
+        "components": 1,
+        "boundary_edges": 0,
+        "edges_over_two_faces": 0,
+        "two_face_edges_with_inconsistent_winding": 0,
+        "duplicate_triangles_ignoring_winding": 0,
+        "exact_zero_area_triangles": 0,
+        "minimum_triangle_area": 3.9501079273848716e-13,
+        "topology_scope": "Incidence, winding and components; not exhaustive self-intersection or anatomical validation."
+      },
+      "retained_visual_findings": ["Useful coarse cranium, socket, nose, cheek and mandible mass", "Teeth fused into bands", "Nearly closed jaw gap", "Unwanted ear-like temporal boss", "Thick rear neck"],
+      "lesson": "Keep useful coarse shape, repair extraction from the saved field, then use precise local modeling or dentition donors."
+    },
+    {
+      "id": "hunyuan-portrait-conditioning-repair",
+      "input": {"description": "Separate accepted body and torso portrait references", "native_sizes": [[1024, 1536], [1145, 1374]], "conditioning_views_per_sample": 1},
+      "paired_settings": {"body_seed": 2026091202, "torso_seed": 2026091203, "sampler": "euler", "scheduler": "normal", "steps": 20, "cfg": 8.0, "latent_tokens": 3072, "decode_resolution": 384, "chunks": 8000},
+      "before": {"foreground_removed": false, "portrait_stretched_to_square": true, "vision_size": [518, 518], "retained_visual_finding": "Both sampled meshes contained a large backing slab."},
+      "after": {"mask_model": "U2Net", "mask_runtime": "rembg 2.0.84 / ONNX CPUExecutionProvider", "mask_model_sha256": "8d10d2f3bb75ae3b6d527c77944fc5e7dcd94b29809d47a739a7a728a912b491", "alpha_matting": false, "mask_postprocessing": false, "aspect_preserving_recenter": true, "total_border_ratio": 0.15, "background_rgb": [255, 255, 255], "vision_size": [518, 518], "retained_visual_finding": "Large backing slab absent from both corrected meshes."},
+      "raw_outputs": [
+        {"label": "body-before", "sha256": "b065777f4f87b34412d76208963e7022f2cb20bedbc74f7d8d9131443c3cba57", "vertices": 469251, "triangles": 1342106},
+        {"label": "body-after", "sha256": "6dc530f6056a7cfce7bcdcbc66ebdfb6c450bab1d5855d91d8c121b1ea4886fb", "vertices": 208716, "triangles": 505948},
+        {"label": "torso-before", "sha256": "f768b3b9c434a7a1d0c8a3c61f913568cf9ad7d65a81d11de13d76f6f9f5d1c0", "vertices": 714813, "triangles": 1529558},
+        {"label": "torso-after", "sha256": "99fe21429be2373d3be14ff9bd2b20eb93d87b5acdc4b28365e8919f51bd3c0d", "vertices": 378185, "triangles": 773986}
+      ],
+      "new_samples_for_combined_correction": 2,
+      "interpretation_limit": "Masking and aspect preservation changed together; their individual causal contributions were not isolated. Triangle counts do not certify anatomy or visual quality.",
+      "lesson": "Inspect the exact alpha and encoder image before sampling; a white RGB backdrop is not a mask."
+    },
+    {
+      "id": "trellis-raw-versus-complete-path",
+      "input": {"description": "One accepted portrait creature reference and inspected soft alpha", "native_size": [1024, 1536], "runtime_crop_size": [1624, 1624], "conditioning_size": [512, 512], "upscaled": false},
+      "settings": {"seed": 2026091202, "resolution": 512, "precision": "F16", "gpu": 0, "require_gpu": true},
+      "raw_path": {
+        "no_texture": true,
+        "sample_count": 1,
+        "exit_code": 0,
+        "wall_seconds": 24.155,
+        "whole_gpu_peak_used_mib": 8376,
+        "output_sha256": "4309892993088ed54082e3ab819d1fbfc384be16411feb7923831a48178821f9",
+        "output_bytes": 24540260,
+        "stored_vertices": 651608,
+        "used_vertices": 646907,
+        "triangles": 1393344,
+        "boundary_edges": 154165,
+        "edges_over_two_faces": 167822,
+        "nonfinite_coordinates": 0,
+        "retained_visual_finding": "Broad perforation/striping, with incorrect digit counts."
+      },
+      "complete_path": {
+        "no_texture": false,
+        "webp": "off",
+        "sample_count": 1,
+        "exit_code": 0,
+        "wall_seconds": 30.596,
+        "whole_gpu_peak_used_mib": 8380,
+        "output_id": "trellis-complete-glb",
+        "output_sha256": "965403db28d2c455b1e4c7e831bc7232ae4c058d844e61d18c2f045e8c5f829b",
+        "output_bytes": 9615800,
+        "stored_vertices": 146512,
+        "unique_exact_positions": 69462,
+        "triangles": 146810,
+        "components_after_exact_position_seam_identification": 1,
+        "boundary_edges_after_exact_position_seam_identification": 0,
+        "edges_over_two_faces_after_exact_position_seam_identification": 2172,
+        "zero_area_triangles_at_crossnorm_1e_12": 0,
+        "nonfinite_coordinates": 0,
+        "retained_visual_finding": "Cleaner back, cloth and layered mane donors; face and extremities still unsuitable as final character anatomy."
+      },
+      "comparison": {
+        "same_seed_rerun": true,
+        "same_saved_latent_replay": false,
+        "pre_cleanup_geometry_byte_identical": true,
+        "shared_decoded_buffer_id": "trellis-complete-decoded-buffer",
+        "shared_decoded_buffer_sha256": "30b91fe2aaf99b9f588a2fda23d7e25f8f1cbce0864f4f8de2db8ef21c17313d",
+        "version_specific_source_finding": "The v0.6.0 CLI's no-texture path skips the normal weld/remesh/cleanup/QEM/UV block.",
+        "gpu_measurement_limit": "Whole-GPU one-second samples include Windows desktop and may miss the instantaneous peak; not model-exclusive allocation.",
+        "topology_measurement_limit": "Raw index topology and complete-path exact-position seam identification are labelled separately; neither is an exhaustive self-intersection check."
+      },
+      "lesson": "Compare intended complete pipeline outputs before blaming the sampled geometry; keep useful regional donors and measure residual defects."
+    }
+  ],
+  "not_demonstrated_here": ["Hunyuan Paint", "Hunyuan multiview inference", "Upscaling improving shape generation", "TripoSG or Pixal3D inference", "Whole-character production UV bake", "Playable output from these high-resolution studies"]
+}
