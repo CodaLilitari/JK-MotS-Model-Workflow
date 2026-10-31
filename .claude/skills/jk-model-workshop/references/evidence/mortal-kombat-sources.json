@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-09-30",
+  "scope": "Historical JKDF2/MotS character skins; not Jedi Outcast/Jedi Academy; no level design.",
+  "status": {
+    "downloaded_relevant_unique_archives": 3,
+    "independent_host_pairs_matched": 3,
+    "cyrax": "Author advertised roster recovered; working isolated 3DO not established",
+    "sektor": "Not located or authenticated for JK/MotS",
+    "runtime": "not_run",
+    "third_party_assets_redistributed": false
+  },
+  "rights": "Original analysis and metadata only. Source authors retain copyrights; raw pages and third-party archives remain private. No permission to reuse character artwork inferred from availability.",
+  "search_scope": {
+    "web_terms": [
+      "Mortal Kombat",
+      "Sektor",
+      "Cyrax",
+      "MK2",
+      "skin",
+      "skinpack",
+      "3do",
+      "cyborg",
+      "1998",
+      "1999",
+      "Sector"
+    ],
+    "public_sources": [
+      "Massassi download pages and historical news",
+      "JKDF2 JKArchive jkmod directory and selected website directories"
+    ],
+    "local_corpus": "Read-only COG research forum text searched for Cyrax, Sektor, Mortal Kombat, DBZ4.0 and DragonBallZ4; generic MK discussion and Day of Destiny planning did not yield a character archive.",
+    "limits": [
+      "Package recovery used public sources; a separate bounded member-visible Discord query review is recorded below.",
+      "No whole-web/server completeness claim.",
+      "No new Wayback API calls made after parent task reported rate limiting.",
+      "No executables, scripts from downloaded archives, or game assets executed."
+    ],
+    "discord_queries": {
+      "checked_date": "2026-09-30",
+      "scope": "Member-visible server-wide search without channel restriction",
+      "queries": [
+        {
+          "query": "Sektor",
+          "visible_results": 0,
+          "messages_read": 0
+        },
+        {
+          "query": "Cyrax",
+          "visible_results": 0,
+          "messages_read": 0
+        },
+        {
+          "query": "\"mortal kombat\"",
+          "visible_results": 9,
+          "messages_read": 9
+        }
+      ],
+      "limitation": "Observed search results, not a complete server-history review or proof of global absence."
+    }
+  },
+  "sources": [
+    {
+      "id": "mkskinsse",
+      "title": "Mortal Kombat Skins SE",
+      "author": "Mr. X",
+      "listing_date": "2002-11-11",
+      "url": "https://www.massassi.net/levels/files/2477.shtml",
+      "finding": "Cyrax advertised by author. Actual GOB contains 188 MATs, CMP, COG, patchinfo; no 3DOs/models.dat. A working Cyrax model was not established.",
+      "evidence_level": "downloaded_archive_statically_inspected_and_compared_between_two_hosts",
+      "page_capture": {
+        "url": "https://www.massassi.net/levels/files/2477.shtml",
+        "final_url": "https://www.massassi.net/levels/files/2477.shtml",
+        "status": 200,
+        "bytes": 14089,
+        "sha256": "e1f153ab82bbc40c8c079fad670ed07ec7a524ccae2d65b01cf5be2247bd1bdc",
+        "checked_utc": "2026-09-30"
+      },
+      "original_archive": {
+        "url": "https://www.massassi.net/media/levels/files/jkmod/mkskinsse.zip",
+        "final_url": "https://www.massassi.net/media/levels/files/jkmod/mkskinsse.zip",
+        "status": 200,
+        "bytes": 154195,
+        "sha256": "22ca8d32dce2c34936731d60fb9475690150f4f2acc072c736e83f09567c68a5",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_archive": {
+        "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mkskinsse.zip",
+        "final_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mkskinsse.zip",
+        "status": 200,
+        "bytes": 154195,
+        "sha256": "22ca8d32dce2c34936731d60fb9475690150f4f2acc072c736e83f09567c68a5",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_identical": true,
+      "zip_members": [
+        {
+          "name": "read-me.txt",
+          "bytes": 4638,
+          "sha256": "ae21fbea99b49962033f68c70131e2c58d8513031967cb9510a165ab85edf4de",
+          "zip_date_time": [
+            2002,
+            11,
+            10,
+            8,
+            10,
+            28
+          ]
+        },
+        {
+          "name": "Mortal Kombat skins SE.gob",
+          "bytes": 505067,
+          "sha256": "444a61708b119597990f34d47743adf650c4c7680425f261a5cd3c5e528ecfe1",
+          "zip_date_time": [
+            2002,
+            10,
+            29,
+            6,
+            13,
+            8
+          ],
+          "gob_entry_count": 191,
+          "gob_types": {
+            ".txt": 1,
+            ".cmp": 1,
+            ".mat": 188,
+            ".cog": 1
+          },
+          "models": []
+        },
+        {
+          "name": "JSHOT092.BMP",
+          "bytes": 192054,
+          "sha256": "7455bbb88b44352402e7d274f5362103c55736be4d31bfa771db247e7f26f363",
+          "zip_date_time": [
+            2002,
+            11,
+            10,
+            8,
+            17,
+            4
+          ]
+        },
+        {
+          "name": "JSHOT091.BMP",
+          "bytes": 192054,
+          "sha256": "20b836d539a19f8b1f23576ad42f3b386ae5a5b6776c9a285d7c2241b5fb4dbf",
+          "zip_date_time": [
+            2002,
+            11,
+            10,
+            8,
+            15,
+            36
+          ]
+        }
+      ],
+      "integration_limit": "Texture-only skin packs may reuse stock geometry. This package uses custom-prefixed MAT names such as DaBraz and DRBraz, but matching model references were not established here; no broken-package conclusion follows solely from absent 3DOs."
+    },
+    {
+      "id": "mkskins1",
+      "title": "Mortal Kombat Skins 1",
+      "author": "Mr. X",
+      "listing_date": "2002-10-29",
+      "url": "https://www.massassi.net/levels/files/2471.shtml",
+      "finding": "Skin GOB contains 114 MATs, CMP, COG, patchinfo; no 3DOs/models.dat. Listing and readme rosters differ. Separate included level not evaluated.",
+      "evidence_level": "downloaded_archive_statically_inspected_and_compared_between_two_hosts",
+      "page_capture": {
+        "url": "https://www.massassi.net/levels/files/2471.shtml",
+        "final_url": "https://www.massassi.net/levels/files/2471.shtml",
+        "status": 200,
+        "bytes": 11908,
+        "sha256": "a73112fd8fc65612f87ead161c8e1599054641e23a6772b344540614d8184f5f",
+        "checked_utc": "2026-09-30"
+      },
+      "original_archive": {
+        "url": "https://www.massassi.net/media/levels/files/jkmod/mkskins1.zip",
+        "final_url": "https://www.massassi.net/media/levels/files/jkmod/mkskins1.zip",
+        "status": 200,
+        "bytes": 457668,
+        "sha256": "f828c7d52fdf574ddf8157fbeb5272e24b8f3ebedb6618ac8aeca371ba2b8afb",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_archive": {
+        "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mkskins1.zip",
+        "final_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mkskins1.zip",
+        "status": 200,
+        "bytes": 457668,
+        "sha256": "f828c7d52fdf574ddf8157fbeb5272e24b8f3ebedb6618ac8aeca371ba2b8afb",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_identical": true,
+      "zip_members": [
+        {
+          "name": "read-me.txt",
+          "bytes": 4616,
+          "sha256": "4d0cfd84f570347b6b801dfc29f25b8d8df32c4d0bd749f48adff95f6012839e",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            13,
+            12,
+            42
+          ]
+        },
+        {
+          "name": "mortal Kombat lvl 1.gob",
+          "bytes": 1527374,
+          "sha256": "3049bffacf872287cd6a874d40c815983be5a42c5aa5546d53f51ec56f914bb7",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            13,
+            0,
+            34
+          ],
+          "gob_entry_count": 11,
+          "gob_types": {
+            ".jk": 1,
+            ".cog": 4,
+            ".jkl": 1,
+            ".mat": 2,
+            ".uni": 1,
+            ".spr": 1,
+            ".wav": 1
+          },
+          "models": []
+        },
+        {
+          "name": "Mortal Kombat skins1.gob",
+          "bytes": 335139,
+          "sha256": "35d5a4ed38ac640ddb5f392ffb50a1754d810c8fb65b86d8213dbc916bd918a5",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            13,
+            13,
+            26
+          ],
+          "gob_entry_count": 117,
+          "gob_types": {
+            ".txt": 1,
+            ".cmp": 1,
+            ".mat": 114,
+            ".cog": 1
+          },
+          "models": []
+        },
+        {
+          "name": "JSHOT085.BMP",
+          "bytes": 192054,
+          "sha256": "8ff27dd9d99a6a21f67f239d48bb13753d9fef4e5da45c0fc1c11371dd9c99f2",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            13,
+            10,
+            52
+          ]
+        },
+        {
+          "name": "JSHOT086.BMP",
+          "bytes": 192054,
+          "sha256": "d35b1b9ca0bf51297510536d493794432588166801fa8c8e9cf07a28907bff60",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            13,
+            12,
+            6
+          ]
+        },
+        {
+          "name": "faster fists.cog.COG",
+          "bytes": 5824,
+          "sha256": "29f36ac61940f0a831dce8b8aa06eeda7d5ee01def203f75e5d7c26e91a6cf0f",
+          "zip_date_time": [
+            2002,
+            10,
+            26,
+            11,
+            30,
+            50
+          ]
+        }
+      ],
+      "integration_limit": "Texture-only skin packs may reuse stock geometry. This package uses custom-prefixed MAT names such as DaBraz and DRBraz, but matching model references were not established here; no broken-package conclusion follows solely from absent 3DOs."
+    },
+    {
+      "id": "mk2sp",
+      "title": "Mortal Kombat 2 Skinpack",
+      "author": "Darth Slaw / Colin Hurley",
+      "listing_date": "2003-10-21",
+      "url": "https://www.massassi.net/levels/files/2797.shtml",
+      "finding": "14 actual 3DOs and 90 MATs recovered; selection table has 42 rows, including 14 added fighters. No Cyrax/Sektor or cyber Smoke. No runtime test.",
+      "evidence_level": "downloaded_archive_statically_inspected_and_compared_between_two_hosts",
+      "page_capture": {
+        "url": "https://www.massassi.net/levels/files/2797.shtml",
+        "final_url": "https://www.massassi.net/levels/files/2797.shtml",
+        "status": 200,
+        "bytes": 14107,
+        "sha256": "88183a926b57a0788bb56c802e504521041c7cd4dda18edcfd85d5302ebc49c6",
+        "checked_utc": "2026-09-30"
+      },
+      "original_archive": {
+        "url": "https://www.massassi.net/media/levels/files/jkmod/mk2sp.zip",
+        "final_url": "https://www.massassi.net/media/levels/files/jkmod/mk2sp.zip",
+        "status": 200,
+        "bytes": 265394,
+        "sha256": "60e4e930151a256daac803ccb14fa35c3687e693b33e2ff4412eaf807d8b4716",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_archive": {
+        "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mk2sp.zip",
+        "final_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/mk2sp.zip",
+        "status": 200,
+        "bytes": 265394,
+        "sha256": "60e4e930151a256daac803ccb14fa35c3687e693b33e2ff4412eaf807d8b4716",
+        "checked_utc": "2026-09-30"
+      },
+      "mirror_identical": true,
+      "zip_members": [
+        {
+          "name": "mk2sp.txt",
+          "bytes": 4634,
+          "sha256": "42f379f31ce3b27f8ff16ff5b44b091af6c2b80b6a118843854b3bd0a2e0cd47",
+          "zip_date_time": [
+            2003,
+            9,
+            11,
+            21,
+            7,
+            30
+          ]
+        },
+        {
+          "name": "mk2sp.gob",
+          "bytes": 1038950,
+          "sha256": "6d803ed29c0408576aa70299f8686c388255a082e81a9a80889dfa970eadff7b",
+          "zip_date_time": [
+            2003,
+            9,
+            11,
+            21,
+            5,
+            52
+          ],
+          "gob_entry_count": 107,
+          "gob_types": {
+            ".3do": 14,
+            ".mat": 90,
+            ".dat": 1,
+            ".uni": 1,
+            ".txt": 1
+          },
+          "models": [
+            {
+              "name": "3do\\baraka.3do",
+              "bytes": 54405,
+              "sha256": "36ff937299633e67d83482ec97e11f853c1f36c4b99b0b89a168ae19015a0444"
+            },
+            {
+              "name": "3do\\cage.3do",
+              "bytes": 53709,
+              "sha256": "50ecb052721c789d9e7ce9a2c836cfa77df538570f928d08c493cdc4c658afe6"
+            },
+            {
+              "name": "3do\\jax.3do",
+              "bytes": 53592,
+              "sha256": "4574a6bc4ca584ed73b45710db067ae1135709b08f6c8f8a82caa6474b18b144"
+            },
+            {
+              "name": "3do\\kang.3do",
+              "bytes": 52375,
+              "sha256": "1a22f4ae2f9bac5fa29d8c5eb2c86b2b69ebc0fd6f7db754cdf27d91f928443e"
+            },
+            {
+              "name": "3do\\kitana.3do",
+              "bytes": 52021,
+              "sha256": "87f9ce2f791c83c3730d5d6a13809f62883d2ff20fc9e79dae37f678fd824dd9"
+            },
+            {
+              "name": "3do\\kunglao.3do",
+              "bytes": 58214,
+              "sha256": "3887890ed1a0ec5a91b961ddca13bda45c98de1d8935d5aed5c42b617eb84bd0"
+            },
+            {
+              "name": "3do\\mileena.3do",
+              "bytes": 52020,
+              "sha256": "f824c85efae1e8576ff385e830385b191e5932a58d933154e72ef06c437e84eb"
+            },
+            {
+              "name": "3do\\rayden.3do",
+              "bytes": 54970,
+              "sha256": "f108f477e24ffcde84a40a420b5a95d7c457480e995c67f5690ead6ee0093a5b"
+            },
+            {
+              "name": "3do\\reptile.3do",
+              "bytes": 52272,
+              "sha256": "14f6ce0af416517c8de27445e4a0b6660b59c313e81d4e983481a5c97c4357c1"
+            },
+            {
+              "name": "3do\\saibot.3do",
+              "bytes": 52140,
+              "sha256": "c6e055eaaebc62f2345a3602b45d5dc8f0841089384bab4159a2d64017be6391"
+            },
+            {
+              "name": "3do\\scorpion.3do",
+              "bytes": 52272,
+              "sha256": "ed5645b5a709ce4aafb9224e5fe7c6b4a1a6e7184279ef2f6d8f70dd2a8daeb3"
+            },
+            {
+              "name": "3do\\smoke.3do",
+              "bytes": 52267,
+              "sha256": "d058255480501606a94e58ff727273e5b6c0a7d151fab675da90f64c9fef2c02"
+            },
+            {
+              "name": "3do\\subzero.3do",
+              "bytes": 52268,
+              "sha256": "12bcf6e87d52a3ac4c72940e670668b696f0e12e71002529d6cab950be703609"
+            },
+            {
+              "name": "3do\\tsung.3do",
+              "bytes": 53558,
+              "sha256": "159654a8dc92a3eeb4429905e4eb53399d49d4b9b27f8580fdf2bfad48f4b7fa"
+            }
+          ]
+        }
+      ],
+      "readme_dates": {
+        "completion": "2003-01-25",
+        "release": "2003-09-11"
+      },
+      "model_headers": {
+        "models_measured": 14,
+        "each_geosets": 1,
+        "each_meshes": 16,
+        "each_hierarchy_nodes": 18,
+        "claim_limit": "Declared 3DO headers, not full engine/runtime validation"
+      }
+    },
+    {
+      "id": "sector-1999-lead",
+      "title": "Mortal Kombat Skin Pack news",
+      "author": "Brian",
+      "date": "1999-10-18",
+      "url": "https://www.massassi.net/oldnews/old33.shtml",
+      "page_capture": {
+        "url": "https://www.massassi.net/oldnews/old33.shtml",
+        "final_url": "https://www.massassi.net/oldnews/old33.shtml",
+        "status": 200,
+        "bytes": 92786,
+        "sha256": "b47a096880d7bf1fd474456c00b546fe76e44dd26ad69a53f3443f8313ed7145",
+        "checked_utc": "2026-09-30"
+      },
+      "historical_outbound_url": "http://www.massassi.net/sector/skins.shtml",
+      "finding": "Contemporary announcement identifies hosted Sector skins page, but no pack filename/roster/author recovered. Sector is site name, not proof of Sektor character.",
+      "archive_status": "No verified dated snapshot recovered in this investigation",
+      "binary_status": "not_found",
+      "current_link_status": "Historical outbound URL preserved; current reachability is not certified by this ledger."
+    },
+    {
+      "id": "kombatky.zip",
+      "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/KOMBATKY.ZIP",
+      "archive": {
+        "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/KOMBATKY.ZIP",
+        "final_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/KOMBATKY.ZIP",
+        "status": 200,
+        "bytes": 49914,
+        "sha256": "66e1bcec010dc3a1d38b8a48e8f0d91174b58e29735c3d7760bac43bea9b9d15",
+        "checked_utc": "2026-09-30"
+      },
+      "finding": "BILLMAN Combat Suit Kyle, October 26 1997; unrelated to Mortal Kombat.",
+      "classification": "examined_and_excluded"
+    },
+    {
+      "id": "cyborg-skin-pack.zip",
+      "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/Cyborg%20skin%20pack.zip",
+      "archive": {
+        "url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/Cyborg%20skin%20pack.zip",
+        "final_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/Cyborg%20skin%20pack.zip",
+        "status": 200,
+        "bytes": 54090,
+        "sha256": "0960f1ae33f9e8fcf6d77950a48cdda6dedff36273604690ab29bc1613be8f30",
+        "checked_utc": "2026-09-30"
+      },
+      "finding": "KnightSpider SP Kyle texture replacements, January 15 2000; credits Al MacDonald Dark Trooper/Future Cop materials, not Mortal Kombat.",
+      "classification": "examined_and_excluded"
+    },
+    {
+      "id": "discord-reiko-983752217225986118",
+      "kind": "discord_message",
+      "title": "Reiko from Mortal Kombat 4 authoring report",
+      "author": "KnightCop",
+      "url": "https://discord.com/channels/881034839401328680/881044857328652328/983752217225986118",
+      "channel": "editing",
+      "date_displayed": "2022-06-07",
+      "own_header_display_time": "Tuesday, June 7, 2022 at 11:20 AM",
+      "timezone": "Display timezone not established",
+      "finding": "KnightCop reports completing a Reiko request with original and JK textures, omitting the small loincloth.",
+      "evidence_level": "Participant authoring report; own header and body inspected in a signed-in search result.",
+      "link_status": "Derived from observed guild, channel and message ID; direct navigation later required login.",
+      "wider_context_opened": false,
+      "attachments_or_model_files_inspected": false,
+      "recovered_binary": false,
+      "review_note_sha256": "f8c23a6092146b21f9fd59c8c656b565a2c187c3c303b81240a4533c2ab8ca0d",
+      "review_note_hash_scope": "Hash identifies the private selected-result review note, not a complete raw Discord response.",
+      "limitations": "No runtime verification, asset-rights grant or reusable model download established."
+    }
+  ]
+}

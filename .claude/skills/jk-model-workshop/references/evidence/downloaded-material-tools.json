@@ -1,0 +1,822 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-30T21:57:06.873003+00:00",
+  "scope": "Passive analysis of two downloaded converter archives, selected source files and three JK skin packages. Original synthesis and hash/measurement metadata only; no source code, full readmes, original messages, program binaries or third-party skin assets included.",
+  "inspection_coverage": {
+    "tool_archive_count": 2,
+    "selected_source_projects": 2,
+    "skin_packages": 3,
+    "material_payloads_fully_parsed": 110,
+    "selected_source_records": 7,
+    "unavailable_materials": "No acquired ForceRemap or MatMaster binary was established in this bounded pass; historical authored tutorial/changelog evidence is recorded separately."
+  },
+  "sources": [
+    {
+      "id": "asset-surface-01",
+      "title": "Mat16 1.1 actual archive and included history",
+      "author": "BoBo Fett; changelog credits Craig Urquhart for the ARGB1555 discovery",
+      "date": "2004-12-04 (included Mat16.txt version date)",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/881047589217247232",
+      "archive": {
+        "filename": "mat16_11.zip",
+        "bytes": 350868,
+        "sha256": "39520e39d6401aee0a0a51cb33b7303368daf27dc249d29c22e859a460c6c1e5"
+      },
+      "archive_members": [
+        {
+          "name": "Mat16.exe",
+          "bytes": 355840,
+          "sha256": "dbb10aba4f5081adfd6b25a319592da631d338667893cc84c291ab978d639802"
+        },
+        {
+          "name": "Mat16.txt",
+          "bytes": 3280,
+          "sha256": "735f822ea8b0b0be664dfc387d7b7e9e4d53e56de5fd4bb3a62689270bea2395"
+        },
+        {
+          "name": "mat16.exe.manifest",
+          "bytes": 535,
+          "sha256": "3d51788bdcd1eb7dce11062b9000ecaba606112715f5a2d73b99ca749faeffc9"
+        },
+        {
+          "name": "mat-16spec.txt",
+          "bytes": 2964,
+          "sha256": "d44aa12f3f59999abc86e291638e6d6a79932c2ad3681bbe7df837e8212ac955"
+        }
+      ],
+      "evidence_strength": "Actual ZIP bytes and included author documentation read; converter not launched",
+      "findings": [
+        "Version 0.5b removed broken 16-bit transparency support in 2001; version 0.7 restored transparent 16-bit support in April 2002 using ARGB1555, crediting Craig Urquhart. Version 1.0 records an RGB565 bit-shifting fix. These entries explain why early converter advice can disagree with later behavior.",
+        "Version 0.9 adds multi-cell materials with mipmaps and dimension checks; 1.1 adds 16-bit dithering and alpha-loading tools. The included spec identifies RGB565 and ARGB1555 separately. The documentation is not a runtime compatibility test."
+      ],
+      "difference_from_1_2": "Adds ARGB1555 as an explicitly named candidate for binary cutout transparency, distinct from opaque RGB565, face translucency and modern fractional-alpha replacement images. Select by actual target tests.",
+      "rights": "Included notice allows only original unmodified free distribution with notice sent to author. No redistribution or author contact performed. Preserve local archive; do not bundle it by default."
+    },
+    {
+      "id": "asset-surface-02",
+      "title": "JKPaint 0.8 beta actual ZIP and passively extracted CHM manual",
+      "author": "Craig Urquhart (UGG), Code Alliance; credits BoBo_Fett and other contributors",
+      "date": "2003 copyright; exact release date not established",
+      "source_url": "https://jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/tools/OTHER/JKPaint08.zip",
+      "archive": {
+        "filename": "2a2f998bc3a16fadab2a897213c5d0a5dc885282870609bfceaf53c9372a640a.zip",
+        "bytes": 754600,
+        "sha256": "05bf59c28ae8bca3c13fdf4898bc6e244965b427ec115f3372947ca3a21d18f0"
+      },
+      "archive_members": [
+        {
+          "name": "JKPaint.chm",
+          "bytes": 393856,
+          "sha256": "0ca01f4ea091fd45db202b9ecee230977ae927d6b76ea3b8458564bd7c4260f8"
+        },
+        {
+          "name": "JKPaint.exe",
+          "bytes": 850432,
+          "sha256": "859772816bd494ed67db3871dbcb0a7fe984e36e9588aeaeb9637d6ce3ef33e9"
+        }
+      ],
+      "read_help_members": [
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "intro.html"
+          ],
+          "filename": "intro.html",
+          "bytes": 1738,
+          "sha256": "d35b785000e9832cd8743844b9a9e6246bd034c84b06ff4688b0ffaa3796dcbf"
+        },
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "basics.html"
+          ],
+          "filename": "basics.html",
+          "bytes": 1846,
+          "sha256": "108b558fa7ccfb4a1271c0319ff09b3857e1c66ea468f24fbaa9f059d921ce2b"
+        },
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "mat.html"
+          ],
+          "filename": "mat.html",
+          "bytes": 2891,
+          "sha256": "7be4a9fa858c249a76c840df838e0de839b6b079d598f6f5e18a5cf51734cdbd"
+        },
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "cmp.html"
+          ],
+          "filename": "cmp.html",
+          "bytes": 1697,
+          "sha256": "f1383399d748c90adac88791e34aff28d3260c7eaa11ffdb3488898e91c4ce42"
+        },
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "history.html"
+          ],
+          "filename": "history.html",
+          "bytes": 2020,
+          "sha256": "8740ebea9b93ee409fe5fd217dce41b6a5f9420e214afd72f45404ecd3f83a7b"
+        },
+        {
+          "archive_chain": [
+            "JKPaint.chm",
+            "credits.html"
+          ],
+          "filename": "credits.html",
+          "bytes": 1009,
+          "sha256": "69832ffca1c8bd53f67cc0015014112a82021fbdbde634be1d5cbbb1c7be3582"
+        }
+      ],
+      "extraction": "7-Zip 26.02 extracted selected CHM HTML members into the private evidence directory; no CHM viewer or JKPaint executable launched",
+      "evidence_strength": "Included help/documentation in actual converter archive",
+      "findings": [
+        "MAT help distinguishes cells/frames from their mip chains. Select indexed palette and properties before adding frames; Generate Mipmaps controls automatic construction. Shift commands reorder frames, while mipmaps cannot be independently deleted or shifted in that UI.",
+        "Extract Bitmaps can emit current or all frames as 8- or 24-bit BMPs. Filename numbers start at 1 for frames and letters at A for mip levels. Preserve this ordering during round trips instead of using arbitrary filename sort.",
+        "History says 0.2 added transparent 16-bit MAT support and mip-size checks; 0.2.1 fixed the floating-point error; 0.8 fixed transparency-color selection. CMP help distinguishes RGB entries from light and blend lookup tables."
+      ],
+      "difference_from_1_2": "Adds a specific cell/mip inspection/extraction option and file-naming contract. Manual-wide statements about 1024 dimensions, four mips, sixteen frames or black transparency are historical program documentation, not newly certified universal engine limits.",
+      "rights": "Manual copyright retained by Craig Urquhart; assets/manual remain private. No general documentation redistribution grant inferred."
+    },
+    {
+      "id": "asset-surface-03",
+      "title": "MAT16 V1.04 selected implementation and documentation",
+      "author": "JKBoBoFett / BoBo Fett",
+      "date": "2022-12-21 release; source tag pin 3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7",
+      "source_url": "https://github.com/JKBoBoFett/MAT16/tree/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7",
+      "files": [
+        {
+          "filename": "Mat16.DPR",
+          "bytes": 2072,
+          "sha256": "86cd7f63938e344b6950b4f2081da91eff43e9177400fcf269493026e235c512",
+          "source_url": "https://raw.githubusercontent.com/JKBoBoFett/MAT16/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7/Mat16.DPR"
+        },
+        {
+          "filename": "MAIN.PAS",
+          "bytes": 35768,
+          "sha256": "0453980699897ff75051235d52097cc128e8cd8f1a2d7770acaae92861ba6aa6",
+          "source_url": "https://raw.githubusercontent.com/JKBoBoFett/MAT16/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7/MAIN.PAS"
+        },
+        {
+          "filename": "EditMTS.pas",
+          "bytes": 1212,
+          "sha256": "34356beb5af89426a7d3a4fec2da6f50d6aa659a4664b2bbca5050c7494e94ea",
+          "source_url": "https://raw.githubusercontent.com/JKBoBoFett/MAT16/3b53c7c20d2e5feb761ea6895bd2a1cb92eee6b7/EditMTS.pas"
+        },
+        {
+          "filename": "Mat16_Format.md",
+          "bytes": 5079,
+          "sha256": "198ba3c5854a2eaecbb8497479091eea47b23e9dbfcda72731424c1c00bced49",
+          "source_url": "https://raw.githubusercontent.com/JKBoBoFett/MAT16/444721680d07c239e6b7979eea972982309699c8/Mat16_Format.md"
+        },
+        {
+          "filename": "README.md",
+          "bytes": 1140,
+          "sha256": "93b43f23ecf347fab1990fea6b8f45e2df5c01404549eff50b5a0539bf755f93",
+          "source_url": "https://raw.githubusercontent.com/JKBoBoFett/MAT16/444721680d07c239e6b7979eea972982309699c8/README.md"
+        }
+      ],
+      "evidence_strength": "Selected pinned Pascal implementation independently read; source file hashes match acquisition receipts; no build or run",
+      "findings": [
+        "The tag contains actual implementation, while the separately pinned default main documentation tree does not. Selected source proves GUI recipe conversion, not an unattended CLI: MAIN.PAS opens a MAT16S file dialog, shows a progress form, calls TBMPArray.OpenMTS, and saves via the recipe name; Mat16.DPR constructs forms then enters Application.Run.",
+        "SetLightLevel calls the CMP light remapping function and refreshes indexed display state. Use such views to diagnose indexed skin appearance, without equating preview to baked pixels or runtime lighting.",
+        "The default README marks internal-CMP MATs, RGBA4444, RGBA5551, RGB24 and RGBA32 as custom-engine-only. Script-created variants do not establish retail support."
+      ],
+      "difference_from_1_2": "Corrects both possible overstatements: MAT16 is not documentation-only, and a script recipe feature is not automatically a headless agent API. The actual parser/helper implementation was not acquired here, so exact recipe grammar/fidelity remains unresolved.",
+      "rights": "Observed repository metadata lacks a general license and selected files contain no general reuse grant. No third-party source redistribution or fork proposed from these limited files."
+    },
+    {
+      "id": "asset-surface-04",
+      "title": "bahstrike/Matt source at 5df4ed4bc72396b796b9d377ee4c2a9bcd355e35",
+      "author": "bahstrike / BAH_Strike; README credits JKSpecs, BoBo Fett, smlu and shiny",
+      "date": "2024-04-01T00:39:19Z commit author timestamp",
+      "source_url": "https://github.com/bahstrike/Matt/tree/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35",
+      "files": [
+        {
+          "filename": "README.md",
+          "bytes": 4549,
+          "sha256": "c87b003ca32c1bb8a05aae6f85f00ba95e9189e562659a156b4ea501aebdd839",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/README.md"
+        },
+        {
+          "filename": "LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/LICENSE"
+        },
+        {
+          "filename": "Program.cs",
+          "bytes": 887,
+          "sha256": "1dbe78dd22ad8ee3396ed17b74b87518648f14f524dfc8dae6a62ecc74b97d13",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/Program.cs"
+        },
+        {
+          "filename": "Matt.cs",
+          "bytes": 35694,
+          "sha256": "08e43adb11dff8c16a3c3b404e8f3235d9318413fc8ba311f4697d9a94dfc627",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/Matt.cs"
+        },
+        {
+          "filename": "Material.cs",
+          "bytes": 16912,
+          "sha256": "eb73b8360c09ecf122c91f46f16cb90431bb27e1b713ad17b3fbe3d1d6e11b96",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/Material.cs"
+        },
+        {
+          "filename": "Colormap.cs",
+          "bytes": 5316,
+          "sha256": "cd47ba201f1ffe4c1f78cbd61eec287575b04d1a1fb24bbb8c8af79cd84ecf97",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/Colormap.cs"
+        },
+        {
+          "filename": "GOB.cs",
+          "bytes": 4300,
+          "sha256": "2ffadf22da5dadfdf216adf14a2e3a4d336026115417c96b75a582c487677ecf",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/GOB.cs"
+        },
+        {
+          "filename": "WorkColor.cs",
+          "bytes": 2482,
+          "sha256": "0bcf69c4afe84b782fc7367bd7bb9801daf4d64c79ae3c38022c407abafea491",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/WorkColor.cs"
+        },
+        {
+          "filename": "Matt.csproj",
+          "bytes": 3908,
+          "sha256": "3a06d6ece1b7dc9ee4bd81b9b891a775d9b8837878f8dada5e51afd68ea50277",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/Matt.csproj"
+        },
+        {
+          "filename": "mat spec.txt",
+          "bytes": 3276,
+          "sha256": "7914a99391ae3160bef21756ad145287709b8d8edfd97257bee9648278e65731",
+          "source_url": "https://raw.githubusercontent.com/bahstrike/Matt/5df4ed4bc72396b796b9d377ee4c2a9bcd355e35/mat%20spec.txt"
+        }
+      ],
+      "evidence_strength": "README plus actual selected C# conversion paths read; hashes match receipts; no compilation/execution",
+      "findings": [
+        "Keep Current Colormap preserves interpretation of the source while a different output palette is selected. Optional Floyd–Steinberg dithering and exclusion of self-illuminated colors offer distinct indexed-skin conversion choices. The source marks equal endpoint light-table indices as self-illuminated (except RGB black), which is a heuristic, not an audit of every intermediate brightness table.",
+        "The displayed fuchsia option is preview-only. The indexed conversion path treats input alpha exactly zero as transparent and assumes palette index zero for its output; partly transparent input therefore needs an explicit, tested cutout policy.",
+        "Material preview selects MipmapData[0]; the image-to-MAT path creates one material record, one texture and one mip. A rich multi-cell/mip MAT is not preserved by simply converting its preview back to MAT.",
+        "Static defect: Matt.cs lines 650–662 have an independent if(Bpp==16) write followed by if(Bpp==24)...else(uint write). For 16-bit output this performs a 32-bit store while advancing two bytes; the final pixel writes two bytes beyond the allocated array. No crash was reproduced and no binary was run. Treat this pinned writer as repair/reference work, not a ready converter recommendation."
+      ],
+      "difference_from_1_2": "Adds palette remapping and diagnostic options with implementation-level limits that a features list misses. README excludes its richer 24/32-bit paths from baseline retail. Source-specific defects must not be generalized to all tools or later commits.",
+      "rights": "Included LICENSE is GPL version 3; keep attribution and applicable license obligations if code is later reused. This research does not distribute code.",
+      "independent_review": {
+        "result": "Second reviewer independently confirmed the same saved source logic and SHA256. For positive dimensions on the 16-bit branch, the final uint write extends two bytes beyond the array logical length.",
+        "source_filename": "Matt.cs",
+        "source_sha256": "08e43adb11dff8c16a3c3b404e8f3235d9318413fc8ba311f4697d9a94dfc627",
+        "lines": [
+          599,
+          600,
+          650,
+          651,
+          652,
+          658,
+          659,
+          661
+        ],
+        "scope": "Static review only. No binary identity, observed crash, corrupted image or exploitability claim."
+      }
+    },
+    {
+      "id": "asset-surface-05",
+      "title": "Cyborg",
+      "author": "KnightSpider; credits Al Macdonald’s Dark Trooper MATs",
+      "date": "2000-01-14 (bundled readme)",
+      "source_url": "https://www.massassi.net/levels/files/540.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/jkmod/cyborg.zip",
+      "archive": {
+        "filename": "540-cyborg.zip",
+        "bytes": 17782,
+        "sha256": "f202189459e756b62f14766f5590410f4f09e8210063b56e0dce05f88d6b79cd"
+      },
+      "archive_members": [
+        {
+          "name": "Cyborg.gob",
+          "bytes": 49804,
+          "sha256": "5adf79836bba0ca7b70b64cb98955832965d2334d33204ef52399b46f34e2d7f"
+        },
+        {
+          "name": "Readme.txt",
+          "bytes": 4209,
+          "sha256": "900fb0cd514d0680a11b7c0b3abfcddbe774f5c860231b1fc9586f397f0430a6"
+        }
+      ],
+      "measurements": {
+        "gob_member_types": {
+          ".mat": 19
+        },
+        "mat_count": 19,
+        "bit_depths": {
+          "8": 19
+        },
+        "dimensions": {
+          "64x64": 6,
+          "64x32": 3,
+          "32x64": 4,
+          "32x32": 4,
+          "16x64": 1,
+          "16x32": 1
+        },
+        "texture_counts": {
+          "1": 19
+        },
+        "mip_counts": {
+          "1": 19
+        },
+        "transparency_flags": {
+          "0": 19
+        },
+        "has_cmp": false,
+        "all_payload_extents_exact": true,
+        "unflagged_materials_containing_palette_index_zero": 5
+      },
+      "evidence_strength": "ZIP/GOB bytes independently parsed; all 110 selected indexed MAT payloads consumed to exact EOF; no rendering/runtime test",
+      "findings": [
+        "A texture-only player reskin is a legitimate method: this GOB contains only nineteen indexed MATs under stock-looking ky*.mat paths, and its own readme says it replaces Kyle without a new 3DO. Absence of a 3DO is consistent with its claimed method, unlike an unresolved custom-name mapping. No matching retail geometry was loaded in this inspection.",
+        "Some material references in the supplied Matrix/Destroyer models are outside their package; these remain external or unresolved until checked against the target installation. Cyborg intentionally has no model according to its readme.",
+        "These bytes also include palette-index-zero pixels with the transparency flag disabled; do not infer rendered holes from index zero alone. No visual result is claimed.",
+        "No CMP is supplied in this package. Preserve the intended external game palette when interpreting indexed pixels; do not treat a guessed color preview as recovered appearance."
+      ],
+      "difference_from_1_2": "Adds actual package measurements and per-member hashes to the method choice. One-mip/non-square usage is an observed artifact profile, not universal quality or compatibility guidance.",
+      "rights": "Readme permissions and donor rights retained; some templates contain contradictory may/may-not language. Original assets and full readmes remain private, with no redistribution permission inferred.",
+      "representative_material_members": [
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\kybodyb.mat",
+          "bytes": 4236,
+          "sha256": "75f55644631ea5e594644cbd277f83e27bce549071c1f6dcc92cbbe983cdd7db",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 438
+        },
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\kybutt.mat",
+          "bytes": 2188,
+          "sha256": "97b851d9d4748ccbfca2284feff4747f8410dacddeed7f09598bd1282b297342",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 357
+        },
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\kyfacetp.mat",
+          "bytes": 2188,
+          "sha256": "d17286dcbc830b577c7c7d9104bd394ef22301ded004e4e48020cf70272415c9",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            32,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\kyhand.mat",
+          "bytes": 1164,
+          "sha256": "909213459abcd84fa168722878753ffc8cfb6f24736d92d32002657003e6cfe7",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            32,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\kyleg.mat",
+          "bytes": 1164,
+          "sha256": "9e852597d8ebdd7b5a5acb7c8c9d09ce50ddb9654e0ad6da2ee138f099ebbf56",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            16,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "Cyborg.gob",
+          "member": "3do\\mat\\sole.mat",
+          "bytes": 652,
+          "sha256": "5f6dcfb05c451fc9edfcef84a1a1632f5ada720e15ba0396be8d7c26739e18b1",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            16,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        }
+      ]
+    },
+    {
+      "id": "asset-surface-06",
+      "title": "Matrix Skin Pack",
+      "author": "Elyas Machera and Matrix__Apoc (both in the readme); skinning credited to Elyas Machera",
+      "date": "2000-01-01 (bundled readme)",
+      "source_url": "https://www.massassi.net/levels/files/545.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/jkmod/matrixskins.zip",
+      "archive": {
+        "filename": "545-matrixskins.zip",
+        "bytes": 304761,
+        "sha256": "93e82e8c5f2112478313acccec9341a59e8d120a3e44365c4c511570bc426566"
+      },
+      "archive_members": [
+        {
+          "name": "matrix.gob",
+          "bytes": 1491339,
+          "sha256": "8847b48cf340e6e02fd5ac394b8cf86eb18955ba8d3df183beb79ebcf375cdfb"
+        },
+        {
+          "name": "Matrix Skins readme.txt",
+          "bytes": 4178,
+          "sha256": "c9f31bdbeef1143cc4add09453eedc4e92693ffe7a927ee37d3cfa35a8978cb7"
+        }
+      ],
+      "measurements": {
+        "gob_member_types": {
+          ".3do": 9,
+          ".mat": 61,
+          ".dat": 1,
+          ".txt": 1
+        },
+        "mat_count": 61,
+        "bit_depths": {
+          "8": 61
+        },
+        "dimensions": {
+          "32x64": 27,
+          "64x64": 20,
+          "64x32": 9,
+          "16x16": 2,
+          "16x32": 1,
+          "32x32": 2
+        },
+        "texture_counts": {
+          "1": 61
+        },
+        "mip_counts": {
+          "1": 61
+        },
+        "transparency_flags": {
+          "1": 20,
+          "0": 41
+        },
+        "has_cmp": false,
+        "all_payload_extents_exact": true,
+        "unflagged_materials_containing_palette_index_zero": 7
+      },
+      "evidence_strength": "ZIP/GOB bytes independently parsed; all 110 selected indexed MAT payloads consumed to exact EOF; no rendering/runtime test",
+      "findings": [
+        "Nine supplied 3DOs and sixty-one indexed MATs illustrate a separate selectable-skin package. Twenty MAT texture records have the transparency flag enabled, forty-one disabled. All use one texture and one stored mip. These bytes demonstrate mixed transparency metadata within one skin pack, not actual rendered holes or verified multiplayer compatibility.",
+        "Some material references in the supplied Matrix/Destroyer models are outside their package; these remain external or unresolved until checked against the target installation. Cyborg intentionally has no model according to its readme.",
+        "These bytes also include palette-index-zero pixels with the transparency flag disabled; do not infer rendered holes from index zero alone. No visual result is claimed.",
+        "No CMP is supplied in this package. Preserve the intended external game palette when interpreting indexed pixels; do not treat a guessed color preview as recovered appearance."
+      ],
+      "difference_from_1_2": "Adds actual package measurements and per-member hashes to the method choice. One-mip/non-square usage is an observed artifact profile, not universal quality or compatibility guidance.",
+      "rights": "Readme permissions and donor rights retained; some templates contain contradictory may/may-not language. Original assets and full readmes remain private, with no redistribution permission inferred.",
+      "representative_material_members": [
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashaarm.mat",
+          "bytes": 2188,
+          "sha256": "9d6940e980a811dbf84fef682939e0d90bf7d22f60f3d6c7f0e4ec47baf3fb74",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            32,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 1,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashab.mat",
+          "bytes": 4236,
+          "sha256": "adc7b520c9e6b37f6f4521a49817e84036fd2bca1c8ae1f13350199f247589c9",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashaback.mat",
+          "bytes": 4236,
+          "sha256": "6215f6aa4a64e34d41516c0bdbc892eba05c13945ced8490b321b93be1fe643b",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 1,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashabutt.mat",
+          "bytes": 2188,
+          "sha256": "9b60771a25ee451a66df6a6ec294297ae177a424dd231d8e72304ee4623389c0",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 1,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashaneck.mat",
+          "bytes": 396,
+          "sha256": "eb2ba68291993d0768135f7285126a4edacd0c6834c022fe9deee9c7e04f866d",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            16,
+            16
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 1,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\ashasole.mat",
+          "bytes": 652,
+          "sha256": "3ef66d2a1b320b48511c6e1f9ceefe80f78782c3ef073bc16d33d6aa96d7cfe1",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            16,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 1,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\kyfaceb.mat",
+          "bytes": 2188,
+          "sha256": "fd08f1f015cbdd743f4e1c7bcd61b7b10b2bd5b7decf4204738b05aa6aa2f40d",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            32,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\lukfoot.mat",
+          "bytes": 2188,
+          "sha256": "0cb9bfa4684cada73fbdfce780fc4a1bb37ae452f6392e50d0ade09d79d13450",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\lchdtp.mat",
+          "bytes": 1164,
+          "sha256": "42aa448ce8b50bfd3cb35e21c4b8b6e2f560784c2fc5740fc9264fa6160c5c85",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            32,
+            32
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 294
+        },
+        {
+          "container": "matrix.gob",
+          "member": "mat\\bondneck.mat",
+          "bytes": 396,
+          "sha256": "b2514caa19cd851baab7b1b6179662fdde6e9ecd2d5a6763a0f01a983c3c1583",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            16,
+            16
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 0
+        }
+      ]
+    },
+    {
+      "id": "asset-surface-07",
+      "title": "Destroyer Droid Mod",
+      "author": "J. Zimmerman; model, MATs and project credited to Zymotico",
+      "date": "2000-12-10 (bundled readme)",
+      "source_url": "https://www.massassi.net/levels/files/1289.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/jkmod/destroyerdroid.zip",
+      "archive": {
+        "filename": "1289-destroyerdroid.zip",
+        "bytes": 200258,
+        "sha256": "09c4fdd11446b356b554ee06b2958b3a15e38e9eaaf3db42be711ba9429954b3"
+      },
+      "archive_members": [
+        {
+          "name": "ddJK.gob",
+          "bytes": 735113,
+          "sha256": "ef809b0e4a9d21098b0adfb2a3f94dd5b119913adcc6a0a16b788f407c71bfa8"
+        },
+        {
+          "name": "DDReadme.txt",
+          "bytes": 4222,
+          "sha256": "06df0224b381cad2a74361e4d4ae677d2359d9d2617e1309e4cbe822a82972df"
+        }
+      ],
+      "measurements": {
+        "gob_member_types": {
+          ".3do": 1,
+          ".pup": 1,
+          ".snd": 1,
+          ".wav": 3,
+          ".cog": 1,
+          ".txt": 1,
+          ".mat": 30,
+          ".key": 6
+        },
+        "mat_count": 30,
+        "bit_depths": {
+          "8": 30
+        },
+        "dimensions": {
+          "128x128": 10,
+          "64x64": 4,
+          "128x256": 2,
+          "64x128": 4,
+          "128x64": 6,
+          "64x256": 4
+        },
+        "texture_counts": {
+          "1": 30
+        },
+        "mip_counts": {
+          "1": 30
+        },
+        "transparency_flags": {
+          "0": 30
+        },
+        "has_cmp": false,
+        "all_payload_extents_exact": true,
+        "unflagged_materials_containing_palette_index_zero": 30
+      },
+      "evidence_strength": "ZIP/GOB bytes independently parsed; all 110 selected indexed MAT payloads consumed to exact EOF; no rendering/runtime test",
+      "findings": [
+        "One supplied model and thirty indexed MATs include non-square 128×256 and 64×256 textures, in addition to smaller sizes. This is a direct counterexample to treating square atlases as a required storage layout. The included custom keys/PUP/COG are outside this texture-only subinspection; the readme acknowledges unfinished sound.",
+        "Some material references in the supplied Matrix/Destroyer models are outside their package; these remain external or unresolved until checked against the target installation. Cyborg intentionally has no model according to its readme.",
+        "These bytes also include palette-index-zero pixels with the transparency flag disabled; do not infer rendered holes from index zero alone. No visual result is claimed.",
+        "No CMP is supplied in this package. Preserve the intended external game palette when interpreting indexed pixels; do not treat a guessed color preview as recovered appearance."
+      ],
+      "difference_from_1_2": "Adds actual package measurements and per-member hashes to the method choice. One-mip/non-square usage is an observed artifact profile, not universal quality or compatibility guidance.",
+      "rights": "Readme permissions and donor rights retained; some templates contain contradictory may/may-not language. Original assets and full readmes remain private, with no redistribution permission inferred.",
+      "representative_material_members": [
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-butt.mat",
+          "bytes": 16524,
+          "sha256": "b0da2c1953c0b5ecf04476d854c5d18aec35f4643fc186f0d629ff53314b85b4",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            128,
+            128
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 9
+        },
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-chest.mat",
+          "bytes": 4236,
+          "sha256": "036a0716152dd3df519c02f805034c729f8d230c4e0bf0497918859a313e0b17",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 932
+        },
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-crest.mat",
+          "bytes": 32908,
+          "sha256": "e4541826cd711c4b8fe563f6fdc2243a8431324f1f21b9a1a1c1e604214c144f",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            128,
+            256
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 924
+        },
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-foot.mat",
+          "bytes": 8332,
+          "sha256": "27933c2a9adc90f266854178a96c700d3c3af01b8aa55632d7be5d1e9c7b1105",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            128
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 936
+        },
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-gun.mat",
+          "bytes": 8332,
+          "sha256": "c0bca685b4e1783428f05823b43d127416115d8d4b4ffc6e8f459c4c45b99faa",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            128,
+            64
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 928
+        },
+        {
+          "container": "ddJK.gob",
+          "member": "mat\\dd-spine.mat",
+          "bytes": 16524,
+          "sha256": "1eaa3556839b6ea8024030045e620be540c4523aea65bf58ba971b9b84a8521c",
+          "bits": 8,
+          "texture_count": 1,
+          "dimensions": [
+            64,
+            256
+          ],
+          "stored_mips": 1,
+          "transparent_flag": 0,
+          "palette_index_zero_pixels": 916
+        }
+      ]
+    }
+  ]
+}

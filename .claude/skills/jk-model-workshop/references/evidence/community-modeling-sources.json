@@ -1,0 +1,1269 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-09-30",
+  "scope": "JKDF2/MotS character, creature, player and weapon modeling; no level design or Discord research.",
+  "relationship_to_existing_research": "Nineteen forum threads new to the earlier JKE/TDIR/Shred reference, one revisited limits thread, and four additional tutorials; no claim of exhaustive coverage. Concurrent surface research also uses threads 36447 and 41914; deduplicate when combining totals.",
+  "coverage": {
+    "selected_forum_threads": 20,
+    "forum_threads_new_to_earlier_jke_tdir_reference": 19,
+    "revisited_forum_threads": 1,
+    "selected_tutorials": 4,
+    "screened_forum_threads": 24,
+    "forum_threads_read_in_full": 23,
+    "pinned_code_sources": 5,
+    "catalog_metadata_sources": 1,
+    "new_game_runtime_tests": 0,
+    "discord_sources": 0
+  },
+  "search_families": [
+    "hierarchy and pivots",
+    "KEY/PUP and animation",
+    "node masks and markers",
+    "player skin and multiplayer selection",
+    "3DO/vertices/mesh limits and export failures",
+    "POV weapons and hands",
+    "lighting/extra light/normals",
+    "LOD transitions",
+    "Shred/TDIR/JKE cross-references"
+  ],
+  "discovery_routes": [
+    "Massassi JK/MotS editing-forum index",
+    "Massassi tutorial catalog",
+    "Public web search for model and failure terms",
+    "Linked and existing model-format/engine references"
+  ],
+  "rights": "Original summaries and metadata only. No complete copyrighted forum/tutorial text or attachments are included in this public ledger.",
+  "general_limits": [
+    "Historical advice is attributed; requester confirmation is distinguished from independent reproduction.",
+    "Full-text reads exclude tutorial pictures, forum attachment files and executable tools.",
+    "Normals were included in discovery and current workflow checks, but no new community normals mechanism is claimed from an unverified result.",
+    "Static-object LOD threads supply limited diagnostic examples, not level-design or character-threshold recipes.",
+    "Third-person preview, normal profile selection, connected-client appearance, SP behavior and POV rendering remain separate evidence."
+  ],
+  "sources": [
+    {
+      "id": "massassi-32931",
+      "kind": "forum_thread",
+      "title": "Hierarchy NODES",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_32931_page_1.html",
+      "topic": "hierarchy and pivots",
+      "publication_range": [
+        "2005-06-04",
+        "2005-06-05"
+      ],
+      "credited_posts": [
+        {
+          "post": 2,
+          "date": "2005-06-04",
+          "author": "Shred18"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 4,
+      "original_summary": "Shred18 outlines parent assignment, visual pivot placement, native export and insertion-height correction for a new SP/MP character.",
+      "practical_decision": "Design parent chains and pivots explicitly before testing ground contact.",
+      "evidence_strength": "Firsthand instructional advice; the requester does not post a completed runtime result.",
+      "limitations": "Historical JED UI and hip-root example are not universal modern-tool or creature requirements.",
+      "accessed_at": "2026-09-30T19:45:08.070714+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_32931_page_1.html",
+      "retrieved_bytes": 6167,
+      "retrieved_sha256": "08ed6ef93903dbe4616a985f85a4a14e06c7cd55d655f67e618aff263cd0b9d2"
+    },
+    {
+      "id": "massassi-67602",
+      "kind": "forum_thread",
+      "title": "Pivot points",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_67602_page_1.html",
+      "topic": "visual pivot editing",
+      "publication_range": [
+        "2015-08-26",
+        "2015-09-23"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2015-08-26",
+          "author": "Hell Raiser"
+        },
+        {
+          "post": 4,
+          "date": "2015-08-26",
+          "author": "BoBo_Fett"
+        },
+        {
+          "post": 6,
+          "date": "2015-08-26",
+          "author": "Hell Raiser"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 8,
+      "original_summary": "BoBo_Fett identifies JED hierarchy editing that exposes pivots for direct movement; Hell Raiser acknowledges the answer.",
+      "practical_decision": "Use visible pivot editing rather than guessing coordinates; inspect the resulting native values.",
+      "evidence_strength": "Specific tool procedure with requester acknowledgment.",
+      "limitations": "No fresh JED execution; later social replies add no technical verification.",
+      "accessed_at": "2026-09-30T19:45:07.275990+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_67602_page_1.html",
+      "retrieved_bytes": 10064,
+      "retrieved_sha256": "47cf47e3c3d9c6c43d33c0de11fe2deda84607236a19e6a93567afea72957082"
+    },
+    {
+      "id": "massassi-60257",
+      "kind": "forum_thread",
+      "title": "New Player Model Error",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_60257_page_1.html",
+      "topic": "insertion height",
+      "publication_range": [
+        "2012-04-28",
+        "2012-04-30"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2012-04-28",
+          "author": "Darth J"
+        },
+        {
+          "post": 2,
+          "date": "2012-04-29",
+          "author": "Nikumubeki"
+        },
+        {
+          "post": 3,
+          "date": "2012-04-29",
+          "author": "Darth J"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 4,
+      "original_summary": "Nikumubeki proposes an INSERT OFFSET correction and Darth J reports it worked.",
+      "practical_decision": "Compare insertion offset and foot contact with the intended base model.",
+      "evidence_strength": "Reporter-confirmed historical repair.",
+      "limitations": "The screenshot was not inspected; its numeric offset is not a universal character value.",
+      "accessed_at": "2026-09-30T19:45:07.278241+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_60257_page_1.html",
+      "retrieved_bytes": 6659,
+      "retrieved_sha256": "577a3bc7f5f79030e821dfa776741c52cd22e665db99b7deb1098626a557f00c"
+    },
+    {
+      "id": "massassi-41104",
+      "kind": "forum_thread",
+      "title": "Character Models and Animations",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41104_page_1.html",
+      "topic": "stock fit and retargeting",
+      "publication_range": [
+        "2006-05-03",
+        "2006-05-06"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2006-05-03",
+          "author": "jedi I"
+        },
+        {
+          "post": 2,
+          "date": "2006-05-04",
+          "author": "F-Body"
+        },
+        {
+          "post": 6,
+          "date": "2006-05-05",
+          "author": "Hell Raiser"
+        },
+        {
+          "post": 8,
+          "date": "2006-05-06",
+          "author": "Ruthven"
+        },
+        {
+          "post": 9,
+          "date": "2006-05-06",
+          "author": "Hell Raiser"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 10,
+      "original_summary": "F-Body advises matching stock joint placement; Hell Raiser proposes adapting keys with KeyEd when node identities remain the same but positions change. Ruthven emphasizes animation craft.",
+      "practical_decision": "Offer stock fitting, adapted keys and custom animation as distinct effort levels.",
+      "evidence_strength": "Technical advice and alternative methods; no completed character result in the thread.",
+      "limitations": "KeyEd was not downloaded or executed; no claim of automatic success for every animation.",
+      "accessed_at": "2026-09-30T19:45:09.176979+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41104_page_1.html",
+      "retrieved_bytes": 13350,
+      "retrieved_sha256": "c1f01f013a650a6eb6ccacf18c42e350a09992286aa579a60fb6d2dc6178521b"
+    },
+    {
+      "id": "massassi-36140",
+      "kind": "forum_thread",
+      "title": "Warning: Possible Circular Hierarchy $$DUMMY",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36140_page_1.html",
+      "topic": "hierarchy warnings",
+      "publication_range": [
+        "2005-09-29",
+        "2005-10-02"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-09-29",
+          "author": "eggtooth"
+        },
+        {
+          "post": 2,
+          "date": "2005-09-29",
+          "author": "darthslaw"
+        },
+        {
+          "post": 4,
+          "date": "2005-09-29",
+          "author": "eggtooth"
+        },
+        {
+          "post": 5,
+          "date": "2005-09-30",
+          "author": "darthslaw"
+        },
+        {
+          "post": 7,
+          "date": "2005-10-01",
+          "author": "darthslaw"
+        },
+        {
+          "post": 8,
+          "date": "2005-10-02",
+          "author": "eggtooth"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 8,
+      "original_summary": "darthslaw considers self-parenting and corrects an earlier tool-version assumption after checking JED history; eggtooth continues to report problems.",
+      "practical_decision": "Check indices, cycles and editor version rather than ignoring a warning.",
+      "evidence_strength": "Useful diagnostic exchange, unresolved overall.",
+      "limitations": "Editor display/node capacity is not an animated-engine limit; later quoted version history was not independently recovered.",
+      "accessed_at": "2026-09-30T19:45:07.701510+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36140_page_1.html",
+      "retrieved_bytes": 10201,
+      "retrieved_sha256": "54d6156ae35e6866e6b315c397d18132bdd955d55e92a47afef17d7d131c2b62"
+    },
+    {
+      "id": "massassi-39383",
+      "kind": "forum_thread",
+      "title": "How to stick a new head on old shoulders?",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_39383_page_1.html",
+      "topic": "head graft and separate budgets",
+      "publication_range": [
+        "2006-02-13",
+        "2006-02-16"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2006-02-13",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 2,
+          "date": "2006-02-13",
+          "author": "Ruthven"
+        },
+        {
+          "post": 3,
+          "date": "2006-02-13",
+          "author": "SavageX378"
+        },
+        {
+          "post": 4,
+          "date": "2006-02-13",
+          "author": "darthslaw"
+        },
+        {
+          "post": 7,
+          "date": "2006-02-16",
+          "author": "Ruthven"
+        },
+        {
+          "post": 8,
+          "date": "2006-02-16",
+          "author": "rob_whatman"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 8,
+      "original_summary": "Ruthven suggests child groups for a detailed head; SavageX378 proposes a JOKE/JED round trip; darthslaw suspects duplicate texture vertices.",
+      "practical_decision": "Plan rigid children safely and count positions, UV entries and faces independently.",
+      "evidence_strength": "Design advice and explicit hypothesis; no demonstrated final repair.",
+      "limitations": "Attachment not downloaded; historical 256-face claim is not accepted as a verified parser limit.",
+      "accessed_at": "2026-09-30T19:45:07.700326+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_39383_page_1.html",
+      "retrieved_bytes": 11889,
+      "retrieved_sha256": "151f7d5d1efee3b6234df552ddeb4f2e776da7110db93664cd5e04fbfdb4df7d"
+    },
+    {
+      "id": "massassi-33977",
+      "kind": "forum_thread",
+      "title": "3do limitations",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33977_page_1.html",
+      "topic": "contested model limits",
+      "publication_range": [
+        "2005-07-08",
+        "2005-07-10"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-07-08",
+          "author": "ProdigyOddigy"
+        },
+        {
+          "post": 2,
+          "date": "2005-07-08",
+          "author": "JediKirby"
+        },
+        {
+          "post": 3,
+          "date": "2005-07-08",
+          "author": "Z-man12"
+        },
+        {
+          "post": 4,
+          "date": "2005-07-08",
+          "author": "ProdigyOddigy"
+        },
+        {
+          "post": 5,
+          "date": "2005-07-08",
+          "author": "JediKirby"
+        },
+        {
+          "post": 7,
+          "date": "2005-07-08",
+          "author": "JediKirby"
+        },
+        {
+          "post": 8,
+          "date": "2005-07-08",
+          "author": "ProdigyOddigy"
+        }
+      ],
+      "prior_guide_coverage": "Revisited from jke-tdir-shred-research.md.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 11,
+      "original_summary": "JediKirby revises an initial mesh-count statement after ProdigyOddigy gives a working counterexample; several totals are explicitly recalled from memory.",
+      "practical_decision": "Use target-specific measured limits and complete animation budgets.",
+      "evidence_strength": "Contemporaneous counterexample to an initial claim; remaining ceilings unverified.",
+      "limitations": "Do not convert remembered mesh totals or on-screen triangles into portable guarantees.",
+      "accessed_at": "2026-09-30T19:53:06.831587+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33977_page_1.html",
+      "retrieved_bytes": 15208,
+      "retrieved_sha256": "e4244d838999f58a0f5c955ee05d894a8698c10ec296c8dc04181a6c3ce68291"
+    },
+    {
+      "id": "massassi-35412",
+      "kind": "forum_thread",
+      "title": "MP 3do probs",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35412_page_1.html",
+      "topic": "MP selection crash and topology",
+      "publication_range": [
+        "2005-08-30",
+        "2005-09-01"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-08-30",
+          "author": "F-Body"
+        },
+        {
+          "post": 3,
+          "date": "2005-08-30",
+          "author": "darthslaw"
+        },
+        {
+          "post": 5,
+          "date": "2005-08-31",
+          "author": "F-Body"
+        },
+        {
+          "post": 6,
+          "date": "2005-09-01",
+          "author": "Ruthven"
+        },
+        {
+          "post": 7,
+          "date": "2005-09-01",
+          "author": "darthslaw"
+        },
+        {
+          "post": 8,
+          "date": "2005-09-01",
+          "author": "F-Body"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 8,
+      "original_summary": "F-Body reports degenerate faces left by deleting vertices first, then success after repairs. Ruthven and darthslaw discuss re-export and scientific notation.",
+      "practical_decision": "Validate faces and indices after destructive mesh edits; separate preview loading from actual selection.",
+      "evidence_strength": "Reporter-confirmed repair process, with multiple simultaneous hypotheses.",
+      "limitations": "The thread does not isolate the second failure; replacing exponential coordinates with zero is not endorsed.",
+      "accessed_at": "2026-09-30T19:53:06.334126+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35412_page_1.html",
+      "retrieved_bytes": 10907,
+      "retrieved_sha256": "52943bb997a5b8102f82fc5c1fcfb7ea1086c4306407f7a1f0cb2b43e076a9b7"
+    },
+    {
+      "id": "massassi-34863",
+      "kind": "forum_thread",
+      "title": "Fixed the hand & knee-deepness, but...",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34863_page_1.html",
+      "topic": "weapon graft",
+      "publication_range": [
+        "2005-08-09",
+        "2005-08-10"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-08-09",
+          "author": "Quib Mask"
+        },
+        {
+          "post": 2,
+          "date": "2005-08-09",
+          "author": "BigCarm"
+        },
+        {
+          "post": 3,
+          "date": "2005-08-09",
+          "author": "BigCarm"
+        },
+        {
+          "post": 4,
+          "date": "2005-08-09",
+          "author": "Stormtrooper"
+        },
+        {
+          "post": 5,
+          "date": "2005-08-09",
+          "author": "lucky_jackpot"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 7,
+      "original_summary": "Quib Mask proposes substituting a prepared weapon mesh and repairing material references; BigCarm reports a failed whole-model edit.",
+      "practical_decision": "Prefer a targeted mesh change when the hierarchy already works, with explicit material remapping.",
+      "evidence_strength": "Detailed proposal, not a confirmed final repair.",
+      "limitations": "Linked external tutorial and user assets were not executed or inspected.",
+      "accessed_at": "2026-09-30T19:45:08.448318+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34863_page_1.html",
+      "retrieved_bytes": 12142,
+      "retrieved_sha256": "3fe3f8a92c84969b09f8c90fd91c11467b20ee6eb9d1588e86dd215b7f32e6fc"
+    },
+    {
+      "id": "massassi-34905",
+      "kind": "forum_thread",
+      "title": "Animation Problem",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34905_page_1.html",
+      "topic": "animation blending",
+      "publication_range": [
+        "2005-08-11",
+        "2005-08-11"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-08-11",
+          "author": "ProdigyOddigy"
+        },
+        {
+          "post": 2,
+          "date": "2005-08-11",
+          "author": "ProdigyOddigy"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 3,
+      "original_summary": "ProdigyOddigy reports run/fire blending failing until hierarchy node settings are corrected. Pinned engine code identifies KEY type versus node type as the relevant priority mask.",
+      "practical_decision": "Preserve node types and test simultaneous motion and weapon actions.",
+      "evidence_strength": "Reporter-confirmed fix with source-port mechanism corroboration.",
+      "limitations": "Generic forum wording about flags is narrowed to type fields; source-port behavior is not fresh retail testing.",
+      "accessed_at": "2026-09-30T19:45:08.441787+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34905_page_1.html",
+      "retrieved_bytes": 6161,
+      "retrieved_sha256": "3f3b14155dacdc8cceb4f9e0d6b2b7e5e30dd95dd9aace33d411c85eafd08a3f"
+    },
+    {
+      "id": "massassi-35474",
+      "kind": "forum_thread",
+      "title": "keyframe \"markers\"",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35474_page_1.html",
+      "topic": "animation markers",
+      "publication_range": [
+        "2005-09-01",
+        "2005-09-01"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-09-01",
+          "author": "Ruthven"
+        },
+        {
+          "post": 2,
+          "date": "2005-09-01",
+          "author": "darthslaw"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 2,
+      "original_summary": "Ruthven identifies missing sound cues in new character keys; darthslaw explains frame-based markers in Puppet Jedi.",
+      "practical_decision": "Retain and retime action/contact markers together with the visual motion.",
+      "evidence_strength": "Practical instruction with callback mechanism corroboration.",
+      "limitations": "Marker effects depend on the playback callback and actor context.",
+      "accessed_at": "2026-09-30T19:45:08.434097+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35474_page_1.html",
+      "retrieved_bytes": 4604,
+      "retrieved_sha256": "4a115db8eb01316f23f0f7814252b3d2b4c5e671e6a56a1272a0d9ca5b5ceb34"
+    },
+    {
+      "id": "massassi-24352",
+      "kind": "forum_thread",
+      "title": "PUP files and KEYS",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_24352_page_1.html",
+      "topic": "animation indexing and attack events",
+      "publication_range": [
+        "2004-09-07",
+        "2004-09-09"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2004-09-07",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 2,
+          "date": "2004-09-08",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 3,
+          "date": "2004-09-08",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 7,
+          "date": "2004-09-08",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 8,
+          "date": "2004-09-09",
+          "author": "rob_whatman"
+        },
+        {
+          "post": 11,
+          "date": "2004-09-09",
+          "author": "Stormtrooper"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 11,
+      "original_summary": "rob_whatman reports mismatched nodes, then corrected keys without functioning attack damage. Stormtrooper suggests a stock attack-marker reference.",
+      "practical_decision": "Treat native allocation and gameplay-event timing as separate checks.",
+      "evidence_strength": "Reported intermediate repair; damage solution not confirmed.",
+      "limitations": "Do not apply one attack marker to all weapons or actors; attachments and original runtime were not tested.",
+      "accessed_at": "2026-09-30T19:45:08.814820+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_24352_page_1.html",
+      "retrieved_bytes": 15123,
+      "retrieved_sha256": "110f361e64e3609febe6befc09a8132d014240832afd1d98510ad0a3f651f7cc"
+    },
+    {
+      "id": "massassi-25381",
+      "kind": "forum_thread",
+      "title": "Flying Ships",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_25381_page_1.html",
+      "topic": "puppet initialization",
+      "publication_range": [
+        "2004-09-30",
+        "2004-10-01"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2004-09-30",
+          "author": "Evil_Giraffe"
+        },
+        {
+          "post": 2,
+          "date": "2004-09-30",
+          "author": "Edward"
+        },
+        {
+          "post": 3,
+          "date": "2004-09-30",
+          "author": "rob_whatman"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 4,
+      "original_summary": "Evil_Giraffe reports playback succeeding after a puppet reference is added. Edward explains puppet roles; rob_whatman distinguishes direct keys from action mappings.",
+      "practical_decision": "For ordinary template-based actors, check puppet initialization before debugging a silent key.",
+      "evidence_strength": "Reporter observation supported by PlayKey requiring a render puppet in pinned source.",
+      "limitations": "Original subject is a ship; no camera, path or level-design recipe is retained.",
+      "accessed_at": "2026-09-30T19:45:09.169049+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_25381_page_1.html",
+      "retrieved_bytes": 10635,
+      "retrieved_sha256": "bdaeb83b7fc03992ff3abff1dc3e91bb7f53802f98712884cd1cd4e9856b5052"
+    },
+    {
+      "id": "massassi-33731",
+      "kind": "forum_thread",
+      "title": "New Single Player Skin in a Mod?",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33731_page_1.html",
+      "topic": "SP model integration",
+      "publication_range": [
+        "2005-06-30",
+        "2005-07-01"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-06-30",
+          "author": "KnightRider2000"
+        },
+        {
+          "post": 2,
+          "date": "2005-06-30",
+          "author": "zagibu"
+        },
+        {
+          "post": 5,
+          "date": "2005-06-30",
+          "author": "Xzero Phoenix"
+        },
+        {
+          "post": 7,
+          "date": "2005-07-01",
+          "author": "ZeqMacaw"
+        },
+        {
+          "post": 8,
+          "date": "2005-07-01",
+          "author": "KnightRider2000"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 8,
+      "original_summary": "zagibu offers resource replacement or COG selection. Xzero Phoenix and ZeqMacaw diagnose packaging trouble; KnightRider2000 confirms the repaired package works.",
+      "practical_decision": "Choose integration route separately from modeling and distinguish archive errors from asset errors.",
+      "evidence_strength": "Reporter-confirmed package correction.",
+      "limitations": "Historic download not replayed; this is not compatibility proof for arbitrary mod combinations.",
+      "accessed_at": "2026-09-30T19:45:08.809396+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_33731_page_1.html",
+      "retrieved_bytes": 10777,
+      "retrieved_sha256": "64f5d2a7665c441dc1422bf6b651be1b35aa3370f0b76c50c3b4fb6ca4c0e8ba"
+    },
+    {
+      "id": "massassi-53913",
+      "kind": "forum_thread",
+      "title": "Empty Hands",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_53913_page_1.html",
+      "topic": "empty view versus custom hands",
+      "publication_range": [
+        "2009-04-13",
+        "2009-04-14"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2009-04-13",
+          "author": "SiMoN"
+        },
+        {
+          "post": 2,
+          "date": "2009-04-13",
+          "author": "Xzero"
+        },
+        {
+          "post": 3,
+          "date": "2009-04-13",
+          "author": "SiMoN"
+        },
+        {
+          "post": 4,
+          "date": "2009-04-14",
+          "author": "zanardi"
+        },
+        {
+          "post": 5,
+          "date": "2009-04-14",
+          "author": "Nikumubeki"
+        },
+        {
+          "post": 6,
+          "date": "2009-04-14",
+          "author": "Xzero"
+        },
+        {
+          "post": 7,
+          "date": "2009-04-14",
+          "author": "SiMoN"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 7,
+      "original_summary": "SiMoN acknowledges Xzero's suggestion for an unobstructed first-person view; other replies propose alternative empty-weapon states.",
+      "practical_decision": "Separate capture setup from implementation of matching POV hands.",
+      "evidence_strength": "Reporter acknowledgment for the requested view only.",
+      "limitations": "No custom hand creation, connected-peer check or verified automation control sequence.",
+      "accessed_at": "2026-09-30T19:45:08.792161+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_53913_page_1.html",
+      "retrieved_bytes": 9063,
+      "retrieved_sha256": "e4f1d7ce23561ec7fdab4ed6a3f9a2adf057a64a453e6b8f3170b695dd0e5f97"
+    },
+    {
+      "id": "massassi-47271",
+      "kind": "forum_thread",
+      "title": "POV-Modeling",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47271_page_1.html",
+      "topic": "native POV option",
+      "publication_range": [
+        "2007-06-01",
+        "2007-06-08"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2007-06-01",
+          "author": "zagibu"
+        },
+        {
+          "post": 2,
+          "date": "2007-06-07",
+          "author": "F-Body"
+        },
+        {
+          "post": 3,
+          "date": "2007-06-07",
+          "author": "ZeqMacaw"
+        },
+        {
+          "post": 4,
+          "date": "2007-06-08",
+          "author": "zagibu"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 4,
+      "original_summary": "F-Body notes drawbacks of a scripted weapon display and ZeqMacaw points toward constructing native internal models.",
+      "practical_decision": "Try a properly built native POV asset before adopting a scripted visible thing.",
+      "evidence_strength": "Comparative advice; little implementation detail.",
+      "limitations": "Linked tutorial and script not tested; JKE technique is raised as a question, not answered by package inspection.",
+      "accessed_at": "2026-09-30T19:53:06.331723+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47271_page_1.html",
+      "retrieved_bytes": 5824,
+      "retrieved_sha256": "9ed0553c32f942042227e80d8ae27e3df2c2053cc95b34ed5363a978027bdc5a"
+    },
+    {
+      "id": "massassi-35188",
+      "kind": "forum_thread",
+      "title": "3do first person problems",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35188_page_1.html",
+      "topic": "POV rendering and scripted fallback",
+      "publication_range": [
+        "2005-08-22",
+        "2005-08-23"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-08-22",
+          "author": "Z-man12"
+        },
+        {
+          "post": 3,
+          "date": "2005-08-22",
+          "author": "zagibu"
+        },
+        {
+          "post": 5,
+          "date": "2005-08-22",
+          "author": "ProdigyOddigy"
+        },
+        {
+          "post": 7,
+          "date": "2005-08-22",
+          "author": "darthslaw"
+        },
+        {
+          "post": 10,
+          "date": "2005-08-23",
+          "author": "El Scorcho"
+        },
+        {
+          "post": 11,
+          "date": "2005-08-23",
+          "author": "Z-man12"
+        },
+        {
+          "post": 12,
+          "date": "2005-08-23",
+          "author": "ProdigyOddigy"
+        },
+        {
+          "post": 13,
+          "date": "2005-08-23",
+          "author": "JM"
+        },
+        {
+          "post": 14,
+          "date": "2005-08-23",
+          "author": "zagibu"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 16,
+      "original_summary": "darthslaw supplies a Seifer-style workaround that Z-man12 reports using. ProdigyOddigy discusses reset crashes; JM explains depth/order issues, and zagibu challenges a one-mesh cure.",
+      "practical_decision": "Compare native ordering with a scripted route and test lifecycle plus wall clipping.",
+      "evidence_strength": "Mixed firsthand reports and contested advice; renderer distinction corroborated in source.",
+      "limitations": "Attachment not downloaded; no universal one-mesh fix or newly validated script is claimed.",
+      "accessed_at": "2026-09-30T19:53:06.334623+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35188_page_1.html",
+      "retrieved_bytes": 19918,
+      "retrieved_sha256": "1a4c9da4924ed6d2097f58cb9e297937e594221abc627f557eb0b9959d31612f"
+    },
+    {
+      "id": "massassi-41914",
+      "kind": "forum_thread",
+      "title": "Fully Lit 3do",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41914_page_1.html",
+      "topic": "unexpected full lighting",
+      "publication_range": [
+        "2006-06-13",
+        "2006-06-17"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2006-06-13",
+          "author": "jedi I"
+        },
+        {
+          "post": 3,
+          "date": "2006-06-14",
+          "author": "Ruthven"
+        },
+        {
+          "post": 5,
+          "date": "2006-06-14",
+          "author": "jedi I"
+        },
+        {
+          "post": 6,
+          "date": "2006-06-14",
+          "author": "darthslaw"
+        },
+        {
+          "post": 7,
+          "date": "2006-06-15",
+          "author": "jedi I"
+        },
+        {
+          "post": 8,
+          "date": "2006-06-17",
+          "author": "F-Body"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 9,
+      "original_summary": "Ruthven and F-Body focus on extra light; darthslaw explicitly hypothesizes duplicate UV overflow; jedi I later suspects other saved scene state.",
+      "practical_decision": "Compare emitted lighting fields and geometry counts against a working export, one variable at a time.",
+      "evidence_strength": "Unresolved diagnosis with concrete fields to inspect.",
+      "limitations": "Broad claims about every JOKE export are not accepted; no scene-editing recipe or attachment test.",
+      "accessed_at": "2026-09-30T19:53:06.911197+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_41914_page_1.html",
+      "retrieved_bytes": 13648,
+      "retrieved_sha256": "69e30cf03e10604b39991976156a682d90e62e7cc3ce56d025f63c8730736181"
+    },
+    {
+      "id": "massassi-36447",
+      "kind": "forum_thread",
+      "title": "3do LOD",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36447_page_1.html",
+      "topic": "LOD transitions",
+      "publication_range": [
+        "2005-10-11",
+        "2005-10-20"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2005-10-11",
+          "author": "eggtooth"
+        },
+        {
+          "post": 2,
+          "date": "2005-10-11",
+          "author": "Axis"
+        },
+        {
+          "post": 3,
+          "date": "2005-10-11",
+          "author": "eggtooth"
+        },
+        {
+          "post": 4,
+          "date": "2005-10-19",
+          "author": "eggtooth"
+        },
+        {
+          "post": 5,
+          "date": "2005-10-20",
+          "author": "CaptBevvil"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 5,
+      "original_summary": "eggtooth reports wrong transition distance despite multiple geosets and checked settings; Axis suggests checking thresholds.",
+      "practical_decision": "Measure actual transitions and silhouettes rather than trusting geoset declarations.",
+      "evidence_strength": "Unresolved symptom report.",
+      "limitations": "Original static-object context does not establish a character setting or fix.",
+      "accessed_at": "2026-09-30T19:45:08.075603+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_36447_page_1.html",
+      "retrieved_bytes": 6231,
+      "retrieved_sha256": "7f14110ce6466340374e30d18699d4bbc36f2d58f643cc0784fb9601cd05eb04"
+    },
+    {
+      "id": "massassi-42634",
+      "kind": "forum_thread",
+      "title": "LOD",
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_42634_page_1.html",
+      "topic": "LOD header is insufficient",
+      "publication_range": [
+        "2006-07-18",
+        "2006-07-18"
+      ],
+      "credited_posts": [
+        {
+          "post": 1,
+          "date": "2006-07-18",
+          "author": "jedi I"
+        },
+        {
+          "post": 2,
+          "date": "2006-07-18",
+          "author": "Stormtrooper"
+        },
+        {
+          "post": 3,
+          "date": "2006-07-18",
+          "author": "jedi I"
+        }
+      ],
+      "prior_guide_coverage": "New to the earlier jke-tdir-shred-research.md reference.",
+      "read_scope": "Complete archived page text, including replies; images and attachments excluded.",
+      "posts_on_page": 3,
+      "original_summary": "Stormtrooper suggests checking the geoset count; jedi I says it already declares four and the problem remains.",
+      "practical_decision": "Treat a valid header as necessary structural evidence, not transition proof.",
+      "evidence_strength": "Unresolved negative result after a proposed check.",
+      "limitations": "Original tree assets and screenshots not inspected; no level-design advice retained.",
+      "accessed_at": "2026-09-30T19:45:08.078524+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_42634_page_1.html",
+      "retrieved_bytes": 4762,
+      "retrieved_sha256": "b9caf6b23194eeaba38f1bb17147554aabcfde964df9fd54a5135d331f236f03"
+    },
+    {
+      "id": "massassi-tutorial-player3dos",
+      "kind": "tutorial",
+      "title": "Making Player 3dos",
+      "url": "https://www.massassi.net/tutorials/player3dos/player3dos.html",
+      "author": "Mike \"LikWid\" Watson",
+      "catalog_date": "1999-03-28",
+      "date_basis": "Massassi tutorials catalog; not independently established first-publication timestamp.",
+      "read_scope": "Complete tutorial text; linked images and downloads excluded.",
+      "original_summary": "Repurposes stock body slots for an original character and coordinates material indices during assembly.",
+      "practical_decision": "Fit original parts to known motion semantics and remap a global material table.",
+      "evidence_strength": "Historical illustrated author tutorial; textual instructions read fully.",
+      "limitations": "Images not inspected; construction boxes and literal slot counts are not mandatory modern export rules. Page copyright says 1998; catalog date says 1999.",
+      "accessed_at": "2026-09-30T19:45:09.550262+00:00",
+      "http_status": 200,
+      "final_url": "https://www.massassi.net/tutorials/player3dos/player3dos.html",
+      "retrieved_bytes": 6295,
+      "retrieved_sha256": "9388f88dbefd1b94cd545cf5be270e38625d43a200ea86cc2ee794428446272d"
+    },
+    {
+      "id": "massassi-tutorial-animation",
+      "kind": "tutorial",
+      "title": "Animation Made Easy!!!!",
+      "url": "https://www.massassi.net/tutorials/animation/",
+      "author": "Ping_Me",
+      "catalog_date": "1999-06-14",
+      "date_basis": "Massassi tutorials catalog; not independently established first-publication timestamp.",
+      "read_scope": "Complete tutorial text; linked images and downloads excluded.",
+      "original_summary": "Builds character poses and emphasizes a visually inconspicuous right-hand attachment point.",
+      "practical_decision": "Use a weapon proxy to inspect hand orientation and preserve attachment nodes.",
+      "evidence_strength": "Historical author tutorial; textual instructions read fully.",
+      "limitations": "Trajedi/Puppet Jedi and images not executed or inspected; visible body-part count is not a KEY allocation rule.",
+      "accessed_at": "2026-09-30T19:45:09.642811+00:00",
+      "http_status": 200,
+      "final_url": "https://www.massassi.net/tutorials/animation/",
+      "retrieved_bytes": 10305,
+      "retrieved_sha256": "d72492eb256781a52a5ca3ca3b121191c3a3878f4d738b1bbd607eabbabf4b42"
+    },
+    {
+      "id": "massassi-tutorial-keys",
+      "kind": "tutorial",
+      "title": "Keys",
+      "url": "https://www.massassi.net/tutorials/keys/",
+      "author": "PJB",
+      "catalog_date": "2003-03-02",
+      "date_basis": "Massassi tutorials catalog; not independently established first-publication timestamp.",
+      "read_scope": "Complete tutorial text; linked images and downloads excluded.",
+      "original_summary": "Constructs a wave with layered shoulder, forearm and hand motion, then returns to the starting pose.",
+      "practical_decision": "Make a small round-trip animation before a complete custom action set.",
+      "evidence_strength": "Historical author tutorial; textual instructions read fully.",
+      "limitations": "Legacy UI issues are version-specific; no new animation-editor runtime test.",
+      "accessed_at": "2026-09-30T19:45:09.542555+00:00",
+      "http_status": 200,
+      "final_url": "https://www.massassi.net/tutorials/keys/",
+      "retrieved_bytes": 11265,
+      "retrieved_sha256": "b31976ff9ee0b84da11b6e621e90c314f4ec45806d8bdf6390a1d243373cae20"
+    },
+    {
+      "id": "massassi-tutorial-skins",
+      "kind": "tutorial",
+      "title": "Skins",
+      "url": "https://www.massassi.net/tutorials/skins/",
+      "author": "CosmoDNA",
+      "catalog_date": "1998-07-23",
+      "date_basis": "Massassi tutorials catalog; not independently established first-publication timestamp.",
+      "read_scope": "Complete tutorial text; linked images and downloads excluded.",
+      "original_summary": "Connects palette-based texture editing, material references and player registration; explains that other players need the package.",
+      "practical_decision": "Treat texture authoring, registry integration and recipient installation as separate steps.",
+      "evidence_strength": "Historical author tutorial; textual instructions read fully.",
+      "limitations": "No blanket adoption of its paint-program restrictions, palette slot rules or one example registry count; actual renderer and source ownership still matter.",
+      "accessed_at": "2026-09-30T19:46:52.741572+00:00",
+      "http_status": 200,
+      "final_url": "https://www.massassi.net/tutorials/skins/",
+      "retrieved_bytes": 18917,
+      "retrieved_sha256": "e6c9c712b2d9d221cea1d0c7525ac4738f58b84268a9266c9d86a127f2efa5bc"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "id": "openjkdf2-rdPuppet",
+      "kind": "pinned_source_code",
+      "title": "src/Engine/rdPuppet.c",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdPuppet.c",
+      "retrieval_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdPuppet.c",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "inspected_symbols": [
+        "rdPuppet_BuildJointMatrices",
+        "rdPuppet_AdvanceTrack"
+      ],
+      "read_scope": "Targeted named functions and surrounding branches, not whole repository.",
+      "original_summary": "Selects per-node track priority using KEY type and hierarchy node type; dispatches timed markers through callbacks.",
+      "supports_source_ids": [
+        "massassi-34905",
+        "massassi-35474"
+      ],
+      "limitations": "Source-port implementation with changes from the original game; no new original-binary or runtime parity test.",
+      "accessed_at": "2026-09-30T19:51:08.641135+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/rdPuppet.c",
+      "retrieved_bytes": 21475,
+      "retrieved_sha256": "c6770bc5902457995e4246fbb56db02aa109087d3e5a98c5612cca682dd4c8d5"
+    },
+    {
+      "id": "openjkdf2-sithPuppet",
+      "kind": "pinned_source_code",
+      "title": "src/Engine/sithPuppet.c",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/sithPuppet.c",
+      "retrieval_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/sithPuppet.c",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "inspected_symbols": [
+        "sithPuppet_DefaultCallback"
+      ],
+      "read_scope": "Targeted named functions and surrounding branches, not whole repository.",
+      "original_summary": "Default callback includes footstep sounds, AI weapon firing and saber-damage state changes, conditional on actor state.",
+      "supports_source_ids": [
+        "massassi-24352",
+        "massassi-35474"
+      ],
+      "limitations": "Source-port implementation with changes from the original game; no new original-binary or runtime parity test.",
+      "accessed_at": "2026-09-30T19:51:08.643412+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Engine/sithPuppet.c",
+      "retrieved_bytes": 27969,
+      "retrieved_sha256": "b536f0b6e274d1b8acb585785f83dcc968f26e2bdd4ca83478a5e1918ffe0b41"
+    },
+    {
+      "id": "openjkdf2-sithCogFunctionThing",
+      "kind": "pinned_source_code",
+      "title": "src/Cog/sithCogFunctionThing.c",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/sithCogFunctionThing.c",
+      "retrieval_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/sithCogFunctionThing.c",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "inspected_symbols": [
+        "sithCogFunctionThing_PlayKey"
+      ],
+      "read_scope": "Targeted named functions and surrounding branches, not whole repository.",
+      "original_summary": "Requires a render puppet before direct KEY playback; the inspected function returns failure if it is absent.",
+      "supports_source_ids": [
+        "massassi-25381"
+      ],
+      "limitations": "Source-port implementation with changes from the original game; no new original-binary or runtime parity test.",
+      "accessed_at": "2026-09-30T19:51:08.643728+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/sithCogFunctionThing.c",
+      "retrieved_bytes": 89854,
+      "retrieved_sha256": "569f0d2a419365ba1f3078dd728e1a43749501dc0694b242ebdb56dd26f5cfbd"
+    },
+    {
+      "id": "openjkdf2-jkCog",
+      "kind": "pinned_source_code",
+      "title": "src/Cog/jkCog.c",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/jkCog.c",
+      "retrieval_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/jkCog.c",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "inspected_symbols": [
+        "jkCog_SetPovModel",
+        "jkCog_PlayPovKey"
+      ],
+      "read_scope": "Targeted named functions and surrounding branches, not whole repository.",
+      "original_summary": "Separate first-person model and KEY operations use the player POV model and its puppet.",
+      "supports_source_ids": [
+        "massassi-53913",
+        "massassi-47271"
+      ],
+      "limitations": "Source-port implementation with changes from the original game; no new original-binary or runtime parity test.",
+      "accessed_at": "2026-09-30T19:51:08.887133+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/jkCog.c",
+      "retrieved_bytes": 43157,
+      "retrieved_sha256": "415b53b7d1558f24435aa5495a9787b4ec21d648e9e4194804d88dabc4d6c323"
+    },
+    {
+      "id": "openjkdf2-jkPlayer",
+      "kind": "pinned_source_code",
+      "title": "src/World/jkPlayer.c",
+      "url": "https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/jkPlayer.c",
+      "retrieval_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/jkPlayer.c",
+      "author": "OpenJKDF2 contributors",
+      "upstream_revision": "0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac",
+      "inspected_symbols": [
+        "jkPlayer_DrawPov"
+      ],
+      "read_scope": "Targeted named functions and surrounding branches, not whole repository.",
+      "original_summary": "POV drawing has distinct no-depth-read/write and SDL/retro clear-depth paths; source-port renderer behavior must be identified.",
+      "supports_source_ids": [
+        "massassi-35188"
+      ],
+      "limitations": "Source-port implementation with changes from the original game; no new original-binary or runtime parity test.",
+      "accessed_at": "2026-09-30T19:54:04.247775+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/jkPlayer.c",
+      "retrieved_bytes": 83650,
+      "retrieved_sha256": "c7c77748923eab6e21168448a8b5d137c2d2a46f838d23aeb8a767f4489e044a"
+    },
+    {
+      "id": "massassi-tutorial-catalog",
+      "kind": "catalog",
+      "title": "Massassi Tutorials",
+      "url": "https://www.massassi.net/tutorials.html",
+      "author": "The Massassi Temple",
+      "read_scope": "Author/date entries for the four selected tutorials only.",
+      "original_summary": "Provides cataloged authors and dates for the linked tutorials.",
+      "accessed_at": "2026-09-30T19:46:52.746183+00:00",
+      "http_status": 200,
+      "final_url": "https://www.massassi.net/tutorials.html",
+      "retrieved_bytes": 53542,
+      "retrieved_sha256": "de6b89b4d691ab7e1fea5e7ffaaed0eef1928ca4ca15788dbfb7a3baaba1c00c"
+    }
+  ],
+  "screened_omissions": [
+    {
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_46305_page_1.html",
+      "read_scope": "Complete text",
+      "reason_not_used_for_method": "Unanswered shoulder-position report; no supported repair method.",
+      "accessed_at": "2026-09-30T19:45:07.278557+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_46305_page_1.html",
+      "retrieved_bytes": 3615,
+      "retrieved_sha256": "f3a92b0bc9c6c3c0f1ed2b668bfb6f18333222394aa5572aafeb79708841e050"
+    },
+    {
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34716_page_1.html",
+      "read_scope": "Complete text",
+      "reason_not_used_for_method": "Static structure origin discussion; narrower character evidence already covers pivots.",
+      "accessed_at": "2026-09-30T19:45:07.709714+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34716_page_1.html",
+      "retrieved_bytes": 7623,
+      "retrieved_sha256": "bd42bfc39d874cda7b6b5b9da3559f4ba19f3e2b5a8007ffa39d55dcdba4763a"
+    },
+    {
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11361_page_1.html",
+      "read_scope": "Selected passages only",
+      "reason_not_used_for_method": "Bus collision and door setup primarily outside character/weapon-model scope; not counted as fully read.",
+      "accessed_at": "2026-09-30T19:45:09.174189+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11361_page_1.html",
+      "retrieved_bytes": 38267,
+      "retrieved_sha256": "878f79389b88593fe567485912f01dcdca2978cbf72816436401e7da0f9cc677"
+    },
+    {
+      "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_46413_page_1.html",
+      "read_scope": "Complete text",
+      "reason_not_used_for_method": "General JED/ZED recommendation does not resolve reported JKE mesh-replacement problem.",
+      "accessed_at": "2026-09-30T19:53:06.815353+00:00",
+      "http_status": 200,
+      "final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_46413_page_1.html",
+      "retrieved_bytes": 4318,
+      "retrieved_sha256": "be9aef15ee9515fc94e48e31fe4d588e0ec2f50b80c5e37d4dbdc5c916fe9e88"
+    }
+  ]
+}

@@ -1,0 +1,881 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-09-30",
+  "scope": "Original synthesis of selected archived character/weapon geometry and animation sources. No original page bodies or machine-specific paths included.",
+  "coverage": {
+    "distinct_query_expressions": 18,
+    "queries": [
+      {
+        "query": "hierarch*",
+        "index_matches": 121,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "pivot*",
+        "index_matches": 138,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "puppet AND (model OR key)",
+        "index_matches": 231,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "\"first person\" AND model",
+        "index_matches": 35,
+        "ranked_candidates_returned": 35,
+        "ranked_limit": 40
+      },
+      {
+        "query": "key AND (flag OR priority OR marker)",
+        "index_matches": 231,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "player AND (3do OR skin)",
+        "index_matches": 2104,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "walk AND key",
+        "index_matches": 134,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "dummy AND node",
+        "index_matches": 33,
+        "ranked_candidates_returned": 33,
+        "ranked_limit": 40
+      },
+      {
+        "query": "joint AND 3do",
+        "index_matches": 34,
+        "ranked_candidates_returned": 34,
+        "ranked_limit": 40
+      },
+      {
+        "query": "weapon AND (hand OR mount)",
+        "index_matches": 326,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "mesh AND (order OR sort)",
+        "index_matches": 61,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "head AND look",
+        "index_matches": 338,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "insert AND offset",
+        "index_matches": 108,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "frame AND animation",
+        "index_matches": 122,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "PUP AND (animation OR model)",
+        "index_matches": 206,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "KEY AND (marker OR nodes)",
+        "index_matches": 76,
+        "ranked_candidates_returned": 40,
+        "ranked_limit": 40
+      },
+      {
+        "query": "Shred AND (model OR hierarch*)",
+        "index_matches": 18,
+        "ranked_candidates_returned": 18,
+        "ranked_limit": 40
+      },
+      {
+        "query": "key AND (360 OR 180 OR interpolat* OR differential*)",
+        "index_matches": 75,
+        "ranked_candidates_returned": 35,
+        "ranked_limit": 35
+      }
+    ],
+    "fully_read_unique_pages": 21,
+    "retained_unique_sources": 13,
+    "retained_tutorial_articles": 5,
+    "retained_forum_threads": 8,
+    "rejected_full_reads": 8,
+    "limits": "FTS retrieval counts are not full-body reading counts. Ranked query output was selectively screened; source bodies of the 21 selected pages were read. No whole-corpus or all-Massassi completeness claim."
+  },
+  "sources": [
+    {
+      "corpus_document_id": 27332,
+      "title": "KeyEd =D - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "e3810aa1f6971a5fda4d752e0deaa857ad66f6699295fbfbb49d8610ef194dfe",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 34971,
+      "original_source_sha256": "6eee24cb55cfb6121603ac1f162746f91fac817efc0d1f01c1155699f803325b",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T20:03:14.813649+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 10,
+          "anchor": "post384678",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post384678",
+          "author": "Hell Raiser",
+          "display_date_time": "2005-01-10, 6:04 AM"
+        },
+        {
+          "number": 11,
+          "anchor": "post384945",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post384945",
+          "author": "Shred18",
+          "display_date_time": "2005-01-10, 2:39 PM"
+        },
+        {
+          "number": 17,
+          "anchor": "post385480",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post385480",
+          "author": "Sige",
+          "display_date_time": "2005-01-10, 9:34 PM"
+        },
+        {
+          "number": 18,
+          "anchor": "post385606",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post385606",
+          "author": "Hell Raiser",
+          "display_date_time": "2005-01-11, 3:25 AM"
+        },
+        {
+          "number": 21,
+          "anchor": "post385822",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post385822",
+          "author": "Sige",
+          "display_date_time": "2005-01-11, 12:08 PM"
+        },
+        {
+          "number": 23,
+          "anchor": "post385890",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post385890",
+          "author": "Sige",
+          "display_date_time": "2005-01-11, 2:08 PM"
+        },
+        {
+          "number": 24,
+          "anchor": "post386199",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post386199",
+          "author": "Shred18",
+          "display_date_time": "2005-01-11, 6:37 PM"
+        },
+        {
+          "number": 25,
+          "anchor": "post386213",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post386213",
+          "author": "Hell Raiser",
+          "display_date_time": "2005-01-11, 6:49 PM"
+        },
+        {
+          "number": 26,
+          "anchor": "post389029",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post389029",
+          "author": "Shred18",
+          "display_date_time": "2005-01-16, 10:01 AM"
+        },
+        {
+          "number": 27,
+          "anchor": "post389846",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_28662_page_1.html#post389846",
+          "author": "Hell Raiser",
+          "display_date_time": "2005-01-17, 12:48 PM"
+        }
+      ],
+      "author_attribution": "Hell Raiser, Shred18 and Sige",
+      "source_date": "2005-01-09 through 2005-01-17",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Explicit hierarchy correspondence and KEY differential recomputation; reported Yoda idle failure and dated tiny-differential handling; blank semantic torso/hip nodes; rigid-part boundaries before bone conversion.",
+      "limitations": "No current tool execution or universal tolerance; cross-model extension was still a next stage.",
+      "suggested_guide_targets": [
+        "blender-export-and-baking.md",
+        "compatibility.md",
+        "community-discord-model-methods.md"
+      ]
+    },
+    {
+      "corpus_document_id": 32461,
+      "title": "Fixing Pivot Points on 3dos - The Massassi Temple",
+      "source_url": "https://www.massassi.net/tutorials/pivot_fix/",
+      "category": "documentation",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "ec96d3c22456742f9a81ea8750e0f9b2a8777f49bafa54050139da3e878e93e9",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 6772,
+      "original_source_sha256": "d79bf2dffc92173492596b67f09e2a07536705fb01a5c1f75dcf69c63b21c368",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:21:45.094785+00:00",
+      "original_final_url": "https://www.massassi.net/tutorials/pivot_fix/",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [],
+      "author_attribution": "Mr. Xeinsane and Lilguy of Frontier Creature Creations",
+      "source_date": null,
+      "date_note": "Tutorial publication date not supplied in inspected body.",
+      "additional_or_corrective_finding": "Legacy compensating node translation/pivot change and reparenting/export hazards.",
+      "limitations": "Fun3do/JED-specific; collinear-vertex invisibility not reproduced.",
+      "suggested_guide_targets": [
+        "blender-export-and-baking.md"
+      ]
+    },
+    {
+      "corpus_document_id": 32280,
+      "title": "Build Your Own Character",
+      "source_url": "https://www.massassi.net/articles/df/make3do.htm",
+      "category": "documentation",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "70bf1770cdf097d830bba2812fb5345bba79828288e1f48054cf986eb0ddf61c",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 6513,
+      "original_source_sha256": "5dc719d97d6eb5f112c057c9f5d54405b771ffbcf4bc5eaa92a2915beaa164ba",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:20:19.109735+00:00",
+      "original_final_url": "https://www.massassi.net/articles/df/make3do.htm",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [],
+      "author_attribution": "Jeff Walters; credits Pax and Alexei Novikov",
+      "source_date": null,
+      "date_note": "Tutorial publication date not supplied in inspected body.",
+      "additional_or_corrective_finding": "Surgical character mesh/material-index remap, JKDF2 format identity despite URL path, and mesh-number inconsistency in instructions.",
+      "limitations": "Mesh 5 versus mesh 7 text conflicts; historical saved-game warning not universal current behavior.",
+      "suggested_guide_targets": [
+        "community-modeling-research.md"
+      ]
+    },
+    {
+      "corpus_document_id": 32364,
+      "title": "Basic enemy modeling - The Massassi Temple",
+      "source_url": "https://www.massassi.net/tutorials/enemy/",
+      "category": "documentation",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "ebde74a208ec7e6dc13c47e2e5c834ad3d3404c78ad0de4a9557b67365587577",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 11815,
+      "original_source_sha256": "dcfcee152b22e2263bcd77d7f85a0cb7410cdfffaebd5518f64e9f2b23c53793",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:20:58.681867+00:00",
+      "original_final_url": "https://www.massassi.net/tutorials/enemy/",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [],
+      "author_attribution": "EvanC / Evan C",
+      "source_date": null,
+      "date_note": "Tutorial publication date not supplied in inspected body.",
+      "additional_or_corrective_finding": "Minimal three-part actor fixture; separate native hierarchy/KEY/PUP stages; JED cached preview caution.",
+      "limitations": "Table offsets disagree with prose; one-key/all-actions and JOINTS removal are demonstration shortcuts.",
+      "suggested_guide_targets": [
+        "testing-methods.md",
+        "runtime-and-packaging.md"
+      ]
+    },
+    {
+      "corpus_document_id": 32322,
+      "title": "Adding Sections/Sectors to 3dos - The Massassi Temple",
+      "source_url": "https://www.massassi.net/tutorials/char_3do/",
+      "category": "documentation",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "a4fcc903759978939d288a93039824caac0f00f32467966da4fc4bb4d779bdce",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 8559,
+      "original_source_sha256": "e858bbd5242ca67431c54576380d965bff3451093d8742f1d011005e39023ec4",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:20:38.771824+00:00",
+      "original_final_url": "https://www.massassi.net/tutorials/char_3do/",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [],
+      "author_attribution": "Darth DarKal",
+      "source_date": null,
+      "date_note": "Tutorial publication date not supplied in inspected body.",
+      "additional_or_corrective_finding": "Keep imported UV-bearing part fixed during legacy additions; control export origin; replace mesh and remap material IDs; consider LOD cost.",
+      "limitations": "JED-specific selection/origin behavior; no lossless current exporter assertion.",
+      "suggested_guide_targets": [
+        "community-surface-research.md"
+      ]
+    },
+    {
+      "corpus_document_id": 26973,
+      "title": "3do surface limit per mesh -- mystery solved! - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "cd316d996c0190b5b4fe8e36b4944f64a5df8b9870791df6299bb7f052a9a8a4",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 18268,
+      "original_source_sha256": "7b1bd2bd8fc5355e634e71947e3f51c95dc621699664192914108e4216cc339a",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T20:00:47.211161+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 1,
+          "anchor": "post177603",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177603",
+          "author": "molotov42",
+          "display_date_time": "2004-03-30, 3:39 PM"
+        },
+        {
+          "number": 3,
+          "anchor": "post177605",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177605",
+          "author": "Friend14",
+          "display_date_time": "2004-03-30, 5:39 PM"
+        },
+        {
+          "number": 4,
+          "anchor": "post177606",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177606",
+          "author": "molotov42",
+          "display_date_time": "2004-03-30, 5:46 PM"
+        },
+        {
+          "number": 5,
+          "anchor": "post177607",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177607",
+          "author": "GBK",
+          "display_date_time": "2004-03-30, 7:35 PM"
+        },
+        {
+          "number": 6,
+          "anchor": "post177608",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177608",
+          "author": "Hellcat",
+          "display_date_time": "2004-03-30, 8:46 PM"
+        },
+        {
+          "number": 7,
+          "anchor": "post177609",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177609",
+          "author": "molotov42",
+          "display_date_time": "2004-03-31, 4:04 AM"
+        },
+        {
+          "number": 8,
+          "anchor": "post177610",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177610",
+          "author": "Friend14",
+          "display_date_time": "2004-03-31, 5:39 AM"
+        },
+        {
+          "number": 9,
+          "anchor": "post177611",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11842_page_1.html#post177611",
+          "author": "Emon",
+          "display_date_time": "2004-03-31, 2:25 PM"
+        }
+      ],
+      "author_attribution": "molotov42; Friend14, GBK, Hellcat and Emon",
+      "source_date": "2004-03-30 through 2004-03-31",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Historical six-model experiment separates vertex from face boundaries; below-bound failures and texture-vertex uncertainty retained.",
+      "limitations": "Model ZIP not inspected/run in this pass; historical 512/513 report is not a fresh universal limit test.",
+      "suggested_guide_targets": [
+        "compatibility.md",
+        "testing-methods.md"
+      ]
+    },
+    {
+      "corpus_document_id": 32499,
+      "title": "Creating New Weapons - The Massassi Temple",
+      "source_url": "https://www.massassi.net/tutorials/savguns/",
+      "category": "documentation",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "3e052187f33569cfeb19ea5e5fa7bd8fc7d880cfbcc4030eef672a9edc0dca36",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 10203,
+      "original_source_sha256": "c058e0e8f922e0c039e4dd79a7bd984124faccf7507067e4edfd7584e0ccb37f",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:22:05.885428+00:00",
+      "original_final_url": "https://www.massassi.net/tutorials/savguns/",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [],
+      "author_attribution": "SavageX",
+      "source_date": null,
+      "date_note": "Tutorial publication date not supplied in inspected body.",
+      "additional_or_corrective_finding": "Pickup/external/POV construction with distinct references and reserved hand material slots; animation preview check.",
+      "limitations": "JED 0.93-era recipe; included template not inspected in this pass; no global nine-MAT cap.",
+      "suggested_guide_targets": [
+        "community-surface-research.md",
+        "runtime-and-packaging.md"
+      ]
+    },
+    {
+      "corpus_document_id": 26558,
+      "title": "Post your keyframe making processes - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "3bb653e6cf1fad2718eaf55428827033f038214d00a79b7a7c7c0b1fd94e1943",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 7192,
+      "original_source_sha256": "cc88c1dadac475f9e50eca9d08c6c5ee3568aaf19388526978a28a3b7bbf823a",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:57:56.282865+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 1,
+          "anchor": "post174306",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html#post174306",
+          "author": "Checksum",
+          "display_date_time": "2003-07-09, 1:42 PM"
+        },
+        {
+          "number": 2,
+          "anchor": "post174307",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html#post174307",
+          "author": "MikeC",
+          "display_date_time": "2003-07-09, 1:44 PM"
+        },
+        {
+          "number": 3,
+          "anchor": "post174308",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html#post174308",
+          "author": "Quilty",
+          "display_date_time": "2003-07-09, 6:42 PM"
+        },
+        {
+          "number": 4,
+          "anchor": "post174309",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11434_page_1.html#post174309",
+          "author": "Emon",
+          "display_date_time": "2003-07-09, 6:59 PM"
+        }
+      ],
+      "author_attribution": "Checksum, MikeC, Quilty and Emon",
+      "source_date": "2003-07-09",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Intermediate motion entries and anatomical rotations as alternatives to robotic translation.",
+      "limitations": "No fixed best sample rate or newly tested animation; Quilty's film-rate analogy is not engine specification.",
+      "suggested_guide_targets": [
+        "blender-export-and-baking.md"
+      ]
+    },
+    {
+      "corpus_document_id": 30376,
+      "title": "Muzzle Flashes (and other templatey-type-things) - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "e01aa852669a174d1cf882eb1a0892e7bf3d7c3e66a7a33786f006e263842095",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 23954,
+      "original_source_sha256": "21fab8da8f07e948ab29648b702a8629cbc7bd6419ed9beb52c824e923e2556c",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T20:23:41.667529+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 7,
+          "anchor": "post155388",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html#post155388",
+          "author": "Sabre_Wulf",
+          "display_date_time": "2001-06-02, 12:22 PM"
+        },
+        {
+          "number": 9,
+          "anchor": "post155390",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html#post155390",
+          "author": "Jipe",
+          "display_date_time": "2001-06-06, 6:28 AM"
+        },
+        {
+          "number": 10,
+          "anchor": "post155391",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html#post155391",
+          "author": "SavageX",
+          "display_date_time": "2001-06-07, 11:09 PM"
+        },
+        {
+          "number": 11,
+          "anchor": "post155392",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8106_page_1.html#post155392",
+          "author": "*_Seifer_*",
+          "display_date_time": "2001-06-08, 12:15 AM"
+        }
+      ],
+      "author_attribution": "SavageX; antecedent guesses by Sabre_Wulf/Jipe; alternative by *_Seifer_*",
+      "source_date": "2001-05-31 through 2001-06-08",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Author account of POV flash-node changes, external variants, interruption cleanup and rapid-fire material animation.",
+      "limitations": "No COG copied as working code; differential wording and multiplayer cost need implementation checks.",
+      "suggested_guide_targets": [
+        "runtime-and-packaging.md",
+        "testing-methods.md"
+      ]
+    },
+    {
+      "corpus_document_id": 28893,
+      "title": "Making a new MP player model use a new pup - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "400763e0a4e489f6d7b2a4af754abb58a7e27142c20ab52dc327554600d34744",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 9241,
+      "original_source_sha256": "50ebafebcf94a57bac5bbfe474db54bb8bcd3f3ebd97abf06d00a2d6bc7a7cb5",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T20:13:46.502858+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 1,
+          "anchor": "post148540",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html#post148540",
+          "author": "Juztyn",
+          "display_date_time": "2000-12-11, 6:17 PM"
+        },
+        {
+          "number": 3,
+          "anchor": "post148542",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html#post148542",
+          "author": "Skywalker",
+          "display_date_time": "2000-12-12, 4:40 AM"
+        },
+        {
+          "number": 4,
+          "anchor": "post148543",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html#post148543",
+          "author": "Slug",
+          "display_date_time": "2000-12-12, 8:01 AM"
+        },
+        {
+          "number": 6,
+          "anchor": "post148545",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html#post148545",
+          "author": "Deathbane27",
+          "display_date_time": "2000-12-12, 8:26 AM"
+        },
+        {
+          "number": 7,
+          "anchor": "post148546",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_6645_page_1.html#post148546",
+          "author": "lordvader",
+          "display_date_time": "2000-12-12, 12:12 PM"
+        }
+      ],
+      "author_attribution": "Juztyn, Skywalker, Slug, Deathbane27 and lordvader",
+      "source_date": "2000-12-11 through 2000-12-12",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Custom model-specific puppet selection needs integration beyond models.dat; distinction from ordinary skin package.",
+      "limitations": "Example syntax uncertain and unexecuted; no host/join/respawn proof.",
+      "suggested_guide_targets": [
+        "methods-and-options.md",
+        "runtime-and-packaging.md"
+      ]
+    },
+    {
+      "corpus_document_id": 26314,
+      "title": "Skin Pack Problem! - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "ee5f0655abf9fb1d57c886b406495e0aa4b67d2fe3f9ba011a0fde0c3c49bc4d",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 14889,
+      "original_source_sha256": "265f5ae90eb93901ebc8a2ae58fc9c73bf982959e80477affb1879974c52eb95",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:56:18.416359+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 1,
+          "anchor": "post172194",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html#post172194",
+          "author": "Spiral",
+          "display_date_time": "2003-03-07, 2:17 PM"
+        },
+        {
+          "number": 3,
+          "anchor": "post172196",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html#post172196",
+          "author": "Edward",
+          "display_date_time": "2003-03-08, 10:47 AM"
+        },
+        {
+          "number": 4,
+          "anchor": "post172197",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html#post172197",
+          "author": "Spiral",
+          "display_date_time": "2003-03-09, 9:30 AM"
+        },
+        {
+          "number": 5,
+          "anchor": "post172198",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11194_page_1.html#post172198",
+          "author": "Sabre_Wulf",
+          "display_date_time": "2003-03-11, 7:01 PM"
+        }
+      ],
+      "author_attribution": "Spiral, Edward and Sabre_Wulf",
+      "source_date": "2003-03-07 through 2003-03-20",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "Custom alien-puppet selection requires coordinated resources and players; proposed multiplayer trigger approach.",
+      "limitations": "Author explicitly calls proposal untested; sample incomplete and not distributed as working code.",
+      "suggested_guide_targets": [
+        "runtime-and-packaging.md"
+      ]
+    },
+    {
+      "corpus_document_id": 27764,
+      "title": "3do Help - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "3743d5ad5e96f9fa612b76424ee61a6d3fe994f2fc6282591161be68933900c5",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 16250,
+      "original_source_sha256": "fa770239ee800a72e2139d18410181a9cbe6958e7728a2c685be6957f1d8e725",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T20:06:09.999961+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 4,
+          "anchor": "post837339",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post837339",
+          "author": "0734ws",
+          "display_date_time": "2007-07-17, 10:26 PM"
+        },
+        {
+          "number": 5,
+          "anchor": "post837343",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post837343",
+          "author": "zagibu",
+          "display_date_time": "2007-07-17, 10:52 PM"
+        },
+        {
+          "number": 7,
+          "anchor": "post837697",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post837697",
+          "author": "Shred18",
+          "display_date_time": "2007-07-18, 8:59 PM"
+        },
+        {
+          "number": 8,
+          "anchor": "post837900",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post837900",
+          "author": "0734ws",
+          "display_date_time": "2007-07-19, 12:48 PM"
+        },
+        {
+          "number": 10,
+          "anchor": "post838120",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post838120",
+          "author": "Stormtrooper",
+          "display_date_time": "2007-07-20, 3:25 AM"
+        },
+        {
+          "number": 12,
+          "anchor": "post838277",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post838277",
+          "author": "Stormtrooper",
+          "display_date_time": "2007-07-20, 3:07 PM"
+        },
+        {
+          "number": 13,
+          "anchor": "post838333",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post838333",
+          "author": "0734ws",
+          "display_date_time": "2007-07-20, 10:21 PM"
+        },
+        {
+          "number": 14,
+          "anchor": "post838479",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_47753_page_1.html#post838479",
+          "author": "0734ws",
+          "display_date_time": "2007-07-21, 4:04 PM"
+        }
+      ],
+      "author_attribution": "0734ws, Shred18, zagibu, ZeqMacaw and Stormtrooper",
+      "source_date": "2007-07-16 through 2007-07-21",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "A reportedly successful JED re-export removed extra LODs; distinguish model repair from geoset loss and animation speed from attack events.",
+      "limitations": "Not a universal modern exporter verdict; grenade/firing issue unresolved.",
+      "suggested_guide_targets": [
+        "blender-export-and-baking.md",
+        "testing-methods.md"
+      ]
+    },
+    {
+      "corpus_document_id": 26235,
+      "title": "Funny stuff at bottom of PUP file... - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html",
+      "category": "editing-forums",
+      "indexed_evidence_label": "community source; claims require validation",
+      "indexed_text_sha256": "fbc23d11553b1d5b105b1b27536b67f4643c788e06d1513bfc15d040e650ed9d",
+      "indexed_text_matches_local_extraction": true,
+      "indexed_text_fully_read": true,
+      "original_source_bytes": 12460,
+      "original_source_sha256": "60df7433168dc35b86924376b4ce980b3b6929acfcb8c9c3974a2c16ddfc6bb8",
+      "original_hash_matches_capture_receipt": true,
+      "original_capture_status": 200,
+      "original_retrieved_utc": "2026-09-30T19:55:46.102194+00:00",
+      "original_final_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html",
+      "original_check_scope": "Hash-verified local HTML bytes; selected original post headers and content inspected. Indexed full page was read; images/downloads not inspected.",
+      "selected_posts": [
+        {
+          "number": 1,
+          "anchor": "post171654",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171654",
+          "author": "Edward",
+          "display_date_time": "2003-02-17, 10:26 AM"
+        },
+        {
+          "number": 4,
+          "anchor": "post171657",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171657",
+          "author": "Shred18",
+          "display_date_time": "2003-02-18, 9:46 AM"
+        },
+        {
+          "number": 5,
+          "anchor": "post171658",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171658",
+          "author": "zagibu",
+          "display_date_time": "2003-02-18, 10:36 AM"
+        },
+        {
+          "number": 6,
+          "anchor": "post171659",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171659",
+          "author": "Edward",
+          "display_date_time": "2003-02-18, 10:48 AM"
+        },
+        {
+          "number": 7,
+          "anchor": "post171660",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171660",
+          "author": "Descent_pilot",
+          "display_date_time": "2003-02-19, 2:43 PM"
+        },
+        {
+          "number": 8,
+          "anchor": "post171661",
+          "url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11115_page_1.html#post171661",
+          "author": "zagibu",
+          "display_date_time": "2003-02-19, 11:06 PM"
+        }
+      ],
+      "author_attribution": "Edward, Shred18, zagibu and Descent_pilot",
+      "source_date": "2003-02-17 through 2003-02-19",
+      "date_note": "Displayed forum timestamps; timezone not assumed.",
+      "additional_or_corrective_finding": "PUP semantic roles map to hierarchy indices; preserve invisible control nodes or deliberately remap custom actor roles.",
+      "limitations": "Names alone do not preserve numbered animation contracts; no arbitrary Kyle JOINTS copying.",
+      "suggested_guide_targets": [
+        "compatibility.md"
+      ]
+    }
+  ],
+  "excluded_after_full_read": [
+    {
+      "corpus_document_id": 26984,
+      "title": "3DO Files' Hierarchies - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11853_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Unresolved hierarchy math; unsupported solidity statement."
+    },
+    {
+      "corpus_document_id": 31692,
+      "title": "Mesh Names an hierarchy? - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_9420_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Unanswered hierarchy question."
+    },
+    {
+      "corpus_document_id": 31189,
+      "title": "Headless 3do - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8917_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Unverified missing-node fallback claim; no completed repair."
+    },
+    {
+      "corpus_document_id": 32411,
+      "title": "Character Model Import Tutorial - 4 - The Massassi Temple",
+      "source_url": "https://www.massassi.net/tutorials/jo_character_models/4_SkeletalExtract/",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Jedi Outcast weighted XSI skeleton; wrong target format."
+    },
+    {
+      "corpus_document_id": 27694,
+      "title": "Animate only half a body? - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_42173_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Less precise blending terminology than current engine-correlated guide."
+    },
+    {
+      "corpus_document_id": 26292,
+      "title": "keys (not the items) - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11172_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Insufficient context for unconditional zero translation."
+    },
+    {
+      "corpus_document_id": 29967,
+      "title": "How to make new mounting weapon keyfiles using pjed - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_7697_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Unanswered custom weapon mount-animation request."
+    },
+    {
+      "corpus_document_id": 30642,
+      "title": "Abnormally shaped player model and .keys - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_8372_page_1.html",
+      "full_indexed_text_read": true,
+      "reason_not_adopted": "Unresolved short-model hand problem and unsupported causal diagnosis."
+    }
+  ]
+}

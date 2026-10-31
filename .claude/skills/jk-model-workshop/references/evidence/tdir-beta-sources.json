@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-09-30",
+  "prepared_at": "2026-09-30T20:26:33.385266+00:00",
+  "scope": "TDIR leaked beta identity, character-roster leads and bounded private archive inspection; no level design.",
+  "overall_status": "historical_identity_supported_beta_binary_not_located",
+  "beta_download_url": null,
+  "beta_archive_sha256": null,
+  "authenticated_beta_skin_roster": null,
+  "supported_names": [
+    "Real DragonBall Z 4.0",
+    "DragonBall Z: The Destruction Is Real",
+    "bootleg DBZ 4.0",
+    "[pants]"
+  ],
+  "name_limit": "Historical project labels and participant aliases, not a verified embedded beta version or filename.",
+  "circulation_no_later_than": "2002-06-19",
+  "sources": [
+    {
+      "id": "wayback-jedinights-files",
+      "kind": "original_project_page_archived",
+      "title": "Early TDIR files page",
+      "authors": [
+        "DragonBallZ Modification Productions / TDIR team"
+      ],
+      "url": "http://www.jedinights.com:80/dbz/files.html",
+      "archive_url": "https://web.archive.org/web/20010125093600id_/http://www.jedinights.com:80/dbz/files.html",
+      "archived_capture_timestamp": "20010125093600",
+      "retrieval_status": "direct_replay_verified",
+      "http_status": 200,
+      "retrieval_url": "https://web.archive.org/web/20010125093600id_/http://www.jedinights.com:80/dbz/files.html",
+      "http_status_applies_to": "archive_replay",
+      "original_http_status": null,
+      "retrieved_at": "2026-09-30T20:17:27.336348+00:00",
+      "response_bytes": 3134,
+      "response_sha256": "90703e21b792cd2feadb6907c5c557b1518c556fcfe632fda2cbc2769413a67d",
+      "archive_verification_method": "Direct replay fetched HTTP 200 and page content inspected; no availability-API claim.",
+      "original_summary": "Labels Real Dragonball Z 3.0 as earlier version and separately links a 4.0 preview clip.",
+      "limitations": "Historical advertised content; images and linked binaries were not fetched from this page."
+    },
+    {
+      "id": "wayback-jedinights-char",
+      "kind": "original_project_page_archived",
+      "title": "Early TDIR character page",
+      "authors": [
+        "DragonBallZ Modification Productions / TDIR team"
+      ],
+      "url": "http://www.jedinights.com:80/dbz/char.html",
+      "archive_url": "https://web.archive.org/web/20010224000716id_/http://www.jedinights.com:80/dbz/char.html",
+      "archived_capture_timestamp": "20010224000716",
+      "retrieval_status": "direct_replay_verified",
+      "http_status": 200,
+      "retrieval_url": "https://web.archive.org/web/20010224000716id_/http://www.jedinights.com:80/dbz/char.html",
+      "http_status_applies_to": "archive_replay",
+      "original_http_status": null,
+      "retrieved_at": "2026-09-30T20:17:27.250210+00:00",
+      "response_bytes": 4408,
+      "response_sha256": "a4e4d6f0c5c1f4cc2a08c7d07d8b3574c475e603855a82b773aeee93182514e9",
+      "archive_verification_method": "Direct replay fetched HTTP 200 and page content inspected; no availability-API claim.",
+      "original_summary": "Advertises SSJ4 Goku and Vegeta, Super 13 and Super 17; advertised roster is not proof of inclusion in the leak.",
+      "limitations": "Historical advertised content; images and linked binaries were not fetched from this page."
+    },
+    {
+      "id": "wayback-jedinights-faq",
+      "kind": "original_project_page_archived",
+      "title": "Early TDIR FAQ",
+      "authors": [
+        "DragonBallZ Modification Productions / TDIR team"
+      ],
+      "url": "http://www.jedinights.com:80/dbz/FAQ.html",
+      "archive_url": "https://web.archive.org/web/20010125035700id_/http://www.jedinights.com:80/dbz/FAQ.html",
+      "archived_capture_timestamp": "20010125035700",
+      "retrieval_status": "direct_replay_verified",
+      "http_status": 200,
+      "retrieval_url": "https://web.archive.org/web/20010125035700id_/http://www.jedinights.com:80/dbz/FAQ.html",
+      "http_status_applies_to": "archive_replay",
+      "original_http_status": null,
+      "retrieved_at": "2026-09-30T20:17:27.263690+00:00",
+      "response_bytes": 5317,
+      "response_sha256": "4730f43c393df644113bea537fcec0a274d7690cee14411a624ad7a6537ac51d",
+      "archive_verification_method": "Direct replay fetched HTTP 200 and page content inspected; no availability-API claim.",
+      "original_summary": "Identifies the project as Real DBZ 4.0, with changing planned character and transformation scope.",
+      "limitations": "Historical advertised content; images and linked binaries were not fetched from this page."
+    },
+    {
+      "id": "massassi-tdir-release",
+      "kind": "public_web_source",
+      "title": "TDIR public release and comments",
+      "authors": [
+        "The TDIR Team",
+        "Massassi Temple",
+        "Sol",
+        "tweaklink0072000",
+        "From the Ashes",
+        "bugarBrain"
+      ],
+      "url": "https://www.massassi.net/levels/files/2727.shtml",
+      "retrieved_at": "2026-09-30T20:22:04.737915+00:00",
+      "original_summary": "Public release dated 2003-06-27; comments distinguish bootleg DBZ4.0/[pants] and report changed sounds, animation and attacks.",
+      "retrieval_status": "direct_http_verified",
+      "http_status": 200,
+      "response_bytes": 106874,
+      "response_sha256": "ed79ce287b7dba1beb7cad4282b24012172da150b380f9a22176d255049cbbbb",
+      "credited_observation_dates": {
+        "Sol": "2003-06-30",
+        "tweaklink0072000": "2003-07-03",
+        "From the Ashes": "2003-07-04",
+        "bugarBrain": "2003-07-07"
+      },
+      "limitations": "Participant testimony compares the earlier leak with the June 2003 release; not independently reproduced and not a binary diff against 1.1."
+    },
+    {
+      "id": "massassi-randsaber-beta7",
+      "kind": "public_web_source",
+      "title": "Randsaber Beta 7",
+      "authors": [
+        "XxCHAoSxX",
+        "Massassi Temple"
+      ],
+      "url": "https://www.massassi.net/levels/files/2211.shtml",
+      "retrieved_at": "2026-09-30T20:22:04.738451+00:00",
+      "original_summary": "Description names the leaked TDIR beta as a lock-on reference, establishing awareness by 2002-06-19.",
+      "retrieval_status": "direct_http_verified",
+      "http_status": 200,
+      "response_bytes": 39671,
+      "response_sha256": "cebb831a886e9e526e92bb9189b451915939b1a6ad5e8d5391eb6537becb1b4f"
+    },
+    {
+      "id": "massassi-may-2003",
+      "kind": "public_web_source",
+      "title": "May 2003 news: TDIR has gone gold",
+      "authors": [
+        "Hell_Raiser",
+        "kak",
+        "Massassi Temple"
+      ],
+      "url": "https://www.massassi.net/news_archive_2003-5.html",
+      "retrieved_at": "2026-09-30T20:22:04.738813+00:00",
+      "original_summary": "2003-05-19 announcement describes one last internal beta before public packaging.",
+      "retrieval_status": "direct_http_verified",
+      "http_status": 200,
+      "response_bytes": 29851,
+      "response_sha256": "8629c45dd7ca707553baab0a2c74fb1b236d6afdf7c13f93a89f6ebcc7b32f71"
+    },
+    {
+      "id": "massassi-june-2002",
+      "kind": "public_web_source",
+      "title": "June 2002 news: Randsaber Beta 7",
+      "authors": [
+        "XxCHAoSxX",
+        "kak",
+        "Massassi Temple"
+      ],
+      "url": "https://www.massassi.net/news_archive_2002-6.html",
+      "retrieved_at": "2026-09-30T20:22:05.345659+00:00",
+      "original_summary": "Contemporary dated announcement corroborates the reference to the earlier leaked beta.",
+      "retrieval_status": "direct_http_verified",
+      "http_status": 200,
+      "response_bytes": 166076,
+      "response_sha256": "66b5852acd66b458bfee1f604ccd974227dfd2175c9dcba0d4b042de7bf19b5c"
+    },
+    {
+      "id": "moddb-tdir-summary",
+      "kind": "public_web_source",
+      "title": "TDIR preserved description, credits and FAQ",
+      "authors": [
+        "qwerty_ / NOXIOUSVEGETA (republisher)",
+        "The TDIR Team (original work)"
+      ],
+      "url": "https://www.moddb.com/mods/the-destruction-is-real",
+      "retrieved_at": "2026-09-30T20:22:05.369381+00:00",
+      "original_summary": "Republished later FAQ excludes SSJ4/Oozaru transformations and states generic character voices.",
+      "retrieval_status": "web_tool_text_read_direct_http_denied",
+      "http_status": 403,
+      "limitations": "Readable through web retrieval; final direct urllib request received 403. No bypass attempted."
+    },
+    {
+      "id": "moddb-tdir-files",
+      "kind": "public_web_source",
+      "title": "TDIR public download listing",
+      "authors": [
+        "ModDB",
+        "qwerty_ / NOXIOUSVEGETA (republisher)"
+      ],
+      "url": "https://www.moddb.com/mods/the-destruction-is-real/downloads",
+      "retrieved_at": "2026-09-30T20:22:05.479700+00:00",
+      "original_summary": "Visible file listing exposes the later 1.1 package; no authenticated beta in that listing.",
+      "retrieval_status": "web_tool_text_read_direct_http_denied",
+      "http_status": 403,
+      "limitations": "Readable through web retrieval; final direct urllib request received 403. No bypass attempted."
+    },
+    {
+      "id": "jkdf2-jkmod-index",
+      "kind": "public_download_directory",
+      "title": "JKDF2 archival JK mod directory",
+      "authors": [
+        "JKDF2 community archive"
+      ],
+      "url": "https://www.jkdf2.net/JKBot/JKArchive/?dir=JKDF2/JKDF2/Game%20Files/jkmod",
+      "retrieval_status": "direct_http_verified",
+      "http_status": 200,
+      "response_bytes": 1260434,
+      "response_sha256": "eb178888afb36158d0249adcbd14a2869b7b34ea47c9e601af7b89570bf3d752",
+      "original_summary": "Bounded search identified public TDiR.zip and two unrelated DBZ candidates; no authenticated leaked TDIR binary identified.",
+      "limitations": "A directory search is not exhaustive evidence of global absence."
+    },
+    {
+      "id": "massassi-13954-alias",
+      "kind": "public_forum_post",
+      "title": "Please help me with a few cogs! — DBZ 4.0 naming clarification",
+      "authors": [
+        "ChewbaccaRC"
+      ],
+      "url": "https://forums.massassi.net/Editing_Forums/Cog_Forum/thread_13954_page_1.html#post190261",
+      "retrieval_url": "https://forums.massassi.net/Editing_Forums/Cog_Forum/thread_13954_page_1.html",
+      "retrieved_at": "2026-09-30T19:25:18.186968+00:00",
+      "retrieval_status": "saved_http_capture_verified",
+      "http_status": 200,
+      "response_bytes": 21289,
+      "response_sha256": "c8bd3fbe4908a4c617ceb3aaff5c31a5eefa1a24b487be5bde1d545f2d523b41",
+      "post_number": 16,
+      "post_id": "190261",
+      "post_date_displayed": "2001-07-25",
+      "original_summary": "ChewbaccaRC explicitly identifies DBZ 4.0 as DBZ:The Destruction Is Real while describing a separate MotS project.",
+      "inspection_scope": "Selected naming passage and surrounding reply context; reused saved public HTTP capture, with raw bytes independently hashed.",
+      "limitations": "Corroborates an early project alias, not a July 2001 leak date or the contents of a particular beta binary."
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "local_research_label": "tdir-massassi.zip",
+      "classification": "identified_public_2003_release",
+      "identification_basis": "Readme dates release to June 2003; contains TDIR.EXE, info_installation.txt and Readme.txt.",
+      "inspection_date": "2026-09-30",
+      "executed": false,
+      "redistributed": false,
+      "bytes": 34989718,
+      "sha256": "8aea49c26e5e1fb9b39742eb4fd034bef8b9fff99495929959be568c24c47de1",
+      "source_url": "https://www.massassi.net/media/levels/files/jkmod/TDiR.zip",
+      "archive_entry_count": 3
+    },
+    {
+      "local_research_label": "tdir-1.1-moddb.7z",
+      "classification": "identified_later_1.1_comparison_package",
+      "identification_basis": "Previously acquired 1.1 ModDB archive; selected extracted GOB contents independently inventoried for this investigation.",
+      "inspection_date": "2026-09-30",
+      "executed": false,
+      "redistributed": false,
+      "bytes": 16522341,
+      "sha256": "28b6d55e3e936792efd07e12255d0485cae29eef2a852473456059da17163f49",
+      "source_url": "https://www.moddb.com/mods/the-destruction-is-real/downloads/the-destruction-is-real-111"
+    },
+    {
+      "local_research_label": "tdir-cicdec.zip",
+      "classification": "excluded_extraction_utility",
+      "identification_basis": "cicdec binary utility for reading Clickteam installers, not a TDIR build.",
+      "inspection_date": "2026-09-30",
+      "executed": false,
+      "redistributed": false,
+      "bytes": 116324,
+      "sha256": "551694690919e668625697be88fedac0b1cfefae321f2440ad48bc65920abe52",
+      "archive_entry_count": 8
+    },
+    {
+      "local_research_label": "tdir-cicdec-source.zip",
+      "classification": "excluded_extraction_utility_source",
+      "identification_basis": "C# source for cicdec, not TDIR source or a beta.",
+      "inspection_date": "2026-09-30",
+      "executed": false,
+      "redistributed": false,
+      "bytes": 15641,
+      "sha256": "2048267548504a89d36950d8f9bd15b85d6411f3fc1f12a1814f85b31223f25b",
+      "archive_entry_count": 14
+    },
+    {
+      "original_filename": "dbz.zip",
+      "source_url": "https://www.jkdf2.net/JKBot/JKArchive/JKDF2/JKDF2/Game%20Files/jkmod/dbz.zip",
+      "classification": "excluded_different_mod",
+      "identified_title": "DBZ Fighter v1.0 beta",
+      "authors": [
+        "IA_D_Vadergator / MG_Dash_Rendar"
+      ],
+      "bytes": 870037,
+      "sha256": "9693fea7128fc2b2882926e1b001da19b54b90b83aed2f378574d8533fdd766e",
+      "archive_entries": [
+        {
+          "name": "dbzmod.gob",
+          "bytes": 2694896
+        },
+        {
+          "name": "Readme.txt",
+          "bytes": 4417
+        }
+      ],
+      "inspection": "ZIP listing and embedded readme only; no files executed.",
+      "redistributed": false
+    }
+  ],
+  "early_character_leads": [
+    {
+      "name": "Goku (SSJ4)",
+      "linked_image_filename": "goku4.jpg"
+    },
+    {
+      "name": "Vegeta (SSJ4)",
+      "linked_image_filename": "vegeta4.jpg"
+    },
+    {
+      "name": "Super 13",
+      "linked_image_filename": "s13.jpg"
+    },
+    {
+      "name": "Super 17",
+      "linked_image_filename": "s17.jpg"
+    }
+  ],
+  "early_character_limit": "Page entries and image link names inspected; images not fetched or assessed. No proof these models were present in the leaked package.",
+  "historical_download_leads": [
+    {
+      "url": "http://www.jedinights.com/dbz/dbz30.zip",
+      "advertised_as": "Real Dragonball Z 3.0 (earlier version)",
+      "status": "link_observed_binary_not_recovered"
+    },
+    {
+      "url": "http://www.jedinights.com/dbz/video.zip",
+      "advertised_as": "4.0 preview clip",
+      "status": "link_observed_binary_not_recovered_not_a_mod_download"
+    }
+  ],
+  "later_1_1_static_comparison": {
+    "gob_records": [
+      {
+        "filename": "tdircharacter.gob",
+        "sha256": "e09b6bf37f709e9d035a0aeb59ef8b851f79e79ecf0c87b1d2f23fffa361932f",
+        "entry_count": 263,
+        "model_3do_count": 97,
+        "counterexample_models": [
+          {
+            "name": "3do/17droid.3do",
+            "size": 216729,
+            "sha256": "579363f53bc65c70473976e4cbef2234c9323f0218fac23abdfea001366ad5bb"
+          },
+          {
+            "name": "3do/popo.3do",
+            "size": 155517,
+            "sha256": "fd0e8390c5af1beb670b19ed09c03c720116bf7738a62bada9529b6bba63a13d"
+          },
+          {
+            "name": "3do/kingkai.3do",
+            "size": 151220,
+            "sha256": "9065412d1c027581d82e904c090d19e2443e923eac0511fa4c027a02fc95671e"
+          },
+          {
+            "name": "3do/kingvegeta.3do",
+            "size": 164200,
+            "sha256": "6e32ab443d2e1718780f47f396cda75aed3a10d2276ff55ca84445d30bc585be"
+          },
+          {
+            "name": "3do/tapion.3do",
+            "size": 196531,
+            "sha256": "4ee34711091c70382401991be2e44acbe3d32cdf91fae023809d65e6451488cf"
+          }
+        ]
+      },
+      {
+        "filename": "character.gob",
+        "sha256": "8c923ae587810227dc18a1b7546e6fe25d64c6e31e125e65c9423ffff4b102c2",
+        "entry_count": 3,
+        "model_3do_count": 0,
+        "entry_names": [
+          "cog/character.cog",
+          "magic.dat",
+          "moremagic.dat"
+        ]
+      },
+      {
+        "filename": "tdircontrol.gob",
+        "sha256": "6b308cdf818e9cbf7ed5f3bce03b19d25193aae55e94ca17e4be4d56961a1231",
+        "entry_count": 167,
+        "model_3do_count": 0,
+        "selected_members": [
+          {
+            "name": "cog/ability_disk.cog",
+            "size": 556,
+            "sha256": "ccdb372dd21d8f47a82d2833733782a1de8786aa93d9154b6a6a6641f53b9913"
+          },
+          {
+            "name": "misc/items.dat",
+            "size": 12216,
+            "sha256": "647c57c284d64854db5a7507bd869742480d7cf12f230b31e6434207fea904b3"
+          },
+          {
+            "name": "misc/models.dat",
+            "size": 2224,
+            "sha256": "9138a181e51a8a4087c14b12f60879df3da992c7cab71c5a7b83f3fd63f2968d"
+          }
+        ]
+      },
+      {
+        "filename": "res2.gob.tdir",
+        "sha256": "609aa688b97106d70b8d8107079d7d38a3eb5660ccbafd4dcb755f0694e5695e",
+        "entry_count": 160,
+        "model_3do_count": 2
+      },
+      {
+        "filename": "tdirmiscfiles.gob",
+        "sha256": "b305ba4be0e96796692d797661eea46cacfb60be064731c24be4b90f598c3a1b",
+        "entry_count": 673,
+        "model_3do_count": 219
+      }
+    ],
+    "model_selection_source": "tdircontrol.gob:misc/models.dat",
+    "declared_models": 87,
+    "observed_numbered_rows": 86,
+    "observed_row_range": [
+      0,
+      85
+    ],
+    "retained_counterexamples": [
+      "King Kai",
+      "King Vegeta",
+      "Mr. Popo",
+      "Tapion",
+      "Android 17"
+    ],
+    "missing_named_leads": "No SSJ4, Super 13 or Super 17 entry identified in this selection table; no similarly named model in inspected character archive. Not a runtime roster proof.",
+    "code_counterexample": "ability_disk.cog exists in tdircontrol.gob; static presence does not establish an accessible working disc attack.",
+    "new_game_execution": false,
+    "new_multiplayer_test": false,
+    "credited_document": {
+      "package_member": "TDiR_1.1/docs/Character_Readme.txt",
+      "bytes": 3947,
+      "sha256": "90bdd3361c3cf163b78acfa7c9fb8fdaaf890a0e50419d098cc280fffd97e2b3",
+      "declared_date": "May 2003",
+      "credited_authors": [
+        "Shred18",
+        "Gsusnme"
+      ],
+      "additional_credit": {
+        "name": "Jenny Kitty",
+        "contribution": "Conversion to the new animation system"
+      },
+      "distinction": "Different from the November 2001 readme embedded in tdircharacter.gob."
+    }
+  },
+  "search_boundaries": [
+    "Public web search, Massassi news and release comments, ModDB, JKDF2 public archive and selected original-project Wayback indexes.",
+    "Internet Archive catalog searches produced no authenticated beta candidate; not an exhaustive search of all media or collector archives.",
+    "Selected legacy JKDF2 website-directory listings inspected; no authenticated beta found.",
+    "Three original project pages fetched by direct Wayback replay with HTTP 200.",
+    "Later CDX batch returned HTTP 429. Further Wayback requests stopped; absence was not inferred.",
+    "No Discord or native/browser UI used. No external messages sent. No files executed or assets republished."
+  ],
+  "rights": "Original synthesis, hashes and metadata only. Source authors retain rights. No full forum text, images, third-party mod binaries or model assets included."
+}

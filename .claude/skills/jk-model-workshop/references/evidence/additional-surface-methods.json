@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-30T21:48:56.917966+00:00",
+  "scope": "Additional JK/MotS model-surface techniques and corrections from retained original sources. Original synthesis; no raw source bodies or third-party assets included.",
+  "method": "Offline read-only corpus search, selected complete forum/tutorial texts and Discord own-message bodies inspected, retained capture hashes checked. No fresh runtime test or external request.",
+  "coverage": {
+    "selected_source_records": 14,
+    "queries": [
+      {
+        "fts5": "skin AND (palette OR colormap OR cmp)",
+        "index_document_matches": 47,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "3do AND (gouraud OR normals OR lighting)",
+        "index_document_matches": 282,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "(model OR skin OR 3do) AND (mipmap OR mipmaps)",
+        "index_document_matches": 31,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "(model OR skin OR 3do) AND (uv OR seam OR seams)",
+        "index_document_matches": 57,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "(model OR skin OR 3do) AND (transparent OR transparency)",
+        "index_document_matches": 184,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "(milkshape OR joke) AND (texture OR textures)",
+        "index_document_matches": 172,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "\"texture vertices\"",
+        "index_document_matches": 49,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "\"Mastering the MATs\"",
+        "index_document_matches": 1,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "\"baking\"",
+        "index_document_matches": 24,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "\"mats_detailed\"",
+        "index_document_matches": 1,
+        "ranked_result_limit": 22
+      },
+      {
+        "fts5": "(\"vertex color\" OR \"vertex colors\" OR \"vertex lighting\") AND (blender OR model OR 3do)",
+        "index_document_matches": 20,
+        "ranked_result_limit": 30
+      },
+      {
+        "fts5": "(normals OR smoothing) AND (export OR exporter OR Blender)",
+        "index_document_matches": 22,
+        "ranked_result_limit": 30
+      },
+      {
+        "fts5": "(mipmaps OR colorkey OR \"color key\" OR RGB565) AND (mat OR model OR skin)",
+        "index_document_matches": 32,
+        "ranked_result_limit": 30
+      },
+      {
+        "fts5": "(seam OR seams OR bleed) AND (texture OR mat OR UV)",
+        "index_document_matches": 21,
+        "ranked_result_limit": 30
+      }
+    ],
+    "limit": "Ranked searches are not an exhaustive review. Duplicate URLs, pages and messages can affect counts. One previously cited CosmoDNA source contributes newly synthesized technique detail; JKPaint continuation read.",
+    "excluded_scope": [
+      "Jedi Outcast / Jedi Academy character and UV tutorials",
+      "world design, fog and level lighting recipes",
+      "uncorroborated converter diagnoses treated as successful fixes"
+    ]
+  },
+  "sources": [
+    {
+      "id": "surface-01",
+      "corpus_id": 32283,
+      "title": "Mastering the MATs",
+      "author": "The Tynar",
+      "source_date": null,
+      "post_or_section": "MAT Editing Tutorial",
+      "source_url": "https://www.massassi.net/articles/df/tutorial.htm",
+      "claim": "Separate value painting from color painting: preserve the source palette, edit a 24-bit grayscale version, paint color on a duplicate, Multiply the two, then quantize back to the intended palette.",
+      "difference_from_1_2_and_limits": "Adds an attributed artist recipe, including a face example, to the existing high-level hand-painting option. Authored historical tutorial; images not independently inspected here. The author acknowledges that the standalone example looked less good with the complete skin. Preserve model-space inspection and do not adopt the tutorial’s demo-save workaround or claim that more expensive paint software guarantees quality.",
+      "evidence_strength": "authored historical tutorial",
+      "raw_capture_sha256": "a591de3ddb376b4db5090dbef02d02f433fffa6afe3925ab78562e126aed9150",
+      "corpus_text_sha256": "443b70d5818a69f8d1a0c70413d95fa0445c0e706f903c58f2ea920903749276",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-02",
+      "corpus_id": 32506,
+      "title": "Skins - The Massassi Temple",
+      "author": "CosmoDNA",
+      "source_date": "1998-07-23 (catalog date from existing source ledger; tutorial body undated)",
+      "post_or_section": "The Art / Blur",
+      "source_url": "https://www.massassi.net/tutorials/skins/",
+      "claim": "Keep the new face nose and brow aligned with the donor geometry; blend through palette color ramps. The tutorial then raises color depth, applies a small Gaussian blur, and reloads the target palette, warning that contrasting adjacent colors can quantize into muddy intermediate pixels.",
+      "difference_from_1_2_and_limits": "Previously cited for packaging and palettes, but its actual painting technique and failure mode were not synthesized in 1.2. The .50–.65 blur radius belongs to that historical image/editor example. Mirroring of its front-face texture is model-specific, not a general rule for all 3DOs. Palette-index transparency and renderer behavior require separate checks; do not universalize its black-pixel shorthand.",
+      "evidence_strength": "authored historical tutorial",
+      "raw_capture_sha256": "e6c9c712b2d9d221cea1d0c7525ac4738f58b84268a9266c9d86a127f2efa5bc",
+      "corpus_text_sha256": "d3fd9c32d556a861b72872f6ed9334ff8c20c25622a6563c394a1a9ce3d0d424",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-03",
+      "corpus_id": 32537,
+      "title": "Texture FAQ - The Massassi Temple",
+      "author": "Rosebud",
+      "source_date": null,
+      "post_or_section": "Texture FAQ",
+      "source_url": "https://www.massassi.net/tutorials/texturefaq/",
+      "claim": "For a repeating source, offset each layer by half its dimensions and repair the exposed seam with cloning or drawing. Keep highlights/shadows on separate layers. Prefer controlled brush edges over repeatedly blurring then sharpening.",
+      "difference_from_1_2_and_limits": "Adds a concrete seam-repair recipe and reversible painted-light organization. This is general texture authoring, transferable only to deliberately repeating model materials; it is not UV-island seam repair or a model bake. Painted directional light remains an optional style choice. The footer says 2001–2002 but does not establish a precise publication date. Photographic/donor overlays still require rights.",
+      "evidence_strength": "authored historical tutorial",
+      "raw_capture_sha256": "834ca7e33580507b880395e81493d2d645295cd4c388df91db9c94d11ccdebed",
+      "corpus_text_sha256": "dbe5a30f17ebef4a777ff58e1d046f5081fdae1e16c6948d3266375e0f6bcae1",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-04",
+      "corpus_id": 26491,
+      "title": "New ForceRemap version 1.1 - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "author": "molotov42",
+      "source_date": "2003-06-17",
+      "post_or_section": "post #1; ForceRemap 1.1 HISTORY",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11367_page_1.html",
+      "claim": "ForceRemap 1.1 announces a fix for corruption of K_RHAND pivot values and says the hierarchy section is no longer affected. It explicitly leaves the scaled-texture-vertex selection bug unresolved.",
+      "difference_from_1_2_and_limits": "Adds exact historical tool/version and a reason to compare hierarchy before/after UV-only work. This is the tool author’s changelog, not a fresh executable test or assurance about every version.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "44c9d2d1995e5dbf922f6a9e006c1a3babcb9abcff5cc35466e1554775157d49",
+      "corpus_text_sha256": "b027a9c313879ab47c1fe334ee0035a3983ac5c5b073954807748a48b4fedd26",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-05",
+      "corpus_id": 26315,
+      "title": "JKPaint Beta Testing - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "author": "UGG",
+      "source_date": "2002-02-26",
+      "post_or_section": "posts #12, #14 and #16; full page and continuation read",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11195_page_1.html",
+      "claim": "JKPaint distinguishes adding an animation frame/cell from adding lower-resolution mip levels. With Generate mipmaps checked, adding a frame builds its mips; otherwise use Add mipmap. UGG explains the expected halving sequence, with 128×64 → 64×32 → 32×16 → 16×8 as an example.",
+      "difference_from_1_2_and_limits": "Adds an actual converter procedure and the author’s correction to ambiguous specs wording. Preserve the distinction between a base image, animation cells and mip levels. Beta crash reports in the same thread prevent treating this as universal converter reliability; do not promote its claimed 16-cell limit to an engine theorem. The continuation page adds no correction to the selected procedure.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "01b18686e3ef5de6c45f3a4b9e9dfdc5155311de38cde211c0336d897d42ff2f",
+      "corpus_text_sha256": "bb96246b7f712af54b7469358c24481536ba6a5506d74c19833d1aeefd12bff4",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-06",
+      "corpus_id": 26468,
+      "title": "16-bit MipMaps - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "author": "DogSRoOL; Friend14",
+      "source_date": "2003-06-03 through 2003-06-07",
+      "post_or_section": "posts #1, #9, #14–16",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_11344_page_1.html",
+      "claim": "DogSRoOL initially reported disabled 16-bit mip controls in JKPaint 0.2.1 beta and later guessed that indexing the input fixed it. The final self-correction says the auto-generate mipmaps checkbox had been enabled without their noticing.",
+      "difference_from_1_2_and_limits": "Adds a resolved UI-state confound: inspect automatic generation before inferring that 16-bit MATs cannot carry mipmaps or unnecessarily reducing source color depth. Friend14 also reports successful 24-bit BMP to 16-bit custom-mip use. No converter execution performed in this review.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "f2225c909e627b242605fdabf6422dd77dfcb6a09f17ee2cbfeb21c5b6105868",
+      "corpus_text_sha256": "48450c1fc94186483c840b3e20990f34c5508d970222f8a717769bc5c9cf0976",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-07",
+      "corpus_id": 29979,
+      "title": "Can you make mats transparent on 3dos? - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "author": "Ermine13; MikeC; dbclick",
+      "source_date": "2001-04-17 through 2001-04-18",
+      "post_or_section": "posts #5–7, with #1–4 context",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_7709_page_1.html",
+      "claim": "Ermine13 describes JOKE’s selected-face transparency checkbox for walkplayer ghosts; MikeC corrects the term to translucency. dbclick reports the original problem resolved but does not identify exactly which proposed method solved it.",
+      "difference_from_1_2_and_limits": "Adds a historical, model-specific distinction between face translucency and texture cutout. Do not label the final thanks as confirmation of every recipe in the thread, or infer a MAT alpha channel from a UI checkbox.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "633926d248f7517ff2d15e225315af0a338c6e1a7eb28153c0b4fcdcfd9bdb5d",
+      "corpus_text_sha256": "ecb80bae44787aa97e7847d8d2ef1977a9e26526cd0d9200fd6094c0afa6109c",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-08",
+      "corpus_id": 27570,
+      "title": "Problems with transparency - Jedi Knight and Mysteries of the Sith Editing Forum - The Massassi Temple Forums Archive",
+      "author": "money•bie; Emon; LKOH_SniperWolf; ProdigyOddigy",
+      "source_date": "2005-08-18 through 2005-08-19",
+      "post_or_section": "posts #1, #6, #9 and #12; whole thread read",
+      "source_url": "https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_35097_page_1.html",
+      "claim": "A transparent 3DO in front of another 3DO produced different results from combining the geometry. Emon reports that Blocks Light did not fix translucency; LKOH_SniperWolf cites JED’s CalcLighting functions as its editor-only use. ProdigyOddigy reports an asymmetric architecture-flag experiment and remaining stray triangles.",
+      "difference_from_1_2_and_limits": "Adds a counterexample to a common flag-fix recipe. The original example is scenery, so transfer only the diagnosis of layered 3DO transparency relevant to hair, visors, overlapping cloth or effects. Do not turn architecture flags into a player-model recommendation, a numeric layer limit, or the disputed 80% success claim. JED source was not independently checked in this pass.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "954872482e966e342bfef28fd91f4944d63e6c0b6eeb3ed6fecb365271dd914c",
+      "corpus_text_sha256": "46cbdea932d59f0c6d9055e0faf96d9e2e97aeff1b7e3a178cd74567da6c50f0",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    },
+    {
+      "id": "surface-09",
+      "corpus_id": 64515,
+      "title": "editing / Shred / 2022-03-23T00:13:25.495Z",
+      "author": "Shred",
+      "source_date": "2022-03-23T00:13:25.495Z",
+      "post_or_section": "message 955982567943839794 (UI: March 22, 8:13 PM)",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/955982567943839794",
+      "claim": "For MilkShape, Shred advises extracting MATs as BMP previews and applying those to material slots when a textured preview is needed; for an already-mapped model he suggests first checking the material slots rather than rebuilding them. After export, compare scale in JED beside ky.3do.",
+      "difference_from_1_2_and_limits": "Adds a preservation-oriented legacy round-trip route and an explicit reference-model scale check. Material-slot count alone is only Shred’s tentative triage, not proof of names, face assignments or renderer correctness. MilkShape/add-on version was not stated.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "corpus_text_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "message_text_sha256": "31e419b22445362fe724c184eb25eee0249b12849da8cd6bf7557124f36f7682",
+      "date_policy": "UTC source timestamp retained separately from displayed local date; checked against message snowflake",
+      "snowflake_utc": "2022-03-23T00:13:25.495Z"
+    },
+    {
+      "id": "surface-10",
+      "corpus_id": 54495,
+      "title": "editing / SMLiberator / 2024-08-09T19:22:41.231Z",
+      "author": "SMLiberator",
+      "source_date": "2024-08-09T19:22:41.231Z",
+      "post_or_section": "message 1271549232335028286",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/1271549232335028286",
+      "claim": "SMLiberator reports combining JOKE and ForceRemap for UV mapping with Blender for merging or cleaving faces while preserving UVs.",
+      "difference_from_1_2_and_limits": "Adds a practitioner’s multi-tool choice rather than forcing every operation into one editor. This is a personal workflow report; no particular versions or universal round-trip guarantee are established.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "corpus_text_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "message_text_sha256": "c81de6cb963c02863b404d531b461ab2360d0bd69863d253e2bb342c89cbfab7",
+      "date_policy": "UTC source timestamp retained separately from displayed local date; checked against message snowflake",
+      "snowflake_utc": "2024-08-09T19:22:41.231Z"
+    },
+    {
+      "id": "surface-11",
+      "corpus_id": 43160,
+      "title": "editing / Shred / 2026-01-16T22:02:23.270Z",
+      "author": "Shred",
+      "source_date": "2026-01-16T22:02:23.270Z",
+      "post_or_section": "message 1461843051759800460",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/1461843051759800460",
+      "claim": "Shred reports a 3DO that still failed after ZED re-export; exporting as OBJ and reimporting into Blender preceded a working result. He speculates that normals were involved.",
+      "difference_from_1_2_and_limits": "Adds a last-resort isolation experiment, not an identified root cause. If trying it, use a duplicate and re-establish hierarchy, pivots, face flags and material identity afterward because OBJ does not retain the complete JK model contract. The preservation warning is our recommendation; the source supplies only the anecdote.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "corpus_text_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "message_text_sha256": "0f21699a999cd4bb5e882c002a9c81cfa9b8a72ce37badb1c2817e5303754b5d",
+      "date_policy": "UTC source timestamp retained separately from displayed local date; checked against message snowflake",
+      "snowflake_utc": "2026-01-16T22:02:23.270Z"
+    },
+    {
+      "id": "surface-12",
+      "corpus_id": 42841,
+      "title": "editing / Stormtrooper / 2026-01-31T04:35:24.305Z",
+      "author": "Stormtrooper",
+      "source_date": "2026-01-31T04:35:24.305Z",
+      "post_or_section": "message 1467015387907624961 (UI: January 30, 11:35 PM)",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/1467015387907624961",
+      "claim": "Stormtrooper reports flipped faces inside the hand and fingertips; after fixing them and re-exporting from Blender, the model loaded in game.",
+      "difference_from_1_2_and_limits": "Adds a bounded successful author report of a geometric orientation repair. Exporter version, complete diff and exact engine are not supplied. Do not infer that all invisible/default-cube models are normal problems, or confuse face orientation with split shading normals.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "corpus_text_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "message_text_sha256": "f046808e8b3ca3798e8d301e74888edd107d73e3166fb3857eb270e12534e68b",
+      "date_policy": "UTC source timestamp retained separately from displayed local date; checked against message snowflake",
+      "snowflake_utc": "2026-01-31T04:35:24.305Z"
+    },
+    {
+      "id": "surface-13",
+      "corpus_id": 49883,
+      "title": "editing / Urgon / 2025-04-27T11:37:49.997Z",
+      "author": "Urgon",
+      "source_date": "2025-04-27T11:37:49.997Z",
+      "post_or_section": "message 1366015480942563328",
+      "source_url": "https://discord.com/channels/881034839401328680/881044857328652328/1366015480942563328",
+      "claim": "Urgon explains that the then-unfinished sector-to-3DO exporter duplicated vertices to retain differing per-polygon-corner colors because 3DO stores vertex color differently.",
+      "difference_from_1_2_and_limits": "Adds the concrete reason duplicate geometry might be deliberate. The quoted Shred report says that particular SED output failed as a default cube while ZED output worked; that report remains attributed to Shred, not Urgon. Transfer to models only as a warning to compare color/normal/UV discontinuities before welding, not as a level-design recipe or a tested exporter fix.",
+      "evidence_strength": "participant/tool-author statement retained in original capture; no fresh runtime test",
+      "raw_capture_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "corpus_text_sha256": "d2861e6e46fc2244fab85b5c592705ae7906225b7d1ac0adb2e9505a27f5a8a9",
+      "message_text_sha256": "d86867b86df478e4d3099b52fcb79a9392053e259bfd74c084e9e1051eb8fd45",
+      "date_policy": "UTC source timestamp retained separately from displayed local date; checked against message snowflake",
+      "snowflake_utc": "2025-04-27T11:37:49.997Z"
+    },
+    {
+      "id": "surface-14",
+      "corpus_id": 32442,
+      "title": "Multi-Celled MATs - The Massassi Temple",
+      "author": "EvanC",
+      "source_date": null,
+      "post_or_section": "Multi-Celled MATs; MTM example",
+      "source_url": "https://www.massassi.net/tutorials/mats_multicell/",
+      "claim": "EvanC demonstrates a MatMaster MTM input listing two same-size/same-palette BMPs under TEXTURES: 2, compiled with the selected color map. The count lists animation cells, not a mip chain.",
+      "difference_from_1_2_and_limits": "Adds a concrete scriptable cell-construction route. The demonstration is a switch; only material construction transfers to model materials. It does not show how to drive a cell change on a player model. No historical executable run or universal cell limit is claimed.",
+      "evidence_strength": "authored historical tutorial",
+      "raw_capture_sha256": "efce7a081eb201b2b185ecc7e98cadbb4f62496d45fa06aab74d96021b9abdf2",
+      "corpus_text_sha256": "4b37e40b703b124b0bcd1966334dd7e3b0566808490602fa608a39b4b46b2e76",
+      "date_policy": "forum displayed dates; timezone unspecified, or tutorial date explicitly unknown/catalogue-only"
+    }
+  ]
+}

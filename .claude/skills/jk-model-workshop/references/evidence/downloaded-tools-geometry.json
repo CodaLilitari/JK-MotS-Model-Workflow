@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-09-30",
+  "scope": "Static inspection of already downloaded character/weapon modeling tools, native examples and related original fixtures; no network, executables, installations or corpus changes.",
+  "coverage": {
+    "retained_zips_opened": 6,
+    "zip_capture_hashes_match": true,
+    "zip_member_hashes_computed": true,
+    "zip_member_crc_checks_passed_on_read": true,
+    "nested_zip_opened": 1,
+    "native_3do_examples_profiled": 2,
+    "native_key_example_profiled": 1,
+    "catalog_or_tutorial_pages_read": 2,
+    "pinned_importer_modules_fully_read": 1,
+    "prior_original_regression_receipts_reviewed": 2,
+    "not_entire_download_archive": "Root agent owns full native-asset inventory; this report is a selected tool lane."
+  },
+  "sources": [
+    {
+      "id": "savagex-weapon-template",
+      "kind": "retained_zip",
+      "author": "SavageX",
+      "version": "temp.3do header: JED 0.91 beta",
+      "url": "https://www.massassi.net/tutorials/savguns/savguns.zip",
+      "sha256": "9ab436f2168f4bebba6c27d3882fbac3b87b40631403cd7ef7c3e836203e201c",
+      "bytes": 15254,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Native template only; bundled Word document not decoded, HTML inventoried not used as new source. No rights to redistribute stock-derived hand geometry inferred.",
+      "finding": "Native 3DO 2.1 contains 16 material slots, with slots 0–8 dflt placeholders and 9–15 hand/arm materials. Four meshes and five nodes include an empty K_WEAPON mesh attached below the hand. Preserve explicit mesh references and remap material indices; nine slots is a template layout, not an engine limit.",
+      "selected_members": [
+        {
+          "name": "temp.3do",
+          "bytes": 30257,
+          "sha256": "9287a724aa00fbeb7d4b4e5c63fb84a7f160ee34f2e4ce14448ce25bfb422345"
+        }
+      ],
+      "native_models": {
+        "temp.3do": {
+          "3DO": "2.1",
+          "MATERIALS": "16",
+          "GEOSETS": "1",
+          "HIERARCHY NODES": "5",
+          "meshes": [
+            {
+              "mesh_index": 0,
+              "NAME": "K_Rhand",
+              "VERTICES": "85",
+              "TEXTURE VERTICES": "105",
+              "FACES": "79"
+            },
+            {
+              "mesh_index": 1,
+              "NAME": "K_Rshouldr",
+              "VERTICES": "10",
+              "TEXTURE VERTICES": "10",
+              "FACES": "15"
+            },
+            {
+              "mesh_index": 2,
+              "NAME": "K_Rforearm",
+              "VERTICES": "11",
+              "TEXTURE VERTICES": "11",
+              "FACES": "10"
+            },
+            {
+              "mesh_index": 3,
+              "NAME": "K_WEAPON",
+              "VERTICES": "0",
+              "TEXTURE VERTICES": "0",
+              "FACES": "0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3do-converter",
+      "kind": "retained_zip",
+      "author": "Frank Krueger (program catalog attribution)",
+      "version": "not established from package",
+      "url": "https://www.massassi.net/programs/3dokey/3doconverter.zip",
+      "sha256": "1a0496d742ace2c77794cddfe620d96fa7e62768e715a157cc01bd4e86cf560c",
+      "bytes": 151028,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Single executable only; no source, manual, example, observed CLI or conversion result. Catalog describes ASC to 3DO.",
+      "finding": "Catalog credits Frank Krueger with ASC-to-3DO conversion, but retained package contains only one executable. No documented unattended interface or observed output was established.",
+      "selected_members": []
+    },
+    {
+      "id": "puppet-jedi-061",
+      "kind": "retained_zip",
+      "author": "Code Alliance",
+      "version": "0.61",
+      "url": "https://www.massassi.net/programs/3dokey/pjedi_061.zip",
+      "sha256": "d5e5563399b1320d47cb4fecc393290a3d86c80ba59a713c8d967910b6eba818",
+      "bytes": 276806,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Two members only. WinHelp present and hashed, not decoded. 0.7 tutorial features cannot be assigned to 0.61. No runtime/source/CLI verification.",
+      "finding": "The usable 0.61 ZIP has an executable and WinHelp file only. WinHelp was not decoded. The separate PJB tutorial discusses 0.7, so its UI claims cannot be assigned to this binary.",
+      "selected_members": [
+        {
+          "name": "pjedi_help.hlp",
+          "bytes": 32500,
+          "sha256": "2ba426714ad5488b47586684968bb46d12a8a3d453dc34b04b0158f833d24823"
+        }
+      ]
+    },
+    {
+      "id": "trajjedi-11",
+      "kind": "retained_zip",
+      "author": "Jereth Kok",
+      "version": "1.1",
+      "url": "https://www.massassi.net/programs/3dokey/trajjedi1_1.zip",
+      "sha256": "08ab695ad91880051f625be6feac0278cb4f06bbe514373a2cf3c7c90c45de10",
+      "bytes": 202942,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Trajectory example is a vehicle, not a humanoid rig. Demo author warns of vertical-flight flip. Level layout excluded. No runtime or animation-retarget proof.",
+      "finding": "Jereth Kok supplies a one-node trajectory KEY with 171 frames at 8 FPS and 171 entry rows. His manual reports a vertical-flight flip; rotation wrap and loop transitions are useful original test cases. This is not a character-retargeting demonstration.",
+      "selected_members": [
+        {
+          "name": "Demo_KEY.zip",
+          "bytes": 58693,
+          "sha256": "370a71ff2a015395d4af8b01fb3ef15d5307dc9e501fc3f4731b4be0cf876fdc"
+        },
+        {
+          "name": "Demo_KEY.txt",
+          "bytes": 1132,
+          "sha256": "680f0aa87b7d8d8847281a8eb1c607c7b50cc59fc6e8813ed922eda3394a6c3c"
+        }
+      ],
+      "native_key": {
+        "FLAGS": "0x0000",
+        "TYPE": "0xFFFF",
+        "FRAMES": "171",
+        "FPS": "8",
+        "JOINTS": "1",
+        "NODES": "1",
+        "NODE": "0",
+        "MESH NAME": "tie~bmb",
+        "ENTRIES": "171",
+        "entry_rows_measured": 171,
+        "created_comment": "22/02/98 at 11:05:34 by TrajJedi; (c) 1998 Jereth Kok"
+      },
+      "nested_selected_members": [
+        {
+          "chain": "Demo_KEY.zip!3do/key/tkey.key",
+          "bytes": 23469,
+          "sha256": "c2f83d32af6d110330a8f6165a5c82c754ff5bce4690f6abfd0693408b3833c6"
+        },
+        {
+          "chain": "Demo_KEY.zip!cog/keyplay.cog",
+          "bytes": 555,
+          "sha256": "a44d4eef558caae07c3dd236737282f514c0d734acaafc714e95ebf7dbeb0048"
+        }
+      ]
+    },
+    {
+      "id": "tsm-108",
+      "kind": "retained_zip",
+      "author": "Curtis Brazzell (program catalog attribution)",
+      "version": "01.00.08",
+      "url": "https://www.massassi.net/programs/3dokey/tsm.zip",
+      "sha256": "96b1b143fe166e2c60cf37b829eac4f318430b665cf9d2eaaf18e3cf7c4effac",
+      "bytes": 4232464,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Installer not opened or run. Readme makes historical OS/default-path assumptions and anticipates Patch Commander integration in a later release. No MotS or modern Windows compatibility established.",
+      "finding": "Readme describes BMP-based character editing and client-side resource agreement for multiplayer. Treat path, component and packaging instructions as historical; installer was not run and later Patch Commander integration is only anticipated.",
+      "selected_members": [
+        {
+          "name": "Read-Me.txt",
+          "bytes": 2987,
+          "sha256": "952cb453d28804f37fd16e1c3bddbd4f5de2804503784a228216b652ab818fb8"
+        }
+      ]
+    },
+    {
+      "id": "3do-view-2",
+      "kind": "retained_zip",
+      "author": "Zymotico",
+      "version": "public release 2, July 30 2003",
+      "url": "https://www.massassi.net/programs/3dokey/zy3doview2.zip",
+      "sha256": "a0af0d1a3ad0b464922d0532088d2a871ad09f38e4437e2cb5607d106e8eec26",
+      "bytes": 154141,
+      "capture_hash_matches": true,
+      "evidence": "Original retained ZIP bytes independently opened, member inventory and hashes measured; no binaries run.",
+      "limitations": "Viewer manual states first-transparent-mesh rendering issue. OpenGL lighting/environment mapping differs from engine. No runtime/CLI claim.",
+      "finding": "Manual documents alternate display/shading modes and a transparent-first-mesh issue. The native example has two meshes, three nodes and labels that differ between mesh definitions and hierarchy references; numeric references govern association.",
+      "selected_members": [
+        {
+          "name": "config.txt",
+          "bytes": 109,
+          "sha256": "5b1e27a99d23a4024386c39563242a38455c3f16833b8671b3d16aef4290d221"
+        },
+        {
+          "name": "n1.3do",
+          "bytes": 46204,
+          "sha256": "dd6ce9b325794df6ba83877f1cec18cb9815ffc22701f2581e5d292c530a065d"
+        },
+        {
+          "name": "ReadMe.txt",
+          "bytes": 1686,
+          "sha256": "d814cd3d7beba6928eb43ec37d4eb92928fcddfadb385749dcc8cd2d192b3a84"
+        }
+      ],
+      "native_models": {
+        "n1.3do": {
+          "3DO": "2.1",
+          "MATERIALS": "1",
+          "GEOSETS": "1",
+          "HIERARCHY NODES": "3",
+          "meshes": [
+            {
+              "mesh_index": 0,
+              "NAME": "ZYN1",
+              "VERTICES": "197",
+              "TEXTURE VERTICES": "215",
+              "FACES": "363"
+            },
+            {
+              "mesh_index": 1,
+              "NAME": "LID",
+              "VERTICES": "12",
+              "TEXTURE VERTICES": "12",
+              "FACES": "14"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pjb-key-tutorial",
+      "kind": "indexed_documentation_verified_against_saved_capture",
+      "url": "https://www.massassi.net/tutorials/keys/",
+      "title": "Keys - The Massassi Temple",
+      "raw_sha256": "b31976ff9ee0b84da11b6e621e90c314f4ec45806d8bdf6390a1d243373cae20",
+      "text_sha256": "58baa2622fc7e701ebd54ea15f817db4d044bb6d7a60b1823d92659327d0a2d9",
+      "indexed_text_matches_saved_text": true,
+      "comparison_normalization": "none",
+      "capture_hash_matches": true,
+      "inspection_scope": "Full extracted text read; images and linked example not inspected",
+      "limitations": "Describes Puppet Jedi 0.7; date unknown; typed-entry interpolation bug is tutorial author testimony, not reproduced.",
+      "finding": "PJB teaches separate shoulder/forearm/hand animation, hand lag and torso motion, and reports an interpolation issue with typed entries in Puppet Jedi 0.7. Test exported motion; do not generalize the bug to other exporters.",
+      "selected_members": [],
+      "author": "PJB",
+      "source_date": "Unknown; no publication date in inspected body"
+    },
+    {
+      "id": "massassi-tool-catalog",
+      "kind": "indexed_documentation_verified_against_saved_capture",
+      "url": "https://www.massassi.net/programs/",
+      "title": "https://www.massassi.net/programs/",
+      "raw_sha256": "3ef990ee475ed7f52f64032ea15d16ab1b37ac210fee1ab0cfe00535dd53547e",
+      "text_sha256": "2290209e63bd50abbe6a5f3e13a7332809d2b3f218e94b48c62e106b79b9ac3b",
+      "indexed_text_matches_saved_text": true,
+      "comparison_normalization": "CRLF to LF",
+      "capture_hash_matches": true,
+      "inspection_scope": "3DO/KEY catalog section read; other game/level categories excluded",
+      "limitations": "Catalog author/version/function statements, not execution evidence.",
+      "finding": "Catalog attribution supports Code Alliance/Puppet Jedi, Jereth Kok/TrajJedi, Frank Krueger/3DO Converter and Curtis Brazzell/TSM. Catalog availability and capability claims are not runtime tests.",
+      "selected_members": [],
+      "author": "Massassi Temple program catalog; individual tool attribution preserved"
+    },
+    {
+      "id": "ecki-importer",
+      "kind": "selected_source",
+      "source_pin": "88aed6f7182dad72d5042d2f70d5eef0b7ed6b78",
+      "url": "https://github.com/Ecki81/jediknight2blender/blob/88aed6f7182dad72d5042d2f70d5eef0b7ed6b78/import_3do.py",
+      "evidence": "Source inspected statically; no add-on executed",
+      "limitations": "Pinned selected source only; no current HEAD or modern Blender compatibility claim; cannot treat importer as round-trip exporter.",
+      "finding": "Pinned 3DO importer loads JK Res2.gob and 01narsh.cmp for textures, reads the first mesh group, does not import native normal arrays, and falls back to 64x64 for missing-image UV sizing. Useful as a qualified importer, not lossless round-trip proof.",
+      "selected_members": [],
+      "selected_files": [
+        {
+          "name": "README.md",
+          "bytes": 1346,
+          "sha256": "68049278666b4aa74ba31e6ebd435fe541aaaa317a56a3db5d542fc4d288092f"
+        },
+        {
+          "name": "import_3do.py",
+          "bytes": 17334,
+          "sha256": "ffb7d68cd22156ea6145410503677f7aafc5458459947cad2a0b08ee43e439c5"
+        }
+      ],
+      "author": "Ecki81"
+    },
+    {
+      "id": "sed-key-before-first",
+      "kind": "prior_local_regression_receipt",
+      "source_pin": "package ea4d6f4a8c39501198064a52264317b16e5741e0; recorded source comparison c6aabe620a2e18a5a7a5d78aa327b6441a873c51",
+      "url": null,
+      "evidence": "Original input/output and earlier execution report inspected; not re-executed; no current-version/game claim",
+      "limitations": "September 25 executed package report, not a fresh execution, not retail-validity proof for the synthetic input.",
+      "finding": "Earlier original fixture was parsed but sampling before its first entry raised ArgumentOutOfRangeException. Preserve a validation/sampling-boundary regression; do not infer retail validity or choose extrapolation without engine evidence.",
+      "selected_members": [],
+      "selected_files": [
+        {
+          "name": "REPORT.md",
+          "bytes": 2501,
+          "sha256": "d714c9ecb638f27e8114bb5d50b5bd7a683a64c81eb1b69c6aa55fd8c54254c5"
+        },
+        {
+          "name": "input.key",
+          "bytes": 168,
+          "sha256": "22400d23d0ce195231495e6cb033c9f05e292444f9988ee4ac8efc0f471b86cf"
+        },
+        {
+          "name": "result.json",
+          "bytes": 1358,
+          "sha256": "f24d0e759cc3ca107aeb51f70eaf75c56d7d690ec991a35bf179a0e491c02f3b"
+        }
+      ]
+    },
+    {
+      "id": "sed-insert-offset",
+      "kind": "prior_local_regression_receipt",
+      "source_pin": "package ea4d6f4a8c39501198064a52264317b16e5741e0; recorded source comparison c6aabe620a2e18a5a7a5d78aa327b6441a873c51",
+      "url": null,
+      "evidence": "Original input/output and earlier execution report inspected; not re-executed; no current-version/game claim",
+      "limitations": "Historical format-library gap; recorded supported GUI export generated zero offsets, so normal GUI data-loss claim is unsupported.",
+      "finding": "Earlier original round-trip fixture lost its insertion offset while preserving an independent hierarchy pivot. This is a format-library preservation case; the earlier audit did not establish normal supported-GUI asset corruption.",
+      "selected_members": [],
+      "selected_files": [
+        {
+          "name": "REPORT.md",
+          "bytes": 2850,
+          "sha256": "86899fb09349f100a4ede4a6272c796863680c32c2d28c9fd7f84e2e2fb555d7"
+        },
+        {
+          "name": "input.3do",
+          "bytes": 478,
+          "sha256": "63ddcf2054553e36de712bd9cda7143578caeaa1afc1d7fe2566f55e190bc995"
+        },
+        {
+          "name": "output.3do",
+          "bytes": 999,
+          "sha256": "cd7d2df8cf5dd900b0762b4fcc2c74226a5b46e96e7ad834835f69658ac613ee"
+        },
+        {
+          "name": "result.json",
+          "bytes": 1197,
+          "sha256": "2ee899c0674d11ebe9b784f4a4759f52122d135065de312a9e14e50d1bc4d06a"
+        }
+      ]
+    }
+  ],
+  "excluded_and_unavailable": [
+    {
+      "id": "pup-is-infernal-machine",
+      "reason": "The inspected folder contains Indiana Jones and The Infernal Machine documentation, not Puppet Jedi. Its format assertions were not used as JK/MotS proof."
+    },
+    {
+      "id": "pjedi-07-html-response",
+      "url": "http://code-alliance.com/~editors/jediknight/util/pjedi_07.zip",
+      "bytes": 114,
+      "reason": "HTTP 200 retained HTML, not a usable ZIP."
+    },
+    {
+      "id": "keyed-fun3do-not-retained",
+      "reason": "No usable package was found in this selected pass; source testimony remains separate from execution evidence."
+    }
+  ],
+  "distribution": "Original paraphrases, hashes and compact measurements; no original binaries, models, source transcripts or machine-specific paths."
+}

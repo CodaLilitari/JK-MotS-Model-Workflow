@@ -1,0 +1,3479 @@
+{
+  "schema_version": 1,
+  "researched_utc": "2026-09-30",
+  "evidence_scope": "Seven downloaded public packages, verified ZIP SHA-256 and CRC, bounded GOO members, passive native-file parsing. No game execution, image rendering, stock dependency closure, network request or reuse clearance. Counts are archived resources, not unique playable skins.",
+  "aggregate": {
+    "packages": 7,
+    "3do_files": 187,
+    "key_files": 9,
+    "mat_files": 1931,
+    "indexed_8bit_mat_files": 1931,
+    "texture_mat_files": 1900,
+    "color_mat_files": 31
+  },
+  "packages": [
+    {
+      "massassi_id": 836,
+      "title": "Predator Patch Beta",
+      "catalog_author": "Rulefreak",
+      "page_url": "https://www.massassi.net/levels/files/836.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/predatorbeta.zip",
+      "filename": "predatorbeta.zip",
+      "sha256": "7a33e79193a81ae7bdaa6773a023a444b12859e5aab4b4da59d2e6dc79a6186c",
+      "bytes": 1511381,
+      "container_hashes": [
+        {
+          "member": "Predatorbeta.goo",
+          "bytes": 2507069,
+          "sha256": "7dcf902b52a4f93a86b44ae679d7e1668c620a151fb990e7dfc0e3b56127a721"
+        }
+      ],
+      "resource_counts": {
+        ".txt": 2,
+        ".3do": 5,
+        ".key": 2,
+        ".mat": 18,
+        ".cog": 14,
+        ".jkl": 1,
+        ".dat": 2,
+        ".per": 3,
+        ".snd": 1,
+        ".wav": 27,
+        ".uni": 1,
+        ".jpg": 1
+      },
+      "model_hierarchy_counts": {
+        "1": 2,
+        "7": 1,
+        "18": 2
+      },
+      "model_geoset_counts": {
+        "1": 4,
+        "4": 1
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 17
+        },
+        {
+          "type": 0,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 1
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "Predatorbeta.goo!3do\\ky2.3do",
+          "sha256": "2cfbb0c57eaede33437553b635c345fa51800078b966e219b9cec1a065b905ba",
+          "bytes": 43949,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 1,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "bff8e9d57016036c3247d45be24495f3ace2a31596f692e846754fbb996b3999",
+            "max_faces_per_mesh": 35,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 12
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 8
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 9
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 10
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 6
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 14
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 4
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 3
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 15
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 2
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 13
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 7
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              247
+            ]
+          }
+        },
+        {
+          "member": "Predatorbeta.goo!3do\\kyh4.3do",
+          "sha256": "2a05611d4214fc9c1b5282185e94bc3bd132c7500a7afb0f705959d4528f3e61",
+          "bytes": 126307,
+          "measurements": {
+            "materials_declared": 16,
+            "unique_materials": 8,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "bff8e9d57016036c3247d45be24495f3ace2a31596f692e846754fbb996b3999",
+            "max_faces_per_mesh": 31,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 12
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 8
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 9
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 10
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 6
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 14
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 4
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 3
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 15
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 2
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 13
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 7
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              244,
+              143,
+              120,
+              36
+            ]
+          }
+        },
+        {
+          "member": "Predatorbeta.goo!cog\\item_cloak.cog",
+          "sha256": "46caac0a1a60dfdf2755a94988f1b4fc28a0f62a07fecef0762efc5af0161471",
+          "bytes": 5463
+        },
+        {
+          "member": "Predatorbeta.goo!cog\\weap_fists_m.cog",
+          "sha256": "200946072b9014e394d3cc9f5ba143ba342bc7835bb2c4b34965e43d5f225ba8",
+          "bytes": 8281
+        },
+        {
+          "member": "Predatorbeta.goo!misc\\models.dat",
+          "sha256": "9360ef3df98aa07816df5420157bb0533e90274dcef5fc3ff67a93c0bfabe05e",
+          "bytes": 3066,
+          "measurements": {
+            "declared_models": 56,
+            "parsed_rows": 58,
+            "duplicate_indices": [
+              18,
+              19
+            ],
+            "personality_row_counts": {
+              "1": 10,
+              "2": 10,
+              "3": 9,
+              "4": 9,
+              "0": 20
+            },
+            "model_names_not_supplied_in_patch_count": 47,
+            "note": "Missing from this patch does not establish a missing base-game dependency."
+          }
+        },
+        {
+          "member": "Predatorbeta.goo!misc\\per\\bounty.per",
+          "sha256": "f2cb506ec53bcb0f785162223f8e793074b655c7ae167680b5429124e659cc53",
+          "bytes": 2117
+        },
+        {
+          "member": "Readme.txt",
+          "sha256": "902de4017db0538c0c16d98a6866fa2d05feac4933b792254af0fbadbc9e6961",
+          "bytes": 5717
+        }
+      ]
+    },
+    {
+      "massassi_id": 837,
+      "title": "Phase 2 Darktrooper",
+      "catalog_author": "Alfred The Ewok",
+      "page_url": "https://www.massassi.net/levels/files/837.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/p2.zip",
+      "filename": "p2.zip",
+      "sha256": "7f28b2f7cc9ddf0c4542118cb904690d77fcc42c7b69562f4d2c06d01a1581b4",
+      "bytes": 185385,
+      "container_hashes": [
+        {
+          "member": "p2.goo",
+          "bytes": 724904,
+          "sha256": "90ef60ff0147608587a17538018089fda7d77df5c635a16979c8f78ebe7eed3c"
+        }
+      ],
+      "resource_counts": {
+        ".3do": 6,
+        ".wav": 1,
+        ".mat": 18,
+        ".snd": 2,
+        ".cog": 2,
+        ".txt": 1,
+        ".jpg": 2
+      },
+      "model_hierarchy_counts": {
+        "1": 1,
+        "4": 2,
+        "18": 3
+      },
+      "model_geoset_counts": {
+        "1": 3,
+        "4": 3
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 18
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "p2.goo!3do\\acang.3do",
+          "sha256": "44b04876d2f5bf79ec575e0dbe6ef5920612f6907d1ff1bd6773ad2d87bd7d6d",
+          "bytes": 10268,
+          "measurements": {
+            "materials_declared": 10,
+            "unique_materials": 10,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              1
+            ],
+            "hierarchy_nodes_declared": 1,
+            "topology_sha256": "ff59789bca7e3a530fc6fba1df6f1cf56613bbfcaf382a2a8b8b613018b21dae",
+            "max_faces_per_mesh": 49,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "acang0",
+                "parent": -1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              49
+            ]
+          }
+        },
+        {
+          "member": "p2.goo!3do\\acanv.3do",
+          "sha256": "748716d887f198e430104ddab1cea0b4259d086894eb038360aafb091ed843d4",
+          "bytes": 20396,
+          "measurements": {
+            "materials_declared": 13,
+            "unique_materials": 13,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              3
+            ],
+            "hierarchy_nodes_declared": 4,
+            "topology_sha256": "3b701733b7bf034e2ef3de76a316be31a3bc97917552b7dd6d94e7f01f7cbed2",
+            "max_faces_per_mesh": 78,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$DUMMY",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "K_Rforearm",
+                "parent": 3,
+                "mesh": 2
+              },
+              {
+                "index": 2,
+                "name": "K_Rhand",
+                "parent": 1,
+                "mesh": 1
+              },
+              {
+                "index": 3,
+                "name": "K_Rshouldr",
+                "parent": 0,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              84
+            ]
+          }
+        },
+        {
+          "member": "p2.goo!3do\\acanv_m.3do",
+          "sha256": "f560e421ed81518468970234c5b133dbfb1276acaa27fd642e59f239fe2bee96",
+          "bytes": 20398,
+          "measurements": {
+            "materials_declared": 13,
+            "unique_materials": 13,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              3
+            ],
+            "hierarchy_nodes_declared": 4,
+            "topology_sha256": "3b701733b7bf034e2ef3de76a316be31a3bc97917552b7dd6d94e7f01f7cbed2",
+            "max_faces_per_mesh": 78,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$DUMMY",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "K_Rforearm",
+                "parent": 3,
+                "mesh": 2
+              },
+              {
+                "index": 2,
+                "name": "K_Rhand",
+                "parent": 1,
+                "mesh": 1
+              },
+              {
+                "index": 3,
+                "name": "K_Rshouldr",
+                "parent": 0,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              84
+            ]
+          }
+        },
+        {
+          "member": "p2.goo!3do\\kk.3do",
+          "sha256": "63469f12aa462d65349c4fec36261870cc49dd94197bfb4b65f524ae4e06b037",
+          "bytes": 195846,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 17,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 35,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 6
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 9
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 3
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 4
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 2
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 15
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              249,
+              143,
+              122,
+              33
+            ]
+          }
+        },
+        {
+          "member": "p2.goo!3do\\mj.3do",
+          "sha256": "63469f12aa462d65349c4fec36261870cc49dd94197bfb4b65f524ae4e06b037",
+          "bytes": 195846,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 17,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 35,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 6
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 9
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 3
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 4
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 2
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 15
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              249,
+              143,
+              122,
+              33
+            ]
+          }
+        },
+        {
+          "member": "p2.goo!cog\\weap_bryar_m.cog",
+          "sha256": "f990f0b6ec4ecca2bfadd8c95b2b2fa0e18481faddb554881d1f691c28c0cd51",
+          "bytes": 6336
+        },
+        {
+          "member": "p2.goo!cog\\weap_blastech_m.cog",
+          "sha256": "f990f0b6ec4ecca2bfadd8c95b2b2fa0e18481faddb554881d1f691c28c0cd51",
+          "bytes": 6336
+        },
+        {
+          "member": "p2.goo!3do\\ky.3do",
+          "sha256": "63469f12aa462d65349c4fec36261870cc49dd94197bfb4b65f524ae4e06b037",
+          "bytes": 195846,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 17,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 35,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 6
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 9
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 3
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 4
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 2
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 15
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              249,
+              143,
+              122,
+              33
+            ]
+          }
+        },
+        {
+          "member": "readme.txt",
+          "sha256": "47224e77d7b58c2e50b4089429566080a9f1816520f7888ff3e719f410ebf790",
+          "bytes": 4078
+        }
+      ]
+    },
+    {
+      "massassi_id": 861,
+      "title": "MoTs children",
+      "catalog_author": "JM",
+      "page_url": "https://www.massassi.net/levels/files/861.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/Children.zip",
+      "filename": "Children.zip",
+      "sha256": "907eab695d1693c1fd67def6e2e397a50a9374f20425847c4ff9320b081d73ff",
+      "bytes": 216180,
+      "container_hashes": [],
+      "resource_counts": {
+        ".txt": 1,
+        ".cog": 1,
+        ".3do": 6,
+        ".mat": 25,
+        ".snd": 1,
+        ".tpl": 1
+      },
+      "model_hierarchy_counts": {
+        "18": 6
+      },
+      "model_geoset_counts": {
+        "4": 6
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 25
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "Children.txt",
+          "sha256": "93925674522f040043217b96d3c8c9e08331a6aadc571331ff212aee19c24514",
+          "bytes": 3793
+        },
+        {
+          "member": "actor_child.cog",
+          "sha256": "2697645ffe41ac421ef42b6480b7e5a261b084313d960e382286988b070c353a",
+          "bytes": 4618
+        },
+        {
+          "member": "an1.3do",
+          "sha256": "3225fb6afca822536079ec9031dd8bc398bcc136d52123d77f01de89dfee3b65",
+          "bytes": 119175,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "an3.3do",
+          "sha256": "78802678a98bd427e662d426524322d7684db30825574c0451fefcdbcc213137",
+          "bytes": 119180,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "an4.3do",
+          "sha256": "d0b83b48e0d0cf5048d1c316fca6ab026e86601dfa2116d7e056a74c97fcee3d",
+          "bytes": 119180,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "ja2.3do",
+          "sha256": "bb5f26c99afafe2564e0a06d3dbd325bfc6c373f7af8dd09cf837a066fe3c8d9",
+          "bytes": 119178,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "ja3.3do",
+          "sha256": "bc2e9355008e8d393fe05741ef23a858d5d7ee871125ae223b7d3e884fe73ed1",
+          "bytes": 119183,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "ja4.3do",
+          "sha256": "a0e8ef97e2ff4558c9ddff6d872027a6f50c67b74a6e9a1cc1db3ee4db85feb4",
+          "bytes": 119183,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 20,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              17,
+              17,
+              17,
+              17
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "87051c3cb5fcc33523c8f2b8f780469284aa22c6b6ee9a99fcb676de2a775698",
+            "max_faces_per_mesh": 48,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "head",
+                "parent": 9,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "hip",
+                "parent": 0,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "l4arm",
+                "parent": 4,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "larm",
+                "parent": 16,
+                "mesh": 11
+              },
+              {
+                "index": 5,
+                "name": "lcalf",
+                "parent": 8,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "lfoot",
+                "parent": 12,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "lhand",
+                "parent": 3,
+                "mesh": 12
+              },
+              {
+                "index": 8,
+                "name": "lleg",
+                "parent": 2,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "neck",
+                "parent": 16,
+                "mesh": 2
+              },
+              {
+                "index": 10,
+                "name": "r4arm",
+                "parent": 11,
+                "mesh": 5
+              },
+              {
+                "index": 11,
+                "name": "rarm",
+                "parent": 16,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "rcalf",
+                "parent": 15,
+                "mesh": 3
+              },
+              {
+                "index": 13,
+                "name": "rfoot",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 14,
+                "name": "rhand",
+                "parent": 10,
+                "mesh": 15
+              },
+              {
+                "index": 15,
+                "name": "rleg",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "torso",
+                "parent": 0,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "weapon",
+                "parent": 14,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              189,
+              154,
+              100,
+              40
+            ]
+          }
+        },
+        {
+          "member": "kid.snd",
+          "sha256": "efe71fb3f3676039736991d1250ccb28978eff3178cad4c6455c9c32ec1f5daf",
+          "bytes": 4465
+        }
+      ]
+    },
+    {
+      "massassi_id": 991,
+      "title": "Squashed Jabba",
+      "catalog_author": "Darth Dude",
+      "page_url": "https://www.massassi.net/levels/files/991.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/SquashedJabba.zip",
+      "filename": "SquashedJabba.zip",
+      "sha256": "0a00616b07ca344a68b338ebe8e488ac40a4f208882bdafea58b19e93ae05afc",
+      "bytes": 36045,
+      "container_hashes": [
+        {
+          "member": "Squishy.goo",
+          "bytes": 113844,
+          "sha256": "f97bfcf0c6d7b467ce51be94e0577f33cb0e845c6a2567b9c662fffbc073ea4c"
+        }
+      ],
+      "resource_counts": {
+        ".txt": 1,
+        ".3do": 1,
+        ".mat": 9
+      },
+      "model_hierarchy_counts": {
+        "18": 1
+      },
+      "model_geoset_counts": {
+        "1": 1
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 9
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "Idontcareifyoureadmeornot.txt",
+          "sha256": "f6127740b9463a947232ae1f4291f64a13420fbc0fd8545310628aa266a3eef8",
+          "bytes": 3766
+        },
+        {
+          "member": "Squishy.goo!3do\\ky.3do",
+          "sha256": "370dbac51d673fe23c60e308bf48546b7705de22b6c948128d2fc1d68d70fc70",
+          "bytes": 41576,
+          "measurements": {
+            "materials_declared": 11,
+            "unique_materials": 11,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              18
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "df6b0eb8b0a2ed41e0d95304f0d1cfb061546a13956f20629a58270ece230054",
+            "max_faces_per_mesh": 84,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "fat",
+                "parent": -1,
+                "mesh": 2
+              },
+              {
+                "index": 1,
+                "name": "eyelid",
+                "parent": 17,
+                "mesh": 11
+              },
+              {
+                "index": 2,
+                "name": "hair1",
+                "parent": 17,
+                "mesh": 13
+              },
+              {
+                "index": 3,
+                "name": "hair2",
+                "parent": 17,
+                "mesh": 12
+              },
+              {
+                "index": 4,
+                "name": "hair3",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 5,
+                "name": "larm",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 6,
+                "name": "lhand",
+                "parent": 7,
+                "mesh": 3
+              },
+              {
+                "index": 7,
+                "name": "lwrist",
+                "parent": 5,
+                "mesh": 0
+              },
+              {
+                "index": 8,
+                "name": "mouth",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 9,
+                "name": "pipe",
+                "parent": 6,
+                "mesh": 17
+              },
+              {
+                "index": 10,
+                "name": "rarm",
+                "parent": 0,
+                "mesh": 9
+              },
+              {
+                "index": 11,
+                "name": "rhand",
+                "parent": 12,
+                "mesh": 4
+              },
+              {
+                "index": 12,
+                "name": "rwrist",
+                "parent": 10,
+                "mesh": 1
+              },
+              {
+                "index": 13,
+                "name": "tailbase",
+                "parent": 0,
+                "mesh": 6
+              },
+              {
+                "index": 14,
+                "name": "tailmid",
+                "parent": 13,
+                "mesh": 7
+              },
+              {
+                "index": 15,
+                "name": "tailtip",
+                "parent": 14,
+                "mesh": 8
+              },
+              {
+                "index": 16,
+                "name": "tongue",
+                "parent": 17,
+                "mesh": 15
+              },
+              {
+                "index": 17,
+                "name": "uglyhead",
+                "parent": 0,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              205
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "massassi_id": 1007,
+      "title": "Birth of a Mercenary Skin Pack v1.2",
+      "catalog_author": "Anthony Piggott",
+      "page_url": "https://www.massassi.net/levels/files/1007.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/boamsp1_2.zip",
+      "filename": "boamsp1_2.zip",
+      "sha256": "79d4640d01bb45021e9f23dff877b53f149b3534414a238abf7e426cb7b045ea",
+      "bytes": 1549802,
+      "container_hashes": [
+        {
+          "member": "boamsp.goo",
+          "bytes": 6590995,
+          "sha256": "48135c3995531e932c19f712261ad43d83161f07b89cc45ad68ed9b5dd806cfb"
+        }
+      ],
+      "resource_counts": {
+        ".3do": 31,
+        ".key": 1,
+        ".mat": 184,
+        ".cog": 1,
+        ".dat": 1,
+        ".pup": 1,
+        ".snd": 1,
+        ".wav": 7,
+        ".uni": 1,
+        ".bm": 10,
+        ".txt": 2
+      },
+      "model_hierarchy_counts": {
+        "18": 30,
+        "19": 1
+      },
+      "model_geoset_counts": {
+        "4": 24,
+        "1": 7
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 183
+        },
+        {
+          "type": 0,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 1
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "boamsp.goo!3do\\dfkyjspr.3do",
+          "sha256": "78deacf527acdc68f902cb085bac158919af6445cf0c15b956adb3841aa10d14",
+          "bytes": 108435,
+          "measurements": {
+            "materials_declared": 51,
+            "unique_materials": 27,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              17
+            ],
+            "hierarchy_nodes_declared": 19,
+            "topology_sha256": "1dd25f9dd7ea7f1b1a9dfd0a9cf9c99a1089bf19308983ba3c4f947f29474651",
+            "max_faces_per_mesh": 215,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 7
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 15
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 8
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 4
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 14
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 3
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 2
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              },
+              {
+                "index": 18,
+                "name": "JAN",
+                "parent": 17,
+                "mesh": 16
+              }
+            ],
+            "faces_per_geoset": [
+              461
+            ]
+          }
+        },
+        {
+          "member": "boamsp.goo!3do\\kydarth.3do",
+          "sha256": "232b6d3fe2f0fa2f4e53df4a0a3383e6df76be9c47809d6b80f5519b52dd461e",
+          "bytes": 62968,
+          "measurements": {
+            "materials_declared": 19,
+            "unique_materials": 19,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "190b32c838a8dfb11b484f1cca81097cafe5f4ef52af06ab79c10f6a390d79ab",
+            "max_faces_per_mesh": 51,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$DUMMY",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$DUMMY",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "K_Hip",
+                "parent": 0,
+                "mesh": 0
+              },
+              {
+                "index": 3,
+                "name": "K_Lcalf",
+                "parent": 8,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "K_Lfoot",
+                "parent": 3,
+                "mesh": 2
+              },
+              {
+                "index": 5,
+                "name": "K_Lforearm",
+                "parent": 7,
+                "mesh": 3
+              },
+              {
+                "index": 6,
+                "name": "K_Lhand",
+                "parent": 5,
+                "mesh": 4
+              },
+              {
+                "index": 7,
+                "name": "K_Lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "K_Lthigh",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 9,
+                "name": "K_Rcalf",
+                "parent": 14,
+                "mesh": 7
+              },
+              {
+                "index": 10,
+                "name": "K_Rfoot",
+                "parent": 9,
+                "mesh": 8
+              },
+              {
+                "index": 11,
+                "name": "K_Rforearm",
+                "parent": 13,
+                "mesh": 9
+              },
+              {
+                "index": 12,
+                "name": "K_Rhand",
+                "parent": 11,
+                "mesh": 10
+              },
+              {
+                "index": 13,
+                "name": "K_Rshouldr",
+                "parent": 17,
+                "mesh": 11
+              },
+              {
+                "index": 14,
+                "name": "K_Rthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 15,
+                "name": "K_head",
+                "parent": 16,
+                "mesh": 13
+              },
+              {
+                "index": 16,
+                "name": "K_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "K_torso",
+                "parent": 1,
+                "mesh": 15
+              }
+            ],
+            "faces_per_geoset": [
+              262
+            ]
+          }
+        },
+        {
+          "member": "boamsp.goo!3do\\key\\kyjdie.key",
+          "sha256": "7dc41ac31f208e2e93d7db71d52febcff1d66f869f2ac975b87bb2c9e208d155",
+          "bytes": 46672,
+          "measurements": {
+            "FRAMES": 35,
+            "FPS": 15,
+            "JOINTS": 19,
+            "NODES": 19,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        {
+          "member": "boamsp.goo!cog\\kyle_m.cog",
+          "sha256": "b6a68c91f61e098cd1ad2eff750ec6ad00016d43bbb5efef752a4a44cd7748ad",
+          "bytes": 41867
+        },
+        {
+          "member": "boamsp.goo!misc\\models.dat",
+          "sha256": "d2b3976fa483fc6115b3077ad3820dc541c8d5a6d6e720f4fde0258862e77630",
+          "bytes": 4608,
+          "measurements": {
+            "declared_models": 86,
+            "parsed_rows": 86,
+            "duplicate_indices": [],
+            "personality_row_counts": {
+              "1": 13,
+              "2": 11,
+              "3": 17,
+              "4": 26,
+              "0": 19
+            },
+            "model_names_not_supplied_in_patch_count": 55,
+            "note": "Missing from this patch does not establish a missing base-game dependency."
+          }
+        },
+        {
+          "member": "boamsp.goo!misc\\pup\\ky.pup",
+          "sha256": "294b40466a1f6bc21e25e70e10469949cc0b0669191ee3e3eb0136cc619156c2",
+          "bytes": 4884
+        },
+        {
+          "member": "boamsp.txt",
+          "sha256": "3b8a3179cd44b86c28c4cd7545174a586547a8eaac3f49bdb6ae71cb8378a5b7",
+          "bytes": 10636
+        }
+      ]
+    },
+    {
+      "massassi_id": 1386,
+      "title": "Al's Skins for MotS S .E.",
+      "catalog_author": "Al MacDonald (skins), Galen Starfield (.goo)",
+      "page_url": "https://www.massassi.net/levels/files/1386.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/al_mots.zip",
+      "filename": "al_mots.zip",
+      "sha256": "dac19a02be3b0d45dc17d1b011b88b26d04a917a43c917ee51cfece291116020",
+      "bytes": 6991336,
+      "container_hashes": [
+        {
+          "member": "al_mots.goo",
+          "bytes": 24498016,
+          "sha256": "cf2c5525eeff0abda4cc032d9a731bbe6a67d63ae6e555d4f7d07137c9e7b210"
+        }
+      ],
+      "resource_counts": {
+        ".mat": 1514,
+        ".3do": 123,
+        ".snd": 21,
+        ".wav": 73,
+        ".dat": 2,
+        ".uni": 1,
+        ".bm": 20,
+        ".txt": 2
+      },
+      "model_hierarchy_counts": {
+        "18": 123
+      },
+      "model_geoset_counts": {
+        "4": 73,
+        "1": 50
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 1486
+        },
+        {
+          "type": 0,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 28
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "al_mots.goo!3do\\ig88.3do",
+          "sha256": "10f63b4013e3f33e02fed25d7babb3c22cad5ad813f41b11af58f024d43a100c",
+          "bytes": 176324,
+          "measurements": {
+            "materials_declared": 18,
+            "unique_materials": 13,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 31,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 7
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 15
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 8
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 9
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 4
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 14
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 3
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 2
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 6
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              200,
+              124,
+              119,
+              36
+            ]
+          }
+        },
+        {
+          "member": "al_mots.goo!3do\\jarjar.3do",
+          "sha256": "9fac5d29b77c7f6a17e6291646afa7136591e36ed2bd79c16facff48c85ae94e",
+          "bytes": 70011,
+          "measurements": {
+            "materials_declared": 16,
+            "unique_materials": 13,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 38,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 8
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 6
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 14
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 11
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 4
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 10
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 3
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 13
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 2
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 15
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 9
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 5
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 12
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              229
+            ]
+          }
+        },
+        {
+          "member": "al_mots.goo!3do\\phase2.3do",
+          "sha256": "63469f12aa462d65349c4fec36261870cc49dd94197bfb4b65f524ae4e06b037",
+          "bytes": 195846,
+          "measurements": {
+            "materials_declared": 20,
+            "unique_materials": 17,
+            "geosets": 4,
+            "meshes_per_geoset": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "hierarchy_nodes_declared": 18,
+            "topology_sha256": "73cc8d1d8532534158befb5c307bb15dee063a4f2a34661015d396c97f511772",
+            "max_faces_per_mesh": 35,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 10
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 6
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 9
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 8
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 3
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 4
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 2
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 13
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 1
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 11
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 15
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 0
+              }
+            ],
+            "faces_per_geoset": [
+              249,
+              143,
+              122,
+              33
+            ]
+          }
+        },
+        {
+          "member": "al_mots.goo!misc\\snd\\c3po.snd",
+          "sha256": "f9930545114c4f19e02469449797210ae254cdc6d9c36047ff3ffb4ad43e6bbf",
+          "bytes": 3954
+        },
+        {
+          "member": "al_mots.goo!misc\\models.dat",
+          "sha256": "00826422573c6c70cd282f4c623f377c5bb4578cc75d0a98847d86c537c627d8",
+          "bytes": 8108,
+          "measurements": {
+            "declared_models": 193,
+            "parsed_rows": 193,
+            "duplicate_indices": [],
+            "personality_row_counts": {
+              "1": 57,
+              "2": 26,
+              "3": 36,
+              "4": 55,
+              "0": 19
+            },
+            "model_names_not_supplied_in_patch_count": 55,
+            "note": "Missing from this patch does not establish a missing base-game dependency."
+          }
+        },
+        {
+          "member": "al_mots.goo!misc\\sabers.dat",
+          "sha256": "d29842fb16ce09a26647bead09703ccaf35aa51beacef1f9d3958233d0c6b52c",
+          "bytes": 972
+        },
+        {
+          "member": "readme.txt",
+          "sha256": "d6a9a0da4c480df2aa1100e6a696e2d24468d87988bf6aff228c56b89329d600",
+          "bytes": 1028
+        }
+      ]
+    },
+    {
+      "massassi_id": 1769,
+      "title": "Trade Federation",
+      "catalog_author": "Robban",
+      "page_url": "https://www.massassi.net/levels/files/1769.shtml",
+      "download_url": "https://www.massassi.net/media/levels/files/motsmod/tradefederation.zip",
+      "filename": "tradefederation.zip",
+      "sha256": "be64a981de3ac6e9e7cc95a9a9b8c6f6d452d5413b789d490cd290d48614b728",
+      "bytes": 679205,
+      "container_hashes": [
+        {
+          "member": "tradefedration.goo",
+          "bytes": 2035736,
+          "sha256": "c450c5c1cadc7d26173b7cce762bd1d7339822a435fd05c263a1fa10cf6efd11"
+        }
+      ],
+      "resource_counts": {
+        ".txt": 1,
+        ".3do": 15,
+        ".mat": 163,
+        ".pup": 5,
+        ".snd": 8,
+        ".wav": 3,
+        ".key": 6,
+        ".cog": 1,
+        ".ai": 1
+      },
+      "model_hierarchy_counts": {
+        "18": 3,
+        "20": 7,
+        "13": 4,
+        "11": 1
+      },
+      "model_geoset_counts": {
+        "1": 15
+      },
+      "mat_formats": [
+        {
+          "type": 2,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 162
+        },
+        {
+          "type": 0,
+          "color_mode": 0,
+          "bpp": 8,
+          "count": 1
+        }
+      ],
+      "selected_members": [
+        {
+          "member": "tradefederation.txt",
+          "sha256": "06d94986fb139028201386ddede9e602235e373811dda449f807a9b06dc038d5",
+          "bytes": 4358
+        },
+        {
+          "member": "tradefedration.goo!3do\\st.3do",
+          "sha256": "3d92065a29f0b58fb717fa37808e0c238388c4f68f7a5b6c2531afb27ba0c725",
+          "bytes": 75628,
+          "measurements": {
+            "materials_declared": 29,
+            "unique_materials": 26,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              18
+            ],
+            "hierarchy_nodes_declared": 20,
+            "topology_sha256": "da179efb078704865e727dcfef78458c72fd9bbab3ee93cbfb67084b16cc36c2",
+            "max_faces_per_mesh": 40,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "$$$dummy",
+                "parent": 0,
+                "mesh": -1
+              },
+              {
+                "index": 2,
+                "name": "k_hip",
+                "parent": 0,
+                "mesh": 0
+              },
+              {
+                "index": 3,
+                "name": "k_lcalf",
+                "parent": 8,
+                "mesh": 1
+              },
+              {
+                "index": 4,
+                "name": "k_lfoot",
+                "parent": 3,
+                "mesh": 2
+              },
+              {
+                "index": 5,
+                "name": "k_lforearm",
+                "parent": 7,
+                "mesh": 3
+              },
+              {
+                "index": 6,
+                "name": "k_lhand",
+                "parent": 5,
+                "mesh": 4
+              },
+              {
+                "index": 7,
+                "name": "k_lshouldr",
+                "parent": 17,
+                "mesh": 5
+              },
+              {
+                "index": 8,
+                "name": "k_lthigh",
+                "parent": 2,
+                "mesh": 6
+              },
+              {
+                "index": 9,
+                "name": "k_rcalf",
+                "parent": 14,
+                "mesh": 7
+              },
+              {
+                "index": 10,
+                "name": "k_rfoot",
+                "parent": 9,
+                "mesh": 8
+              },
+              {
+                "index": 11,
+                "name": "k_rforearm",
+                "parent": 13,
+                "mesh": 9
+              },
+              {
+                "index": 12,
+                "name": "k_rhand",
+                "parent": 11,
+                "mesh": 10
+              },
+              {
+                "index": 13,
+                "name": "k_rshouldr",
+                "parent": 17,
+                "mesh": 11
+              },
+              {
+                "index": 14,
+                "name": "k_rthigh",
+                "parent": 2,
+                "mesh": 12
+              },
+              {
+                "index": 15,
+                "name": "k_head",
+                "parent": 16,
+                "mesh": 13
+              },
+              {
+                "index": 16,
+                "name": "k_neck",
+                "parent": 17,
+                "mesh": 14
+              },
+              {
+                "index": 17,
+                "name": "k_torso",
+                "parent": 1,
+                "mesh": 15
+              },
+              {
+                "index": 18,
+                "name": "Cone",
+                "parent": -1,
+                "mesh": 16
+              },
+              {
+                "index": 19,
+                "name": "Cone",
+                "parent": -1,
+                "mesh": 17
+              }
+            ],
+            "faces_per_geoset": [
+              279
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!misc\\pup\\st.pup",
+          "sha256": "fc0c5dfe9882cb546c1fa926fdc9d9226c17d2ae9e4791715a8a9109a2a71477",
+          "bytes": 4884
+        },
+        {
+          "member": "tradefedration.goo!3do\\tief.3do",
+          "sha256": "803a2d4b43f9f01742729d6e9fc64cac54d0d33d8f2df5bd57306ff0ed43b06e",
+          "bytes": 45199,
+          "measurements": {
+            "materials_declared": 7,
+            "unique_materials": 7,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              12
+            ],
+            "hierarchy_nodes_declared": 13,
+            "topology_sha256": "e0cc3e98fb907bdaa9324ee35e56c054f8828a40fd9cbf15221898910940e88b",
+            "max_faces_per_mesh": 50,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "BODY",
+                "parent": -1,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "RSHOLD",
+                "parent": -1,
+                "mesh": 1
+              },
+              {
+                "index": 3,
+                "name": "LSHOLD",
+                "parent": -1,
+                "mesh": 2
+              },
+              {
+                "index": 4,
+                "name": "HEAD",
+                "parent": -1,
+                "mesh": 3
+              },
+              {
+                "index": 5,
+                "name": "LRWING",
+                "parent": -1,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "URWING",
+                "parent": -1,
+                "mesh": 5
+              },
+              {
+                "index": 7,
+                "name": "LRFOOT",
+                "parent": -1,
+                "mesh": 6
+              },
+              {
+                "index": 8,
+                "name": "URFOOT",
+                "parent": -1,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "LLWING",
+                "parent": -1,
+                "mesh": 8
+              },
+              {
+                "index": 10,
+                "name": "ULWING",
+                "parent": -1,
+                "mesh": 9
+              },
+              {
+                "index": 11,
+                "name": "LLFOOT",
+                "parent": -1,
+                "mesh": 10
+              },
+              {
+                "index": 12,
+                "name": "ULFOOT",
+                "parent": -1,
+                "mesh": 11
+              }
+            ],
+            "faces_per_geoset": [
+              320
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\at.3do",
+          "sha256": "f0a38b1e2789e395a920eb2432b6108967b32c3e44322069da713b397a5f2304",
+          "bytes": 44282,
+          "measurements": {
+            "materials_declared": 6,
+            "unique_materials": 6,
+            "geosets": 1,
+            "meshes_per_geoset": [
+              10
+            ],
+            "hierarchy_nodes_declared": 11,
+            "topology_sha256": "d3720954267012f08188fe38e4fb09f2a9b5b9a420985a6af2dc73dc9b876604",
+            "max_faces_per_mesh": 50,
+            "hierarchy_roles": [
+              {
+                "index": 0,
+                "name": "$$dummy",
+                "parent": -1,
+                "mesh": -1
+              },
+              {
+                "index": 1,
+                "name": "BODY",
+                "parent": 0,
+                "mesh": 0
+              },
+              {
+                "index": 2,
+                "name": "HEAD",
+                "parent": 1,
+                "mesh": 1
+              },
+              {
+                "index": 3,
+                "name": "URWING",
+                "parent": 1,
+                "mesh": 2
+              },
+              {
+                "index": 4,
+                "name": "URFOOT",
+                "parent": 3,
+                "mesh": 3
+              },
+              {
+                "index": 5,
+                "name": "ULFOOT",
+                "parent": 6,
+                "mesh": 4
+              },
+              {
+                "index": 6,
+                "name": "ULWING",
+                "parent": 1,
+                "mesh": 5
+              },
+              {
+                "index": 7,
+                "name": "LRWING",
+                "parent": 1,
+                "mesh": 6
+              },
+              {
+                "index": 8,
+                "name": "LRFOOT",
+                "parent": 7,
+                "mesh": 7
+              },
+              {
+                "index": 9,
+                "name": "LLWING",
+                "parent": 1,
+                "mesh": 8
+              },
+              {
+                "index": 10,
+                "name": "LLFOOT",
+                "parent": 9,
+                "mesh": 9
+              }
+            ],
+            "faces_per_geoset": [
+              306
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-die.key",
+          "sha256": "e82e7e36a39c220a2dd6656d1c7a23c670133a4d5499a042bcd5ed027f8bfa1d",
+          "bytes": 7475,
+          "measurements": {
+            "FRAMES": 11,
+            "FPS": 7,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-die2.key",
+          "sha256": "fb1ad7051fe0a1dafe42fb17492b9c9c59742ebfcc73b9adbcedb0c221d46e4e",
+          "bytes": 14687,
+          "measurements": {
+            "FRAMES": 61,
+            "FPS": 30,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-fly.key",
+          "sha256": "a07b934b6ab93c66b672cd465c01e778b0bb206ccdb5ba0263c3286f8eda43f4",
+          "bytes": 9742,
+          "measurements": {
+            "FRAMES": 21,
+            "FPS": 30,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-scan.key",
+          "sha256": "d17c4d5758d0fb48e9742b5d7a3b0ae9fc296f00ab7f65e975925c17c1812844",
+          "bytes": 21072,
+          "measurements": {
+            "FRAMES": 71,
+            "FPS": 15,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-shoot.key",
+          "sha256": "5a0341590f31bd6ea5dada8e407376c1a8f6291f133194c6f12b151133e22bd4",
+          "bytes": 7477,
+          "measurements": {
+            "FRAMES": 8,
+            "FPS": 15,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!3do\\key\\tfdf-walk.key",
+          "sha256": "20fbb4612f913b0a10ec70e76b084a87e94d85db0077374575ef5032b0ec0ebb",
+          "bytes": 21073,
+          "measurements": {
+            "FRAMES": 71,
+            "FPS": 15,
+            "JOINTS": 11,
+            "NODES": 11,
+            "node_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "member": "tradefedration.goo!misc\\pup\\atst.pup",
+          "sha256": "c4b103f9f2d4139e8b74f33e8ba52bf9f9db5e478bc4b2cf5388d4cd5e2d57e7",
+          "bytes": 895
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "MOTS-01",
+      "packages": [
+        1386,
+        1007
+      ],
+      "summary": "Selectable skin rows, model files and personality registrations have different counts; validate registry arithmetic and dependency closure."
+    },
+    {
+      "id": "MOTS-02",
+      "packages": [
+        837,
+        1386
+      ],
+      "summary": "Phase 2 integration uses identical body bytes under three resource names; POV and external weapons are separate models. The same body bytes appear in the Al MacDonald compilation, without establishing copying direction."
+    },
+    {
+      "id": "MOTS-03",
+      "packages": [
+        1007
+      ],
+      "summary": "Kyle carrying Jan adds torso-child node 18 with a nineteen-joint death KEY and global player-PUP override. Model-header reuse restrictions are narrower than original-pack distribution permission."
+    },
+    {
+      "id": "MOTS-04",
+      "packages": [
+        861
+      ],
+      "summary": "Six material variants share geometry and hierarchy text; their eighteen-node actor mapping differs from the familiar eighteen-node player mapping."
+    },
+    {
+      "id": "MOTS-05",
+      "packages": [
+        1769
+      ],
+      "summary": "The walking droid uses eleven nodes, six matching KEY files and a dedicated PUP whose weapon role maps to HEAD node 2; flying variants have a different thirteen-node structure."
+    },
+    {
+      "id": "MOTS-06",
+      "packages": [
+        991
+      ],
+      "summary": "A Jabba hierarchy renamed ky.3do retains eighteen nodes but different semantic roles, so filename and node count cannot certify retargeting."
+    },
+    {
+      "id": "MOTS-07",
+      "packages": [
+        836
+      ],
+      "summary": "A personality conversion coordinates inventory, separate weapon models and cloak body states; both body states preserve the same measured node topology."
+    },
+    {
+      "id": "MOTS-08",
+      "packages": [
+        836
+      ],
+      "summary": "models.dat declares 56 rows but contains 58, repeating indices 18 and 19. Readme reports client/scoring limitations; engine response to the registry discrepancy was not tested."
+    },
+    {
+      "id": "MOTS-09",
+      "packages": [
+        836,
+        837,
+        861,
+        991,
+        1007,
+        1386,
+        1769
+      ],
+      "summary": "All 1931 sampled MATs are indexed eight-bit resources; small rectangular textures and one-level mips dominate, while four geometry sets are common but not universal. No rendered quality conclusion follows."
+    },
+    {
+      "id": "MOTS-10",
+      "packages": [
+        1007,
+        1386
+      ],
+      "summary": "Sound mappings and saber catalogs can accompany skins; a model-specific breathing effect implemented in the global player COG expands the merge and test surface."
+    }
+  ]
+}
