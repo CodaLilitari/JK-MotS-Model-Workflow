@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "model": "example-character",
+  "goal": "A readable playable character with stock movement",
+  "recommended_route": "stock-rig-remodel",
+  "alternatives": ["texture-only", "partial-generation-and-assembly", "custom-rig"],
+  "targets": [{"game": "mots", "engine": "original", "renderer": "to-be-selected", "role": "mp-skin"}],
+  "source_assets": [],
+  "preserve": ["approved silhouette", "working animation indices"],
+  "geometry_method": "manual-with-optional-donor-parts",
+  "texture_method": "authored-color-bake",
+  "animation_method": "stock-compatible",
+  "tools": {},
+  "evidence": {"source_review": "not-run", "format_checks": "not-run", "export_visual": "not-run", "target_runtime": "not-run", "connected_multiplayer": "not-run"},
+  "remaining_choices": [],
+  "limitations": []
+}
