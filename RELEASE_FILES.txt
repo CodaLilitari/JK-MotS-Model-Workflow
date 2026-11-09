@@ -66,6 +66,8 @@ skills/jk-mots-model-workflow/references/methods-and-options.md
 skills/jk-mots-model-workflow/references/mortal-kombat-research.md
 skills/jk-mots-model-workflow/references/partial-generation.md
 skills/jk-mots-model-workflow/references/research-index.md
+skills/jk-mots-model-workflow/references/same-name-material-editions.md
+skills/jk-mots-model-workflow/references/evidence/same-name-material-editions.json
 skills/jk-mots-model-workflow/references/runtime-and-packaging.md
 skills/jk-mots-model-workflow/references/source-archive.md
 skills/jk-mots-model-workflow/references/tdir-beta-research.md

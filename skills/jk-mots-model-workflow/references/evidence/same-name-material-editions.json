@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "title": "Guardians of the Galaxy Master Edition: same-name local texture editions",
+  "audit_date": "2026-11-09",
+  "historical_author": "TIE",
+  "historical_host": "The Massassi Temple",
+  "audit_attribution": "Coda, collaborating with Andrei",
+  "scope": "Passive byte comparison of two historical ZIP archives. This ledger contains metadata, hashes and measured counts; no original game or package payloads.",
+  "packages": [
+    {
+      "title": "Guardians of the Galaxy - Master Edition (16-bit)",
+      "author": "TIE",
+      "package_page_url": "https://www.massassi.net/levels/files/1864.shtml",
+      "audited_zip_label": "1864-gotg-me-16bit.zip",
+      "zip_bytes": 6438907,
+      "zip_sha256": "fcdde75a57b3d8ac4578559fb85daf0aef3b111467ba6778c1c8f8bca860d288",
+      "gob_filename": "GoTG-ME.gob",
+      "gob_bytes": 20839162,
+      "gob_sha256": "1e04e5c5c67ff256ff8482255f1b56431cefdb3fc1ee42bbc50e9387c978e91d",
+      "gob_members": 897
+    },
+    {
+      "title": "Guardians of the Galaxy - Master Edition (8-bit)",
+      "author": "TIE",
+      "package_page_url": "https://www.massassi.net/levels/files/1865.shtml",
+      "audited_zip_label": "1865-gotg-me-8bit.zip",
+      "zip_bytes": 6290671,
+      "zip_sha256": "4b1dae0f035c472a88c6a456019d605e4c308a95696f85282ce75c4ff17c221f",
+      "gob_filename": "GoTG-ME 8bit.gob",
+      "gob_bytes": 19354330,
+      "gob_sha256": "e7344eb66f2c87df217a0cd7372aa97df26ad52f28462b4eab63232926a639de",
+      "gob_members": 888
+    }
+  ],
+  "method": {
+    "zip_sha256_checked": true,
+    "nested_gob_zip_crc_checked": true,
+    "gob_directory_and_payload_ranges_checked": true,
+    "all_shared_member_payloads_compared": true,
+    "shared_raw_resource_name_differences": 0,
+    "model_material_lists_parsed": 171,
+    "game_or_network_execution": false
+  },
+  "shared_resources": {
+    "total": 888,
+    "models_3do": {"count": 171, "byte_identical": 171, "identical_material_reference_lists": 171},
+    "scripts_cog": {"count": 27, "byte_identical": 27},
+    "animations_key": {"count": 91, "byte_identical": 91},
+    "puppets_pup": {"count": 8, "byte_identical": 8},
+    "dat": {"count": 3, "byte_identical": 3},
+    "static_jkl": {"count": 1, "byte_identical": 1},
+    "strings_uni": {"count": 1, "byte_identical": 1},
+    "soundclasses_snd": {"count": 3, "byte_identical": 3},
+    "audio_wav": {"count": 56, "byte_identical": 56},
+    "textures_mat": {
+      "count": 493,
+      "byte_identical_indexed_8bit": 189,
+      "different_16bit_to_8bit": 200,
+      "different_8bit_to_8bit": 104
+    },
+    "bitmaps_bm": {"count": 33, "byte_identical": 25, "different": 8},
+    "text_txt": {"count": 1, "byte_identical": 0, "different": 1}
+  },
+  "selector": {
+    "resource": "misc/models.dat",
+    "rows": 30,
+    "byte_identical": true,
+    "sha256_both": "a3eec9d18aba01099e99837c70a54b150b77f68853da66347f9b24fea5650529",
+    "extra_renderer_specific_selector": false
+  },
+  "concrete_example": {
+    "selector_row": 4,
+    "model_name_both": "darth.3do",
+    "soundclass_both": "vader.snd",
+    "model_resource_both": "3do/darth.3do",
+    "model_bytes_both": 60250,
+    "model_sha256_both": "9755c7c6959fe283b9a2b646c961ad7e1d71d5754f48d3b632a917d0e7514a32",
+    "material_index_both": 1,
+    "material_reference_both": "dvchest.mat",
+    "material_resource_both": "mat/dvchest.mat",
+    "edition_16bit": {
+      "bits_per_pixel": 16,
+      "bytes": 8332,
+      "sha256": "fed47f5f6350ab95e98d6e498bbb5802f6ccf7b8cf94b833a478a702f39f403c"
+    },
+    "edition_8bit": {
+      "bits_per_pixel": 8,
+      "bytes": 4236,
+      "sha256": "587c70634ea9127a247fbf1bdcda3d995c40dc5c4a5d8c818f7f06e0ac961746"
+    }
+  },
+  "additional_resources": {
+    "only_in_16bit_edition": 9,
+    "all_are_mat_textures": true,
+    "named_in_supplied_3do_material_tables": 0,
+    "only_in_8bit_edition": 0
+  },
+  "finding": "These editions retain the same internal model identities, material names, scripts and animations while supplying different local texture bytes. This is a concrete historical example of manual per-installation texture editions, not automatic renderer switching inside one GOB.",
+  "limits": [
+    "Archive identity supports the proposed same-model-name mechanism but is not a newly executed original-JK multiplayer compatibility test.",
+    "The complete GOBs are not a MAT-only delta: eight bitmap payloads and one text payload also differ, and the 16-bit edition has nine additional MATs.",
+    "Absence from supplied 3DO material lists does not prove the nine extra MATs are unused by every other resource.",
+    "Installing both overlapping editions simultaneously would involve resource precedence; this audit does not establish an automatic choice by renderer.",
+    "This selected historical example does not establish that every past skin used the same approach or that a peer without the package will be compatible."
+  ]
+}

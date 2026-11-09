@@ -32,10 +32,12 @@ For a first usable version of a conventional MP humanoid, offer **new geometry o
 
 | Target | Authoring contract | Required proof |
 | --- | --- | --- |
-| Original JK / MotS, indexed materials | Native 3DO and palette-indexed MAT; animation and hierarchy remain within the intended executable's storage | Actual original executable, confirmed software/indexed setting, preview and gameplay separately |
+| Original JK / MotS, indexed materials | Native 3DO and palette-indexed MAT; animation and hierarchy remain within the intended executable's storage | Actual original executable; confirm the tested software or accelerated setting; preview and gameplay separately |
 | Original JK / MotS, RGB565 materials | Native 16-bit MAT plus a functioning accelerated renderer | Confirm acceleration in the game's actual Display menu and render the exact files |
 | Patched original executable | Exact patch, supported starting binary, and documented features | Record the complete binary/patch/wrapper chain; test networking if claimed |
 | OpenJKDF2 / OpenMotS | Exact source revision and binary; optional enhanced material features stated explicitly | Runtime in that port build; retail results remain separate |
+
+Indexed MATs can also be used with acceleration. [Same-name local material editions](same-name-material-editions.md) can preserve one character identity across separately installed indexed and RGB565 packages; this is a manual edition choice, not automatic in-GOB fallback.
 
 RGB565 is not inherently an unofficial-patch-only MAT format. Conversely, a successful modern PNG replacement does not show that an original executable can load that PNG. JKE's package-level patch requirement is real, but it is not evidence that every detailed character needs a larger per-mesh limit. See [the historical comparison](jke-tdir-shred-research.md).
 

@@ -4,6 +4,10 @@
 
 **Lilitari / Lily**, working in ChatGPT, contributed Terminator hybrid construction, proportions, eye geometry/materials and surface-aware chrome work, plus later source/visual advisory. **Red**, working through Claude, contributed the retained Terminator conversion checkpoint and a later eye-face extra-light idea. The [Terminator case study](skills/jk-mots-model-workflow/references/terminator-case-study.md) separates their actual inherited work, reported methods, and Coda's subsequent changes. Earlier input authorship is retained; similarity or a later repair does not erase it.
 
+## Same-name material edition research
+
+**TIE** authored Guardians of the Galaxy — Master Edition and its contemporary 8-bit/16-bit compatibility statement; **The Massassi Temple** preserves both releases and discussion. **Andrei** proposed the same-internal-name, separate-local-edition explanation that prompted the focused comparison. **Coda** performed the source synthesis and independently checked the archive evidence. **Lilitari (GPT-5.6 Pro)** independently reviewed the material-loading and multiplayer-identity distinctions and proposed falsifiable native checks; that advisory is not a performed game test. See [the study and public evidence ledger](skills/jk-mots-model-workflow/references/same-name-material-editions.md).
+
 ## Community and upstream work
 
 **Shred18 is a central artistic and technical reference for this workshop.** His

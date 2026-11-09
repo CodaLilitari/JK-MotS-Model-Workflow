@@ -82,6 +82,10 @@ When using a helper, require the exact existing profile path, preview the byte c
 
 A selectable MP package does not automatically replace campaign aliases such as `ky.3do`, `kk.3do`, or `mj.3do`. Add only the route the user requested and test it directly. An NPC art benchmark is not evidence that the same file is registered as an MP skin.
 
+## Local material editions with one character identity
+
+A software-compatible indexed edition and an accelerated RGB565 edition can retain the same internal model names, selector, animation and script contracts while supplying different local MAT payloads. [The same-name edition study](same-name-material-editions.md) records an exact historical example and the required mixed-client checks. Install one overlapping edition per local installation; matching names alone do not certify compatibility, and installing both does not provide automatic renderer selection. A peer without either edition is a separate test case.
+
 ## Package original work and local derivation separately
 
 A distributable workflow can include original scripts, synthetic tests, manifests, authoring templates, and original documentation. Include model/texture artwork only where the project has the necessary rights and intended release scope. Credit does not substitute for permission.

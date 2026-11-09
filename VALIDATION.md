@@ -1,4 +1,16 @@
-# Release validation — 1.4.0
+# Release validation — 1.4.1
+
+## Version 1.4.1 evidence review
+
+Checked November 9, 2026. This documentation update adds a bounded historical package comparison and source synthesis. It does not execute a game or certify a current character's multiplayer compatibility.
+
+- Compared the two hash-pinned Guardians of the Galaxy editions. All 171 shared 3DOs, 27 COGs, 91 KEYs, eight PUPs, three DATs and the static JKL are byte-identical; material paths retain local edition differences. The public ledger records exceptions, exact hashes and the concrete shared-model/material example.
+- Re-read TIE's January 6, 2002 compatibility statement on the original 16-bit release page. Treat it as author testimony, not a freshly reproduced network result. The 8-bit page was inaccessible through the web tool in this pass; its identification is retained from the exact owned archive evidence.
+- Checked the model-name sender/receiver and material-loading explanation against pinned source and existing original-executable byte readbacks. No automatic renderer fallback is established by those inspected paths; the finding is bounded to that evidence.
+- Read Lilitari's completed independent advisory on material loading and multiplayer identity. Her proposed experiments are retained as tests to perform; no external adviser is credited with a local runtime result.
+- The existing Python suite ran 46 tests: 45 passed and one native Windows symlink test was skipped because the process lacks that privilege. Temporary files and bytecode policy kept generated output outside the checkout.
+- Parsed all 22 allowlisted JSON files and checked 253 relative file-link targets: none were missing. These checks do not claim every Markdown anchor or remote URL was verified. The two new public files passed a focused private-path and private-project-term scan.
+- The release builder syntax passed; only its version/research-revision constants changed. Final archive/feed hashes and publication readbacks are recorded separately. No historical release is replaced.
 
 ## Version 1.4.0 evidence review
 

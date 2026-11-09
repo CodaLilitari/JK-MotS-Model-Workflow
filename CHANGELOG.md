@@ -1,5 +1,12 @@
 # Changes
 
+## 1.4.1 — 2026-11-09
+
+- Document same-name local indexed/RGB565 editions using TIE's Guardians of the Galaxy releases: exact shared model, script, animation and selector bytes, a portable evidence ledger, and the original author's compatibility statement.
+- Separate manual edition choice from automatic renderer fallback, indexed acceleration from software-only assumptions, and native MATs from modern replacement-material routes.
+- Credit Andrei's same-name insight and Lilitari's independent review of loader/network distinctions. Preserve actual mixed-peer rendering and lifecycle tests as requirements, not results of this documentation update.
+- Publish research revision 2026110901 with minimum compatible skill 1.1.0. Existing tool behavior is unchanged; no new game, model or multiplayer certification is claimed.
+
 ## 1.4.0 — 2026-11-08
 
 - Refresh the public Blender-Sith fork/install route for v1.0.3-coda.1, its KEY zero/rotation fixes, MAT history, bounded jobs and optional MCP. Preserve credited upstream work and separate release validation from later upstream PR work.

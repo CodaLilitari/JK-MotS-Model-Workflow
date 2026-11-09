@@ -6,6 +6,8 @@ The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool
 
 The November 2026 update adds the [public Blender-Sith release](blender-sith-fork.md), [Red’s hosted Tripo conversion methods](tripo-to-jk.md) and [Lily/Red/Andrei’s character-voice production](generated-character-voice.md), with inspected artifacts separated from historical execution reports.
 
+The November 9 research addition documents [same-name local material editions](same-name-material-editions.md): exact Guardians of the Galaxy package comparisons, the original author's compatibility statement, source-supported loading behavior and the mixed-client tests still required for a new release.
+
 ## Find the method
 
 | Question | Read | What you get |
@@ -29,6 +31,7 @@ The November 2026 update adds the [public Blender-Sith release](blender-sith-for
 | Which texture method should I use? | [Textures and image generation](textures-and-imagegen.md) | Prompts, native-source handling, UV integration, diffuse versus painted lighting, local/GPT options |
 | How do I reduce/bake/export it? | [Blender export and baking](blender-export-and-baking.md) | CLI/UI alternatives, evaluated staging, color/geometry/analytic bake methods and serialization checks |
 | Which Blender-Sith problems are fixed? | [Focused fork](blender-sith-fork.md), [original source audit](blender-sith-audit.md) | Current release/install, normal/metadata/MAT/KEY fixes, bounded jobs and optional MCP, with published regressions and historical baselines |
+| Can indexed and RGB565 editions keep one multiplayer character identity? | [Same-name material editions](same-name-material-editions.md) | TIE's historical precedent, byte-checked shared models/scripts, local resource resolution and bounded compatibility checks |
 | How do I make the selected role playable? | [Runtime and packaging](runtime-and-packaging.md) | SP/MP/view-model distinctions, local resource derivation and practical checks |
 | How do I test the exact engine and graphics route? | [Testing methods](testing-methods.md) | Retail Windows, WSL/Wine/Xvfb, headless and hidden graphical source ports, idle camera, settings matrices and launch repairs |
 | How can Codex drive local 3D generation? | [Local generation automation](local-generation-automation.md) | ComfyUI API graphs, direct runners, node preflight, explicit submission, retained intermediates and artifact collection |
