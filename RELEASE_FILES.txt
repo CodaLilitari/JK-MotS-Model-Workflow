@@ -58,6 +58,7 @@ skills/jk-mots-model-workflow/references/evidence/mortal-kombat-sources.json
 skills/jk-mots-model-workflow/references/evidence/source-archive-index.json
 skills/jk-mots-model-workflow/references/evidence/source-snapshots.json
 skills/jk-mots-model-workflow/references/evidence/tdir-beta-sources.json
+skills/jk-mots-model-workflow/references/generated-character-voice.md
 skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md
 skills/jk-mots-model-workflow/references/local-generation-automation.md
 skills/jk-mots-model-workflow/references/methods-and-options.md
@@ -70,6 +71,7 @@ skills/jk-mots-model-workflow/references/tdir-beta-research.md
 skills/jk-mots-model-workflow/references/terminator-case-study.md
 skills/jk-mots-model-workflow/references/testing-methods.md
 skills/jk-mots-model-workflow/references/textures-and-imagegen.md
+skills/jk-mots-model-workflow/references/tripo-to-jk.md
 skills/jk-mots-model-workflow/references/updates-and-reporting.md
 skills/jk-mots-model-workflow/scripts/comfy_bridge.py
 skills/jk-mots-model-workflow/scripts/inspect_contract.py

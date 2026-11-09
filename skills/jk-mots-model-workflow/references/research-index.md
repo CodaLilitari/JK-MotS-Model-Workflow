@@ -4,6 +4,8 @@ This library is a portable synthesis of modeling projects, original-source analy
 
 The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool evidence: 2,308 hash-verified packages were indexed, then selected character, skin, animation, material and weapon cases received detailed review. Its portable ledgers identify what was inspected and what remains unexpanded or untested.
 
+The November 2026 update adds the [public Blender-Sith release](blender-sith-fork.md), [Red’s hosted Tripo conversion methods](tripo-to-jk.md) and [Lily/Red/Andrei’s character-voice production](generated-character-voice.md), with inspected artifacts separated from historical execution reports.
+
 ## Find the method
 
 | Question | Read | What you get |
@@ -21,10 +23,12 @@ The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool
 | What do older Discord modeling discussions add? | [Earlier community methods](community-discord-model-methods.md) | Credited hierarchy, export, shading and resource-budget advice, with serverwide search coverage recorded |
 | Which old Mortal Kombat skins were recovered? | [Historical skin research](mortal-kombat-research.md) | Three verified archives, actual MK2 models, advertised Cyrax and unresolved Sektor recovery |
 | How did the Terminator collaboration work? | [Terminator case study](terminator-case-study.md) | Red/Lily/Coda lineage, bounded proportion edits, analytic chrome, piston repair and hand alternatives |
+| How do I turn a hosted Tripo humanoid into a JK model? | [Tripo to JK](tripo-to-jk.md) | Plane slicing with UV continuity, cap budgets, stock-rig fitting, orientation-aware baking, indexed/RGB565 and weapon-hand decisions |
+| How can a character get its own generated voice? | [Generated character voice](generated-character-voice.md) | Dry source auditions, phrase-safe cuts, level balancing, SND reachability, voice gating and unfinished placeholders |
 | Where is local AI generation actually useful? | [Partial generation](partial-generation.md) | Hunyuan/TRELLIS/manual/donor choices, exact historical settings, conditioning failures and recovery |
 | Which texture method should I use? | [Textures and image generation](textures-and-imagegen.md) | Prompts, native-source handling, UV integration, diffuse versus painted lighting, local/GPT options |
 | How do I reduce/bake/export it? | [Blender export and baking](blender-export-and-baking.md) | CLI/UI alternatives, evaluated staging, color/geometry/analytic bake methods and serialization checks |
-| Which Blender-Sith problems are fixed? | [Focused fork](blender-sith-fork.md), [original source audit](blender-sith-audit.md) | New normal/metadata fixes, exact regression results, prior external wrappers and unresolved exporter behavior |
+| Which Blender-Sith problems are fixed? | [Focused fork](blender-sith-fork.md), [original source audit](blender-sith-audit.md) | Current release/install, normal/metadata/MAT/KEY fixes, bounded jobs and optional MCP, with published regressions and historical baselines |
 | How do I make the selected role playable? | [Runtime and packaging](runtime-and-packaging.md) | SP/MP/view-model distinctions, local resource derivation and practical checks |
 | How do I test the exact engine and graphics route? | [Testing methods](testing-methods.md) | Retail Windows, WSL/Wine/Xvfb, headless and hidden graphical source ports, idle camera, settings matrices and launch repairs |
 | How can Codex drive local 3D generation? | [Local generation automation](local-generation-automation.md) | ComfyUI API graphs, direct runners, node preflight, explicit submission, retained intermediates and artifact collection |
@@ -40,7 +44,7 @@ The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool
 | JKE's package patch requirement is broader than any one model | Historical package instructions and patch notes; measured individual assets | Separate an art-quality target from a whole-package engine dependency |
 | Original KEY domain and total hierarchy allocation are different obligations | KEY corpus and reader inspection; T800 integration | Reserve existing indices and size applicable allocations; do not equate NODES with JOINTS |
 | A larger atlas does not imply universally larger stored UVs | Renderer source plus identified Shred model mapping | Calibrate the selected renderer/export route; distinguish repacking from resolution |
-| Upstream loses sharp-normal splits; the focused fork preserves them | Matched upstream/fork synthetic export regressions | Choose the tested fork or a prepared/custom writer; unapplied modifiers remain a separate staging issue |
+| The September 2026 upstream baseline lost sharp-normal splits; the tested focused fork preserved them | Matched upstream/fork synthetic export regressions | Choose the tested fork or a prepared/custom writer; unapplied modifiers remain a separate staging issue |
 | A generation mask can exist without reaching the encoder | Retained runner code and paired same-seed experiments | Inspect the prepared image; fix foreground/aspect preparation before another seed |
 | Another view or field extraction need not be another generation | Saved latent/field/extraction records | Reuse intermediates and preserve good anatomy |
 | A full textured generation path may contain geometry cleanup | Pinned TRELLIS code and compared outputs | Compare pipeline stages, not just a flag name; still inspect final topology |

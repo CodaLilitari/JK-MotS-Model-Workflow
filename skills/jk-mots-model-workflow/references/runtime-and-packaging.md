@@ -118,3 +118,7 @@ Six earlier Starweird variants completed bounded original-executable rendering a
 The T-800 v1.0.1 release demonstrated a stronger normal-selection route: a selectable 24-node model with mod-local KEY allocation support, bounded original JK 1.01 and MotS one-player hosted tests, and independent installer combinations. Its RGB565 package checks did not become final-hash RGB565 runtime proof; a broad earlier weapon survey did not become an all-weapons test of the final leg-repaired hashes.
 
 Later hand experiments also separated geometry containment, visible concealment, and artistic acceptance. A bulky cover could hide flesh in sampled frames and still fail the requested design. A more proportionate mechanical fist could be visually preferred while leaving some weapon-hand exposure. Preserve those distinctions in the release notes instead of declaring a single undifferentiated “pass.”
+
+## Custom voice banks
+
+A sound class is part of the character’s integration contract. [Generated character voice](generated-character-voice.md) covers dry Suno source performances, mono PCM delivery, actual trigger reachability, severity and weighted rows, repeated-hit gating and explicitly unfinished water placeholders. Test the selected executable: a reported engine correction or a newer WAV does not prove playback semantics have changed.

@@ -1,6 +1,6 @@
 # Blender, export and baking: choose the method that fits the job
 
-Use Blender for shape, UV and material work; use a reproducible export copy for the game. Keep the detailed editable master and the native four-LOD 3DO as separate artifacts. This workflow concerns characters, creatures, player skins and other single-player/multiplayer models.
+Use Blender for shape, UV and material work; use a reproducible export copy for the game. Keep the detailed editable master and the native game model, including any authored LODs, as separate artifacts. This workflow concerns characters, creatures, player skins and other single-player/multiplayer models.
 
 ## Choose your control method
 
@@ -11,15 +11,17 @@ Use Blender for shape, UV and material work; use a reproducible export copy for 
 | Python with an isolated `bpy` package | An existing tested runtime already runs background Blender jobs without desktop setup. | Use that interpreter and its exact dependency directory. Record `bpy.app.version_string`; verify the actual import location. A successful ordinary Python launch does not prove that the intended Blender package loaded. |
 | An existing Blender MCP bridge | Interactive scene inspection or many small edits in an already connected artist session would benefit from it. | Verify the bridge can perform the needed operation; checkpoint the scene, target named objects and verify results. The bridge is transport, not a substitute for a modeling method. |
 
-The historical projects used background Python/`bpy` and project scripts; the initial audit found upstream add-on copies and external adapters. A subsequent [focused Blender-Sith fork](blender-sith-fork.md) adds normal-preservation and metadata fixes with synthetic regressions. Blender itself and an MCP server were not forked. See [the original add-on audit](blender-sith-audit.md) for the prior baseline.
+The historical projects used background Python/`bpy` and project scripts; the initial audit found upstream add-on copies and external adapters. A subsequent [focused Blender-Sith fork](blender-sith-fork.md) adds normal-preservation and metadata fixes with synthetic regressions. Blender itself was not forked. The later release adds a separate optional Sith-format MCP companion; see the current fork guide for its limited scope. See [the original add-on audit](blender-sith-audit.md) for the prior baseline.
+
+For inspection or screenshots of an existing native 3DO, the default is a direct import through that fork. Follow [the explicit import and provenance recipe](blender-sith-fork.md#direct-native-import-for-inspection-and-screenshots), then add cameras and lighting around the imported objects. Do not substitute a custom mesh reconstruction merely because a render script already exists. Record any material conversion, normal recalculation, triangulation or geometry change as an adaptation; retain an unmodified import for comparison. A polished image establishes only the appearance of the imported geoset under the recorded presentation settings.
 
 ## Choose your export method
 
 | Method | Good fit | Tradeoff / verification |
 |---|---|---|
-| Prepared export duplicate + Blender-Sith | A mostly manual Blender workflow; deliberate final topology; all required operations can be made explicit. | Apply intended geometry operations to the duplicate, set Sith properties, then independently read back the 3DO. The audited exporter still merges coincident vertices without preserving their normal identity, so applying modifiers alone does not solve every shading case. |
+| Prepared export duplicate + Blender-Sith fork | A mostly manual Blender workflow; deliberate final topology; all required operations can be made explicit. | Apply intended geometry operations to the duplicate, set Sith properties, then independently read back the 3DO. The focused fork preserves corner-normal splits; the September 2026 audited upstream did not, so verify the loaded source rather than relying on the add-on name. |
 | Existing deterministic 3DO writer | Procedural assembly or a project already has a reviewed writer and format tests. | This route successfully carried our custom hierarchy, per-face modes, MAT contracts and all-LOD checks. Confirm the writer's exact revision and reparse with an independent implementation. Do not assume that an arbitrary writer preserves everything. |
-| Focused Blender-Sith fork | You want direct export of existing sharp/custom corner normals or predictable scripted hex metadata. | The tested fork fixes these two issues. Prepare modifiers/transforms separately; shared meshes can still be duplicated. Further exporter changes need their own scoped regressions. |
+| Focused Blender-Sith fork | You want direct export of existing sharp/custom corner normals or predictable scripted hex metadata. | The published fork fixes these issues and later adds MAT/KEY repairs; use its version-specific guide. Prepare modifiers/transforms separately; shared meshes can still be duplicated. Further exporter changes need their own scoped regressions. |
 
 For the first method, a useful sequence is:
 

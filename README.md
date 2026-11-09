@@ -6,7 +6,9 @@ Start with the [method and options guide](skills/jk-mots-model-workflow/referenc
 
 [GitLab repository](https://gitlab.com/codalilitari/jk-mots-model-workflow) · [GitHub repository](https://github.com/CodaLilitari/JK-MotS-Model-Workflow) · [Portfolio and direct downloads](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-model-workflow/)
 
-Version 1.3 adds [research from the downloaded material collection](skills/jk-mots-model-workflow/references/downloaded-corpus.md): a hash-checked inventory of 2,308 JK/MotS packages, selected native model/material/animation analysis, original tool manuals/source, and attributed community methods. The package includes the portable evidence ledgers; original third-party game/mod binaries remain separate.
+Version 1.4 adds the current [Blender-Sith GitHub fork and install route](skills/jk-mots-model-workflow/references/blender-sith-fork.md), [Red’s hosted Tripo conversion methods](skills/jk-mots-model-workflow/references/tripo-to-jk.md), and [Lily/Red/Andrei’s Suno character-voice method](skills/jk-mots-model-workflow/references/generated-character-voice.md). It also preserves the newer direct textured-import instructions from the installed skill. No new game test or generation run is implied.
+
+Version 1.3 added [research from the downloaded material collection](skills/jk-mots-model-workflow/references/downloaded-corpus.md): a hash-checked inventory of 2,308 JK/MotS packages, selected native model/material/animation analysis, original tool manuals/source, and attributed community methods. The package includes the portable evidence ledgers; original third-party game/mod binaries remain separate.
 
 ## What is inside
 
@@ -25,7 +27,7 @@ The package contains instructions, original analysis and tools. Supply your own 
 
 ## Install the skill
 
-Download and extract **JK-MotS-Model-Workflow-1.3.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
+Download and extract **JK-MotS-Model-Workflow-1.4.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
 
 PowerShell, from an extracted complete release ZIP:
 
@@ -48,7 +50,7 @@ Python 3.10+ is sufficient for the contract inspector and package builder; Blend
 ```text
 python skills/jk-mots-model-workflow/scripts/inspect_contract.py --model candidate.3do --keys idle.key walk.key
 python -m unittest discover -s tests -v
-python tools/build_release.py --output dist
+python tools/build_release.py --output /absolute/external/release-output
 ```
 
 Read each tool's `--help` and the relevant reference before using it. A successful contract check does not certify game behavior.

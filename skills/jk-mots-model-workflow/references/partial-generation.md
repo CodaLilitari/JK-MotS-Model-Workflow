@@ -151,3 +151,7 @@ Hunyuan uses its own [community license](https://huggingface.co/tencent/Hunyuan3
 ## Handoff gate
 
 Deliver a candidate receipt containing: accepted reference and conditioning hashes; runtime/checkpoint pins; run/extraction counts; raw and selected derivative hashes; topology report; matched neutral views; regional acceptance/rejection notes; donor/license ledger; and the exact remaining work. Label the stage explicitly: `source-study`, `cleaned-source`, `game-mesh`, `exported`, or `runtime-tested`. Record single-player and multiplayer results separately downstream.
+
+## Hosted Tripo inputs
+
+A supplied Tripo GLB is a separate starting route from local TripoSG or selective Hunyuan/TRELLIS inference. Preserve the original and inspect what actually generated. Red’s two Mandalorian examples show useful low-poly source material followed by substantial rigid segmentation, fitting and texture work. Follow [Tripo to JK](tripo-to-jk.md), and keep any further generation within the user’s requested scope and current service allowance.

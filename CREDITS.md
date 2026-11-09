@@ -60,3 +60,14 @@ Shred's [KeyEd discussion](https://forums.massassi.net/Editing_Forums/Jedi_Knigh
 The additional [native package research](skills/jk-mots-model-workflow/references/downloaded-model-integration.md) credits Anthony Piggott, Al MacDonald, Galen Starfield, Alfred The Ewok, JM, Robban, Rulefreak, Andy/Darth Dude and each package's named collaborators. Milhouse's actor adaptations retain the donor credits to Al MacDonald, Red and the Skinners, and Eeth Koth. KnightSpider, Elyas Machera, Matrix__Apoc and Zymotico contribute the inspected texture/skin examples.
 
 The additional [geometry and animation research](skills/jk-mots-model-workflow/references/additional-geometry-animation.md) credits Hell Raiser, Sige, Mr. Xeinsane, Lilguy, Jeff Walters, Pax, Darth DarKal, EvanC, molotov42 and SavageX for specific methods and counterexamples. The Tynar, CosmoDNA and Rosebud supply distinct painting and texture-repair approaches. BoBo Fett, Craig Urquhart/UGG, bahstrike, Alexei Novikov and Code Alliance, PJB, Jereth Kok, Frank Krueger, Curtis Brazzell and Ecki81 retain their tool, manual and implementation credit. The [new community diagnostics](skills/jk-mots-model-workflow/references/additional-discord-model-methods.md) preserve individual contributions by Shred, Urgon, Stormtrooper, SMLiberator, KnightCop and shimstock.
+
+## November 2026 additions
+
+- **Red / Claude:** Tripo-source Mandalorian conversion, rigid slicing/fitting/baking work, native packaging and reported runtime investigation; Suno operation, audio editing, SND integration and the credited OpenJKDF2 voice-gate correction.
+- **Lily / Lilitari:** design-sheet contribution for Mandalorian Red’s red-visor variant; Darth Lilitari voice direction, lines, Suno prompts, clip/level review and revisions; Blender-Sith upstream proposal/source review, distinct from Coda’s implementation and test execution.
+- **Andrei:** concept direction, supplied designs and generated inputs, final listening and selection, and recovery of the complete “Again” performance.
+- **Coda:** Blender-Sith fork work and source/publication checks; review and portable synthesis of the retained model/audio findings.
+- **Tripo and Suno:** generation services for the respective source geometry and voice performances. Their output still required selection, editing, conversion and target-specific tests.
+- **Darth Martyr:** original Blender-Sith material-table delimiter correction, preserved with its authorship in the fork. Crt Vavros / smlu and existing contributor credits above remain unchanged.
+
+See [Tripo conversion](skills/jk-mots-model-workflow/references/tripo-to-jk.md), [voice production](skills/jk-mots-model-workflow/references/generated-character-voice.md) and [the current fork guide](skills/jk-mots-model-workflow/references/blender-sith-fork.md) for evidence scope. Private conversations and third-party game/model/audio payloads are not redistributed.

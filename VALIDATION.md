@@ -1,4 +1,17 @@
-# Release validation — 1.2.0
+# Release validation — 1.4.0
+
+## Version 1.4.0 evidence review
+
+Checked November 8, 2026. The update reviews existing source, artifacts and saved collaboration; it does not regenerate models/audio or rerun Blender or gameplay.
+
+- Verified the public Blender-Sith GitHub fork relationship and v1.0.3-coda.1 metadata. Downloaded all three extension ZIPs anonymously, matched published SHA-256 values and inspected their manifests. Its 16-case platform regressions are published historical evidence, not newly executed here.
+- Inspected Mando OC source scripts/native files and saved runtime frames. Current hierarchy matches the recorded Kyle contract; a saved all-KEY report has an older model hash and is not presented as final-byte validation.
+- Inspected the separate Mandalorian Red archive, native Tripo provenance, three model counts and empty right-hand meshes. All listed GOB hashes matched. Later connected-play claims remain attributed to Red’s saved report.
+- Reviewed the Darth Lilitari voice collaboration and packaged v1.2 sound class, preserving the initial cut/mapping corrections and unfinished water coverage.
+- Re-read the shipped voice GOB and all nine custom WAV headers: mono PCM, 16-bit, 22,050 Hz. The 86 sound-class rows reference 41 distinct WAV names, including stock dependencies. These are artifact checks, not a new listening or gameplay test.
+- The existing Python suite ran 46 tests: 45 passed and the Windows native symlink privilege case was skipped. No converter or gameplay implementation changed in this documentation release.
+- A fresh agent applied the revised skill to Tripo conversion, textured Blender-Sith inspection and an existing Suno voice bank before consulting the evidence reports. All 64 local links/anchors in its seven-file exercise resolved. Review caught and corrected two ambiguous phrases; remote links were outside that offline exercise.
+
 
 ## Version 1.3.0 research checks
 
@@ -35,7 +48,7 @@ Checked 2026-09-30. This record concerns the workflow, its small tools and the s
 - The focused Blender-Sith fork's ten synthetic checks return **4 pass / 6 fail on unchanged upstream** and **10 pass / 0 fail on the fork**, using `bpy` 5.1.2. Root independently reviewed the patch, reran the suite, then extracted the exact installable extension ZIP and ran all ten checks again successfully. See [packaged fork evidence](skills/jk-mots-model-workflow/references/evidence/blender-sith-packaged-fork-2026-09-30.json).
 - The new testing guide is a source-verified procedure collection. Existing retail, wrapper, camera and source-port results retain their original scope; publishing this guide did not execute a new retail or connected-multiplayer test.
 
-The Blender-Sith fork changes corner-normal preservation and hexadecimal-property handling. It does not fix modifier evaluation, shared-mesh reuse, arbitrary transform semantics or every format version. There is no Blender-core or new MCP-server fork.
+The Blender-Sith fork changes corner-normal preservation and hexadecimal-property handling. It does not fix modifier evaluation, shared-mesh reuse, arbitrary transform semantics or every format version. That 1.0.1 historical release did not add an MCP companion or change Blender core; the later optional MCP companion is described in the current fork guide.
 
 ## Retained version 1.0.0 checks
 

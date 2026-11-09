@@ -56,3 +56,7 @@ For classic materials, a normal map or PBR setup in Blender is not automatically
 **“I want TDIR-like movement.”** Offer the full custom KEY/PUP route. Establish the hierarchy and representative movement first, then spend time on the final surface. An alternative is a stock-animation prototype to judge the visual design before funding the animation work.
 
 **“Make the model look as convincing as Shred's.”** Compare readable silhouette, material regions, joint placement, mip behavior and game-sized screenshots. Increasing triangle count is only one possible tool and often not the first useful change.
+
+## Supplied Tripo source and optional voice
+
+A low-poly generated humanoid can be a good starting surface. Plan rigid segmentation, hidden joint caps, stock-rig fitting, atlas baking and the carried-weapon hand contract before promising a playable skin. Use [the Tripo method](tripo-to-jk.md) and its separate Mando examples. If voice is in scope, use [the generated-voice method](generated-character-voice.md); generation, export, selected clips and integrated event coverage are separate milestones.
