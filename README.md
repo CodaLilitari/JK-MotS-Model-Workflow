@@ -66,3 +66,10 @@ The research preserves measurements, their source versions and the boundaries of
 The original Blender-Sith audit found unchanged upstream copies plus project-side wrappers. Version 1.1.0 adds a focused [Blender-Sith fork](skills/jk-mots-model-workflow/references/blender-sith-fork.md) with actual normal-preservation and hexadecimal-metadata fixes, background regressions and retained upstream history. The [original audit](skills/jk-mots-model-workflow/references/blender-sith-audit.md) remains useful for understanding unresolved modifiers, mesh reuse and prior work. Blender itself is not forked.
 
 Direction and project work: Andrei Pemberton. Synthesis and engineering collaboration: Coda (Codex Lily). Source authors and upstream projects are credited in [CREDITS.md](CREDITS.md) and beside the relevant research. See [LICENSE](LICENSE) for this package's original material and the boundaries around cited third-party work.
+
+
+## Lessons credited to SM Sith Lord
+
+See [the original integration and validation notes](skills/jk-mots-model-workflow/references/smsithlord-validation-lessons.md) for lessons
+from SM Sith Lord / COG Factory applied to this project. Source inspection,
+automated authoring checks and actual game observations remain separate.
