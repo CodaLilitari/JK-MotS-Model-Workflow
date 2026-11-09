@@ -4,6 +4,7 @@
 
 - Refresh the public Blender-Sith fork/install route for v1.0.3-coda.1, its KEY zero/rotation fixes, MAT history, bounded jobs and optional MCP. Preserve credited upstream work and separate release validation from later upstream PR work.
 - Preserve the installed October direct textured-import and provenance instructions in the source/distribution.
+- Retain the separately contributed SM Sith Lord validation lessons in the complete package and research feed.
 - Add Red’s hosted Tripo-to-JK method with distinct Mando OC and Mandalorian Red cases, measured budgets, UV-preserving slicing, fitted joints, baking and palette/hand lessons.
 - Add the Lily/Red/Andrei Suno-to-SND workflow, including whole-phrase cuts, dynamic balance, final v1.2 mapping, engine corrections and five unfinished water slots.
 - Publish new portable references and a compatible research feed. Existing tool behavior is unchanged; no model generation or fresh game/runtime certification is claimed.

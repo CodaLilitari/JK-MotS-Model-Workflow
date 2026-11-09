@@ -59,6 +59,7 @@ skills/jk-mots-model-workflow/references/evidence/source-archive-index.json
 skills/jk-mots-model-workflow/references/evidence/source-snapshots.json
 skills/jk-mots-model-workflow/references/evidence/tdir-beta-sources.json
 skills/jk-mots-model-workflow/references/generated-character-voice.md
+skills/jk-mots-model-workflow/references/smsithlord-validation-lessons.md
 skills/jk-mots-model-workflow/references/jke-tdir-shred-research.md
 skills/jk-mots-model-workflow/references/local-generation-automation.md
 skills/jk-mots-model-workflow/references/methods-and-options.md
