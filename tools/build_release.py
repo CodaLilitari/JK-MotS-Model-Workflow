@@ -9,8 +9,8 @@ import stat
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.4.1"
-RESEARCH_REVISION = 2026110901
+VERSION = "1.5.0"
+RESEARCH_REVISION = 2026111201
 RESEARCH_REQUIRES_SKILL_VERSION = "1.1.0"
 
 

@@ -39,6 +39,7 @@ skills/jk-mots-model-workflow/references/downloaded-corpus.md
 skills/jk-mots-model-workflow/references/downloaded-material-tools.md
 skills/jk-mots-model-workflow/references/downloaded-model-integration.md
 skills/jk-mots-model-workflow/references/downloaded-tools-geometry.md
+skills/jk-mots-model-workflow/references/environment-props-to-jk.md
 skills/jk-mots-model-workflow/references/evidence/additional-discord-model-methods.json
 skills/jk-mots-model-workflow/references/evidence/additional-geometry-animation.json
 skills/jk-mots-model-workflow/references/evidence/additional-surface-methods.json

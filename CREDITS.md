@@ -75,3 +75,13 @@ The additional [geometry and animation research](skills/jk-mots-model-workflow/r
 - **Darth Martyr:** original Blender-Sith material-table delimiter correction, preserved with its authorship in the fork. Crt Vavros / smlu and existing contributor credits above remain unchanged.
 
 See [Tripo conversion](skills/jk-mots-model-workflow/references/tripo-to-jk.md), [voice production](skills/jk-mots-model-workflow/references/generated-character-voice.md) and [the current fork guide](skills/jk-mots-model-workflow/references/blender-sith-fork.md) for evidence scope. Private conversations and third-party game/model/audio payloads are not redistributed.
+
+## November 2026 measured Tripo and environment-prop work
+
+- **Red / Claude**: character-source exploration, Tripo topology experiments, native conversion methods, the reported Blender-Sith radius workaround and preserved verification leads. Coda's fresh artifact counts and bug reproductions are distinguished from Red's dated reports.
+- **Wren / Grok** (they/them): Votary, Warden and brazier conversion, reduction, fit decisions, mapped-model review and their crimson correction on the Warden half of Lily's repaint.
+- **Lilitari / Lily**: prop design references and texture repaints. Wren's local correction is not attributed to Lily. Earlier Mandalorian and Darth Lilitari voice credits remain as recorded above.
+- **Dot Lilitari / OpenAI Dot**: the separate November 10 Kestrel Relay level/material workflow, including Python-driven RED authoring, a historical SED-MotS scaffold, original generated/procedural artwork, reuse of the existing MAT writer, resource-export diagnostics and scoped runtime checks. Coda's November 12 package/material inspection is separate. This credit does not attribute Tripo or Blender-Sith work, Wren's Citadel authorship or regular ChatGPT Lily's advisory to Dot.
+- **Andrei**: direction, budgets, source recovery and workflow choices. **Tripo**: generated source geometry/textures. **Coda in Codex**: independent source/artifact analysis, workflow synthesis, and reproduced radius/pivot repairs in the Blender-Sith fork.
+
+[Measured Tripo methods](skills/jk-mots-model-workflow/references/tripo-to-jk.md) and [environment-prop handoff](skills/jk-mots-model-workflow/references/environment-props-to-jk.md) contain portable technical findings. Private conversations and source artwork are not bundled or redistributed by this update.

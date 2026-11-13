@@ -8,15 +8,25 @@ The public [GitHub repository](https://github.com/CodaLilitari/blender-sith) now
 
 ## Public release and installation
 
-Verified on **2026-11-08 America/New_York / 2026-11-09 UTC**: the current public release is [**v1.0.3-coda.1**](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.3-coda.1), extension version **1.0.3**, named **Blender Sith (Coda)**. Its common source is [`187912531c1e2823397ba7b412870d343960eb20`](https://github.com/CodaLilitari/blender-sith/tree/187912531c1e2823397ba7b412870d343960eb20). Check the [releases page](https://github.com/CodaLilitari/blender-sith/releases) before a later installation; keep the exact version and archive hash in the job receipt.
+The November 2026 update targets **v1.0.4-coda.1**, extension version **1.0.4**,
+named **Blender Sith (Coda)**. Its publication and exact-package validation are
+recorded in the [GitHub release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.4-coda.1)
+and [GitLab mirror](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.0.4-coda.1).
+Keep the exact version, platform, archive hash and runtime in the job receipt.
 
-1. Use Blender **5.0 or newer** and choose the matching release extension: [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.3-coda.1/sith-1.0.3-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.3-coda.1/sith-1.0.3-linux-x64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.3-coda.1/sith-1.0.3-universal.zip).
-2. Compare the download with the release's [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.3-coda.1/SHA256SUMS.txt). Per-package `.receipt.json` assets describe their source and normalized file hashes.
-3. In Blender, open **Edit > Preferences > Add-ons > Install from Disk**, select the ZIP and enable the extension. The ID remains `sith`; install one edition in a given extension repository, as an alternative to upstream.
+1. Use Blender **5.0 or newer** and choose [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/sith-1.0.4-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/sith-1.0.4-linux-x64.zip), [macOS Apple Silicon](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/sith-1.0.4-macos-arm64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/sith-1.0.4-universal.zip).
+2. Compare the download with the release's [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/SHA256SUMS.txt). Per-package receipts record source and normalized file hashes.
+3. In Blender, open **Edit > Preferences > Add-ons > Install from Disk**, select the ZIP and enable the extension. The ID remains `sith`; use one edition in a given extension repository.
 
-These ZIPs contain a Python add-on, not a Blender executable. The optional MCP companion is separate. Background inspection can load a verified source snapshot without installing anything in desktop preferences. All three downloads were anonymously retrieved and matched their published checksums during the dated verification above; their manifests declare version 1.0.3 and `GPL-3.0-or-later`. That package inspection did not rerun Blender or establish interactive installation.
+These are Python extensions, not Blender executables. The optional MCP companion
+is separate. Background inspection can load a verified snapshot without changing
+desktop preferences. The universal package removes a manifest restriction; it
+does not expand the validated architecture/runtime matrix. macOS means Apple
+Silicon: this Blender-5.0-minimum release does not claim Intel Mac support.
 
-There is no separately labelled macOS 1.0.3 asset. The older [1.0.2 release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.2-coda.1) includes an Apple Silicon package, with no native Mac execution claim. The universal 1.0.3 archive likewise does not establish native macOS compatibility. Check the exact platform and runtime evidence before promising support.
+The preceding [v1.0.3-coda.2 release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.3-coda.2)
+already supplied a separately validated Apple Silicon package. Earlier statements
+that no Mac 1.0.3 asset existed described v1.0.3-coda.1 and are historical.
 
 ## Choose the useful route
 
@@ -125,15 +135,42 @@ assert model_root.sith_model3do_hnode_type == "01"
 
 Do not infer a KEY animation failure merely from the historical callback error. The earlier probe showed the assignment could still read back correctly. The patch eliminates the callback problem and fixes range/default behavior; animation playback remains a separate test.
 
-**Material fixes added in 1.0.2.** Darth Martyr's [material-table separator repair](https://github.com/sithmartyr/blender-sith/commit/a25543f5ba45c5ad203a65ba11193c640b37e255) retains its original author and source-commit attribution. Long MAT filenames remain separated from their numeric index. A separate Coda fix consumes indexed MAT mip payloads even without a CMP palette, keeping later cel headers aligned and rejecting truncated skipped data. Missing palettes still yield placeholders; this is not recovery of the intended colors. See the [dated source audit](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/docs/fork-audit-2026-11-01.md).
+**Material fixes added in 1.0.2.** Darth Martyr's [material-table separator repair](https://github.com/sithmartyr/blender-sith/commit/a25543f5ba45c5ad203a65ba11193c640b37e255) retains its original author and source-commit attribution. Long MAT filenames remain separated from their numeric index. A separate Coda fix consumes indexed MAT mip payloads even without a CMP palette, keeping later cel headers aligned and rejecting truncated skipped data. Missing palettes still yield placeholders; this is not recovery of the intended colors. See the [dated source audit](https://github.com/CodaLilitari/blender-sith/blob/v1.0.4-coda.1/docs/fork-audit-2026-11-01.md).
 
-**KEY export corrected in 1.0.3.** A keyed location or rotation component can now return to explicit zero without retaining its earlier nonzero value. Quaternion samples choose equivalent continuous pitch/yaw/roll values before native differentials are written, avoiding an unintended long reverse turn across the wrap boundary. Authored Euler winding remains intact, including sparse multi-turn Euler keys. See the [correction notes](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/docs/key-export-corrections.md) and [exporter source](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/sith/key/keyExporter.py).
+**KEY export corrected in 1.0.3.** A keyed location or rotation component can now return to explicit zero without retaining its earlier nonzero value. Quaternion samples choose equivalent continuous pitch/yaw/roll values before native differentials are written, avoiding an unintended long reverse turn across the wrap boundary. Authored Euler winding remains intact, including sparse multi-turn Euler keys. See the [correction notes](https://github.com/CodaLilitari/blender-sith/blob/v1.0.4-coda.1/docs/key-export-corrections.md) and [exporter source](https://github.com/CodaLilitari/blender-sith/blob/v1.0.4-coda.1/sith/key/keyExporter.py).
 
 Keep quaternion samples close enough to express the intended direction: orientation samples alone cannot distinguish an omitted revolution or a turn exceeding 180 degrees between samples. Bake or key an adequate sampling density when needed. This change does not bake unkeyed constraints, modifiers or Blender interpolation curves. Its tests inspect serialized KEYs and synthetic interpolation; actual game playback is still a separate check.
 
+## Radius and native pivots corrected in 1.0.4
+
+Red's saved build used a conservative radius of **0.133282** after the old
+exporter produced **0.081336**. Re-export of that unchanged Blender file
+reproduced the problem. Its assembled native rest geometry requires about
+**0.120722308**, so the repaired exporter writes **0.120722** at six-decimal
+format precision. The fix measures exported hierarchy geometry about the native
+origin, including ancestor translations/rotations and each node's pivot; it
+does not apply scale or INSERT OFFSET twice. An explicitly authored larger
+radius remains authoritative. Rest-pose containment is distinct from bounds
+for every animation pose.
+
+A separate archived check found native pivots lost through import/export.
+Baking a pivot into vertices can preserve visible surfaces while changing the
+joint matrix used to attach a weapon. The cited hand pivot explains an
+approximately **0.01096 JKU** attachment shift. New imports preserve pivot
+metadata; export restores native vertices and pivots, with explicit authored
+PivotConstraint behavior kept separate. Check attachment matrices as well as
+surface positions. The fix cannot infer pivots already erased from older saved
+Blender files: re-import a source 3DO retaining its hierarchy, or perform a
+separately verified rig repair. Existing KEY location semantics are preserved.
+
+Credit Red's report, workaround and archived verifier leads; Coda reproduced
+the defects, checked native engine semantics and implemented the add-on repair.
+This update ships synthetic tests, not the private character source. It does not
+turn geoset-zero Blender import into a complete LOD-preserving round trip.
+
 ## Optional local MCP companion
 
-The fork now offers a separate [local stdio companion](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/docs/MCP.md). The normal Blender extension does not start it or require its dependencies. Its five tools report configuration (`server_info`), summarize an allowlisted native file (`inspect_3do`), create a geometry-only scene (`convert_3do_to_blend`), run synthetic checks (`run_regression`), and package the companion checkout's add-on (`build_extension`).
+The fork now offers a separate [local stdio companion](https://github.com/CodaLilitari/blender-sith/blob/v1.0.4-coda.1/docs/MCP.md). The normal Blender extension does not start it or require its dependencies. Its five tools report configuration (`server_info`), summarize an allowlisted native file (`inspect_3do`), create a geometry-only scene (`convert_3do_to_blend`), run synthetic checks (`run_regression`), and package the companion checkout's add-on (`build_extension`).
 
 `inspect_3do` summarizes all parsed geosets. Conversion imports **geoset zero with placeholders**, disables neighboring MAT/CMP lookup, and cannot normalize JK 2.1 UVs using absent texture dimensions. Use the direct recipe above for textured inspection. `build_extension` does not publish or install; when configured with a Blender executable it also validates the exact ZIP. A Python-plus-`bpy` configuration cannot substitute for Blender CLI extension validation.
 
@@ -141,7 +178,7 @@ Configure trusted runtime/source paths, exact authorized read roots, and an exte
 
 ## Repeat the checks
 
-Prefer the fork's [bounded launcher](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/docs/platform-builds.md). Supply verified executable/source paths and a **new external output directory**. Adapt these placeholders to the machine:
+Prefer the fork's [bounded launcher](https://github.com/CodaLilitari/blender-sith/blob/v1.0.4-coda.1/docs/platform-builds.md). Supply verified executable/source paths and a **new external output directory**. Adapt these placeholders to the machine:
 
 ```powershell
 python C:\src\blender-sith\scripts\run_regression.py `
@@ -166,17 +203,15 @@ python /src/blender-sith/tests/background_regression.py --addon /path/to/upstrea
 
 The suite creates synthetic geometry, animations and material fixtures in a disposable process, checks serialized native data and writes `regression.json`. Preserve the launcher receipt and detailed results, including failures and skips. A successful report establishes the tested contracts, not game compatibility.
 
-### Current release evidence: 1.0.3
+### Current release evidence: 1.0.4
 
-The release's [validation record](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.3-coda.1/VALIDATION.md) reports:
-
-- **16/16 background checks** on Windows `bpy` 5.1.2, including the exact packaged Windows and universal extensions, and on native Linux Blender 5.1.2, including its exact package.
-- **52 unit tests per OS**, with seven Windows capability skips and one Linux PowerShell skip, plus acceptance of all three ZIPs by Blender 5.1.2's extension validator.
-- Both new zero-return and continuous-turn checks failed against the previous release source before the repair; its other fourteen checks passed. Rebuilt platform archives matched the tested hashes.
-
-These are published validation results inspected during the dated release check, not a fresh execution by this skill. The Linux source is `06991a914db7c317dadb444029daba371994ce7a`; Windows is `997ba9ef7d0ddd1a52a4e907abb459e5d8118b70`. The current [harness](https://github.com/CodaLilitari/blender-sith/blob/v1.0.3-coda.1/tests/background_regression.py) includes KEY zero returns, sampled quaternion turns and native differential interpolation, plus preserved sparse Euler winding. No game playback, connected multiplayer, native Mac or every-Blender-version claim follows.
-
-Some guides in the 1.0.3 source snapshot still describe **1.0.2** or **thirteen checks**. Use the exact manifest, release validation and current harness for release-specific claims; keep older observations dated.
+The exact runtime matrix, native-platform receipts and check totals are retained
+in the [release validation record](https://github.com/CodaLilitari/blender-sith/releases/download/v1.0.4-coda.1/VALIDATION.md).
+Each new release must be checked against its own package hashes; the earlier
+16-case 1.0.3 results cannot validate changed 1.0.4 bytes. The new synthetic
+coverage includes origin-centered radius, accumulated transforms and pivots,
+import/export attachment preservation and unchanged source data. Actual game
+rendering, animation blending and connected multiplayer remain separate checks.
 
 ### Historical baseline: September 2026 / 1.0.1
 
@@ -186,7 +221,7 @@ The original installable extension ZIP was extracted and independently passed th
 
 ## Remaining work and model release checks
 
-- Apply non-uniform or negative scales on a prepared export duplicate, then inspect winding, normals, bounds and hierarchy offsets. The patch does not replace the upstream transform/radius code; its normal fixtures use unit scale.
+- Apply non-uniform or negative scales on a prepared export duplicate, then inspect winding, normals, bounds and hierarchy offsets. The radius/pivot repairs follow exported native coordinates; they do not establish arbitrary shear, modifier or animation-transform fidelity.
 - Shared mesh datablocks still produce separate mesh records for separate hierarchy objects. Safe reuse would have to account for scale and object-specific properties.
 - The additional 3DO 2.2 experiment found an existing RGB face-extra-light writer/reader disagreement. Upstream documents that format as IJIM RGB. The focused passing matrix covers JK/MotS 2.1; it does not claim 2.2 was repaired.
 - Exported byte-color handling follows upstream's existing sRGB byte-layer behavior. This change is not a color-management redesign.

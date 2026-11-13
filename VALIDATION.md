@@ -1,4 +1,16 @@
-# Release validation — 1.4.1
+# Release validation — 1.5.0
+
+## Version 1.5.0 evidence review
+
+Checked November 12, 2026. This update combines fresh artifact measurements, independently reproduced Blender-Sith regressions and attributed saved project reports. It does not certify a newly played character or level.
+
+- Fresh Red source reads distinguish requested quads, mixed OBJ polygons and GLB triangles. The 5,336-polygon OBJ contains 4,421 quads and 915 triangles, equivalent to 9,757 triangles; its paired GLB agrees. The 2,851-polygon OBJ has no paired GLB inspection in this review. Saved Smart Mesh settings and engine-limit experiments retain their original dates and evidence scope.
+- Fresh Wren artifact reads measured the selected Votary, Warden and brazier native files, their alternate RED exports, dimensions and material choices. Shared-atlas comparison found 102 changed pixels restricted to the Warden half; the later brazier repaint changes 2,696 pixels. Source FBX/GLB counts and planarity results are saved reports, not newly reproduced here. The supplied bundles do not establish final level placement or gameplay acceptance.
+- Dot Lilitari's Kestrel Relay was recovered from her distinct OpenAI Dot conversation and local project. A fresh read of its 14-entry GOB matches the saved release manifest; ten RGB565 MATs have complete 256-square/four-mip payloads, including two multi-cel materials. The source ZIP passes CRC and hashing. This establishes artifact contents and the attributed level/resource lessons; it does not establish Tripo or Blender-Sith use by Dot or repeat her gameplay checks.
+- Red's saved radius report was independently reproduced on the supplied Blender scene. The native automatic bound, hierarchy/pivot preservation and imported mesh-radius correction have 29 synthetic regression cases and separate exact-package platform receipts. The reviewed native model retains all 15 nonzero pivots through two import/export cycles. Release validation records the tested platforms, runtimes, source hashes and limits; synthetic checks are not retail or connected-multiplayer tests.
+- An independent agent applied the earlier workflow and updated workflow to two concrete conversion/handoff scenarios. The updated instructions passed after correcting the unpaired OBJ/GLB claim and separating the later HD quality verifier from the earlier triangle-merge experiment.
+- The existing Python suite ran 46 tests in 1.524 seconds: 45 passed and one native Windows symlink test was skipped because this process lacks that privilege. The earlier F-drive timestamp-fixture failure was rerun successfully with external C-drive temporary storage. Generated data stayed outside the checkout.
+- Final package/readback, allowlist, local-link, privacy and research-feed checks are recorded in the release receipt. Older immutable releases remain preserved. The research-only updater changes references; the complete 1.5.0 package is needed for the new SKILL routing.
 
 ## Version 1.4.1 evidence review
 

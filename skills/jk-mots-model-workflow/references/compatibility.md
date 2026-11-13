@@ -88,12 +88,14 @@ If stock pivots cannot support the design, author an explicit custom KEY/PUP pac
 | --- | --- | --- |
 | Geometric vertices per mesh | Stay below 512 with room for exporter splits | 512 parser bound in the inspected JK 1.01/MotS executables and studied source port |
 | Texture vertices per mesh | Stay below 768 with room for UV seams | 768 parser bound; UV count can grow independently of position count |
-| Faces per mesh | Prefer at most 450–500 triangles | 512 parser bound; Shred18 reported a 500-triangle working limit in his toolchain |
+| Faces per mesh | A 450–500-triangle target is a conservative working policy; count emitted native face records separately | 512 face-record parser bound; Shred18 reported a 500-triangle working limit in his toolchain. A valid native quad uses one record, with triangle equivalent two |
 | Puppet hierarchy | Keep at most 64 slots, with room for additions | Studied track cache has 64 entries; dynamic model allocation does not remove animation storage limits |
 | Native LODs | One to four geosets with consistent mesh ordering | Validate all geosets and actual transitions; importing only geoset 0 is insufficient |
 | Total model cost | Choose a measured project budget | No universal safe total-triangle count follows from the per-mesh limit |
 
 The [Sith Engine Specs limits page](https://jksith.wikidot.com/limits) gives the 512/768/512 per-mesh values. [Shred18's 8 August 2005 forum reply](https://forums.massassi.net/Editing_Forums/Jedi_Knight_and_Mysteries_of_the_Sith_Editing_Forum/thread_34814_page_1.html) is valuable practical evidence, not an alternative binary parser measurement. Leave headroom: a model close to the face cap may still overflow UV or hierarchy storage after splitting.
+
+For generated mixed topology, keep a triangle/quad/n-gon histogram and triangle equivalent alongside the native face count. A numeric pass does not validate folded or concave polygons. Check planarity, convexity, winding, material/UV continuity and the intended triangulation before retaining or merging faces; see [the measured Tripo count examples](tripo-to-jk.md#count-the-download-not-the-quad-label).
 
 Partition by movement first, then by material and budget. Splitting a mesh only to meet a number can create seams, extra hierarchy costs, or disconnected moving surfaces. Keep animation joints and stable pivots fixed when reducing LODs. Reduce invisible/internal faces and subpixel strands before sacrificing silhouette.
 

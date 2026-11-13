@@ -1,6 +1,6 @@
 ---
 name: jk-mots-model-workflow
-description: Inspect, render, and build character, creature, vehicle, player-skin and weapon models for Jedi Knight Dark Forces II and Mysteries of the Sith, using the Blender-Sith fork for native model imports, Blender authoring, texture and geometry baking, rigging, export, and game integration. Excludes level design.
+description: Use when inspecting, rendering, building or converting character, creature, vehicle, player-skin, weapon or environment-prop models for Jedi Knight Dark Forces II and Mysteries of the Sith, including Tripo sources, Blender-Sith, native 3DO/MAT export, textures and animation contracts. Sector-based level design belongs to the separate level workflow.
 ---
 
 # JK / MotS model workflow
@@ -17,6 +17,7 @@ Infer the character, available source assets, desired appearance, and target gam
 | --- | --- | --- |
 | Fast playable result, familiar humanoid proportions | Reskin or reshape a working stock-rig model | Licensed donor split into the same rigid body parts |
 | A generated armored humanoid or supplied Tripo GLB | Preserve the generated source, slice rigid parts with UV continuity, fit a known stock hierarchy, and bake separate game atlases | Remodel the critical helmet/hand/joint regions manually |
+| A statue, brazier or other environment prop | Measure the actual generated polygons and exported records, preserve the silhouette, and deliver a native prop with placement dimensions | Model a simple prop directly; hand sector, collision and moving-object work to the level workflow |
 | Distinct creature with familiar movement | Stock skeleton plus authored silhouette, rigid attachments and deliberate texture space | Partial generated skull/torso plus manual limbs and cleanup |
 | Unusual proportions or new movement | Custom hierarchy and a matched KEY/PUP set, following the *method* demonstrated by TDIR | Approximate the silhouette on stock animation for a smaller first release |
 | Detailed mechanical/organic model | Keep a detailed source; retopologize or reduce a separate game mesh, then bake color and selected relief cues | Direct low-poly modeling with painted or procedural textures |
@@ -27,7 +28,7 @@ Explain the recommendation in ordinary terms: for example, “For this character
 
 Read [methods-and-options.md](references/methods-and-options.md) for the fuller decision guide and example requests.
 
-For hosted Tripo models, read [the conversion method](references/tripo-to-jk.md); hosted Tripo and local TripoSG are distinct routes. For a custom voice, read [Suno takes to a game sound class](references/generated-character-voice.md). Existing supplied outputs can be reviewed without starting another generation.
+For hosted Tripo models, read [the conversion method and count ledger](references/tripo-to-jk.md); requested quads, downloaded polygon records, GLB triangles and emitted native counts are different quantities. Hosted Tripo and local TripoSG are distinct routes. For statues and other environment models, use [the prop guide and level handoff](references/environment-props-to-jk.md). For a custom voice, read [Suno takes to a game sound class](references/generated-character-voice.md). Existing supplied outputs can be reviewed without starting another generation.
 
 ## Inspect or render existing native models
 
@@ -37,11 +38,11 @@ Recover the exact requested package/version first and inspect its native records
 
 ## Work from source to game
 
-1. **Reference and plan.** Identify the exact design/variant, lawful starting assets, and features that must survive at game size. Save editable source and a small set of matched reference views. Choose stock animation or custom animation before spending time on fine geometry.
+1. **Reference and plan.** Identify the exact design/variant, lawful starting assets, and features that must survive at game size. Save editable source and a small set of matched reference views. For animated models, choose stock or custom animation; for a prop, establish units, footprint, height, facing, origin and intended placement before fine geometry.
 2. **Build the parts.** Use Blender modeling, licensed donor geometry, or local image-to-3D for the parts each handles well. AI can supply coarse form; inspect and repair joints, fingers, teeth, sockets, thin sheets and hidden backs. Use [the Tripo conversion recipe](references/tripo-to-jk.md) for a supplied generated humanoid, or [partial-generation.md](references/partial-generation.md) for selective local parts.
 3. **Make surfaces readable.** Choose hand painting, procedural color, generated source textures, projection, or a high-to-low bake. Use a neutral color pass as the main reusable texture; test any painted light or AO as a deliberate style choice. See [textures-and-imagegen.md](references/textures-and-imagegen.md).
 4. **Prepare the game mesh.** Preserve useful silhouette and joints, reduce invisible/interior detail, allocate UV space intentionally, and bake onto a separate export candidate. See [blender-export-and-baking.md](references/blender-export-and-baking.md) for CLI/UI choices and export recipes.
-5. **Bind the animation contract.** JK/MotS rigid mesh hierarchy and indexed KEY tracks need agreement on indices, parents, pivots and PUP references. Extra geometry nodes may also require larger KEY `JOINTS` allocations. A changed filename or player profile does not retarget animation. See [compatibility.md](references/compatibility.md).
+5. **Bind the animation contract where needed.** JK/MotS rigid mesh hierarchy and indexed KEY tracks need agreement on indices, parents, pivots and PUP references. Extra geometry nodes may also require larger KEY `JOINTS` allocations. A changed filename or player profile does not retarget animation. A static prop needs a deliberate native hierarchy and bounds, without an unrelated humanoid rig. See [compatibility.md](references/compatibility.md).
 6. **Integrate the intended role.** Distinguish SP actor, SP player replacement, MP selectable skin, first-person view model, and third-person weapon. If a custom voice is requested, select clean performances, preserve float masters, bind the actual SND triggers and exercise interruptions/repetition using [the voice workflow](references/generated-character-voice.md). Package the resources each actually uses; derive needed stock resources locally from the user's installation. See [runtime-and-packaging.md](references/runtime-and-packaging.md).
 7. **Review the result in its target.** Inspect the source, exported model, texture mapping, and relevant movement/weapon cases. Choose native Windows, WSL/Wine virtual-display retail, or OpenJKDF2/OpenMotS harness checks from [testing-methods.md](references/testing-methods.md). For connected multiplayer claims use actual separate clients. Record the exact version tested and the remaining limitations; offer a useful partial result when the requested runtime is unavailable.
 
@@ -76,6 +77,7 @@ Keep dependency environments, generated models, capture trees and builds physica
 - [blender-sith-audit.md](references/blender-sith-audit.md): what was upstream, what was a project wrapper, and which exporter issues remain unfixed.
 - [blender-sith-fork.md](references/blender-sith-fork.md): current GitHub release/install route, corner normals, metadata, MAT/KEY corrections, background jobs, optional MCP and tested limits.
 - [tripo-to-jk.md](references/tripo-to-jk.md): Red’s separate Mando OC and Mandalorian Red examples, rigid slicing/fitting, baking, palette and weapon-hand lessons.
+- [environment-props-to-jk.md](references/environment-props-to-jk.md): Wren/Lily prop practice, source versus native counts, silhouette and fit repairs, shared-atlas repaint checks, and Dot Lilitari's separate Kestrel level/resource handoff.
 - [generated-character-voice.md](references/generated-character-voice.md): Lily/Red/Andrei’s Suno-to-SND method, whole-phrase editing, loudness, runtime corrections and incomplete water coverage.
 - [research-index.md](references/research-index.md): reusable findings and their strength of evidence.
 - [source-archive.md](references/source-archive.md): original links, verified archive alternatives and local licensed source snapshots for offline evidence.

@@ -1,10 +1,12 @@
 # JK / MotS Model Workshop
 
-A distributable workflow and Codex skill for **Jedi Knight: Dark Forces II** and **Mysteries of the Sith** character, creature, player-skin and weapon models. It helps you choose a method and build the result: stock-rig remodeling, licensed donor assembly, partial local generation, custom animation, and detailed-source reduction/baking. Single-player and multiplayer integration are covered; level design is outside its scope.
+A distributable workflow and Codex skill for **Jedi Knight: Dark Forces II** and **Mysteries of the Sith** character, creature, player-skin, weapon and environment-prop models. It helps you choose a method and build the result: stock-rig remodeling, licensed donor assembly, partial local generation, custom animation, and detailed-source reduction/baking. Single-player and multiplayer model integration are covered. Environment props hand off to the separate level and COG workflows for sectors, placement, doors/lifts and multiplayer behavior.
 
 Start with the [method and options guide](skills/jk-mots-model-workflow/references/methods-and-options.md), or let Codex use the [skill](skills/jk-mots-model-workflow/SKILL.md). The [research library](skills/jk-mots-model-workflow/references/research-index.md) explains the choices, including the different lessons of TDIR, JKE and Shred's work.
 
 [GitLab repository](https://gitlab.com/codalilitari/jk-mots-model-workflow) · [GitHub repository](https://github.com/CodaLilitari/JK-MotS-Model-Workflow) · [Portfolio and direct downloads](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-model-workflow/)
+
+Version 1.5.0 adds measured Tripo topology ledgers and [environment-prop authoring](skills/jk-mots-model-workflow/references/environment-props-to-jk.md) from Red and Wren's recent work, plus a separate level/resource handoff study from Dot Lilitari's Kestrel Relay. Distinguish the requested quad setting, mixed polygon outputs, triangulated counts and final native per-mesh budgets. Preserve accepted UV layouts through repainting, inspect actual placement dimensions, and hand props to the level workflow with an explicit test status. The [Blender-Sith reference](skills/jk-mots-model-workflow/references/blender-sith-fork.md) explains the 1.0.4 radius/pivot corrections and the exact platform validation record.
 
 Version 1.4.1 adds [same-name material editions](skills/jk-mots-model-workflow/references/same-name-material-editions.md): a measured historical example of separate indexed and RGB565 packages retaining one internal character identity. TIE's original statement, exact archive comparisons and source-supported loading behavior remain separate from the real mixed-client tests needed for a new release.
 
@@ -29,7 +31,7 @@ The package contains instructions, original analysis and tools. Supply your own 
 
 ## Install the skill
 
-Download and extract **JK-MotS-Model-Workflow-1.4.1.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
+Download and extract **JK-MotS-Model-Workflow-1.5.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
 
 PowerShell, from an extracted complete release ZIP:
 

@@ -16,6 +16,40 @@ Mando OC's README records a Tripo HD multiview source made from a concept sheet'
 
 For local generation alternatives, see [partial-generation.md](partial-generation.md) and [local-generation-automation.md](local-generation-automation.md). Use [the direct Blender-Sith import recipe](blender-sith-fork.md#direct-native-import-for-inspection-and-screenshots) when importing native 3DOs into Blender; this case's custom readback renderer is not a substitute for that requested import.
 
+## Count the download, not the quad label
+
+A requested topology or polygon target is an input preference. Record it separately from the downloaded geometry. If the generation receipt is unavailable, keep the requested value unknown; a filename such as `quad_5336` cannot establish it. Preserve an OBJ/FBX containing useful polygons alongside the GLB, which may already be triangulated. Inspect both rather than assuming their face totals should match.
+
+For each source and export candidate, keep a small count ledger:
+
+| Quantity | What to record |
+| --- | --- |
+| Generation request | Saved topology/target and receipt, or explicitly participant-reported/unknown settings |
+| Downloaded topology | Format, polygon records, triangle/quad/n-gon histogram, and triangle equivalent `sum(corners - 2)` |
+| Vertex counts | Raw position and UV records; separately labelled welded analysis with its weld tolerance |
+| Native export | Vertices, texture vertices and face records for every mesh/geoset, after normal splits, cuts, caps and baking |
+| Acceptance | Polygon shape/seams, bounds and mapped appearance; exact target-engine tests still needed |
+
+For ordinary simple polygons, triangle equivalent describes triangulation cost; it is not proof that a folded, concave or self-intersecting face is valid. A valid native quad consumes **one face record**, while its triangle equivalent is two. Keep a conservative triangle budget when that is the project's policy, but do not rename the format's face-record bound a universal triangle bound. See [the qualified native budgets](compatibility.md#budget-each-mesh-and-each-animation-domain).
+
+Fresh read-only parsing of Red/Claude's November 2026 source archive found:
+
+| Source label | OBJ polygons | Triangles | Quads | Triangle equivalent | Paired GLB triangles |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Body v3, `5336` textured | 5,336 | 915 | 4,421 | 9,757 | 9,757 |
+| Body v2, `2851` textured | 2,851 | 520 | 2,331 | 5,182 | Not paired in this check |
+| Body v2, `607` | 607 | 179 | 428 | 1,035 | Not paired in this check |
+
+These are measured files, not inferred UI targets. The textured and untextured `2851` OBJs have the same polygon totals but 6,732 and 3,586 raw position records respectively. Welding coincident positions for analysis is a separate operation with a stated tolerance; it must not silently erase normal or UV distinctions in the export. Red's retained plan selected the detailed source rather than reducing every model, so these alternatives do not establish a universal reduction percentage or a high-poly-to-low-poly requirement.
+
+Wren's separate prop study illustrates the requested-versus-measured distinction. Wren reported aiming for roughly 400–450 quads, then receiving 593 faces at the available low setting. The saved source inspection records **450 quads + 143 triangles = 593 FBX polygons**, equivalent to the paired report's **1,043 GLB triangles**. Those original source files were absent from the reviewed prop ZIPs, so the input counts remain saved-report evidence. Fresh parsing of the included final Votary gives **444 native faces / 460 triangle equivalent / 245 vertices**, across two meshes. See [the prop guide](environment-props-to-jk.md) for the measured outputs and evidence boundaries.
+
+### Preserve only usable polygons
+
+Inspect planarity, convexity, winding, repeated vertices and material/UV continuity before retaining a generated quad. Split a folded or concave face deliberately and inspect the resulting diagonal and silhouette. When merging adjacent triangles, require compatible face/material modes, a continuous shared UV edge and a convex, acceptably planar result. Preserve the intended triangulation where the target renderer makes the diagonal visible; do not join triangle pairs solely to lower a counter.
+
+Red's saved triangle-merge experiment enforced shared material/flags, UV continuity, a fold tolerance and convexity while preserving triangle equivalent. A separate later HD candidate's saved integrity report listed folded/nonconvex faces despite satisfying numeric per-mesh ceilings. These are distinct candidates: the latter supports independent shape review, not a verdict on the earlier merge experiment. Neither was freshly rerun for this publication. Wren's build reports describe selective triangulation of residual nonplanar faces after reduction. Keep the method that meets the actual shape and target requirements.
+
 ## Slice the rigid parts before fitting
 
 Use the target rig's actual mesh order, node names, pivots and rest transforms. A skinned generated humanoid does not become a JK rigid model by renaming its bones.
@@ -91,7 +125,7 @@ Mando OC retained its right glove. Saved character-editor views show a tan patch
 3. Render multiple front/side/rear views from the native readback. Include idle, run, fire, deepest crouch, jump and other design-sensitive actions. Inspect transitions and combined poses in the game afterward.
 4. For MP, register a unique model and sound class, preserve all intended base registry entries, show the normal character-editor preview, and save/reload the selected MPC. For SP, test the actual player/NPC route; a stock-compatible `ky.3do` alias is a separate integration choice.
 5. Test the original target executable and renderer where required, then any source-port edition separately. Use a second client for connected-MP claims. Record exact model, materials, executable, patches, maps, actions and capture hashes.
-6. Inspect every geoset and mip. Both examples here have only one geoset, so full geometry is drawn at every distance. They establish no successful LOD transition or multi-character performance budget.
+6. Inspect every geoset and mip. The two Mando examples below have only one geoset, so full geometry is drawn at every distance. They establish no successful LOD transition or multi-character performance budget. Later Red experiments used both a single-geoset policy and four duplicated full-detail geosets in different candidates; neither demonstrates reduced distant geometry. Read the actual target level's LOD thresholds and cross them with recorded camera cases. A near-only room or a Blender import of geoset 0 cannot validate the distance behavior.
 
 Mando OC's registries added one model to the 28-row stock list and a human-readable display string, with assertions that existing rows and strings were unchanged. Such registries are owned game data; derive them locally or distribute only material for which distribution is permitted. See [runtime-and-packaging.md](runtime-and-packaging.md) for the full test ladder.
 

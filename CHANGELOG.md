@@ -1,5 +1,15 @@
 # Changes
 
+## 1.5.0 — 2026-11-12
+
+- Add Dot Lilitari's distinct Kestrel Relay case: pin editor capabilities, preserve resource/template dependencies after edits, distinguish preview palettes from level palettes, and verify material cels and gameplay bindings. This level work is not attributed to the GPT Lilitari surface or described as Tripo/Blender-Sith model generation.
+
+- Separate requested Tripo topology/count settings, measured OBJ polygons, GLB triangles, welded analysis vertices and final native vertices/UVs/faces, using freshly counted Red artifacts and clearly attributed saved reports.
+- Add Wren’s environment-prop method: silhouette repair, measured fit, normal-split budgets, frozen-UV repaints, shared-atlas ownership and explicit level/COG handoff. Credit Lily’s design/repaint work and Wren’s own correction separately.
+- Update Blender-Sith guidance for 1.0.4 radius and native-pivot preservation, including the limit on recovery of older saved blends. Exact package runtime results remain in the linked release record.
+- Retain the 1.4.1 same-name material-editions research, existing public model/audio media and earlier attribution. No new model-generation or game/multiplayer acceptance is implied.
+- Advance research revision to 2026111201, retaining minimum compatible skill 1.1.0.
+
 ## 1.4.1 — 2026-11-09
 
 - Document same-name local indexed/RGB565 editions using TIE's Guardians of the Galaxy releases: exact shared model, script, animation and selector bytes, a portable evidence ledger, and the original author's compatibility statement.
