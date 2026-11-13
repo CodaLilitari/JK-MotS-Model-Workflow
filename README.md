@@ -6,7 +6,9 @@ Start with the [method and options guide](skills/jk-mots-model-workflow/referenc
 
 [GitLab repository](https://gitlab.com/codalilitari/jk-mots-model-workflow) · [GitHub repository](https://github.com/CodaLilitari/JK-MotS-Model-Workflow) · [Portfolio and direct downloads](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-model-workflow/)
 
-Version 1.5.0 adds measured Tripo topology ledgers and [environment-prop authoring](skills/jk-mots-model-workflow/references/environment-props-to-jk.md) from Red and Wren's recent work, plus a separate level/resource handoff study from Dot Lilitari's Kestrel Relay. Distinguish the requested quad setting, mixed polygon outputs, triangulated counts and final native per-mesh budgets. Preserve accepted UV layouts through repainting, inspect actual placement dimensions, and hand props to the level workflow with an explicit test status. The [Blender-Sith reference](skills/jk-mots-model-workflow/references/blender-sith-fork.md) explains the 1.0.4 radius/pivot corrections and the exact platform validation record.
+Version **1.6.0** adds the shared current-install resolver and updates the [Blender-Sith workflow](skills/jk-mots-model-workflow/references/blender-sith-fork.md) for extension **1.1.0 / v1.1.0-coda.1**. Use explicit API modules and JKDF2/MOTS animation targets, export inspected baked-image MATs with a real CMP, retain recovery diagnostics, and account for current normals, linear colors, UV units and numeric precision. Verified integration/CI, published assets, installed copies and game acceptance remain separate states. Research revision is **2026111301**; this feed requires the complete **1.6.0** skill because a research-only update cannot install its new resolver or helper.
+
+Version 1.5.0 added measured Tripo topology ledgers and [environment-prop authoring](skills/jk-mots-model-workflow/references/environment-props-to-jk.md) from Red and Wren's recent work, plus a separate level/resource handoff study from Dot Lilitari's Kestrel Relay. That research is preserved: distinguish requested quads, mixed polygon outputs, triangulated counts and final native budgets; preserve accepted UV layouts and inspect actual placement dimensions. The historical 1.0.4 radius/pivot evidence remains attributed and separate from the new integration's tests.
 
 Version 1.4.1 adds [same-name material editions](skills/jk-mots-model-workflow/references/same-name-material-editions.md): a measured historical example of separate indexed and RGB565 packages retaining one internal character identity. TIE's original statement, exact archive comparisons and source-supported loading behavior remain separate from the real mixed-client tests needed for a new release.
 
@@ -31,7 +33,7 @@ The package contains instructions, original analysis and tools. Supply your own 
 
 ## Install the skill
 
-Download and extract **JK-MotS-Model-Workflow-1.5.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill.
+Download and extract **JK-MotS-Model-Workflow-1.6.0.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill. Installing this workflow does not itself install Blender-Sith or create the private current-install manifest.
 
 PowerShell, from an extracted complete release ZIP:
 
@@ -49,11 +51,12 @@ The folder follows the documented skill format of `SKILL.md` plus optional refer
 
 ## Run the lightweight tools
 
-Python 3.10+ is sufficient for the contract inspector and package builder; Blender is needed for Blender scripts. No generation job starts automatically.
+Python 3.10+ is sufficient for the contract inspector and package builder; the current-install resolver requires Python 3.11+ for manifest parsing. Blender is needed for Blender scripts. No generation job starts automatically.
 
 ```text
 python skills/jk-mots-model-workflow/scripts/inspect_contract.py --model candidate.3do --keys idle.key walk.key
 python -m unittest discover -s tests -v
+python -m unittest discover -s skills/jk-mots-model-workflow/scripts -p test_resolve_install.py -v
 python tools/build_release.py --output /absolute/external/release-output
 ```
 
@@ -67,7 +70,7 @@ Release checks and their limits are recorded in [VALIDATION.md](VALIDATION.md). 
 
 The research preserves measurements, their source versions and the boundaries of the tests actually performed. TDIR custom rigs, JKE's historical patch requirement, Shred's art choices, OpenJKDF2 behavior and unmodified retail testing answer different questions. Use them to select and troubleshoot a route rather than assuming one universal polygon, node or texture rule.
 
-The original Blender-Sith audit found unchanged upstream copies plus project-side wrappers. Version 1.1.0 adds a focused [Blender-Sith fork](skills/jk-mots-model-workflow/references/blender-sith-fork.md) with actual normal-preservation and hexadecimal-metadata fixes, background regressions and retained upstream history. The [original audit](skills/jk-mots-model-workflow/references/blender-sith-audit.md) remains useful for understanding unresolved modifiers, mesh reuse and prior work. Blender itself is not forked.
+The original Blender-Sith audit found unchanged upstream copies plus project-side wrappers. Workflow 1.1.0 introduced the focused fork; workflow 1.6.0 documents the later add-on 1.1.0 integration of upstream `01ff4bd` with retained Coda fixes and automation. These workflow and add-on version numbers are separate. The [original audit](skills/jk-mots-model-workflow/references/blender-sith-audit.md) remains dated evidence, while the [current guide](skills/jk-mots-model-workflow/references/blender-sith-fork.md) explains changed APIs and remaining limits. Blender itself is not forked.
 
 Direction and project work: Andrei Pemberton. Synthesis and engineering collaboration: Coda (Codex Lily). Source authors and upstream projects are credited in [CREDITS.md](CREDITS.md) and beside the relevant research. See [LICENSE](LICENSE) for this package's original material and the boundaries around cited third-party work.
 

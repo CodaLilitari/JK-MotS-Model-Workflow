@@ -7,11 +7,13 @@ Use Blender for shape, UV and material work; use a reproducible export copy for 
 | Method | Choose it when | Working pattern |
 |---|---|---|
 | Blender UI | Sculpting, seam placement, silhouette, manual donor fitting and visual judgment dominate. | Preserve the source file; make a named export collection/copy; inspect neutral front, rear, side and three-quarter views before export. |
-| Background Blender Python | You need repeatable import, UV/bake, asset conversion, matched cameras or validation across many files. | Run `blender --background --factory-startup --python job.py -- <job arguments>`. Use an explicit input/output list and save a receipt with versions, hashes and settings. |
-| Python with an isolated `bpy` package | An existing tested runtime already runs background Blender jobs without desktop setup. | Use that interpreter and its exact dependency directory. Record `bpy.app.version_string`; verify the actual import location. A successful ordinary Python launch does not prove that the intended Blender package loaded. |
+| Background Blender Python | You need repeatable import, UV/bake, asset conversion, matched cameras or validation across many files. | Resolve the current installation, then use its absolute Blender executable with `--background --factory-startup --python job.py -- <job arguments>` and bounded supervision. Use an explicit input/output list and save versions, hashes and settings. |
+| Python with an isolated `bpy` package | An existing tested runtime already runs background Blender jobs without desktop setup. | Use the resolver's selected interpreter and optional exact dependency directory; preserve a virtual environment's interpreter path. Record `bpy.app.version_string`; verify the actual import location. A successful ordinary Python launch does not prove that the intended Blender package loaded. |
 | An existing Blender MCP bridge | Interactive scene inspection or many small edits in an already connected artist session would benefit from it. | Verify the bridge can perform the needed operation; checkpoint the scene, target named objects and verify results. The bridge is transport, not a substitute for a modeling method. |
 
 The historical projects used background Python/`bpy` and project scripts; the initial audit found upstream add-on copies and external adapters. A subsequent [focused Blender-Sith fork](blender-sith-fork.md) adds normal-preservation and metadata fixes with synthetic regressions. Blender itself was not forked. The later release adds a separate optional Sith-format MCP companion; see the current fork guide for its limited scope. See [the original add-on audit](blender-sith-audit.md) for the prior baseline.
+
+Default Blender-Sith jobs share the model skill's [current-install resolver](blender-sith-fork.md#resolve-the-shared-current-installation). Use its verified `addon_dir`, `source_root` and runtime instead of assuming that a checkout, desktop extension or bare `blender` command selects the same version. Missing or invalid configuration must be repaired explicitly. Historical and development comparisons keep their deliberate source/runtime choices and separate receipts; they do not silently change the default installation.
 
 For inspection or screenshots of an existing native 3DO, the default is a direct import through that fork. Follow [the explicit import and provenance recipe](blender-sith-fork.md#direct-native-import-for-inspection-and-screenshots), then add cameras and lighting around the imported objects. Do not substitute a custom mesh reconstruction merely because a render script already exists. Record any material conversion, normal recalculation, triangulation or geometry change as an adaptation; retain an unmodified import for comparison. A polished image establishes only the appearance of the imported geoset under the recorded presentation settings.
 
@@ -21,7 +23,7 @@ For inspection or screenshots of an existing native 3DO, the default is a direct
 |---|---|---|
 | Prepared export duplicate + Blender-Sith fork | A mostly manual Blender workflow; deliberate final topology; all required operations can be made explicit. | Apply intended geometry operations to the duplicate, set Sith properties, then independently read back the 3DO. The focused fork preserves corner-normal splits; the September 2026 audited upstream did not, so verify the loaded source rather than relying on the add-on name. |
 | Existing deterministic 3DO writer | Procedural assembly or a project already has a reviewed writer and format tests. | This route successfully carried our custom hierarchy, per-face modes, MAT contracts and all-LOD checks. Confirm the writer's exact revision and reparse with an independent implementation. Do not assume that an arbitrary writer preserves everything. |
-| Focused Blender-Sith fork | You want direct export of existing sharp/custom corner normals or predictable scripted hex metadata. | The published fork fixes these issues and later adds MAT/KEY repairs; use its version-specific guide. Prepare modifiers/transforms separately; shared meshes can still be duplicated. Further exporter changes need their own scoped regressions. |
+| Blender-Sith fork with the reviewed API for the selected version | You want corner normals, native metadata, animation or baked-image MAT output in one toolchain. | The published 1.0.4 baseline and 1.1.0 integration have different APIs/capabilities; use the version-specific guide. Prepare modifiers/transforms separately; shared meshes can still be duplicated. Further exporter changes need their own scoped regressions. |
 
 For the first method, a useful sequence is:
 
@@ -34,6 +36,90 @@ For the first method, a useful sequence is:
 7. Exercise the intended KEY/PUP domain and then run the target game. Keep editor round-trip, isolated animation samples, game rendering and connected multiplayer as separate observations.
 
 Blender's dependency graph distinguishes original geometry from evaluated geometry; an export helper can obtain an evaluated object and temporary mesh, then release that mesh with `to_mesh_clear()`. Persistent copies need an appropriate persistent-mesh path. Check the API documentation for the installed Blender version before writing an adapter. [Blender API: evaluated geometry](https://docs.blender.org/api/5.0/bpy.types.Depsgraph.html)
+
+### Native MAT export from baked images
+
+This recipe targets the **1.1.0 API** described in the [fork migration
+guide](blender-sith-fork.md#110-integration). Resolve the current installation
+first; use this API when that exact version is verified, or in a deliberately
+selected development comparison. Verified release/source evidence does not
+silently upgrade an installed copy. Version 1.0.4 jobs retain their existing
+material converter.
+
+The native exporter writes pixels from a Blender Image or a Material's resolved
+image/cel bindings. It does not evaluate a procedural shader, generate UVs or bake
+lighting for you. Complete the color/image bake below first, save it, and inspect
+it on the delivery mesh. A palette-free import placeholder is not a recoverable
+color source; reload the MAT with the intended CMP before export.
+
+For an indexed material, choose the actual target game's or level's CMP. For a
+separate RGB565 edition, choose `RGB565` explicitly and test the accelerated
+original-game route. The API defaults to `RGBA32`; its existence in the codec is
+not evidence of JK/MotS renderer support. Record encoding, CMP hash, source image
+hashes, dimensions, alpha policy, cels and mip policy for each output.
+
+```python
+from sith.material import matExporter
+
+# bpy, the registered verified add-on and absolute job paths are already set up.
+# baked_image is the inspected bpy.types.Image, not a shader or placeholder.
+warnings = []
+wrote = matExporter.exportMat(
+    baked_image, str(mat_output_path), encoding='INDEXED',
+    palettePath=str(cmp_path), overwrite=False, generateMipmaps=True,
+    warnings=warnings,
+)
+if not wrote:
+    raise RuntimeError('Existing MAT was kept; select a new candidate output path')
+# Retain warnings and decode the written file with the same CMP for pixel review.
+```
+
+For animation, export the Material with its complete cel bindings. Bind successive
+`bpy.types.Image` values to `material['_sith_mat_cel_0']`,
+`material['_sith_mat_cel_1']`, and so on, with no gap. An Image by itself exports
+only one cel. Do not silently flatten an imported multi-cel MAT to the currently
+visible frame. Preserve the intended alpha policy: RGB565 discards alpha and emits
+a warning when appropriate. Decoding all cels and mips is separate from testing
+the COG/game event that selects them.
+
+A prepared model can export its referenced materials alongside its 3DO:
+
+```python
+from sith.model import model3doExporter, model3doLoader
+
+# Use a new external candidate folder; ensure its parent exists before export.
+# This example's prepared Blender UVs are normalized and need 2.1 pixel conversion.
+warnings = []
+model3doExporter.export3do(
+    root, str(model_output_path), model3doLoader.Model3doFileVersion.Version2_1,
+    uvAbsolute=True, exportVertexColors=True, sync_mesh_list=False,
+    warnings=warnings, exportTextures=True, textureEncoding='INDEXED',
+    texturePalette=str(cmp_path), overwriteTextures=False,
+    generateMipmaps=True, textureDirectory=str(mat_output_directory),
+)
+```
+
+Use an explicit absolute `textureDirectory` to make the job layout unambiguous.
+Keep hierarchy indices intentional before selecting `sync_mesh_list=False`.
+The exporter retains imported UV-domain metadata to avoid applying image size
+twice; an old scene without that metadata needs comparison with its native source
+before this conversion. Resolve material name collisions, including output names
+that normalize to the same MAT. Image resolution follows actual connected/bound
+color images, not any arbitrary texture node in the material.
+
+Geometry and images are prepared before bundle publication, with rollback for
+ordinary publication failures. Keep independent original backups: an OS-level
+rollback failure can leave a recovery staging directory. Capture warnings and
+inspect the final paths. `overwriteTextures=False` can preserve an existing MAT
+while writing a new model; treat that as a reported reuse, not proof that new
+pixels were encoded. Prefer a fresh candidate directory for a complete export.
+
+Read the native 3DO and MATs back, compare intended material names, UV units,
+dimensions, cels, mips, decoded colors and transparency, then inspect the imported
+model and actual target renderer. Float-preserving output changes exact text and
+hashes; numeric comparisons and meaningful bounds checks replace an assumption of
+six-decimal formatting. A 3DO 2.2 RGB fix is not a reason to change a JK/MotS model
+from 2.1. KEY export separately selects its [game target](compatibility.md#select-the-key-export-target).
 
 ## Three different meanings of baking
 

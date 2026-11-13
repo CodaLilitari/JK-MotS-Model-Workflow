@@ -162,7 +162,7 @@ class ReleaseBoundaryTests(unittest.TestCase):
             self.assertIn(base + "LICENSE", z.namelist())
             self.assertIn(base + "CREDITS.md", z.namelist())
             updates = json.loads((out / "research-updates.json").read_text())
-            self.assertEqual(updates["requires_skill_version"], "1.1.0")
+            self.assertEqual(updates["requires_skill_version"], "1.6.0")
             state = json.loads(z.read(base + "research-update-state.json"))
             self.assertEqual(state["research_revision"], release.RESEARCH_REVISION)
             self.assertEqual(state["files"], updates["files"])
@@ -184,7 +184,9 @@ class ReleaseBoundaryTests(unittest.TestCase):
             self.source(name, data)
         self.allow(payloads)
         out = self.base / "distribution"
-        with mock.patch.object(release, "ROOT", self.root), mock.patch.object(sys, "argv", ["builder", "--output", str(out)]):
+        # Keep this historical compatible-feed fixture independent of the
+        # current release's deliberate full-skill upgrade requirement.
+        with mock.patch.object(release, "ROOT", self.root), mock.patch.object(release, "RESEARCH_REQUIRES_SKILL_VERSION", "1.1.0"), mock.patch.object(sys, "argv", ["builder", "--output", str(out)]):
             release.main()
         feed = json.loads((out / "research-updates.json").read_text(encoding="utf-8"))
         fresh = self.base / "fresh-skill"

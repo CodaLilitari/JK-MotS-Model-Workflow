@@ -41,6 +41,49 @@ Indexed MATs can also be used with acceleration. [Same-name local material editi
 
 RGB565 is not inherently an unofficial-patch-only MAT format. Conversely, a successful modern PNG replacement does not show that an original executable can load that PNG. JKE's package-level patch requirement is real, but it is not evidence that every detailed character needs a larger per-mesh limit. See [the historical comparison](jke-tdir-shred-research.md).
 
+### Select the KEY export target
+
+The [Blender-Sith 1.1.0 integration](blender-sith-fork.md#110-integration)
+adds the upstream target-aware exporter. Use the verified API's explicit module
+and game target; this recipe does not imply that the shared installation has
+already changed:
+
+```python
+from sith.key import keyExporter
+
+keyExporter.exportKey(root, bpy.context.scene, str(key_output_path), target='JKDF2')
+# For Mysteries of the Sith, pass target='MOTS' instead.
+```
+
+The API default is `IJIM`, not JK. Both `JKDF2` and `MOTS` validate at most 64
+joints, 8 markers and 31-character resource/joint names; IJIM uses different
+marker/name limits. `CUSTOM` removes game-specific limits but retains format
+safety checks. It is not a certificate that an original or patched engine can
+use the result. A target-specific failure requires a deliberate animation/asset
+change or a separately proven engine contract, not retrying under `CUSTOM` to
+obtain a green export.
+
+These checks complement the numbered rig and complete KEY/PUP allocation rules
+below. They neither retarget a model nor prove reachable animation completeness.
+3DO version, KEY target and MAT encoding are separate choices: retain the 2.1
+3DO lane and the selected indexed/RGB565 material contract for JK/MotS. The 3DO
+writer can warn about overlong legacy names while still writing them; review
+warnings and enforce the intended game's resource limits independently.
+
+Supported sparse axes, fractional key times, held segments and Bezier curves are
+sampled into native KEY entries/differentials. Preserve unkeyed object-channel
+defaults and evaluate the serialized result at its actual frame times and between
+entries; added samples mean entry number is not frame number. Check explicit
+nonzero-to-zero returns, wrap boundaries, long Euler turns and markers. Record
+scene FPS and any deliberate `fps` override. Unsupported animation layers,
+drivers, NLA or constraints require an explicitly prepared/baked animation;
+failure is not permission to silently omit them. Quaternion orientations alone
+cannot recover an unrecorded full revolution.
+
+Compare restored native pivots, weapon attachment matrices, mesh motion and
+KEY/PUP role mappings, then test the exact game and transition/blending cases.
+Synthetic serialization/interpolation checks do not establish gameplay.
+
 ## Preserve the numbered animation contract
 
 JK/MotS characters are assembled from rigid hierarchy parts. A successful Blender deformation preview does not mean a modern weighted skeleton transfers into native KEY/3DO animation. Decide which geometry moves with each native node, where its pivot is, and whether an extra detail is a rigid child or needs an independently authored animation track.

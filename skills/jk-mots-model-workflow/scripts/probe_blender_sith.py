@@ -3,7 +3,9 @@
 Run in a fresh background Blender process, or Python with an existing bpy
 installation. The output directory must not exist. Exit 0 means the probes
 completed, not that the add-on is defect-free. --require-fixed returns 1 when
-any known defect remains. No add-on file or desktop preference is changed.
+any known defect remains. Deliberate rejection of an unapplied modifier is
+reported separately from silently exporting its base mesh. No add-on file or
+desktop preference is changed. This is not the full core/application test suite.
 """
 from __future__ import annotations
 
@@ -63,12 +65,14 @@ def main():
     exporter = importlib.import_module(package_name + ".model.model3doExporter")
     loader = importlib.import_module(package_name + ".model.model3doLoader")
     report = {
-        "schema": "blender-sith-synthetic-probes-v1",
+        "schema": "blender-sith-synthetic-probes-v2",
         "utc": datetime.now(timezone.utc).isoformat(),
         "blender": bpy.app.version_string,
         "python": sys.version,
         "scope": "Synthetic fixtures only; no animation/game/MAT compatibility verdict",
         "addon_files_sha256": before,
+        "exporter_module": exporter.__file__,
+        "loader_module": loader.__file__,
         "harness_completed": False,
         "tests": {},
     }
@@ -85,8 +89,8 @@ def main():
         bpy.context.scene.collection.objects.link(obj)
         obj.sith_model3do_hnode_idx = 0
         fixture = out_dir / "splitprobe.3do"
-        addon.export3do(obj, str(fixture), loader.Model3doFileVersion.Version2_1,
-                        False, False, False)
+        exporter.export3do(obj, str(fixture), loader.Model3doFileVersion.Version2_1,
+                          False, False, False)
         parsed, _ = loader.load3do(str(fixture))
         exported = parsed.geosets[0].meshes[0]
         wrong = []
@@ -108,12 +112,17 @@ def main():
         }
         root = bpy.data.objects.new("sharedroot", None)
         bpy.context.scene.collection.objects.link(root)
-        obj.parent = root
+        native_root = bpy.data.objects.new("sharedjoint", None)
+        bpy.context.scene.collection.objects.link(native_root)
+        native_root.parent = root
+        native_root.sith_model3do_hnode_idx = 0
+        obj.parent = native_root
+        obj.sith_model3do_hnode_idx = 1
         second = bpy.data.objects.new("sharedcopy", mesh)
         bpy.context.scene.collection.objects.link(second)
-        second.parent = root
+        second.parent = native_root
         second.location = (2,0,0)
-        second.sith_model3do_hnode_idx = 1
+        second.sith_model3do_hnode_idx = 2
         shared = exporter.makeModel3doFromObj("shared.3do",root,sync_mesh_list=False)
         tests["shared_mesh"] = {
             "input_mesh_datablocks":1, "input_mesh_objects":2,
@@ -153,14 +162,26 @@ def main():
                         "faces":len(evaluated_mesh.polygons)}
         finally:
             evaluated_obj.to_mesh_clear()
-        model = exporter.makeModel3doFromObj("modifier.3do",cube,sync_mesh_list=False)
-        exported = model.geosets[0].meshes[0]
-        actual = {"vertices":len(exported.vertices),"faces":len(exported.faces)}
+        rejection = None
+        actual = None
+        try:
+            model = exporter.makeModel3doFromObj("modifier.3do",cube,sync_mesh_list=False)
+        except ValueError as exc:
+            # Only the expected policy rejection completes this observation.
+            # An unrelated export failure must retain a failed harness receipt.
+            if str(exc) != f"Apply visible mesh modifiers on '{cube.name}' before 3DO export":
+                raise
+            rejection = str(exc)
+        else:
+            exported = model.geosets[0].meshes[0]
+            actual = {"vertices":len(exported.vertices),"faces":len(exported.faces)}
         tests["unapplied_modifier"] = {
             "base":{"vertices":len(cube.data.vertices),"faces":len(cube.data.polygons)},
             "evaluated":expected,"exported":actual,
+            "outcome":"rejected_unapplied_modifier" if rejection else "exported",
+            "rejection":rejection,
             "modifier_retained_on_source":len(cube.modifiers)==1,
-            "defect_observed":actual!=expected,
+            "defect_observed":rejection is None and actual!=expected,
         }
         report["harness_completed"] = True
     finally:

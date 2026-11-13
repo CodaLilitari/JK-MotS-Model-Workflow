@@ -1,4 +1,49 @@
-# Release validation — 1.5.0
+# Release validation — 1.6.0
+
+## Version 1.6.0 evidence review
+
+Prepared November 13, 2026. Workflow 1.6.0 / research revision `2026111301`
+updates APIs, shared installation resolution and release guidance while retaining
+all previous Red/Wren/Dot research. It does not run a new game, generate an asset
+or certify multiplayer.
+
+- Blender-Sith integration source `25955b7976d966a12feff273087b58cb7c82d4e3`
+  combines upstream `01ff4bd85498074e6f936d9adbbcc93817ca712d` and the reviewed
+  Coda hex/pivot changes. [Native CI run 43385708162](https://github.com/CodaLilitari/blender-sith/actions/runs/43385708162)
+  completed successfully for Linux x64 and ARM64 macOS. Final release source is
+  pinned at `0b30d90c5529ef6f11e822f6812c5332b7362c6e`; exact release ZIP/hash
+  readback and installation remain separate finalization records.
+- The Linux run reports 264 upstream core cases, 768 Blender application cases
+  and 29 Coda checks. The macOS artifacts independently report 264 core and 768
+  application cases with zero skips, plus 29 Coda checks. The Windows core run
+  completed 264 cases with two host-capability skips. Retain each platform's
+  own detailed artifacts. These are add-on/codec tests, not retail game tests.
+- The workflow probe first failed on the removed root-level `export3do` API,
+  then exposed its multiple-root fixture. After explicit-module and single-root
+  fixture migration, the observed Blender 5.1.2 run exited 0 with completed
+  reporting and unchanged add-on source. Shared-mesh duplication remains its
+  one reported limitation; visible-modifier rejection is recorded separately.
+- Independent read-only application review exercised a procedural armor plus
+  two-cel indexed MotS material/KEY case and a malformed textured 3DO plus old
+  Blender-scene case. It confirmed actionable routes and prompted explicit
+  clarification of ordinary flat normals and authored collision radius. This
+  was instruction review, not a newly executed asset pipeline.
+- The shared resolver and focused tests retain their reviewed bytes; they bind
+  exact package payload, runtime, launcher and harness without running Blender.
+  Private manifests and installation paths are excluded from the public package.
+- Research revision `2026111301` requires complete skill 1.6.0 because the
+  reference instructions depend on new scripts/entrypoint. The updater logic is
+  unchanged; a historical compatible-feed fixture remains pinned separately
+  from the new full-upgrade requirement.
+- Fresh offline workflow tests completed 46 cases: 45 passed and one Windows
+  symlink-capability case was skipped. The resolver suite completed 21 cases:
+  20 passed and one symlink-capability case was skipped. Skill-creator validation
+  passed with Python's explicit UTF-8 mode; its initial locale-default read failed
+  on valid UTF-8 and is retained as a tool/environment receipt, not a skill defect.
+- Final allowlist/readback, archive/feed hashes, publication and installed-copy
+  receipts are separate records for the new 1.6.0 bytes. Historical suite totals
+  below are not substituted for current validation, and no immutable older
+  release is replaced.
 
 ## Version 1.5.0 evidence review
 

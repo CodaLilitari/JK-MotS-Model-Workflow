@@ -19,6 +19,14 @@ The [community surface research](community-surface-research.md) adds original mo
 
 These methods combine well: a generated material source plus procedural color control and a final hand-painted seam pass is often more controllable than repeated whole-atlas generation. For a simple recolor, use a deterministic color edit. For a genuinely new design, offer a reference/concept stage before geometry or texture production.
 
+For the Blender-Sith 1.1.0 integration, [native MAT export from baked
+images](blender-export-and-baking.md#native-mat-export-from-baked-images) can encode
+the inspected image or a Material's complete cel set directly. Select the output
+encoding explicitly and provide the real CMP for indexed output; the API's
+`RGBA32` default is not a JK/MotS compatibility recommendation. This saves a
+conversion step after baking, not the UV/image bake or target-renderer review.
+Keep existing converter recipes when the selected installation predates that API.
+
 ## Establish the texture contract first
 
 Record material regions, anatomical side, UV orientation, runtime dimensions, working dimensions, intended pixel density, seam neighbors, palette/transparency policy and the reference role of each input. Agree on the face/identity and one representative clothing pilot before mass production.

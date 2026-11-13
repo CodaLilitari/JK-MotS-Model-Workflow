@@ -82,6 +82,8 @@ skills/jk-mots-model-workflow/scripts/inspect_contract.py
 skills/jk-mots-model-workflow/scripts/prepare_finding.py
 skills/jk-mots-model-workflow/scripts/probe_blender_sith.py
 skills/jk-mots-model-workflow/scripts/research_updates.py
+skills/jk-mots-model-workflow/scripts/resolve_install.py
+skills/jk-mots-model-workflow/scripts/test_resolve_install.py
 tests/test_comfy_bridge.py
 tests/test_contract.py
 tests/test_prepare_finding.py

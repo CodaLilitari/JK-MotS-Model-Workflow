@@ -1,5 +1,16 @@
 # Changes
 
+## 1.6.0 — 2026-11-13
+
+- Update Blender-Sith guidance for extension 1.1.0 / `v1.1.0-coda.1`, integrating upstream `01ff4bd` and reviewed Coda hexadecimal-property/native-pivot changes. Keep release, exact-package/native CI, installation and game evidence separate.
+- Document explicit exporter modules, JKDF2/MOTS KEY targets and timestamp-based adaptive-sampling checks; retain complete hierarchy/PUP allocation rules.
+- Add baked-image native MAT export with a real CMP for indexed output, explicit RGB565 versus other encodings, complete cel/mip preservation, and existing-file reuse warnings. Procedural shaders still require an image bake.
+- Explain strict import versus deliberate incomplete-file recovery, linear vertex colors, current flat/custom-normal representation, UV-unit metadata, float precision and old-scene migration. Distinguish authored collision radius from automatic model and mesh culling bounds.
+- Ship the shared current-install resolver and its focused tests. Default jobs bind the verified add-on/runtime; explicit comparisons keep separate identities. Private manifests and machine paths are not bundled.
+- Migrate the focused Blender probe to explicit modules and a valid single-root shared-mesh fixture; record intentional modifier rejection separately from silent base-mesh export.
+- Preserve all Red/Wren/Dot research, earlier material-edition evidence and public attribution. This workflow release adds no new game, generation or multiplayer acceptance claim.
+- Advance research revision to `2026111301` and require complete skill `1.6.0` for this feed: research-only updates cannot install the resolver/helper or new entrypoint. Earlier immutable releases remain separate.
+
 ## 1.5.0 — 2026-11-12
 
 - Add Dot Lilitari's distinct Kestrel Relay case: pin editor capabilities, preserve resource/template dependencies after edits, distinguish preview palettes from level palettes, and verify material cels and gameplay bindings. This level work is not attributed to the GPT Lilitari surface or described as Tripo/Blender-Sith model generation.

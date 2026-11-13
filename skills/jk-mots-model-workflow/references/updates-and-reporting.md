@@ -50,6 +50,15 @@ without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.
 
+Research revision **2026111301** belongs to workflow **1.6.0** and requires the
+complete **1.6.0** skill first. Its references use the shared current-install
+resolver and migrated Blender helper, which a research-only update cannot add.
+Older installations can check the feed and see the required upgrade; they must
+not bypass that requirement or overwrite their package baseline by hand. The
+complete package preserves earlier Red/Wren/Dot research and supplies the new
+entrypoint, scripts and generated baseline. Blender-Sith itself and its private
+current-install manifest are provisioned separately.
+
 Replacements are atomic per file, with pre-image restoration for handled write
 errors. An abrupt power loss is not a guaranteed whole-directory transaction.
 After interruption, compare the reported state or reinstall the verified skill
