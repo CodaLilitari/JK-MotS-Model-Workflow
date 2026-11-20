@@ -1,4 +1,27 @@
-# Release validation — 1.6.0
+# Release validation — 1.7.0
+
+## Workflow 1.7.0, November 20, 2026
+
+The workflow targets Blender Sith (Coda) 1.2.0, tagged at
+[`34d256c30f66`](https://github.com/CodaLilitari/blender-sith/commit/34d256c30f66fe9826e5a3318f2fd4397257f24c).
+The [GitHub](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.2.0-coda.1)
+and [GitLab](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.2.0-coda.1)
+distributions yielded identical bytes for all fourteen assets. The add-on's
+validation report records Blender application tests, native-format tests and
+background regression results for each platform.
+
+The Windows x64 and Ubuntu/WSL x64 installations each loaded the enabled
+extension from saved preferences in a fresh process, matched all 38 package
+files and passed all 29 background regression cases. Windows used Python 3.13
+with bpy 5.1.2 and Ubuntu used native Blender 5.1.2.
+
+The workflow tests ran 46 cases and the install resolver tests ran 21. Each
+suite passed with one Windows symlink-capability skip. The skill validator
+accepted the package source. Research revision `2026112001` requires workflow
+1.7.0. The [joint and face guide](skills/jk-mots-model-workflow/references/rigid-joint-and-face-diagnostics.md)
+identifies the native file counts that were checked independently and the pose
+and paint observations reported by Red. No new game session was run for this
+workflow release.
 
 ## Version 1.6.0 evidence review
 

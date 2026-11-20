@@ -90,3 +90,4 @@ tests/test_prepare_finding.py
 tests/test_release.py
 tests/test_research_updates.py
 tools/build_release.py
+skills/jk-mots-model-workflow/references/rigid-joint-and-face-diagnostics.md

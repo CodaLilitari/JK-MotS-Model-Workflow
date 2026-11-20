@@ -8,22 +8,17 @@ The public [GitHub repository](https://github.com/CodaLilitari/blender-sith) now
 
 ## Public release and installation
 
-Workflow 1.6.0 targets **v1.1.0-coda.1**, extension version **1.1.0**, named
-**Blender Sith (Coda)**. The integration at source
-[`25955b7976d966a12feff273087b58cb7c82d4e3`](https://github.com/CodaLilitari/blender-sith/commit/25955b7976d966a12feff273087b58cb7c82d4e3)
-passed native Linux and ARM64 macOS CI in
-[run 43385708162](https://github.com/CodaLilitari/blender-sith/actions/runs/43385708162).
-The final release source is pinned at
-[`0b30d90c5529ef6f11e822f6812c5332b7362c6e`](https://github.com/CodaLilitari/blender-sith/commit/0b30d90c5529ef6f11e822f6812c5332b7362c6e);
-match the distributed payload with the release's exact package receipts.
-Use the [GitHub release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.1.0-coda.1)
-or [GitLab mirror](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.1.0-coda.1)
-for final published assets and receipts. CI success and release availability are
-separate: verify the actual archive/hash before installation. Keep the exact
-version, platform, archive hash and measured runtime in every job receipt.
+Workflow 1.7.0 targets **v1.2.0-coda.1**, extension version **1.2.0**, named
+**Blender Sith (Coda)**. Release source is pinned at
+[`34d256c30f66fe9826e5a3318f2fd4397257f24c`](https://github.com/CodaLilitari/blender-sith/commit/34d256c30f66fe9826e5a3318f2fd4397257f24c).
+Use the [GitHub release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.2.0-coda.1)
+or [GitLab mirror](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.2.0-coda.1)
+and their exact package receipts. Published release, installed selection and
+game acceptance remain distinct: verify the actual archive and payload before
+using the new APIs. Keep platform, archive hash and measured runtime in the job.
 
-1. Use Blender **5.0 or newer** and choose [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.1.0-coda.1/sith-1.1.0-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.1.0-coda.1/sith-1.1.0-linux-x64.zip), [macOS Apple Silicon](https://github.com/CodaLilitari/blender-sith/releases/download/v1.1.0-coda.1/sith-1.1.0-macos-arm64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.1.0-coda.1/sith-1.1.0-universal.zip).
-2. Compare the download with the release's [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.1.0-coda.1/SHA256SUMS.txt). Per-package receipts record source and normalized file hashes.
+1. Use Blender **5.0 or newer** and choose [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-linux-x64.zip), [macOS Apple Silicon](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-macos-arm64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-universal.zip).
+2. Compare the download with the release's [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/SHA256SUMS.txt). Per-package receipts record source and normalized file hashes.
 3. In Blender, open **Edit > Preferences > Add-ons > Install from Disk**, select the ZIP and enable the extension. The ID remains `sith`; use one edition in a given extension repository.
 
 These are Python extensions, not Blender executables. The optional MCP companion
@@ -35,6 +30,73 @@ Silicon: this Blender-5.0-minimum release does not claim Intel Mac support.
 The preceding [v1.0.3-coda.2 release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.3-coda.2)
 already supplied a separately validated Apple Silicon package. Earlier statements
 that no Mac 1.0.3 asset existed described v1.0.3-coda.1 and are historical.
+
+## 1.2.0 native pivots and binding audit
+
+The [1.2.0 release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.2.0-coda.1)
+is pinned to source `34d256c30f66fe9826e5a3318f2fd4397257f24c`. Keep its
+[package checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/SHA256SUMS.txt)
+and [validation record](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/VALIDATION.md)
+with the selected job. The extension ZIP is the installable artifact; there is no
+separate fork installer. The optional MCP companion comes from matching source
+and is not required for ordinary Blender work or the native binding API.
+
+**Choose the native frame deliberately.** The Native Pivot XYZ control stores
+the static local mesh/attachment offset in `3do_pivot`, including on Empty
+nodes. Changing it preserves the editable surface and joint channels while
+changing the native frame exported around that surface. The default export
+restores that separate pivot and compensates temporary mesh coordinates. Object
+and inherited scale apply to both. This is not an automatic repair of arbitrary
+origin changes, Apply Transform operations, animation rigs or an old scene that
+already lost its source pivots.
+
+Old `3do_imported_pivot` data remains readable. The canonical property takes
+precedence even when zero; editing the numeric control removes the legacy key.
+A supported active Blender Pivot constraint takes precedence over stored native
+metadata, even with zero offset. Muted or zero-influence constraints leave the
+stored value available. Keep KEY's separate supported live-pivot semantics.
+
+**Bake Pivots is an intentional loss of the native frame.** The optional
+`export3do(..., bakePivots=True)` mode writes zero native pivots, including on
+Empty nodes, while preserving exported surfaces and descendant joint poses.
+It uses current editable vertices and discards stored offsets; supported live
+Pivot constraints are still validated. This is neither a KEY bake nor a remedy
+for a wrong mesh-to-joint assignment. Leave it off when preserving a native
+attachment contract. Compare serialized joint and mesh frames as well as posed
+surfaces before deciding that a result is equivalent. See the versioned
+[pivot contract](https://github.com/CodaLilitari/blender-sith/blob/v1.2.0-coda.1/docs/blender-pipeline.md).
+
+**Check what each KEY index addresses.** With the verified add-on's parent on
+`sys.path`, the resource API can run without Blender:
+
+```python
+from sith.model.model3doLoader import load3do
+from sith.key.keyLoader import loadKey
+from sith.key.modelBinding import auditModelKey
+
+model, model_version = load3do(model_path)
+key = loadKey(key_path)
+binding = auditModelKey(model, key, key_target="MOTS")  # or "JKDF2"
+```
+
+The audit checks indexed slots, names, declared allocation, basic numeric and
+track-timing integrity, and the selected engine's KEY limits. Names are useful
+diagnostics: the engine binds by index, so a label mismatch is review evidence,
+not proof of misbinding. Results are `consistent`, `review`, `incompatible` or
+`no_tracks`. Only 32 detailed findings are returned; `issue_counts` and
+`findings_truncated` preserve the wider diagnostic scope. Unknown parsed marker
+types retain their declared/skipped counts, so a dropped marker cannot hide a
+source marker-limit violation. The audit does not evaluate animation, PUP
+blending, first-frame policy, limb reach, weapon grip or attachment appearance.
+Follow it with actual pose and game checks; do not rename tracks to hide a
+mismatch or replace the existing allocation inspector's simpler use case.
+
+**Use geometry-only import for a bounded diagnostic.**
+`import3do(..., loadExternalMaterials=False)` explicitly avoids neighboring
+MAT/CMP discovery. Ordinary import still loads materials by default. A
+geometry-only `.blend` is not a textured inspection or a completed conversion.
+Count native triangles, quads and n-gons by geoset before comparing budgets;
+the scene importer still represents geoset 0 only.
 
 ## 1.1.0 integration
 
@@ -56,7 +118,7 @@ from sith.key import keyExporter
 from sith.material import matExporter
 ```
 
-Keep `sith.register()` in a real Blender process before scene/property work.
+Enable the selected module through `addon_utils.enable("sith", default_set=False)` in a disposable Blender process before scene/property work; use Blender's restricted registration path.
 Resource codecs can be imported without Blender; scene adapters and `exportMat`
 still require it. Confirm the selected package version and module paths before
 using the new keyword arguments below. A resolver result for 1.0.4 remains 1.0.4;
@@ -147,7 +209,7 @@ Run `python scripts/resolve_install.py` from the model skill with Python 3.11 or
 newer; `--manifest <absolute-manifest-path>` selects another explicit manifest.
 The resolver checks files and prints JSON. It never launches Blender, imports
 `bpy` or the add-on, installs anything, or falls back to PATH or a checkout.
-The installer chooses the current release; the resolver verifies that declared
+The explicit installation step chooses the current release; the resolver verifies that declared
 selection, not whether a newer public release exists. Keep private manifests,
 runtime paths and resolved job receipts out of portable research packages.
 
@@ -222,6 +284,7 @@ cmp_path = Path(cmp_path).resolve()
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(fork_root))
 import bpy
+import addon_utils
 import sith
 from sith.model import model3doImporter, model3doLoader
 
@@ -236,7 +299,7 @@ source_hashes = {
     for p in sorted((fork_root / "sith").rglob("*"))
     if p.is_file() and p.suffix in (".py", ".toml")
 }
-sith.register()
+assert addon_utils.enable("sith", default_set=False) is not None
 native, file_version = model3doLoader.load3do(str(model_path))
 import_options = dict(
     mat_dirs=[str(mat_dir)],

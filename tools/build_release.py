@@ -9,10 +9,10 @@ import stat
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.6.0"
-RESEARCH_REVISION = 2026111301
-# This research uses resolver/helper scripts delivered by the complete 1.6 skill.
-RESEARCH_REQUIRES_SKILL_VERSION = "1.6.0"
+VERSION = "1.7.0"
+RESEARCH_REVISION = 2026112001
+# This research is paired with the revised 1.7 entrypoint and API guidance.
+RESEARCH_REQUIRES_SKILL_VERSION = "1.7.0"
 
 
 def selected_files(root):

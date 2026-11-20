@@ -85,3 +85,25 @@ See [Tripo conversion](skills/jk-mots-model-workflow/references/tripo-to-jk.md),
 - **Andrei**: direction, budgets, source recovery and workflow choices. **Tripo**: generated source geometry/textures. **Coda in Codex**: independent source/artifact analysis, workflow synthesis, and reproduced radius/pivot repairs in the Blender-Sith fork.
 
 [Measured Tripo methods](skills/jk-mots-model-workflow/references/tripo-to-jk.md) and [environment-prop handoff](skills/jk-mots-model-workflow/references/environment-props-to-jk.md) contain portable technical findings. Private conversations and source artwork are not bundled or redistributed by this update.
+
+## November 16–20 joint, face and world-model research
+
+**Red / Claude** supplied the later Darth Lilitari R9–R9.3 reconstruction and
+diagnoses: rigid-part ownership in a failing pose, cut-centred caps, a shallow
+shoulder lid, preserved proportions through an explicit adapter hierarchy, and
+the November 16 clay/albedo face-registration comparison. **Andrei** supplied
+direction and references and identified remaining defects. **Lily / Lilitari**
+retains the earlier portrait and R4/R5 credit; Red's R9 notes explicitly do not
+claim Lily's review or reuse of Lily's R5 costume paint. **Tripo** supplied the
+generated body/head sources. The notes credit the earlier Mandalorian method,
+Biddy's adapter rig, and the Andrei/Coda workflow and Blender-Sith tooling.
+
+For Sith Council V2 Candidate04, credit **Lily's Candidate03 base** and **Red's**
+coplanar-face merge, audit and warning about changed interpolation. Native-face
+reduction is not attributed as a measured frame-rate improvement. **Coda in
+Codex** inspected the cited records, recounted R9.3 native face types and
+triangle equivalents, and prepared the portable workflow synthesis. Authored
+runtime reports, new static measurements and final acceptance are separate.
+See [joint/face diagnostics](skills/jk-mots-model-workflow/references/rigid-joint-and-face-diagnostics.md)
+and [world-model reduction](skills/jk-mots-model-workflow/references/environment-props-to-jk.md#red-reduce-coplanar-world-model-faces-without-assuming-a-speedup).
+No private model, level archive, source image or capture is redistributed.

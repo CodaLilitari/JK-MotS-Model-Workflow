@@ -61,7 +61,12 @@ def main():
     addon = importlib.util.module_from_spec(spec)
     sys.modules[package_name] = addon
     spec.loader.exec_module(addon)
-    addon.register()
+    # Use Blender's restricted registration context, as normal add-on loading
+    # does. Direct register() can inspect a live context that registration must
+    # not depend on. This disposable process does not save preferences.
+    import addon_utils
+    if addon_utils.enable(package_name, default_set=False) is None:
+        raise RuntimeError("Blender-Sith registration failed")
     exporter = importlib.import_module(package_name + ".model.model3doExporter")
     loader = importlib.import_module(package_name + ".model.model3doLoader")
     report = {

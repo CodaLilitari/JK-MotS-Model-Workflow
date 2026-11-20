@@ -95,3 +95,40 @@ For multi-cel materials, audit cel order, texture indices, complete mip payloads
 **Keep runtime claims tied to the mechanism tested.** Dot's retained OpenJKDF2 receipts report both relay orders passing 13/13 mission assertions, no-cache completion passing 11/11, and collision-driven actual-player traversal through 47 sectors. The mission tests supplied synthetic sender/source identities; the traversal used normal collision but did not activate the relays. Neither proves physical keyboard Use, a complete human combat/balance playthrough, save/reload or execution in the original retail binary. Those checks remain distinct. Route interaction work through `jk-mots-cog-workflow` and test actual reach, targeting, events and resulting cel/state behavior in the chosen engine.
 
 Credit Dot Lilitari's level/material work and the reused tools separately. This case publishes portable methods and scoped measurements; it does not redistribute the private conversation, source bundle, artwork or stock assets.
+
+## Red: reduce coplanar world-model faces without assuming a speedup
+
+Red's November 20 **Sith Council V2 Candidate04** is a private derivative of
+Lily's Candidate03. Its README and the recovered authored account report a
+reduction from **185,329 to 131,244 world-model faces**, about **29.2%**, across
+**142 of 150 models**. This is a native face-record reduction, not a measured FPS
+gain. No level archive, source artwork or capture is distributed here.
+
+The method merges adjacent triangles only when the shared edge uses matching
+vertex and texture-vertex indices, face material, flags, geometry/light/texture
+modes, extra light and face normal. The combined polygon must remain planar,
+convex and within the chosen corner limit; this candidate used at most eight
+corners. A visually similar texture or matching positions alone is insufficient.
+Preserve seams, per-corner data, winding and deliberate boundaries. Reject an
+ambiguous merge instead of silently resampling or changing metadata to make it
+fit. Compare native records after writing, not just the authoring mesh.
+
+The authored audit reports unchanged vertex sections and corner coverage,
+unchanged non-model archive members, and per-material covered area agreeing to
+a worst relative difference of `2.3e-12`. Those are Red's reported checks, not a
+fresh reproduction in this workflow release. They also do not prove an identical
+shaded image: the engine can interpolate corner lighting along different
+diagonals after a merge. Test sharply varying light and texture gradients in the
+actual target renderer before accepting the simplification.
+
+Use a fixed camera, scene, renderer and settings for any performance comparison.
+Report CPU/GPU/frame timing separately from file size and face count. Very small
+curved-patch triangles may be better addressed in source tessellation, while
+visibility/sector changes are separate level work with COG, resource and sky
+dependencies. Hand those changes to the level/COG workflows instead of treating
+a mesh optimizer as a complete level-performance fix.
+
+Credit Lily's Candidate03 base and Red's merge method, audit and explicit
+interpolation caveat, with Andrei's direction. The portable findings come from
+Candidate04 `README.md` and Red's recovered November 20 account; the private
+candidate's acceptance and gameplay/performance results remain separate.

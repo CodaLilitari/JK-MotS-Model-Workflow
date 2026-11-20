@@ -162,3 +162,14 @@ The character GOBs contain identical model bytes for retail and SBX, but differe
 This archive contains no conversion scripts, source GLBs, views or runtime logs. Its attribution supports the Tripo provenance, but not an assumption that it used Mando OC's exact five-atlas recipe. Included lightwhip documentation describes separate retail 1.3.0 and SBX 1.1.0 assets; its runtime claims must not be generalized to every character variant. Later participant reports of character-editor or connected-MP testing need their own versioned evidence record.
 
 Credit the contribution that supplied each part: Andrei's design/direction and authorized inputs; Tripo's generated source; Lily's named design contribution; Red/Claude's conversion and tests; and the Andrei/Coda/Lily native tooling explicitly credited by Mando OC. Preserve these boundaries when publishing methods without redistributing the underlying character assets.
+
+## Later rigid-joint and face diagnostics
+
+Red's November 16–18 Darth Lilitari R9–R9.3 work is a later, separate private
+candidate. Read [rigid-joint and face diagnostics](rigid-joint-and-face-diagnostics.md)
+for solid-color ownership checks in the exact failing KEY pose, cut-centred caps,
+shallow shoulder lids, proportion adapters and matched clay/albedo face review.
+Its freshly recounted native model has 13,554 faces per geoset, including 9,863
+quads, equivalent to 23,692 triangles. Do not transfer the earlier Mando budgets,
+rig layout or runtime claims to that model. The study separates newly inspected
+records from Red's authored tests and does not distribute the candidate.

@@ -1,5 +1,14 @@
 # Changes
 
+## 1.7.0 — 2026-11-20
+
+- Pin the install and migration guidance to Blender-Sith 1.2.0 / `v1.2.0-coda.1`; retain the historical 1.1.0 API and validation record.
+- Explain Native Pivot authoring, legacy metadata precedence and opt-in Bake Pivots, including the loss of native attachment offsets and separate KEY behavior.
+- Add the native 3DO/KEY binding audit as a bounded diagnostic: index slots, labels, allocation, marker provenance and track timing are distinct from pose evaluation or game acceptance.
+- Use restricted add-on registration in the direct import example and distinguish explicit geometry-only import from textured inspection.
+- Incorporate Red's November 16–18 rigid-part ownership, cut-centred cap, quad-preservation and face-registration research. Separate authored runtime reports from newly counted native files; distribute no private model, texture or capture.
+- Advance the research feed to revision `2026112001`, paired with complete skill `1.7.0`. Earlier releases and unrelated research remain intact.
+
 ## 1.6.0 — 2026-11-13
 
 - Update Blender-Sith guidance for extension 1.1.0 / `v1.1.0-coda.1`, integrating upstream `01ff4bd` and reviewed Coda hexadecimal-property/native-pivot changes. Keep release, exact-package/native CI, installation and game evidence separate.

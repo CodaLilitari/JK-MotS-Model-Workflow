@@ -50,9 +50,10 @@ without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.
 
-Research revision **2026111301** belongs to workflow **1.6.0** and requires the
-complete **1.6.0** skill first. Its references use the shared current-install
-resolver and migrated Blender helper, which a research-only update cannot add.
+Research revision **2026112001** belongs to workflow **1.7.0** and requires the
+complete **1.7.0** skill first. This feed is paired with the revised entrypoint,
+registered-import helper and 1.2.0 API decisions, which a research-only update
+cannot install as a complete skill.
 Older installations can check the feed and see the required upgrade; they must
 not bypass that requirement or overwrite their package baseline by hand. The
 complete package preserves earlier Red/Wren/Dot research and supplies the new
