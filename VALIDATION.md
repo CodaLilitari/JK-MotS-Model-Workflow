@@ -1,4 +1,10 @@
-# Release validation — 1.7.0
+# Release validation — 1.7.1
+
+## Workflow 1.7.1, November 20, 2026
+
+Checked the hand-preservation guidance in the skill entrypoint, Tripo conversion recipe and runtime review. The character conversion now retains a complete hand at each wrist, and the weapon review covers the bare body and additive stock attachment separately. Existing historical counts and community examples retain their original attribution.
+
+The repository tests and install-resolver tests passed on Windows, including their applicable platform skips. The Codex skill validator accepted the updated entrypoint.
 
 ## Workflow 1.7.0, November 20, 2026
 

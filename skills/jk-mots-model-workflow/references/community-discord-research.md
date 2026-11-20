@@ -19,7 +19,7 @@ Existing project analysis supports inspecting **placement**, not merely assuming
 
 The engine-source distinction is also useful: the external weapon mesh is installed on a player's weapon render object, while POV model and animation operations use a separate first-person object. A character body's hand, an attached external weapon hand and first-person hands therefore need separate decisions and tests. The source corroborates the architecture, not every reported original-engine visual result. [Pinned weapon/POV functions](https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/Cog/jkCog.c#L206), [weapon attachment drawing](https://github.com/shinyquagsire23/OpenJKDF2/blob/0dbd1ea8bb2211c158f6af928b5e4fb14dfa0dac/src/World/jkPlayer.c#L984)
 
-For an ordinary multiplayer skin, start with the stock-hand or modest-concealment option and disclose the remaining seam. If the user wants full coverage, make character-aware weapon integration an explicit second phase. Check each carried weapon, alternate/empty state, mounting, aiming, firing, respawn and a connected player's view. This test plan is our synthesis; the saved messages do not show that entire matrix being completed.
+For an ordinary multiplayer skin, preserve both complete body hands and keep the stock weapon resources. Overlap is expected when the equipped model has its own hand. If the user wants full coverage, make character-aware weapon integration an explicit second phase. Check each carried weapon, alternate/empty state, mounting, aiming, firing, respawn and a connected player's view. This test plan is our synthesis; the saved messages do not show that entire matrix being completed.
 
 ## Use authoring tools and diagnostic textures deliberately
 

@@ -50,6 +50,8 @@ without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.
 
+Research revision **2026112002** accompanies workflow **1.7.1**. Install the complete skill to receive the hand-preservation rule in the entrypoint and its matching conversion guidance.
+
 Research revision **2026112001** belongs to workflow **1.7.0** and requires the
 complete **1.7.0** skill first. This feed is paired with the revised entrypoint,
 registered-import helper and 1.2.0 API decisions, which a research-only update

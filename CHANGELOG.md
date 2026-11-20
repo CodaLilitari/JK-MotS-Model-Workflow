@@ -1,5 +1,10 @@
 # Changes
 
+## 1.7.1 — 2026-11-20
+
+- Preserve both complete source hands in character conversions and recover any missing geometry from the original asset. Document wrist-relative mirroring for a matching pair.
+- Document separate checks for bare body geometry, stock fist and weapons, first-person resources and full-detail distance bands.
+
 ## 1.7.0 — 2026-11-20
 
 - Pin the install and migration guidance to Blender-Sith 1.2.0 / `v1.2.0-coda.1`; retain the historical 1.1.0 API and validation record.

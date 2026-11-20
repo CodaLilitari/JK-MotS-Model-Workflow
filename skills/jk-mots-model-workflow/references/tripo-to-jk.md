@@ -108,13 +108,15 @@ The indexed red trim showed coloured speckle at point-blank camera distance; RGB
 
 OpenJKDF2 rendered both saved material lanes through OpenGL. Loading an indexed MAT there did **not** exercise original JK's 8-bit software rasterizer.
 
-## Resolve the weapon-hand contract
+## Preserve both hands through weapon integration
 
-Stock Kyle's right-hand mesh is empty because third-person weapon models carry that hand. Choose the contract deliberately:
+Keep both authored hands in the editable character and every playable body geoset. Bind each complete hand to its wrist joint, retaining its palm, fingers, cuff, UVs and neutral pose. A rigid wrist split assigns the hand faces to their own mesh. Keep those faces through export.
 
-- Use an empty body right-hand mesh when retaining ordinary stock carried weapons, then verify all intended visible cases.
-- Keep a custom body glove only with a compatible weapon/attachment approach and explicit tests for overlap or missing hands.
-- Treat first-person arms/hands as separate assets from the external body and external weapon.
+If a conversion lost or pinched a hand, recover it from the original Tripo GLB or other intact character source. Preserve sided details when they differ. For a matching pair, the intact opposite hand can supply an exact wrist-relative mirror. Reflect positions and normals, reverse face winding and carry the UV with each corresponding corner. Check finger length, palm width and cuff alignment against the intact hand.
+
+Stock Kyle's third-person fist and many carried weapons include hand geometry that draws alongside the character's own hand. Keep the body hand full-size even when they overlap. A separate attachment mod can manage stock-hand visibility. First-person fists and weapon models have their own resources. A character conversion does not require replacing them.
+
+Inspect both bare hands first in the decoded 3DO and a neutral in-engine pose. Then equip the stock fist and a weapon to check attachment and wrist movement. When full detail at every distance is intended, a single full-detail player geoset can serve all distance bands on a target that selects it at each band. For multiple geosets, verify the hand in each.
 
 Mando OC retained its right glove. Saved character-editor views show a tan patch from the stock pistol's own hand, and the README records the overlap compromise. The later **Mandalorian Red 0.2.1** models all have zero vertices, texture vertices and faces in `k_rhand`. This is a concrete native-file difference between the examples; it does not prove that every weapon case was independently tested.
 
