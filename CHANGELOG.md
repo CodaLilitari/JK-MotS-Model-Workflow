@@ -1,5 +1,12 @@
 # Changes
 
+## 1.8.0 — 2026-11-24
+
+- Update the default release and platform download links to Blender-Sith 1.3.0 (`v1.3.0-coda.1`).
+- Route generated and hand-built characters through Red’s native per-geoset budget, rigid-piece, joint-gap, KEY and ground-contact checks. Include a worked cut-reference diagnostic and a separate check for stock and replacement animations.
+- Document static viewport pivot helpers, the expanded MCP catalog, and optional detail levels and indexed/RGB565 editions. Keep editable sources and original KEYs available for comparison.
+- Retain the 1.7.1 complete-hand guidance in the new complete skill and advance the research revision to `2026112401`.
+
 ## 1.7.1 — 2026-11-20
 
 - Preserve both complete source hands in character conversions and recover any missing geometry from the original asset. Document wrist-relative mirroring for a matching pair.

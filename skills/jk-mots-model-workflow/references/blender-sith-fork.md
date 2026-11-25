@@ -8,17 +8,13 @@ The public [GitHub repository](https://github.com/CodaLilitari/blender-sith) now
 
 ## Public release and installation
 
-Workflow 1.7.0 targets **v1.2.0-coda.1**, extension version **1.2.0**, named
-**Blender Sith (Coda)**. Release source is pinned at
-[`34d256c30f66fe9826e5a3318f2fd4397257f24c`](https://github.com/CodaLilitari/blender-sith/commit/34d256c30f66fe9826e5a3318f2fd4397257f24c).
-Use the [GitHub release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.2.0-coda.1)
-or [GitLab mirror](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.2.0-coda.1)
-and their exact package receipts. Published release, installed selection and
-game acceptance remain distinct: verify the actual archive and payload before
-using the new APIs. Keep platform, archive hash and measured runtime in the job.
+Workflow **1.8.0** targets **Blender Sith (Coda) 1.3.0**, tag
+`v1.3.0-coda.1`. Obtain the extension ZIP and SHA-256 list from the same
+release. Record the selected platform, archive hash and Blender version in the job.
+[GitHub release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.3.0-coda.1) · [GitLab release](https://gitlab.com/codalilitari/blender-sith/-/releases/v1.3.0-coda.1)
 
-1. Use Blender **5.0 or newer** and choose [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-linux-x64.zip), [macOS Apple Silicon](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-macos-arm64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/sith-1.2.0-universal.zip).
-2. Compare the download with the release's [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.2.0-coda.1/SHA256SUMS.txt). Per-package receipts record source and normalized file hashes.
+1. Use Blender **5.0 or newer** and choose [Windows x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.3.0-coda.1/sith-1.3.0-windows-x64.zip), [Linux x64](https://github.com/CodaLilitari/blender-sith/releases/download/v1.3.0-coda.1/sith-1.3.0-linux-x64.zip), [macOS Apple Silicon](https://github.com/CodaLilitari/blender-sith/releases/download/v1.3.0-coda.1/sith-1.3.0-macos-arm64.zip), or [universal](https://github.com/CodaLilitari/blender-sith/releases/download/v1.3.0-coda.1/sith-1.3.0-universal.zip).
+2. Compare the download with the release’s [SHA-256 checksums](https://github.com/CodaLilitari/blender-sith/releases/download/v1.3.0-coda.1/SHA256SUMS.txt).
 3. In Blender, open **Edit > Preferences > Add-ons > Install from Disk**, select the ZIP and enable the extension. The ID remains `sith`; use one edition in a given extension repository.
 
 These are Python extensions, not Blender executables. The optional MCP companion
@@ -30,6 +26,34 @@ Silicon: this Blender-5.0-minimum release does not claim Intel Mac support.
 The preceding [v1.0.3-coda.2 release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.0.3-coda.2)
 already supplied a separately validated Apple Silicon package. Earlier statements
 that no Mac 1.0.3 asset existed described v1.0.3-coda.1 and are historical.
+
+## 1.3.0 model and animation audits
+
+Red’s tools read the exported 3DO and KEY files directly. Use the **Sith Audits** panel for an interactive inspection, the Python resource API for a scripted comparison, or the optional matching MCP companion for repeatable jobs on named files. Record the model, KEY, target game, selected geoset and sampled frames with any finding. [Audit reference](https://github.com/CodaLilitari/blender-sith/blob/v1.3.0-coda.1/docs/audits/README.md)
+
+| What the modeler sees | First check | How to use the result |
+| --- | --- | --- |
+| A Tripo mesh met the requested quad target, but export is near a retail limit | Run `audit_budget` on the exported 3DO for the intended JKDF2 or MOTS target. | Inspect every geoset and each mesh. The retail caps are 512 vertices, 768 texture vertices and 512 faces per mesh, 24 corners per face, four geosets and 64 hierarchy nodes. A seam or cap can consume the last available records. |
+| An elbow looks closed at rest and splits during a particular attack | Use `audit_segmentation` for cut surfaces on the wrong rigid part, and `audit_articulation` for sampled daylight and seat offsets in the failing KEY. | Match the reference pose in which the artist cut the mesh. A reference KEY can directly drive a few joints while moving many descendants. Inspect `reference_diagnostic.key_driven_nodes` and `frames_different_from_rest` before changing caps or assigning faces. Rerun with the same pose and samples. |
+| A replacement animation jerks at the shoulder or makes the feet slide | Check index binding with `audit_model_key`, then run `lint_keys` or `audit_ground` on the relevant KEYs. | Compare Euler-component steps with the actual change of orientation between entries. Compare stock and replacement clips separately. Check each foot’s floor contact and slip over the same frames, then play the movement in the target engine. |
+| An attachment preview moves away from its joint | Opt into visible helpers with `import3do(..., importPivotHelpers=True)`. Adjust the helper’s local translation to represent the native 3DO mesh offset. | Helpers accept static local translation. Reparent any attached preview object before removing its helper; the operator refuses removal while an attachment depends on it. Export and compare the model and the corresponding KEY in the same play range; for textured inspection keep the normal material-loading route. |
+
+To count a file with the verified 1.3.0 source root selected:
+
+```python
+from sith.model.model3doLoader import load3do
+from sith.audit.budget import auditBudget
+
+model, _ = load3do(model_path)
+budget = auditBudget(model, target="JKDF2")
+for geoset in budget["geosets"]:
+    for mesh in geoset["mesh_counts"]:
+        print(mesh["name"], mesh["vertices"], mesh["texture_vertices"], mesh["faces"])
+```
+
+For authored distance levels, keep the native geosets. Blender still imports geoset 0. Its optional **Detail Levels** setting duplicates that geometry across distance bands, so check silhouettes and budgets for the edition you intend to ship. For a software-renderer edition, use the actual CMP when encoding indexed MATs and inspect any dithering or fullbright filtering in that palette. The optional dual-edition export produces separate indexed and RGB565 material sets. Compare each edition in its intended renderer. [Red’s modeling guide](https://github.com/CodaLilitari/blender-sith/blob/v1.3.0-coda.1/docs/modeling-workflow.md)
+
+If the diagnosis calls for reseating animation tracks, use an explicit standing reference and write changed KEYs to a fresh output folder. Inspect the before/after offsets and replay the affected poses before substituting any output into a game package. [Reseating guide](https://github.com/CodaLilitari/blender-sith/blob/v1.3.0-coda.1/docs/audits/reseat.md)
 
 ## 1.2.0 native pivots and binding audit
 
@@ -392,7 +416,7 @@ turn geoset-zero Blender import into a complete LOD-preserving round trip.
 
 ## Optional local MCP companion
 
-The fork now offers a separate [local stdio companion](https://github.com/CodaLilitari/blender-sith/blob/v1.1.0-coda.1/docs/MCP.md). The normal Blender extension does not start it or require its dependencies. Its five tools report configuration (`server_info`), summarize an allowlisted native file (`inspect_3do`), create a geometry-only scene (`convert_3do_to_blend`), run synthetic checks (`run_regression`), and package the companion checkout's add-on (`build_extension`).
+The optional 1.3.0 stdio companion exposes 13 tools. It can inspect or convert native files, check model/KEY binding, run regressions and build an extension. Its additional tools are `audit_budget`, `audit_segmentation`, `audit_articulation`, `audit_ground`, `lint_keys`, `audit_track_slots`, and `reseat_keys`. Configure the companion with the matching add-on and explicit input roots. Reports include section verdicts and input hashes; `reseat_keys` writes changed copies inside the job directory. A completed job can still report findings that require inspection. [MCP setup and tool arguments](https://github.com/CodaLilitari/blender-sith/blob/v1.3.0-coda.1/docs/MCP.md)
 
 `inspect_3do` summarizes all parsed geosets. Conversion imports **geoset zero with placeholders**, disables neighboring MAT/CMP lookup, and cannot normalize JK 2.1 UVs using absent texture dimensions. Use the direct recipe above for textured inspection. `build_extension` does not publish or install; when configured with a Blender executable it also validates the exact ZIP. A Python-plus-`bpy` configuration cannot substitute for Blender CLI extension validation.
 

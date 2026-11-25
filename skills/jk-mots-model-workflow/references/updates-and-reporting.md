@@ -50,6 +50,8 @@ without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.
 
+Research revision **2026112401** accompanies workflow **1.8.0**. Install the complete 1.8.0 package to update the entrypoint, research references and their baseline together. Its audit recipes use Blender-Sith 1.3.0, which is installed separately.
+
 Research revision **2026112002** accompanies workflow **1.7.1**. Install the complete skill to receive the hand-preservation rule in the entrypoint and its matching conversion guidance.
 
 Research revision **2026112001** belongs to workflow **1.7.0** and requires the

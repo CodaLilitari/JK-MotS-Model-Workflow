@@ -162,7 +162,7 @@ class ReleaseBoundaryTests(unittest.TestCase):
             self.assertIn(base + "LICENSE", z.namelist())
             self.assertIn(base + "CREDITS.md", z.namelist())
             updates = json.loads((out / "research-updates.json").read_text())
-            self.assertEqual(updates["requires_skill_version"], "1.7.1")
+            self.assertEqual(updates["requires_skill_version"], release.RESEARCH_REQUIRES_SKILL_VERSION)
             state = json.loads(z.read(base + "research-update-state.json"))
             self.assertEqual(state["research_revision"], release.RESEARCH_REVISION)
             self.assertEqual(state["files"], updates["files"])

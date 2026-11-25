@@ -1,4 +1,10 @@
-# Release validation — 1.7.1
+# Release validation — 1.8.0
+
+## Workflow 1.8.0, November 24, 2026
+
+The new native-budget example ran against a serialized synthetic 3DO with the reviewed Blender-Sith audit code. It returned one geoset containing a mesh with eight vertices, fourteen texture vertices and six faces. The check used the same field names and code printed in the guide. The core and Blender test receipts for the extension, and the platform matrix for its distributed ZIPs, belong to the [Blender-Sith release](https://github.com/CodaLilitari/blender-sith/releases/tag/v1.3.0-coda.1).
+
+On Windows the workflow suite ran 46 cases with one skip, and the installed-selection resolver suite ran 21 cases with one skip. The skill validator accepted the updated entrypoint. The Blender-Sith and workflow packages have independent versions and installers.
 
 ## Workflow 1.7.1, November 20, 2026
 

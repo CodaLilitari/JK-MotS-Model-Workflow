@@ -16,6 +16,8 @@ Mando OC's README records a Tripo HD multiview source made from a concept sheet'
 
 For local generation alternatives, see [partial-generation.md](partial-generation.md) and [local-generation-automation.md](local-generation-automation.md). Use [the direct Blender-Sith import recipe](blender-sith-fork.md#direct-native-import-for-inspection-and-screenshots) when importing native 3DOs into Blender; this case's custom readback renderer is not a substitute for that requested import.
 
+For Blender-Sith 1.3.0, run the retail budget on the final 3DO after cutting and capping. Each mesh has its own vertex, UV-vertex and face counts in each geoset. When a cut looks clean in a still image but opens during movement, use the cut reference and failing KEY to distinguish wrong-piece faces from a joint moving off its seat. [Native model and animation audits](blender-sith-fork.md#130-model-and-animation-audits)
+
 ## Count the download, not the quad label
 
 A requested topology or polygon target is an input preference. Record it separately from the downloaded geometry. If the generation receipt is unavailable, keep the requested value unknown; a filename such as `quad_5336` cannot establish it. Preserve an OBJ/FBX containing useful polygons alongside the GLB, which may already be triangulated. Inspect both rather than assuming their face totals should match.
