@@ -6,6 +6,8 @@ November 16–18, 2026 Darth Lilitari reviews and R9–R9.3 candidates. These we
 private review artifacts, not published model releases. This reference shares
 the methods and bounded measurements, not their models, textures or captures.
 
+If the entire upper body jumps during a fidget, first [check the numeric animation track and the selected model member](player-idle-slot-collisions.md).
+
 ## Identify the rigid part before changing its texture
 
 Preserve the failing model, KEY, exact timestamp, camera and renderer settings.

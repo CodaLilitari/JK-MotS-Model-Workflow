@@ -9,8 +9,8 @@ import stat
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.8.1"
-RESEARCH_REVISION = 2026112601
+VERSION = "1.8.2"
+RESEARCH_REVISION = 2026112602
 # The complete entrypoint routes users to the 1.3.0 audit tools.
 RESEARCH_REQUIRES_SKILL_VERSION = "1.8.0"
 

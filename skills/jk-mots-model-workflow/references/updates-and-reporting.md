@@ -50,6 +50,8 @@ without a package baseline can check but should install the complete skill ZIP
 before applying updates. Keep personal annotations in a separate file: an edited
 research reference is preserved and reported as a conflict, not silently replaced.
 
+Research revision **2026112602** accompanies workflow **1.8.2** and supports **1.8.0** installations. The feed adds the [idle track diagnosis](player-idle-slot-collisions.md). The complete package also routes directly to it from the skill entrypoint.
+
 Research revision **2026112601** accompanies workflow **1.8.1** and supports **1.8.0** installations. Applying the research feed adds the [ghost-node chapter](ghost-node-player-skins.md) and reference links. Installing the complete package also updates the skill entrypoint and credits.
 
 Research revision **2026112401** accompanies workflow **1.8.0**. Install the complete 1.8.0 package to update the entrypoint, research references and their baseline together. Its audit recipes use Blender-Sith 1.3.0, which is installed separately.

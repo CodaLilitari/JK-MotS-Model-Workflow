@@ -1,5 +1,10 @@
 # Changes
 
+## 1.8.2 — 2026-11-26
+
+- Add a stock idle and fidget repair worked example covering resource resolution, animated parent ownership, aimed poses, ordinary stand controls and picker regression checks.
+- Publish research revision 2026112602 for workflow 1.8.0 and later.
+
 ## 1.8.1 — 2026-11-26
 
 - Credit SMLiberator's unfinished NPC skin pack and document how its meshless pivots alter the visual rig. Trace a calf-to-foot chain, check stock track 18, and distinguish foot contact from player collision.

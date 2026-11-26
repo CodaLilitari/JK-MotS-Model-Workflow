@@ -6,6 +6,8 @@ Start with the [method and options guide](skills/jk-mots-model-workflow/referenc
 
 [GitLab repository](https://gitlab.com/codalilitari/jk-mots-model-workflow) · [GitHub repository](https://github.com/CodaLilitari/JK-MotS-Model-Workflow) · [Portfolio and direct downloads](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-model-workflow/)
 
+Version **1.8.2** adds a [player idle and fidget diagnosis](skills/jk-mots-model-workflow/references/player-idle-slot-collisions.md). It follows a stock weapon track into a shipped torso subtree, demonstrates why a picker can behave differently from a world body, and documents a repair that preserves the preview run and all four detail levels. Research revision **2026112602** supports workflow 1.8.0 and later.
+
 Version **1.8.1** adds a measured comparison of ghost-node rigs, stock animations and Kyle's multiplayer collision. The [small-player study](skills/jk-mots-model-workflow/references/ghost-node-player-skins.md) follows a foot through SMLiberator's unfinished NPC pack, identifies four stock clips that move an extra torso pivot, and compares stock and private crouch motion on Biddy Blas and Lilivane. Research revision **2026112601** also works with the 1.8.0 research updater.
 
 Version **1.8.0** brings Red’s native 3DO and KEY audits into the character workflow with Blender-Sith **1.3.0**. Count the exported mesh in each geoset, trace a shoulder gap to its cut or animation track, and compare foot contact and attachment offsets in a specific pose. The [audit guide](skills/jk-mots-model-workflow/references/blender-sith-fork.md#130-model-and-animation-audits) explains which tool answers each question in Blender, Python or MCP. The complete skill includes the hand-preservation changes from 1.7.1 and research revision **2026112401**.
@@ -41,7 +43,7 @@ The package contains instructions, original analysis and tools. Supply your own 
 
 ## Install the skill
 
-Download and extract **JK-MotS-Model-Workflow-1.8.1.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill. Installing this workflow does not itself install Blender-Sith or create the private current-install manifest.
+Download and extract **JK-MotS-Model-Workflow-1.8.2.zip**. This one package contains the workflow, complete research, installable Codex skill, tools and tests. Copy its `skills/jk-mots-model-workflow` folder into the personal skills directory used by your Codex installation. That folder includes `SKILL.md`, all references, scripts, notices and the generated update baseline. In this project's tested desktop setup the personal directory is `~/.codex/skills`; use the location configured by your own client. Restart or refresh skill discovery if required. No API key or paid model is needed to use the skill. Installing this workflow does not itself install Blender-Sith or create the private current-install manifest.
 
 PowerShell, from an extracted complete release ZIP:
 

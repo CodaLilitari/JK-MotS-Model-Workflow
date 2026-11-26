@@ -1,4 +1,12 @@
-# Release validation — 1.8.1
+# Release validation — 1.8.2
+
+## Workflow 1.8.2, November 26, 2026
+
+The [idle and fidget case](skills/jk-mots-model-workflow/references/player-idle-slot-collisions.md) uses the shipped picker, retail world and stock player animations. Strict Blender-Sith 1.3.0 import in Blender 5.1.2 resolved all 49 materials. The four geosets each retained 14,811 original faces and their per-corner data. The repaired hip-relative torso frames matched the existing world model in the stock idle tests. The shared picker run retained its original active joint transforms at 769 samples.
+
+At a matched low camera angle in the original Jedi Knight 1.01 executable, the old cosmetic bundle’s torso separated during saber fidget 2 at frame 12.12. The corrected bundle kept it seated at frame 12.08 with the same −80° head-aim input. An independent transform comparison across all 91 stock clips and the shared picker run found zero maximum matrix-element error against the intended body motion over 14,568 sampled poses. Matched game captures check what is drawn, while this larger sweep checks the motion of every reattached visible component.
+
+The workflow suite ran 46 tests and the install resolver ran 21 on Windows, each with one platform skip. The Codex skill validator accepted the entrypoint.
 
 ## Workflow 1.8.1, November 26, 2026
 

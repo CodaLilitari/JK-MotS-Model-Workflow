@@ -30,6 +30,8 @@ Read [methods-and-options.md](references/methods-and-options.md) for the fuller 
 
 For hosted Tripo models, read [the conversion method and count ledger](references/tripo-to-jk.md); requested quads, downloaded polygon records, GLB triangles and emitted native counts are different quantities. Hosted Tripo and local TripoSG are distinct routes. For statues and other environment models, use [the prop guide and level handoff](references/environment-props-to-jk.md). For a custom voice, read [Suno takes to a game sound class](references/generated-character-voice.md). Existing supplied outputs can be reviewed without starting another generation.
 
+For a character that separates during an idle or fidget, follow [the player-slot diagnosis](references/player-idle-slot-collisions.md). Check the numbered track against the selected picker, world or cosmetic body and its visible descendants.
+
 For a small playable character that needs stock animations and Kyle's hitbox, follow [SMLiberator's ghost-node case study](references/ghost-node-player-skins.md). Map numbered tracks and meshless parents, check the entire puppet for slot conflicts, and compare foot contact and player collision separately.
 
 ## Inspect or render existing native models

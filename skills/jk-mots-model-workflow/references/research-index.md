@@ -2,6 +2,8 @@
 
 This library is a portable synthesis of modeling projects, original-source analysis, retained experiment receipts and focused community references. It is arranged around decisions another modeler or Codex instance needs to make. The dated observations are not a promise about every later tool release or game installation.
 
+For a body that separates or disappears during a stock fidget, the [idle track diagnosis](player-idle-slot-collisions.md) traces a weapon-only track into the torso subtree and checks a repair across all four detail levels.
+
 For unusually short players, the [ghost-node player-skin study](ghost-node-player-skins.md) follows one of SMLiberator's actual helper chains. It documents four stock track collisions and gives separate stock-animation, private-animation and collision evidence for Biddy and Lilivane.
 
 The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool evidence: 2,308 hash-verified packages were indexed, then selected character, skin, animation, material and weapon cases received detailed review. Its portable ledgers identify what was inspected and what remains unexpanded or untested.
