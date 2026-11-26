@@ -31,3 +31,9 @@ For an author choosing a rig, these results separate two questions. Stock tracks
 | Selected `lvane.3do` | `1ef1ad3f7fe9f0aa1fcddb2df2e308e825db30c9affa87dd4ec257fdfd1af4ee` |
 
 The consolidated three-session evidence record has SHA-256 `45a19a9b37ceac39ab3c982dbf31a538ff2d02aa10d3a91b6fd4dd7b0ad029bc`.
+
+## Two additional original-game checks
+
+**The Ugnaught's collision center.** A fourth session selected `kyug.3do` and its `kyug.snd` sound class directly from SMLiberator's unchanged 281-entry NPC pack (SHA-256 `d135544795d7d53b4418fc0a1f0a4811c54b65f55af77fc128f3c9a6da283ec1`). The Ugnaught played the same four stock clips, reported the same 0.065 hit and movement radii, and scored the same mask of 427 on projectiles aimed relative to its own origin. On the same floor its standing Z was **0.101000**, putting its collision center **0.019114 game units lower** than Kyle's 0.120114. Matching the radius and an origin-relative shot pattern still leaves a measurable difference in world space.
+
+**What the stock crouch looked like.** A separate original-game session used `SetThingModel` to switch the actual local player among Kyle, Biddy R2 and Lilivane R2. The camera kept the same offset from the actor and each capture used the same crop. In the forward-crouch images, Biddy's and Lilivane's lower bodies visibly sank into the floor while Kyle's legs remained visible. These frames provide a visual comparison. They do not yield individual joint coordinates or a measured boot depth.
