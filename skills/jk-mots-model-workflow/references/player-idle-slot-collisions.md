@@ -36,4 +36,22 @@ The Blender-Sith fork provides a source-side ownership checker on revisions cont
 python -m sith.audit.slotownership --reference ky.3do --model dlil.3do --pup ky.pup --key-dir effective-keys --output ownership.json
 ```
 
+## Follow a face or leg across package roles
+
+An extra mesh may be a face, a calf carrier, or a weapon. Declare a part as body geometry after identifying it in the model. Use a stable hierarchy name when that part changes slots between the preview, cosmetic and private rigs. In the [Blender-Sith named-slot checker](https://github.com/CodaLilitari/blender-sith/blob/291a2367ca5c1e040845ee6b2509b2c5ec9acddf/docs/audits/slot-ownership.md), the following command uses the archive’s exact 3DO. Run it from the linked fork checkout with its core dependencies.
+
+```text
+python -m sith.audit.slotownership --reference stock/ky.3do --model arena.gob --model-member 3do/biddybl.3do --pup stock/ky.pup --key-dir effective-keys --body-node bb_snout --output biddy-ownership.json
+```
+
+Read the archive hash, member hash, resolved `declared_body_slots`, and the individual findings. Reuse the declaration on the candidate. The name must resolve to one node with visible geometry in its branch. A missing name, duplicate or empty declaration is an input error. For a nonstandard limb, name a mesh-bearing joint such as `k_lcalf` or `k_lfoot` after verifying the anatomical identity. A rig can insert a meshless helper above both.
+
+The R4 Biddy cosmetic face used slot 18. Four stock equipment tracks moved the snout away from the head. The repaired face used 27, preserving every other visible mesh transform and the actual picker run. His separate retail world model uses 19 for the snout. His SBX model uses 21 while slot 19 is an intentional secondary grip. Use the private rig and its effective PUPs/COG calls for the SBX check. Applying a uniform dummy rule across those files would damage the grip.
+
+For a short-legged character, measure the foot relative to the shin and hips through the fidget, and measure the lowest actual sole vertices in world coordinates during standing and stride contacts. The first test catches loss of attachment. The second catches ground displacement shared by the whole character. Use the engine’s measured actor origin in each stance and record the model’s insert offset separately. Hit radius and projectile outcomes are a separate gameplay check. An earlier successful standing collision probe gives no evidence about a rendered boot or face during a fidget.
+
+Where standing is already seated and only crouching sinks, inspect the per-skin puppet’s forward and backward crouch actions. If an existing private crouch is authored for another revision of the same body, match its helper nodes by name, parent, bind transform and visible descendants. Remap the KEY track numbers and compare all reattached meshes across the original clip before distributing it. Use private resource names and select that puppet only for the intended player model. Test the actual selection when the skin spawns or respawns and when another player chooses Kyle. Lilivane’s private SBX calf and Biddy’s secondary grip also show why this mapping belongs to the individual role.
+
+When the intended relative limb motion is already correct, a per-frame correction on the roots that carry the visible body can seat the soles without reauthoring the joints. On Lilivane’s compact private crouch, both roots received the same correction in draw space. Check that every visible joint has the original rotation and the same translation relative to the hips, then measure the feet in the original engine. Her raw-stock standing crouch had a median sole height of −0.02989 game units. The privately assigned crouch reached −0.00014, with the original standing and walking clips still available.
+
 Use the [small-player ghost-node study](ghost-node-player-skins.md) for a related helper collision, and [rigid-joint diagnostics](rigid-joint-and-face-diagnostics.md) when the correct joint is moving but the surfaces at its seat still separate.

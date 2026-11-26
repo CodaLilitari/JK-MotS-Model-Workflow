@@ -6,6 +6,7 @@ LICENSE
 README.md
 RELEASE_FILES.txt
 VALIDATION.md
+docs/research/2026-11-26-face-and-leg-ownership.md
 skills/jk-mots-model-workflow/SKILL.md
 skills/jk-mots-model-workflow/agents/openai.yaml
 skills/jk-mots-model-workflow/assets/finding-report.md

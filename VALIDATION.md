@@ -1,4 +1,10 @@
-# Release validation — 1.8.2
+# Release validation — 1.8.3
+
+## Workflow 1.8.3, November 26, 2026
+
+The [face and leg case](docs/research/2026-11-26-face-and-leg-ownership.md) records which conclusions follow from native KEY sampling and which were checked in the original game. The named-slot command in the guide returned four conflicts on the original packed Biddy and zero after his snout moved. Missing, ambiguous and meshless named targets cause an input error. The fork core suite ran 500 tests with three skips.
+
+The workflow suite ran 46 tests and the resolver suite ran 21, each with one platform skip. The Codex skill validator accepted the updated entrypoint.
 
 ## Workflow 1.8.2, November 26, 2026
 

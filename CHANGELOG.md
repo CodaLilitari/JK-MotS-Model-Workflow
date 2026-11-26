@@ -1,5 +1,10 @@
 # Changes
 
+## 1.8.3 — 2026-11-26
+
+- Follow a facial part or limb by name across packed player rigs and check contact through its actual fidgets. Document the distinct retail, preview, stock cosmetic and SBX animation contracts.
+- Publish research revision 2026112603 for workflow 1.8.0 and later.
+
 ## 1.8.2 — 2026-11-26
 
 - Add a stock idle and fidget repair worked example covering resource resolution, animated parent ownership, aimed poses, ordinary stand controls and picker regression checks.
