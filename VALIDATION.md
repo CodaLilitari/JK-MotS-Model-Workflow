@@ -1,4 +1,10 @@
-# Release validation — 1.8.0
+# Release validation — 1.8.1
+
+## Workflow 1.8.1, November 26, 2026
+
+The chapter compares three original NPC-pack hierarchies and the two released R2 player rigs. It distinguishes the Blender-Sith pose and KEY measurements, RED preview diagnostics, prior original-game tests on the released R2 models, and outstanding runtime work on stock-only playback. The distribution contains the written study and attribution.
+
+On Windows the workflow suite ran 46 tests and the install-resolver suite ran 21, each with one platform skip. The Codex skill validator accepted the updated entrypoint. The portable-package verification checked the bytes and hashes in the archive, installable skill and research manifests. In an isolated copy of the installed 1.8.0 skill, its original updater accepted revision 2026112601 and applied the four changed research references. Its entrypoint, updater script and package manifest retained their original hashes.
 
 ## Workflow 1.8.0, November 24, 2026
 

@@ -1,5 +1,10 @@
 # Changes
 
+## 1.8.1 — 2026-11-26
+
+- Credit SMLiberator's unfinished NPC skin pack and document how its meshless pivots alter the visual rig. Trace a calf-to-foot chain, check stock track 18, and distinguish foot contact from player collision.
+- Compare Biddy and Lilivane R2 against Kyle across eight grounded stock clips. Publish research revision 2026112601 for workflow 1.8.0 and later.
+
 ## 1.8.0 — 2026-11-24
 
 - Update the default release and platform download links to Blender-Sith 1.3.0 (`v1.3.0-coda.1`).

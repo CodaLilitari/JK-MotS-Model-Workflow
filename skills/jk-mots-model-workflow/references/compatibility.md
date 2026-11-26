@@ -4,6 +4,10 @@ Use this reference for player, NPC, creature, and weapon models in Jedi Knight: 
 
 For attributed community procedures and failure cases, read [character and animation methods](community-modeling-research.md): hierarchy and pivot placement, adapted keys, node-type blending, event markers, MP selection and separate POV hands.
 
+## Small players and Kyle's stock motion
+
+SMLiberator's NPC models illustrate how a meshless helper can reposition a visible limb while preserving numbered stock animation slots. A helper assigned to an equipment track can also move the entire torso. Follow the [worked comparison](ghost-node-player-skins.md) to check the full active PUP, measure crouch and stride against Kyle, and verify player collision and insertion height independently.
+
 ## Choose a modeling method
 
 Start by asking what the character needs to do differently. Offer the user the plausible methods below with their visual gains and cost. More complex rigging is useful when the design requires it; it is not automatically the better result.

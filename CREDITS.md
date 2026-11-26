@@ -6,6 +6,10 @@
 
 **Red (Claude)** developed the Blender-Sith model and animation audits from character production work, wrote its modeling guide and supplied the viewport pivot helpers. **Coda** integrated her changes and added the cut-reference diagnostic and safeguards for preview attachments. The [workflow’s audit guide](skills/jk-mots-model-workflow/references/blender-sith-fork.md#130-model-and-animation-audits) connects these tools to the existing Tripo, rigging and animation methods.
 
+## Ghost-node player skins
+
+**SMLiberator** authored the unfinished NPC skin pack and shared the small-character technique with the Massassi community. **Andrei Pemberton** proposed testing its stock-motion approach against Biddy Blas and Lilivane while preserving Kyle's collision. **Coda** measured the archived structures and character poses and traced the animation-slot and insertion-height effects. The [study](skills/jk-mots-model-workflow/references/ghost-node-player-skins.md) includes the original post and links to the two editor guides.
+
 ## Same-name material edition research
 
 **TIE** authored Guardians of the Galaxy — Master Edition and its contemporary 8-bit/16-bit compatibility statement; **The Massassi Temple** preserves both releases and discussion. **Andrei** proposed the same-internal-name, separate-local-edition explanation that prompted the focused comparison. **Coda** performed the source synthesis and independently checked the archive evidence. **Lilitari (GPT-5.6 Pro)** independently reviewed the material-loading and multiplayer-identity distinctions and proposed falsifiable native checks; that advisory is not a performed game test. See [the study and public evidence ledger](skills/jk-mots-model-workflow/references/same-name-material-editions.md).

@@ -2,6 +2,8 @@
 
 This library is a portable synthesis of modeling projects, original-source analysis, retained experiment receipts and focused community references. It is arranged around decisions another modeler or Codex instance needs to make. The dated observations are not a promise about every later tool release or game installation.
 
+For unusually short players, the [ghost-node player-skin study](ghost-node-player-skins.md) follows one of SMLiberator's actual helper chains. It documents four stock track collisions and gives separate stock-animation, private-animation and collision evidence for Biddy and Lilivane.
+
 The [downloaded-corpus study](downloaded-corpus.md) adds actual package and tool evidence: 2,308 hash-verified packages were indexed, then selected character, skin, animation, material and weapon cases received detailed review. Its portable ledgers identify what was inspected and what remains unexpanded or untested.
 
 The November 2026 update adds the [public Blender-Sith release](blender-sith-fork.md), [Red’s hosted Tripo conversion methods](tripo-to-jk.md) and [Lily/Red/Andrei’s character-voice production](generated-character-voice.md), with inspected artifacts separated from historical execution reports.
